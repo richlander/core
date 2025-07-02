@@ -7,7 +7,7 @@
   "support-phase": "active",
   "release-type": "lts",
   "lifecycle-policy": "https://aka.ms/dotnetcoresupport",
-  "releases": [
+  "release":
     {
       "release-date": "2025-06-10",
       "release-version": "8.0.17",
@@ -745,5 +745,4 @@
         ]
       }
     }
-  ]
 }

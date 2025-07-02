@@ -1,0 +1,232 @@
+{
+  "kind": "index",
+  "description": "Index for .NET 8.0 patch releases",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/index.json",
+      "relative": "index.json",
+      "title": ".NET 8.0 Index",
+      "type": "application/json"
+    },
+    "releases": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/releases.json",
+      "relative": "releases.json",
+      "title": ".NET 8.0 Releases",
+      "type": "application/json"
+    },
+    "manifest": {
+      "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/manifest.json",
+      "relative": "manifest.json",
+      "title": ".NET 8.0 Manifest",
+      "type": "application/json"
+    }
+  },
+  "_embedded": {
+    "releases": [
+      {
+        "version": "8.0.17",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.17/release.json",
+            "relative": "8.0.17/release.json",
+            "title": "8.0.17 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.16",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.16/release.json",
+            "relative": "8.0.16/release.json",
+            "title": "8.0.16 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.15",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.15/release.json",
+            "relative": "8.0.15/release.json",
+            "title": "8.0.15 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.14",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.14/release.json",
+            "relative": "8.0.14/release.json",
+            "title": "8.0.14 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.13",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.13/release.json",
+            "relative": "8.0.13/release.json",
+            "title": "8.0.13 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.12",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.12/release.json",
+            "relative": "8.0.12/release.json",
+            "title": "8.0.12 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.11",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.11/release.json",
+            "relative": "8.0.11/release.json",
+            "title": "8.0.11 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.10",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.10/release.json",
+            "relative": "8.0.10/release.json",
+            "title": "8.0.10 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.8",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.8/release.json",
+            "relative": "8.0.8/release.json",
+            "title": "8.0.8 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.7",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.7/release.json",
+            "relative": "8.0.7/release.json",
+            "title": "8.0.7 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.6",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.6/release.json",
+            "relative": "8.0.6/release.json",
+            "title": "8.0.6 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.5",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.5/release.json",
+            "relative": "8.0.5/release.json",
+            "title": "8.0.5 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.4",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.4/release.json",
+            "relative": "8.0.4/release.json",
+            "title": "8.0.4 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.3",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.3/release.json",
+            "relative": "8.0.3/release.json",
+            "title": "8.0.3 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.2",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.2/release.json",
+            "relative": "8.0.2/release.json",
+            "title": "8.0.2 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.1",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.1/release.json",
+            "relative": "8.0.1/release.json",
+            "title": "8.0.1 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "8.0.0",
+        "kind": "release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes8.0/8.0.0/release.json",
+            "relative": "8.0.0/release.json",
+            "title": "8.0.0 Release Information",
+            "type": "application/json"
+          }
+        }
+      }
+    ]
+  }
+}
