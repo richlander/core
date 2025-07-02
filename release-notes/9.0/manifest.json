@@ -1,0 +1,38 @@
+{
+  "kind": "manifest",
+  "_links": {
+    "self": {
+      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases/9.0/manifest.json",
+      "relative": "manifest.json",
+      "title": ".NET 9 Release Manifest",
+      "type": "application/json"
+    },
+    "index": {
+      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/9.0/index.json",
+      "relative": "index.json",
+      "title": ".NET 9 Index",
+      "type": "application/json"
+    },
+    "downloads": {
+      "href": "https://dotnet.microsoft.com/download/dotnet/9.0",
+      "title": ".NET 9 Downloads",
+      "type": "text/html"
+    },
+    "whats-new": {
+      "href": "https://learn.microsoft.com/dotnet/core/whats-new/dotnet-9/overview",
+      "title": "What's new in .NET 9",
+      "type": "text/html"
+    },
+    "announcement-blog": {
+      "href": "https://devblogs.microsoft.com/dotnet/announcing-dotnet-9/",
+      "title": "Announcing .NET 9",
+      "type": "text/html"
+    }
+  },
+  "version": "9.0",
+  "label": ".NET 9",
+  "ga-date": "2024-11-12",
+  "eol-date": "2026-05-12",
+  "release-type": "sts",
+  "support-phase": "active"
+}

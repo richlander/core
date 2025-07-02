@@ -1,6 +1,6 @@
 # Usage
 
-This document explains how to programmatically discover and consume .NET release metadata, provided in both JSON (HAL format) and Markdown. This metadata enables tools and assistants to track .NET versions, support phases, and end-of-life dates in a standardized and machine-readable way.
+This document explains how to programmatically discover and consume .NET release metadata, provided in both JSON (HAL format) and Markdown. This metadata enables tools and assistants to track .NET versions, support phases, end-of-life dates, and supported OSes in a standardized and machine-readable way.
 
 ## Entry Points
 

@@ -19,6 +19,42 @@
       "relative": "manifest.json",
       "title": ".NET 8.0 Manifest",
       "type": "application/json"
+    },
+    "supported-os": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/supported-os.json",
+      "relative": "supported-os.json",
+      "title": "Supported OSes",
+      "type": "application/markdown"
+    },
+    "supported-os-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/supported-os.md",
+      "relative": "supported-os.md",
+      "title": "Supported OSes (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "supported-os-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.md",
+      "relative": "supported-os.md",
+      "title": "Supported OSes",
+      "type": "application/markdown"
+    },
+    "linux-packages-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/linux-packages.md",
+      "relative": "linux-packages.md",
+      "title": "Linux Packages (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "linux-packages-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/linux-packages.md",
+      "relative": "linux-packages.md",
+      "title": "Linux Packages",
+      "type": "application/markdown"
+    },
+    "README-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/README.md",
+      "relative": "README.md",
+      "title": "Release Notes",
+      "type": "application/markdown"
     }
   },
   "_embedded": {

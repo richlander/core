@@ -5,19 +5,19 @@
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json",
       "relative": "index.json",
-      "title": " Index",
+      "title": ".NET Release Index",
       "type": "application/json"
     },
     "usage": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md",
       "relative": "usage.md",
-      "title": " Content",
+      "title": ".NET Release Content",
       "type": "application/markdown"
     },
     "terminology": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md",
       "relative": "terminology.md",
-      "title": " Content",
+      "title": ".NET Release Content",
       "type": "application/markdown"
     }
   },
@@ -31,6 +31,12 @@
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/releases.json",
             "relative": "releases.json",
             "title": ".NET 10.0 Releases",
+            "type": "application/json"
+          },
+          "manifest": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/manifest.json",
+            "relative": "manifest.json",
+            "title": ".NET 10.0 Manifest",
             "type": "application/json"
           }
         },
@@ -54,6 +60,12 @@
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/releases.json",
             "relative": "releases.json",
             "title": ".NET 9.0 Releases",
+            "type": "application/json"
+          },
+          "manifest": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/manifest.json",
+            "relative": "manifest.json",
+            "title": ".NET 9.0 Manifest",
             "type": "application/json"
           }
         },

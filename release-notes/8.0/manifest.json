@@ -13,36 +13,6 @@
       "title": ".NET 8 Index",
       "type": "application/json"
     },
-    "release-notes": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/README.md",
-      "relative": "README.md",
-      "title": "Release notes on GitHub",
-      "type": "text/markdown"
-    },
-    "supported-os": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.json",
-      "relative": "supported-os.json",
-      "title": "Supported Operating Systems",
-      "type": "application/json"
-    },
-    "supported-os-raw-markdown": {
-      "href": "https://raw.githubusercontent.com/dotnet/core/main/release-notes/8.0/supported-os.md",
-      "relative": "supported-os.md",
-      "title": "Supported Operating Systems (raw markdown)",
-      "type": "text/markdown"
-    },    
-    "supported-os-markdown": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/supported-os.md",
-      "relative": "supported-os.md",
-      "title": "Supported Operating Systems (markdown)",
-      "type": "text/markdown"
-    },
-    "linux-packages-markdown": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/linux-packages.md",
-      "relative": "linux-packages.md",
-      "title": "Linux Packages (markdown)",
-      "type": "text/markdown"
-    },
     "downloads": {
       "href": "https://dotnet.microsoft.com/download/dotnet/8.0",
       "title": ".NET 8 Downloads",
@@ -65,7 +35,7 @@
   "eol-date": "2026-11-10",
   "release-type": "LTS",
   "support-phase": "active",
-  "rating": "4.5",
+  "rating": "4.75",
   "most-valuable-features": [
     "Performance improvements",
     "Native AOT support",
