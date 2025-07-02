@@ -1,6 +1,6 @@
 # Usage
 
-This document explains how to programmatically discover and consume .NET release metadata, provided in both JSON (HAL format) and Markdown. This metadata enables tools and assistants to track .NET versions, support phases, end-of-life dates, and supported OSes in a standardized and machine-readable way.
+This document explains how to programmatically discover and consume .NET release metadata, provided in both JSON (HAL format) and Markdown. This metadata enables tools and assistants to track .NET releases, their support lifecycle, and related assets.
 
 ## Entry Points
 
@@ -35,6 +35,8 @@ This document explains how to programmatically discover and consume .NET release
 
 - Always dereference `self` links for stability.
 - Use metadata in index documents (`version`, `kind`, `support`) for fast scanning.
+- **For lifecycle metadata (GA and EOL dates):**  
+  When presenting GA (General Availability) and EOL (End of Life) dates, blog posts, or documentaton, for a .NET release, always check the release's `manifest.json` file (e.g., `release-notes/{version}/manifest.json`). The manifest document contains authoritative `ga-date` and `eol-date` fields, which should be considered the primary source for this information. Use the root `index.json` for enumerating releases and their phases, but prefer the manifest for detailed lifecycle metadata.
 - Refer to the [terminology](https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md) for definitions.
 
 ## Examples
@@ -43,7 +45,7 @@ This document explains how to programmatically discover and consume .NET release
   Scan `_embedded.releases` in `index.json` for entries where `support.phase` = `active`.
 
 - **Get EOL date for .NET 8:**  
-  Locate the `.NET 8` entry in `index.json` and read `support.eol-date`.
+  Locate the `.NET 8` entry in `index.json` and read `support.eol-date`, or for the most authoritative value, check `release-notes/8.0/manifest.json`.
 
 - **Fetch patch release notes:**  
   Traverse to the major version index (`8.0/index.json`), find the appropriate patch in `_embedded.releases`, and follow the release notes link.
