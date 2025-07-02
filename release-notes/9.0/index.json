@@ -3,13 +3,13 @@
   "description": "Index for .NET 9.0 patch releases",
   "_links": {
     "self": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes9.0/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
       "relative": "index.json",
       "title": ".NET 9.0 Index",
       "type": "application/json"
     },
     "releases": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes9.0/releases.json",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/releases.json",
       "relative": "releases.json",
       "title": ".NET 9.0 Releases",
       "type": "application/json"
@@ -22,7 +22,7 @@
         "kind": "release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes9.0/9.0.6/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.6/release.json",
             "relative": "9.0.6/release.json",
             "title": "9.0.6 Release Information",
             "type": "application/json"
@@ -34,7 +34,7 @@
         "kind": "release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes9.0/9.0.5/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.5/release.json",
             "relative": "9.0.5/release.json",
             "title": "9.0.5 Release Information",
             "type": "application/json"
