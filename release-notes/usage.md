@@ -1,46 +1,53 @@
 # Usage
 
-This document describes how to consume .NET release metadata in JSON and markdown format. The JSON documents follows the [HAL (Hypertext Application Language) format](https://datatracker.ietf.org/doc/html/draft-kelly-json-hal). These HAL-style .NET release documents can be used to determine the General Availability (GA) dates, End-of-life (EOL) dates, and latest available patch releases for .NET major versions, for example.
+This document explains how to programmatically discover and consume .NET release metadata, provided in both JSON (HAL format) and Markdown. This metadata enables tools and assistants to track .NET versions, support phases, and end-of-life dates in a standardized and machine-readable way.
 
-## Assistant Entry Point
+## Entry Points
 
-Assistants and automation tools should use the following JSON file as the root index for .NET release and usage data:
+- **Root Index (JSON):**
+  - https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json
+  - *Start all traversals here to discover major .NET versions and their metadata.*
 
-**Entry Point URL (JSON):**  
-https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json
-
-_This file contains machine-readable metadata for programmatic access._
-
-**Terminology URL (markdown):**
-https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md
+- **Terminology (Markdown):**
+  - https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md
+  - *Refer here for definitions and conventions.*
 
 ## Traversal Pattern
 
-1. Start at the root index.json (`kind: index`).
-2. Iterate over `_embedded.releases`.
-3. For each entry:
+1. Fetch the root `index.json`.
+2. For each release in `_embedded.releases`:
    - Read `version`, `support`, and `kind`.
-   - Follow `_links.self` to get the index or release list for that version.
-4. Continue traversal using `_links` to discover related documents (`releases.json`, `manifest.json`, etc).
+   - Follow `_links.self` for detailed data on that release.
+3. Continue traversal using `_links` to discover patch releases, manifests, and related documents.
+4. Never infer URLs—always use those in `_links`.
 
-## HAL Interpretation Notes
+## HAL Navigation
 
-- All links are explicit in `_links`. Do not infer paths.
-- If a field is not found, check the linked document.
-
-While the HAL specification treats _embedded as an optional optimization (embedding linked resources to avoid additional requests), this system uses _embedded to expose critical structured data—such as versioned indexes or manifests—that may not be linked elsewhere.
-
-In this context, _embedded is not merely an optimization; it is the primary discovery mechanism for structured children. Each embedded entry must include a corresponding `_links.self` reference to enable reliable traversal and efficient caching.
+- All navigation is performed via explicit `_links`.
+- The `_embedded` field is the primary structure for discovering children; each embedded entry must have a corresponding `_links.self`.
 
 ## Tooling Compatibility
 
-- HAL-aware clients can use `_links` to traverse.
-- Chat assistants should prefer `text/markdown` links where applicable.
-- Files are structured such that the most critical data is immutable or very slow to change.
-- As a result, it is safe to cache CDN-served files.
+- HAL-aware clients traverse via `_links`.
+- Assistants and bots should prefer Markdown (`text/markdown`) for user-facing content.
 
 ## Recommended Practices
 
-- Follow `self` links to ensure stability.
-- Rely on metadata within index documents—such as `version`, `kind`, and `support`. These fields are stable and can be relied on for fast scanning without dereferencing links.
-- Refer to `terminology.md` for definitions and structural conventions.
+- Always dereference `self` links for stability.
+- Use metadata in index documents (`version`, `kind`, `support`) for fast scanning.
+- Refer to the [terminology](https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md) for definitions.
+
+## Examples
+
+- **Find all active releases:**  
+  Scan `_embedded.releases` in `index.json` for entries where `support.phase` = `active`.
+
+- **Get EOL date for .NET 8:**  
+  Locate the `.NET 8` entry in `index.json` and read `support.eol-date`.
+
+- **Fetch patch release notes:**  
+  Traverse to the major version index (`8.0/index.json`), find the appropriate patch in `_embedded.releases`, and follow the release notes link.
+
+---
+
+*For more information, refer to the provided terminology and example files.*
