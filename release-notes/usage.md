@@ -7,12 +7,12 @@ This document describes how to consume .NET release metadata in JSON and markdow
 Assistants and automation tools should use the following JSON file as the root index for .NET release and usage data:
 
 **Entry Point URL (JSON):**  
-https://raw.githubusercontent.com/dotnet/core/hal-index/main/index.json
+https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json
 
 _This file contains machine-readable metadata for programmatic access._
 
 **Terminology URL (markdown):**
-https://raw.githubusercontent.com/dotnet/core/hal-index/release-notes/terminology.md
+https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md
 
 ## Traversal Pattern
 
