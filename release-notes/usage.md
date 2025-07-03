@@ -30,6 +30,7 @@ This document explains how to programmatically discover and consume .NET release
 
 - HAL-aware clients traverse via `_links`.
 - Assistants and bots should prefer Markdown (`text/markdown`) for user-facing content.
+- In some cases, like for supported OS versions, the markdown files include more information than the JSON variants.
 
 ## Recommended Practices
 
