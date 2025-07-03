@@ -38,7 +38,7 @@
       "title": "Supported OSes",
       "type": "application/markdown"
     },
-    "README-markdown": {
+    "readme-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/README.md",
       "relative": "README.md",
       "title": "Release Notes",
@@ -72,5 +72,11 @@
         }
       }
     ]
+  },
+  "support": {
+    "release-type": "sts",
+    "phase": "active",
+    "ga-date": "2024-11-12T00:00:00+00:00",
+    "eol-date": "2026-05-12T00:00:00+00:00"
   }
 }

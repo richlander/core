@@ -31,8 +31,9 @@
   },
   "version": "9.0",
   "label": ".NET 9",
-  "ga-date": "2024-11-12",
-  "eol-date": "2026-05-12",
+  "ga-date": "2024-11-12T00:00:00Z",
+  "eol-date": "2026-05-12T00:00:00Z",
   "release-type": "sts",
-  "support-phase": "active"
+  "support-phase": "active",
+  "rating": "4.75",
 }

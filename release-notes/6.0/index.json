@@ -1,0 +1,60 @@
+{
+  "kind": "index",
+  "description": "Index for .NET 6.0 patch releases",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/index.json",
+      "relative": "index.json",
+      "title": ".NET 6.0 Index",
+      "type": "application/json"
+    },
+    "releases": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/releases.json",
+      "relative": "releases.json",
+      "title": ".NET 6.0 Releases",
+      "type": "application/json"
+    },
+    "supported-os": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/supported-os.json",
+      "relative": "supported-os.json",
+      "title": "Supported OSes",
+      "type": "application/markdown"
+    },
+    "supported-os-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/supported-os.md",
+      "relative": "supported-os.md",
+      "title": "Supported OSes (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "supported-os-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/6.0/supported-os.md",
+      "relative": "supported-os.md",
+      "title": "Supported OSes",
+      "type": "application/markdown"
+    },
+    "linux-packages-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/linux-packages.md",
+      "relative": "linux-packages.md",
+      "title": "Linux Packages (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "linux-packages-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/6.0/linux-packages.md",
+      "relative": "linux-packages.md",
+      "title": "Linux Packages",
+      "type": "application/markdown"
+    },
+    "readme-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/6.0/README.md",
+      "relative": "README.md",
+      "title": "Release Notes",
+      "type": "application/markdown"
+    }
+  },
+  "support": {
+    "release-type": "lts",
+    "phase": "eol",
+    "ga-date": "2021-09-14T00:00:00+00:00",
+    "eol-date": "2024-11-12T00:00:00+00:00"
+  }
+}

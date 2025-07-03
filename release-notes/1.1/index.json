@@ -1,0 +1,30 @@
+{
+  "kind": "index",
+  "description": "Index for .NET 1.1 patch releases",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.1/index.json",
+      "relative": "index.json",
+      "title": ".NET 1.1 Index",
+      "type": "application/json"
+    },
+    "releases": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.1/releases.json",
+      "relative": "releases.json",
+      "title": ".NET 1.1 Releases",
+      "type": "application/json"
+    },
+    "readme-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/1.1/README.md",
+      "relative": "README.md",
+      "title": "Release Notes",
+      "type": "application/markdown"
+    }
+  },
+  "support": {
+    "release-type": "lts",
+    "phase": "eol",
+    "ga-date": "2016-11-16T00:00:00+00:00",
+    "eol-date": "2019-06-27T00:00:00+00:00"
+  }
+}

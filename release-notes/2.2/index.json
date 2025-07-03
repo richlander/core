@@ -1,0 +1,30 @@
+{
+  "kind": "index",
+  "description": "Index for .NET 2.2 patch releases",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.2/index.json",
+      "relative": "index.json",
+      "title": ".NET 2.2 Index",
+      "type": "application/json"
+    },
+    "releases": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.2/releases.json",
+      "relative": "releases.json",
+      "title": ".NET 2.2 Releases",
+      "type": "application/json"
+    },
+    "readme-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/2.2/README.md",
+      "relative": "README.md",
+      "title": "Release Notes",
+      "type": "application/markdown"
+    }
+  },
+  "support": {
+    "release-type": "sts",
+    "phase": "eol",
+    "ga-date": "2018-12-04T00:00:00+00:00",
+    "eol-date": "2019-12-23T00:00:00+00:00"
+  }
+}
