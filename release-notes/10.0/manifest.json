@@ -29,6 +29,6 @@
   "ga-date": "2025-11-11T00:00:00Z",
   "eol-date": "2028-11-14T00:00:00Z",
   "release-type": "sts",
-  "support-phase": "active",
+  "support-phase": "preview",
   "rating": "4.5"
 }
