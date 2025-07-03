@@ -76,8 +76,8 @@ This document explains how to programmatically discover and consume .NET release
    3. If you need to explain to a user which OSes are supported *and why* (e.g., “Ubuntu 20.04 reached EOL on 2025-05-31”), render the Markdown and/or fetch external EOL data.
 
 7. **Printing results for users:**
-  - The dates are in ISO format. Most users will just want plain dates without the time or timezone.
-  - Terms like LTS should always be capitalized.
+   - The dates are in ISO format. Most users will just want plain dates without the time or timezone.
+   - Terms like LTS should always be capitalized.
 
 ---
 
