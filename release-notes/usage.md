@@ -22,25 +22,17 @@ This document explains how to programmatically discover and consume .NET release
 
 ## Historical Data and CVE Information
 
-The historical index provides comprehensive access to .NET release history and security vulnerability information:
-
-### Historical Index Structure
-- **Years:** Release history organized by year (2016-2025)
-- **Monthly CVE Records:** Security vulnerabilities organized by month when they were disclosed
-- **Cross-References:** Links between release versions and CVE records
-
-### CVE Information Access
-- Each month with CVE records includes:
-  - `cve-records`: Array of CVE objects with ID, title, and advisory links
-  - `_links.self`: JSON endpoint for detailed CVE information
-  - `_links.cve-markdown`: User-friendly Markdown format
-  - `_links.cve-markdown-raw`: Raw Markdown for programmatic access
+The historical index provides access to .NET release history and security vulnerability information organized by year and month.
 
 ### When to Use Historical Index
-- **Security Research:** Finding CVEs affecting specific .NET versions
-- **Historical Analysis:** Understanding release patterns and security trends
-- **Compliance:** Tracking which vulnerabilities affected which releases
+- **CVE Questions:** Finding security vulnerabilities affecting specific .NET versions
+- **Historical Queries:** Understanding past release patterns and security issues
 - **Timeline Analysis:** Correlating releases with security disclosures
+
+### Structure
+- Years 2016-2025 with monthly breakdowns
+- CVE records include ID, title, and GitHub advisory links
+- Cross-references between release versions and CVE disclosures
 
 ---
 
@@ -54,10 +46,9 @@ The historical index provides comprehensive access to .NET release history and s
 4. Never infer URLs—always use those in `_links`.
 
 **For historical and CVE data:**
-1. Fetch the historical `index.json` from `release-notes/history/index.json`.
-2. Navigate to specific years via `_embedded.years`.
-3. For CVE information, examine months with `cve-records` arrays.
-4. Follow CVE `_links` for detailed vulnerability information.
+1. Start with `release-notes/history/index.json` for the historical index.
+2. Navigate to specific years, then examine months with `cve-records` arrays.
+3. Follow CVE links for detailed vulnerability information.
 
 ---
 
@@ -136,13 +127,10 @@ The historical index provides comprehensive access to .NET release history and s
   Traverse to the major version index (`8.0/index.json`), find the appropriate patch in `_embedded.releases`, and follow the release notes link.
 
 - **Find CVEs affecting .NET 8 in 2024:**  
-  1. Fetch `release-notes/history/2024/index.json`
-  2. Look for months containing ".NET 8" in `dotnet-releases` arrays
-  3. Examine `cve-records` arrays for those months
-  4. Follow CVE `href` links for detailed security advisories
+  Check `release-notes/history/2024/index.json`, look for months containing "8.0" in `dotnet-releases`, then examine `cve-records` for those months.
 
-- **Get detailed CVE information for a specific month:**  
-  From a year index, follow the month's `_links.cve-markdown` for user-friendly CVE descriptions or `_links.self` for structured JSON data.
+- **Get detailed CVE information:**  
+  From monthly data, follow CVE `href` links to GitHub security advisories for complete details.
 
 ---
 
