@@ -4,7 +4,7 @@
   "year": "2017",
   "_links": {
     "self": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2017/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2017/index.json",
       "relative": "index.json",
       "title": "Release history for 2017",
       "type": "application/hal\u002Bjson"
@@ -67,26 +67,53 @@
           "1.0"
         ]
       }
+    ],
+    "releases": [
+      {
+        "version": "2.0",
+        "_links": {
+          "index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/index.json",
+            "title": ".NET 2.0 Release Index",
+            "type": "application/hal\u002Bjson"
+          },
+          "readme": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2.0/README.md",
+            "title": ".NET 2.0 Release Notes",
+            "type": "text/html"
+          }
+        }
+      },
+      {
+        "version": "1.1",
+        "_links": {
+          "index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.1/index.json",
+            "title": ".NET 1.1 Release Index",
+            "type": "application/hal\u002Bjson"
+          },
+          "readme": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/1.1/README.md",
+            "title": ".NET 1.1 Release Notes",
+            "type": "text/html"
+          }
+        }
+      },
+      {
+        "version": "1.0",
+        "_links": {
+          "index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.0/index.json",
+            "title": ".NET 1.0 Release Index",
+            "type": "application/hal\u002Bjson"
+          },
+          "readme": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/1.0/README.md",
+            "title": ".NET 1.0 Release Notes",
+            "type": "text/html"
+          }
+        }
+      }
     ]
-  },
-  "release-notes": [
-    {
-      "version": "2.0",
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/2.0/README.md",
-      "title": ".NET 2.0 Release notes",
-      "type": "text/html"
-    },
-    {
-      "version": "1.1",
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/1.1/README.md",
-      "title": ".NET 1.1 Release notes",
-      "type": "text/html"
-    },
-    {
-      "version": "1.0",
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/1.0/README.md",
-      "title": ".NET 1.0 Release notes",
-      "type": "text/html"
-    }
-  ]
+  }
 }

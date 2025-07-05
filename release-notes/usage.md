@@ -31,8 +31,11 @@ The historical index provides access to .NET release history and security vulner
 
 ### Structure
 - Years 2016-2025 with monthly breakdowns
-- CVE records include ID, title, and GitHub advisory links
+- **Monthly Index Files:** Each month's `index.json` provides high-level CVE information (CVE IDs, CVE URLs, and CVE counts for the month) - **recommended starting point for chat assistants**
+- **Detailed CVE Files:** The `cve.json` and `cve.md` files provide complete information, including which packages and versions were affected
 - Cross-references between release versions and CVE disclosures
+- **Rich CVE Information:** Each CVE has detailed information available in both `cve.json` (for programmatic access) and `cve.md` (for human-readable documentation)
+- **CVE Commit Links:** The `cve.json` files include direct links to the git commits that fixed each vulnerability, allowing developers to examine the exact code changes that resolved security issues
 
 ---
 
@@ -65,7 +68,7 @@ The historical index provides access to .NET release history and security vulner
 - Assistants and bots should prefer Markdown (`text/markdown`) for user-facing content.  
 - **Use Markdown for user-facing context and annotations.** The Markdown files (e.g. `supported-os.md`) often include extra details—such as deprecation notes, EOL dates, recommended upgrade paths, and human-friendly descriptions—that aren't exposed in the raw JSON.  
 - In some cases (e.g., supported OS versions), the Markdown files include more information than the JSON variants.
-- **For CVE information:** Use the JSON format for programmatic access and the Markdown format for user-friendly explanations.
+- **For CVE information:** Use the JSON format for programmatic access and the Markdown format for user-friendly explanations. Each CVE provides rich information in both `cve.json` (structured data) and `cve.md` (formatted documentation). The `cve.json` files also include direct links to the git commits that fixed each vulnerability, enabling developers to examine the exact code changes.
 
 ---
 
@@ -96,8 +99,12 @@ The historical index provides access to .NET release history and security vulner
 
 5. **For CVE and security questions, use the historical index.**  
    - The historical index (`release-notes/history/index.json`) contains comprehensive CVE information organized by year and month.
+   - Each month's `index.json` provides high-level CVE information (CVE IDs, CVE URLs, and CVE counts for the month).
+   - The `cve.json` and `cve.md` files provide complete information, including which packages and versions were affected.
    - Use `cve-records` arrays to find vulnerabilities affecting specific .NET versions.
    - Follow CVE `_links` for detailed security advisory information.
+   - Each CVE provides rich information in both `cve.json` (structured data) and `cve.md` (formatted documentation).
+   - The `cve.json` files include direct links to the git commits that fixed each vulnerability, allowing developers to examine the exact code changes that resolved security issues.
 
 6. **When needing OS EOL information, consult an external EOL calendar.**  
    - The .NET metadata tells you which OS versions are supported, but it doesn't include calendar EOL dates—those must come from an external EOL database (e.g., endoflife.date).
@@ -130,7 +137,11 @@ The historical index provides access to .NET release history and security vulner
   Check `release-notes/history/2024/index.json`, look for months containing "8.0" in `dotnet-releases`, then examine `cve-records` for those months.
 
 - **Get detailed CVE information:**  
-  From monthly data, follow CVE `href` links to GitHub security advisories for complete details.
+  From monthly data, follow CVE `href` links to access both `cve.json` (structured data) and `cve.md` (formatted documentation) for complete details. The `cve.json` files include direct links to the git commits that fixed each vulnerability.
+
+- **Workflow for CVE queries:**
+  1. **Start with monthly `index.json`** for high-level information (CVE IDs, counts, URLs) - this is the recommended first step for chat assistants
+  2. **Follow links to `cve.json` and `cve.md`** for complete details including affected packages and versions when specific details are needed
 
 ---
 

@@ -4,7 +4,7 @@
   "year": "2021",
   "_links": {
     "self": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2021/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/index.json",
       "relative": "index.json",
       "title": "Release history for 2021",
       "type": "application/hal\u002Bjson"
@@ -124,32 +124,68 @@
           "2.1"
         ]
       }
+    ],
+    "releases": [
+      {
+        "version": "6.0",
+        "_links": {
+          "index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/index.json",
+            "title": ".NET 6.0 Release Index",
+            "type": "application/hal\u002Bjson"
+          },
+          "readme": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/6.0/README.md",
+            "title": ".NET 6.0 Release Notes",
+            "type": "text/html"
+          }
+        }
+      },
+      {
+        "version": "5.0",
+        "_links": {
+          "index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/5.0/index.json",
+            "title": ".NET 5.0 Release Index",
+            "type": "application/hal\u002Bjson"
+          },
+          "readme": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/5.0/README.md",
+            "title": ".NET 5.0 Release Notes",
+            "type": "text/html"
+          }
+        }
+      },
+      {
+        "version": "3.1",
+        "_links": {
+          "index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/3.1/index.json",
+            "title": ".NET 3.1 Release Index",
+            "type": "application/hal\u002Bjson"
+          },
+          "readme": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/3.1/README.md",
+            "title": ".NET 3.1 Release Notes",
+            "type": "text/html"
+          }
+        }
+      },
+      {
+        "version": "2.1",
+        "_links": {
+          "index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.1/index.json",
+            "title": ".NET 2.1 Release Index",
+            "type": "application/hal\u002Bjson"
+          },
+          "readme": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2.1/README.md",
+            "title": ".NET 2.1 Release Notes",
+            "type": "text/html"
+          }
+        }
+      }
     ]
-  },
-  "release-notes": [
-    {
-      "version": "6.0",
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/6.0/README.md",
-      "title": ".NET 6.0 Release notes",
-      "type": "text/html"
-    },
-    {
-      "version": "5.0",
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/5.0/README.md",
-      "title": ".NET 5.0 Release notes",
-      "type": "text/html"
-    },
-    {
-      "version": "3.1",
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/3.1/README.md",
-      "title": ".NET 3.1 Release notes",
-      "type": "text/html"
-    },
-    {
-      "version": "2.1",
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/2.1/README.md",
-      "title": ".NET 2.1 Release notes",
-      "type": "text/html"
-    }
-  ]
+  }
 }
