@@ -1,0 +1,90 @@
+{
+    "date": "2024-02-13",
+    "records": [
+        {
+            "id": "CVE-2024-21386",
+            "title": ".NET Denial of Service Vulnerability",
+            "severity": "Critical",
+            "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+            "product": "ASP.NET Core",
+            "description": [
+                "A vulnerability exists in ASP.NET applications using SignalR where a malicious client can result in a denial-of-service."
+            ],
+            "references": [
+                "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-g74q-5xw3-j7q9",
+                "https://github.com/dotnet/aspnetcore/issues/54008"
+            ]
+        },
+        {
+            "id": "CVE-2024-21404",
+            "title": ".NET Denial of Service Vulnerability",
+            "severity": "Critical",
+            "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+            "product": ".NET",
+            "platforms": [
+                "Linux"
+            ],
+            "description": [
+                "A denial-of-service vulnerability exists in .NET with OpenSSL support when parsing X509 certificates."
+            ],
+            "references": [
+                "https://github.com/dotnet/runtime/security/advisories/GHSA-qqwf-5c27-4xxx",
+                "https://github.com/dotnet/runtime/issues/98373"
+            ]
+        }
+    ],
+    "packages": [
+        {
+            "name": "Microsoft.AspNetCore.App.Runtime",
+            "affected": [
+                {
+                    "cve-id": "CVE-2024-21386",
+                    "min-vulnerable": "6.0.0",
+                    "max-vulnerable": "6.0.26",
+                    "fixed": "6.0.27",
+                    "family": "6.0"
+                },
+                {
+                    "cve-id": "CVE-2024-21386",
+                    "min-vulnerable": "7.0.0",
+                    "max-vulnerable": "7.0.15",
+                    "fixed": "7.0.16",
+                    "family": "7.0"
+                },
+                {
+                    "cve-id": "CVE-2024-21386",
+                    "min-vulnerable": "8.0.0",
+                    "max-vulnerable": "8.0.1",
+                    "fixed": "8.0.2",
+                    "family": "8.0"
+                }
+            ]
+        },
+        {
+            "name": "Microsoft.NETCore.App.Runtime",
+            "affected": [
+                {
+                    "cve-id": "CVE-2024-21404",
+                    "min-vulnerable": "6.0.0",
+                    "max-vulnerable": "6.0.26",
+                    "fixed": "6.0.27",
+                    "family": "6.0"
+                },
+                {
+                    "cve-id": "CVE-2024-21404",
+                    "min-vulnerable": "7.0.0",
+                    "max-vulnerable": "7.0.15",
+                    "fixed": "7.0.16",
+                    "family": "7.0"
+                },
+                {
+                    "cve-id": "CVE-2024-21404",
+                    "min-vulnerable": "8.0.0",
+                    "max-vulnerable": "8.0.1",
+                    "fixed": "8.0.2",
+                    "family": "8.0"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,157 @@
+{
+  "kind": "history-year-index",
+  "description": "Release history for 2018",
+  "year": "2018",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2018/index.json",
+      "relative": "index.json",
+      "title": "Release history for 2018",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "months": [
+      {
+        "month": "12",
+        "_links": {},
+        "dotnet-releases": [
+          "3.0",
+          "2.2",
+          "2.1"
+        ]
+      },
+      {
+        "month": "10",
+        "_links": {},
+        "dotnet-releases": [
+          "2.2",
+          "2.1",
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "month": "09",
+        "_links": {},
+        "dotnet-releases": [
+          "2.2",
+          "2.1"
+        ]
+      },
+      {
+        "month": "08",
+        "_links": {},
+        "dotnet-releases": [
+          "2.2",
+          "2.1"
+        ]
+      },
+      {
+        "month": "11",
+        "_links": {},
+        "dotnet-releases": [
+          "2.1"
+        ]
+      },
+      {
+        "month": "07",
+        "_links": {},
+        "dotnet-releases": [
+          "2.1",
+          "2.0",
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "month": "06",
+        "_links": {},
+        "dotnet-releases": [
+          "2.1"
+        ]
+      },
+      {
+        "month": "05",
+        "_links": {},
+        "dotnet-releases": [
+          "2.1",
+          "2.0"
+        ]
+      },
+      {
+        "month": "04",
+        "_links": {},
+        "dotnet-releases": [
+          "2.1",
+          "2.0",
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "month": "02",
+        "_links": {},
+        "dotnet-releases": [
+          "2.1"
+        ]
+      },
+      {
+        "month": "03",
+        "_links": {},
+        "dotnet-releases": [
+          "2.0",
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "month": "01",
+        "_links": {},
+        "dotnet-releases": [
+          "2.0",
+          "1.1",
+          "1.0"
+        ]
+      }
+    ]
+  },
+  "release-notes": [
+    {
+      "version": "3.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/3.0/README.md",
+      "title": ".NET 3.0 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "2.2",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/2.2/README.md",
+      "title": ".NET 2.2 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "2.1",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/2.1/README.md",
+      "title": ".NET 2.1 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "2.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/2.0/README.md",
+      "title": ".NET 2.0 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "1.1",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/1.1/README.md",
+      "title": ".NET 1.1 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "1.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/1.0/README.md",
+      "title": ".NET 1.0 Release notes",
+      "type": "text/html"
+    }
+  ]
+}

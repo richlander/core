@@ -1,0 +1,235 @@
+{
+  "kind": "history-year-index",
+  "description": "Release history for 2025",
+  "year": "2025",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/index.json",
+      "relative": "index.json",
+      "title": "Release history for 2025",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "months": [
+      {
+        "month": "06",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/06/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/06/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2025/06/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2025-30399",
+            "title": "DLL Hijacking Remote Code Execution Vulnerability",
+            "href": null
+          }
+        ]
+      },
+      {
+        "month": "05",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/05/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/05/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2025/05/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2025-26646",
+            "title": ".NET and Visual Studio Spoofing Vulnerability",
+            "href": "https://github.com/dotnet/msbuild/security/advisories/GHSA-h4j7-5rxr-p4wc"
+          }
+        ]
+      },
+      {
+        "month": "04",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/04/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/04/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2025/04/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2025-26682",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/aspnetcore/issues/61390"
+          }
+        ]
+      },
+      {
+        "month": "03",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/03/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/03/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2025/03/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2025-24070",
+            "title": ".NET Elevation of Privilege Vulnerability",
+            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-2865-hh9g-w894"
+          }
+        ]
+      },
+      {
+        "month": "02",
+        "_links": {},
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ]
+      },
+      {
+        "month": "01",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/01/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2025/01/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2025/01/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "8.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2025-21171",
+            "title": ".NET Remote Code Execution Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-p54p-p3qm-8vgj"
+          },
+          {
+            "id": "CVE-2025-21172",
+            "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-jjcv-wr2g-4rv4"
+          },
+          {
+            "id": "CVE-2025-21176",
+            "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-gjf6-3w4p-7xfh"
+          },
+          {
+            "id": "CVE-2025-21173",
+            "title": ".NET Elevation of Privilege Vulnerability",
+            "href": "https://github.com/dotnet/sdk/issues/45959"
+          }
+        ]
+      }
+    ]
+  },
+  "release-notes": [
+    {
+      "version": "10.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/10.0/README.md",
+      "title": ".NET 10.0 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "9.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/README.md",
+      "title": ".NET 9.0 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "8.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/README.md",
+      "title": ".NET 8.0 Release notes",
+      "type": "text/html"
+    }
+  ]
+}

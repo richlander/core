@@ -1,0 +1,448 @@
+{
+  "kind": "history-year-index",
+  "description": "Release history for 2024",
+  "year": "2024",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/index.json",
+      "relative": "index.json",
+      "title": "Release history for 2024",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "months": [
+      {
+        "month": "12",
+        "_links": {},
+        "dotnet-releases": [
+          "9.0"
+        ]
+      },
+      {
+        "month": "10",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/10/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/10/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/10/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-43483",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-qj66-m88j-hmgj"
+          },
+          {
+            "id": "CVE-2024-43484",
+            "title": "(DoS) System.IO.Packaging - Multiple DoS vectors in use of SortedList",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-f32c-w444-8ppv"
+          },
+          {
+            "id": "CVE-2024-43485",
+            "title": "(DoS) Denial of Service attack against System.Text.Json ExtensionData feature",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-8g4q-xg66-9fp4"
+          },
+          {
+            "id": "CVE-2024-38229",
+            "title": ".NET Remote Code Execution Vulnerability",
+            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-7vw9-cfwx-9gx9"
+          }
+        ]
+      },
+      {
+        "month": "09",
+        "_links": {},
+        "dotnet-releases": [
+          "9.0",
+          "8.0"
+        ]
+      },
+      {
+        "month": "08",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/08/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/08/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/08/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-38167",
+            "title": ".NET Information Disclosure Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-3r34-r6w3-fqp6"
+          },
+          {
+            "id": "CVE-2024-38168",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-7qrv-8f9x-3h32"
+          }
+        ]
+      },
+      {
+        "month": "07",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/07/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/07/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/07/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-30105",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-hh2w-p6rv-4g7w"
+          },
+          {
+            "id": "CVE-2024-35264",
+            "title": ".NET Remote Code Execution Vulnerability",
+            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-chfc-9w6m-75rf"
+          },
+          {
+            "id": "CVE-2024-38081",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-hq7w-xv5x-g34j"
+          },
+          {
+            "id": "CVE-2024-38095",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-447r-wph3-92pm"
+          }
+        ]
+      },
+      {
+        "month": "06",
+        "_links": {},
+        "dotnet-releases": [
+          "9.0",
+          "8.0"
+        ]
+      },
+      {
+        "month": "05",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/05/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/05/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/05/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-30045",
+            "title": ".NET Remote Code Execution Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-7fcr-8qw6-92fr"
+          },
+          {
+            "id": "CVE-2024-30046",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-hhc7-x9w4-cw47"
+          }
+        ]
+      },
+      {
+        "month": "04",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/04/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/04/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/04/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-21409",
+            "title": ".NET Elevation of Privilege Vulnerability",
+            "href": "https://github.com/dotnet/wpf/security/advisories/GHSA-6qmx-42h2-j8h6"
+          }
+        ]
+      },
+      {
+        "month": "03",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/03/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/03/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/03/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-26190",
+            "title": "Microsoft QUIC Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-4prj-ff7h-5wr3"
+          },
+          {
+            "id": "CVE-2024-21392",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-5fxj-whcv-crrc"
+          }
+        ]
+      },
+      {
+        "month": "02",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/02/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/02/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/02/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-21386",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-g74q-5xw3-j7q9"
+          },
+          {
+            "id": "CVE-2024-21404",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-qqwf-5c27-4xxx"
+          }
+        ]
+      },
+      {
+        "month": "11",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/11/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/11/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/11/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "8.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-43498",
+            "title": ".NET Remote Code Execution Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-v7vf-f5q6-m899"
+          },
+          {
+            "id": "CVE-2024-43499",
+            "title": ".NET Core - DoS - (unbounded work factor) in NrbfDecoder component",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-6x36-qxmj-rv4p"
+          }
+        ]
+      },
+      {
+        "month": "01",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/01/cve.json",
+            "relative": "cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          },
+          "cve-markdown-raw": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2024/01/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Raw Markdown)",
+            "type": "application/markdown"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/2024/01/cve.md",
+            "relative": "cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
+          }
+        },
+        "dotnet-releases": [
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "cve-records": [
+          {
+            "id": "CVE-2024-0056",
+            "title": "Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider Information Disclosure Vulnerability",
+            "href": "https://github.com/advisories/GHSA-98g6-xh36-x2p7"
+          },
+          {
+            "id": "CVE-2024-0057",
+            "title": ".NET Security Feature Bypass Vulnerability",
+            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-56gp-vpf5-xmqc"
+          },
+          {
+            "id": "CVE-2024-21319",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-59j7-ghrg-fj52"
+          }
+        ]
+      }
+    ]
+  },
+  "release-notes": [
+    {
+      "version": "9.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/README.md",
+      "title": ".NET 9.0 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "8.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/README.md",
+      "title": ".NET 8.0 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "7.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/README.md",
+      "title": ".NET 7.0 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "6.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/6.0/README.md",
+      "title": ".NET 6.0 Release notes",
+      "type": "text/html"
+    }
+  ]
+}

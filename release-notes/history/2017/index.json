@@ -1,0 +1,92 @@
+{
+  "kind": "history-year-index",
+  "description": "Release history for 2017",
+  "year": "2017",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2017/index.json",
+      "relative": "index.json",
+      "title": "Release history for 2017",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "months": [
+      {
+        "month": "12",
+        "_links": {},
+        "dotnet-releases": [
+          "2.0"
+        ]
+      },
+      {
+        "month": "11",
+        "_links": {},
+        "dotnet-releases": [
+          "2.0",
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "month": "08",
+        "_links": {},
+        "dotnet-releases": [
+          "2.0"
+        ]
+      },
+      {
+        "month": "06",
+        "_links": {},
+        "dotnet-releases": [
+          "2.0"
+        ]
+      },
+      {
+        "month": "05",
+        "_links": {},
+        "dotnet-releases": [
+          "2.0",
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "month": "09",
+        "_links": {},
+        "dotnet-releases": [
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "month": "03",
+        "_links": {},
+        "dotnet-releases": [
+          "1.1",
+          "1.0"
+        ]
+      }
+    ]
+  },
+  "release-notes": [
+    {
+      "version": "2.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/2.0/README.md",
+      "title": ".NET 2.0 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "1.1",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/1.1/README.md",
+      "title": ".NET 1.1 Release notes",
+      "type": "text/html"
+    },
+    {
+      "version": "1.0",
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/1.0/README.md",
+      "title": ".NET 1.0 Release notes",
+      "type": "text/html"
+    }
+  ]
+}

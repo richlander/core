@@ -8,10 +8,10 @@
       "title": ".NET 2.2 Index",
       "type": "application/json"
     },
-    "releases": {
+    "majorrelease": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.2/releases.json",
       "relative": "releases.json",
-      "title": ".NET 2.2 Releases",
+      "title": ".NET 2.2 MajorRelease",
       "type": "application/json"
     },
     "readme-markdown": {

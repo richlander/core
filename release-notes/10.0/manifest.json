@@ -22,6 +22,11 @@
       "href": "https://learn.microsoft.com/dotnet/core/whats-new/dotnet-10/overview",
       "title": "What's new in .NET 10",
       "type": "text/html"
+    },
+    "breaking-changes": {
+      "href": "https://learn.microsoft.com/dotnet/core/compatibility/10.0",
+      "title": "Breaking changes in .NET 10",
+      "type": "text/html"
     }
   },
   "version": "10.0",

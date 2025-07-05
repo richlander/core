@@ -1,0 +1,81 @@
+{
+    "date": "2024-08-13",
+    "records": [
+        {
+            "id": "CVE-2024-38167",
+            "title": ".NET Information Disclosure Vulnerability",
+            "severity": "Critical",
+            "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
+            "product": ".NET",
+            "description": [
+                "A vulnerability exists in .NET runtime TlsStream which may result in Information Disclosure."
+            ],
+            "references": [
+                "https://github.com/dotnet/runtime/security/advisories/GHSA-3r34-r6w3-fqp6",
+                "https://github.com/dotnet/runtime/issues/106359"
+            ]
+        },
+        {
+            "id": "CVE-2024-38168",
+            "title": ".NET Denial of Service Vulnerability",
+            "severity": "Critical",
+            "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+            "product": "ASP.NET Core",
+            "platforms": [
+                "Windows"
+            ],
+            "references": [
+                "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-7qrv-8f9x-3h32",
+                "https://github.com/dotnet/aspnetcore/issues/57317"
+            ]
+        }
+    ],
+    "packages": [
+        {
+            "name": "Microsoft.NETCore.App.Runtime",
+            "affected": [
+                {
+                    "cve-id": "CVE-2024-38167",
+                    "min-vulnerable": "8.0.0",
+                    "max-vulnerable": "8.0.7",
+                    "fixed": "8.0.8",
+                    "family": "8.0",
+                    "commits": [
+                        "76f50f60931e85e9240715ebd1f345547cbae366"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Microsoft.AspNetCore.App.Runtime",
+            "affected": [
+                {
+                    "cve-id": "CVE-2024-38168",
+                    "min-vulnerable": "8.0.0",
+                    "max-vulnerable": "8.0.7",
+                    "fixed": "8.0.8",
+                    "family": "8.0",
+                    "commits": [
+                        "123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
+                    ]
+                }
+            ]
+        }
+    ],
+    "commits": [
+        {
+            "repo": "runtime",
+            "branch": "release/8.0",
+            "hash": "76f50f60931e85e9240715ebd1f345547cbae366",
+            "org": "dotnet",
+            "url": "https://github.com/dotnet/runtime/commit/76f50f60931e85e9240715ebd1f345547cbae366"
+        },
+        {
+            "repo": "aspnetcore",
+            "branch": "release/8.0",
+            "hash": "123e69ce581cb33fd86c7cd2f8d4ba95e667885c",
+            "org": "dotnet",
+            "url": "https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
+        }
+    ]
+}

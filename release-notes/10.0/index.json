@@ -8,10 +8,10 @@
       "title": ".NET 10.0 Index",
       "type": "application/json"
     },
-    "releases": {
+    "majorrelease": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/releases.json",
       "relative": "releases.json",
-      "title": ".NET 10.0 Releases",
+      "title": ".NET 10.0 MajorRelease",
       "type": "application/json"
     },
     "manifest": {
@@ -24,7 +24,7 @@
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/supported-os.json",
       "relative": "supported-os.json",
       "title": "Supported OSes",
-      "type": "application/markdown"
+      "type": "application/json"
     },
     "supported-os-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/supported-os.md",

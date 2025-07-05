@@ -8,10 +8,10 @@
       "title": ".NET 8.0 Index",
       "type": "application/json"
     },
-    "releases": {
+    "majorrelease": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/releases.json",
       "relative": "releases.json",
-      "title": ".NET 8.0 Releases",
+      "title": ".NET 8.0 MajorRelease",
       "type": "application/json"
     },
     "manifest": {
@@ -24,7 +24,7 @@
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/supported-os.json",
       "relative": "supported-os.json",
       "title": "Supported OSes",
-      "type": "application/markdown"
+      "type": "application/json"
     },
     "supported-os-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/supported-os.md",
@@ -61,7 +61,7 @@
     "releases": [
       {
         "version": "8.0.17",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.17/release.json",
@@ -73,7 +73,7 @@
       },
       {
         "version": "8.0.16",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.16/release.json",
@@ -85,7 +85,7 @@
       },
       {
         "version": "8.0.15",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.15/release.json",
@@ -97,7 +97,7 @@
       },
       {
         "version": "8.0.14",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.14/release.json",
@@ -109,7 +109,7 @@
       },
       {
         "version": "8.0.13",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.13/release.json",
@@ -121,7 +121,7 @@
       },
       {
         "version": "8.0.12",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.12/release.json",
@@ -133,7 +133,7 @@
       },
       {
         "version": "8.0.11",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.11/release.json",
@@ -145,7 +145,7 @@
       },
       {
         "version": "8.0.10",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.10/release.json",
@@ -157,7 +157,7 @@
       },
       {
         "version": "8.0.8",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.8/release.json",
@@ -169,7 +169,7 @@
       },
       {
         "version": "8.0.7",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.7/release.json",
@@ -181,7 +181,7 @@
       },
       {
         "version": "8.0.6",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.6/release.json",
@@ -193,7 +193,7 @@
       },
       {
         "version": "8.0.5",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.5/release.json",
@@ -205,7 +205,7 @@
       },
       {
         "version": "8.0.4",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.4/release.json",
@@ -217,7 +217,7 @@
       },
       {
         "version": "8.0.3",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.3/release.json",
@@ -229,7 +229,7 @@
       },
       {
         "version": "8.0.2",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.2/release.json",
@@ -241,7 +241,7 @@
       },
       {
         "version": "8.0.1",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.1/release.json",
@@ -253,7 +253,7 @@
       },
       {
         "version": "8.0.0",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.0/release.json",

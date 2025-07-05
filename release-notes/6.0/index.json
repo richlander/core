@@ -8,17 +8,17 @@
       "title": ".NET 6.0 Index",
       "type": "application/json"
     },
-    "releases": {
+    "majorrelease": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/releases.json",
       "relative": "releases.json",
-      "title": ".NET 6.0 Releases",
+      "title": ".NET 6.0 MajorRelease",
       "type": "application/json"
     },
     "supported-os": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/supported-os.json",
       "relative": "supported-os.json",
       "title": "Supported OSes",
-      "type": "application/markdown"
+      "type": "application/json"
     },
     "supported-os-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/supported-os.md",

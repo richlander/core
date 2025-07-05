@@ -8,10 +8,10 @@
       "title": ".NET 9.0 Index",
       "type": "application/json"
     },
-    "releases": {
+    "majorrelease": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/releases.json",
       "relative": "releases.json",
-      "title": ".NET 9.0 Releases",
+      "title": ".NET 9.0 MajorRelease",
       "type": "application/json"
     },
     "manifest": {
@@ -24,7 +24,7 @@
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/supported-os.json",
       "relative": "supported-os.json",
       "title": "Supported OSes",
-      "type": "application/markdown"
+      "type": "application/json"
     },
     "supported-os-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/supported-os.md",
@@ -49,7 +49,7 @@
     "releases": [
       {
         "version": "9.0.6",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.6/release.json",
@@ -61,12 +61,72 @@
       },
       {
         "version": "9.0.5",
-        "kind": "release",
+        "kind": "patch-release",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.5/release.json",
             "relative": "9.0.5/release.json",
             "title": "9.0.5 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0.4",
+        "kind": "patch-release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.4/release.json",
+            "relative": "9.0.4/release.json",
+            "title": "9.0.4 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0.3",
+        "kind": "patch-release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.3/release.json",
+            "relative": "9.0.3/release.json",
+            "title": "9.0.3 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0.2",
+        "kind": "patch-release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.2/release.json",
+            "relative": "9.0.2/release.json",
+            "title": "9.0.2 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0.1",
+        "kind": "patch-release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.1/release.json",
+            "relative": "9.0.1/release.json",
+            "title": "9.0.1 Release Information",
+            "type": "application/json"
+          }
+        }
+      },
+      {
+        "version": "9.0.0",
+        "kind": "patch-release",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.0/release.json",
+            "relative": "9.0.0/release.json",
+            "title": "9.0.0 Release Information",
             "type": "application/json"
           }
         }

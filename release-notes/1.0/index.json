@@ -8,10 +8,10 @@
       "title": ".NET 1.0 Index",
       "type": "application/json"
     },
-    "releases": {
+    "majorrelease": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.0/releases.json",
       "relative": "releases.json",
-      "title": ".NET 1.0 Releases",
+      "title": ".NET 1.0 MajorRelease",
       "type": "application/json"
     },
     "readme-markdown": {
