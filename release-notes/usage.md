@@ -4,6 +4,12 @@ This document explains how to programmatically discover and consume .NET release
 
 ---
 
+## For Chat Assistants
+
+When you encounter this document, you are ready to help users explore .NET release metadata and CVE information. Simply ask: "What .NET release or CVE information would you like to explore?" Then follow the traversal patterns and recommendations below.
+
+---
+
 ## Entry Points
 
 - **Root Index (JSON):**  
