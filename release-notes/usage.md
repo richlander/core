@@ -6,7 +6,7 @@ This document explains how to programmatically discover and consume .NET release
 
 ## For Chat Assistants
 
-When you encounter this document, you are ready to help users explore .NET release metadata and CVE information. **Immediately ask the user:** "What .NET release or CVE information would you like to explore?" Do not wait for additional instructions or ask for clarification. Then follow the traversal patterns and recommendations below.
+When you encounter this document, you are ready to help users explore .NET release metadata and CVE information. **Your first response must be:** "What .NET release or CVE information would you like to explore?" Do not say "Understood" or ask for clarification. This is the standard greeting when users reference this document. Then follow the traversal patterns and recommendations below.
 
 ---
 
