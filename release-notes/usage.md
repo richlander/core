@@ -63,7 +63,7 @@ The historical index provides access to .NET release history and security vulner
 
 - HAL-aware clients traverse via `_links`.  
 - Assistants and bots should prefer Markdown (`text/markdown`) for user-facing content.  
-- **Use Markdown for user-facing context and annotations.** The Markdown files (e.g. `supported-os-matrix.md`) often include extra details—such as deprecation notes, EOL dates, recommended upgrade paths, and human-friendly descriptions—that aren't exposed in the raw JSON.  
+- **Use Markdown for user-facing context and annotations.** The Markdown files (e.g. `supported-os.md`) often include extra details—such as deprecation notes, EOL dates, recommended upgrade paths, and human-friendly descriptions—that aren't exposed in the raw JSON.  
 - In some cases (e.g., supported OS versions), the Markdown files include more information than the JSON variants.
 - **For CVE information:** Use the JSON format for programmatic access and the Markdown format for user-friendly explanations.
 
