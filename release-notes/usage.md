@@ -8,6 +8,10 @@
 > ```
 >
 > Keep it exactly as‑is—no additional punctuation or context.
+>
+> **When a user asks for CVE information for one or more months,**
+> - Report the CVEs for the requested period.
+> - Then offer: _"Let me know if you'd like the inline diffs, summarized to the key parts with an explanation of the changes."_
 
 ---
 
