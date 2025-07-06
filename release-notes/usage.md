@@ -18,7 +18,7 @@ When you encounter this document, you are ready to help users explore .NET relea
 
 - **Historical Index (JSON):**  
   `https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json`  
-  *Use this to access historical .NET release information and CVE (Common Vulnerabilities and Exposures) data organized by year and month.*
+  *Use this to access historical .NET release metadata organized by year and month.*
 
 - **Terminology (Markdown):**  
   `https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md`  
@@ -26,22 +26,31 @@ When you encounter this document, you are ready to help users explore .NET relea
 
 ---
 
-## Historical Data and CVE Information
+## CVE Information and Index Types
 
-The historical index provides access to .NET release history and security vulnerability information organized by year and month.
+Both the root release index and the historical index provide comprehensive CVE (Common Vulnerabilities and Exposures) information. The key difference is in how the data is organized:
 
-### When to Use Historical Index
-- **CVE Questions:** Finding security vulnerabilities affecting specific .NET versions
-- **Historical Queries:** Understanding past release patterns and security issues
-- **Timeline Analysis:** Correlating releases with security disclosures
+### Root Release Index (Version-Based)
+- **Organization:** CVE information is organized by .NET version
+- **Best for:** Questions about a specific .NET version or when you know which version you're interested in
+- **Use case:** "What CVEs affect .NET 9.0?" or "Show me security vulnerabilities for .NET 8.0" or "What's the latest patch version for .NET 8"
 
-### Structure
-- Years 2016-2025 with monthly breakdowns
-- **Monthly Index Files:** Each month's `index.json` provides high-level CVE information (CVE IDs, CVE URLs, and CVE counts for the month) - **recommended starting point for chat assistants**
-- **Detailed CVE Files:** The `cve.json` and `cve.md` files provide complete information, including which packages and versions were affected
-- Cross-references between release versions and CVE disclosures
-- **Rich CVE Information:** Each CVE has detailed information available in both `cve.json` (for programmatic access) and `cve.md` (for human-readable documentation)
-- **CVE Commit Links:** The `cve.json` files include direct links to the git commits that fixed each vulnerability, allowing developers to examine the exact code changes that resolved security issues
+### Historical Index (Time-Based)
+- **Organization:** CVE information is organized by year and month
+- **Best for:** Questions about multiple versions or time-based analysis
+- **Use case:** "What CVEs were disclosed in 2024?" or "Show me all vulnerabilities across different .NET versions in March 2024" or "Which .NET patch versions were released in February 2025"
+
+### When to Use Each Index
+- **For single version queries:** Use the root release index - it's more direct and efficient
+- **For multi-version or time-based queries:** Use the historical index - it provides better cross-version analysis
+- **For historical patterns:** Use the historical index to understand security trends over time
+
+### CVE Information Structure
+Both indexes provide the same rich CVE information:
+- **CVE IDs and URLs:** Direct links to security advisories
+- **Detailed CVE Files:** Complete information in both `cve.json` (structured data) and `cve.md` (formatted documentation)
+- **Affected Packages:** Information about which packages and versions were affected
+- **CVE Commit Links:** Direct links to the git commits that fixed each vulnerability, allowing developers to examine the exact code changes
 
 ---
 
@@ -54,10 +63,10 @@ The historical index provides access to .NET release history and security vulner
 3. Continue traversal using `_links` to discover patch releases, manifests, and related documents.  
 4. Never infer URLs—always use those in `_links`.
 
-**For historical and CVE data:**
-1. Start with `release-notes/history/index.json` for the historical index.
-2. Navigate to specific years, then examine months with `cve-records` arrays.
-3. Follow CVE links for detailed vulnerability information.
+**For CVE data:**
+1. **For single version queries:** Start with the root release index and navigate to the specific version's CVE information.
+2. **For multi-version or time-based queries:** Start with `release-notes/history/index.json` for the historical index, then navigate to specific years and months.
+3. Follow CVE links for detailed vulnerability information from either index.
 
 ---
 
@@ -65,6 +74,7 @@ The historical index provides access to .NET release history and security vulner
 
 - All navigation is performed via explicit `_links`.  
 - The `_embedded` field is the primary structure for discovering children; each embedded entry must have a corresponding `_links.self`.
+- **Relative Paths:** The `relative` property in `_links` objects contains paths that are always relative to the root of the release-notes directory, not relative to the current document's location.
 
 ---
 
@@ -84,7 +94,10 @@ The historical index provides access to .NET release history and security vulner
 - Use metadata in index documents (`version`, `kind`, `support.phase`) for fast scans.  
 - **For lifecycle metadata (GA and EOL dates):** When presenting GA (General Availability) and EOL (End of Life) dates for a .NET release, check the release's `manifest.json` (e.g., `release-notes/{version}/manifest.json`). That manifest contains authoritative `ga-date` and `eol-date` fields.  
 - Use the root `index.json` for enumerating releases and their phases, but prefer the manifest for detailed lifecycle metadata.
-- **For CVE and security information:** Use the historical index to find vulnerabilities affecting specific .NET versions or time periods.
+- **For CVE and security information:** Choose the appropriate index based on your query type:
+  - Use the root release index for single version queries (e.g., "What CVEs affect .NET 8.0?")
+  - Use the historical index for multi-version or time-based queries (e.g., "What CVEs were disclosed in 2024?")
+- **Relative Path Resolution:** When using the `relative` property from `_links` objects, note that these paths are always relative to the root of the release-notes directory, not relative to the current document's location.
 - Refer to the [terminology](https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md) for definitions.
 
 ---
@@ -103,14 +116,14 @@ The historical index provides access to .NET release history and security vulner
 4. **Fetch detailed lifecycle dates from `manifest.json`.**  
    - While `support.phase` in the root index is good for fast scans, the `ga-date` and `eol-date` fields in `release-notes/{version}/manifest.json` are the authoritative sources.
 
-5. **For CVE and security questions, use the historical index.**  
-   - The historical index (`release-notes/history/index.json`) contains comprehensive CVE information organized by year and month.
-   - Each month's `index.json` provides high-level CVE information (CVE IDs, CVE URLs, and CVE counts for the month).
-   - The `cve.json` and `cve.md` files provide complete information, including which packages and versions were affected.
-   - Use `cve-records` arrays to find vulnerabilities affecting specific .NET versions.
-   - Follow CVE `_links` for detailed security advisory information.
-   - Each CVE provides rich information in both `cve.json` (structured data) and `cve.md` (formatted documentation).
-   - The `cve.json` files include direct links to the git commits that fixed each vulnerability, allowing developers to examine the exact code changes that resolved security issues.
+5. **For CVE and security questions, choose the appropriate index.**  
+   - **Single version queries:** Use the root release index - navigate to the specific version's CVE information
+   - **Multi-version or time-based queries:** Use the historical index (`release-notes/history/index.json`) - organized by year and month
+   - Both indexes provide the same comprehensive CVE information:
+     - CVE IDs, URLs, and counts
+     - Complete details in `cve.json` (structured data) and `cve.md` (formatted documentation)
+     - Information about affected packages and versions
+     - Direct links to git commits that fixed each vulnerability
 
 6. **When needing OS EOL information, consult an external EOL calendar.**  
    - The .NET metadata tells you which OS versions are supported, but it doesn't include calendar EOL dates—those must come from an external EOL database (e.g., endoflife.date).
@@ -119,7 +132,9 @@ The historical index provides access to .NET release history and security vulner
    1. Scan `index.json` to identify the releases of interest.  
    2. If you only need version numbers and support phases, stay in JSON.  
    3. If you need to explain to a user which OSes are supported *and why* (e.g., "Ubuntu 20.04 reached EOL on 2025-05-31"), render the Markdown and/or fetch external EOL data.
-   4. For security-related queries, check the historical index for CVE information.
+   4. For security-related queries, choose the appropriate index based on query scope:
+   - Single version: Use root release index
+   - Multiple versions or time-based: Use historical index
 
 8. **Printing results for users:**
    - The dates are in ISO format. Most users will just want plain dates without the time or timezone.
@@ -139,14 +154,17 @@ The historical index provides access to .NET release history and security vulner
 - **Fetch patch release notes:**  
   Traverse to the major version index (`8.0/index.json`), find the appropriate patch in `_embedded.releases`, and follow the release notes link.
 
+- **Find CVEs affecting .NET 8.0:**  
+  Use the root release index, navigate to .NET 8.0, and access its CVE information directly.
+
 - **Find CVEs affecting .NET 8 in 2024:**  
-  Check `release-notes/history/2024/index.json`, look for months containing "8.0" in `dotnet-releases`, then examine `cve-records` for those months.
+  Use the historical index: Check `release-notes/history/2024/index.json`, look for months containing "8.0" in `dotnet-releases`, then examine `cve-records` for those months.
 
 - **Get detailed CVE information:**  
-  From monthly data, follow CVE `href` links to access both `cve.json` (structured data) and `cve.md` (formatted documentation) for complete details. The `cve.json` files include direct links to the git commits that fixed each vulnerability.
+  From either index, follow CVE `href` links to access both `cve.json` (structured data) and `cve.md` (formatted documentation) for complete details. The `cve.json` files include direct links to the git commits that fixed each vulnerability.
 
 - **Workflow for CVE queries:**
-  1. **Start with monthly `index.json`** for high-level information (CVE IDs, counts, URLs) - this is the recommended first step for chat assistants
+  1. **Choose the appropriate index** based on query scope (single version vs. multi-version/time-based)
   2. **Follow links to `cve.json` and `cve.md`** for complete details including affected packages and versions when specific details are needed
 
 ---

@@ -3,45 +3,39 @@
   "description": "Index for .NET 9.0 patch releases",
   "_links": {
     "self": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
-      "relative": "index.json",
-      "title": ".NET 9.0 Index",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/supported-os.json",
+      "relative": "9.0/supported-os.json",
+      "title": "Supported OSes",
       "type": "application/json"
     },
-    "majorrelease": {
+    "releases": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/releases.json",
-      "relative": "releases.json",
-      "title": ".NET 9.0 MajorRelease",
+      "relative": "9.0/releases.json",
+      "title": "Releases",
       "type": "application/json"
     },
     "manifest": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/manifest.json",
-      "relative": "manifest.json",
-      "title": ".NET 9.0 Manifest",
-      "type": "application/json"
-    },
-    "supported-os": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/supported-os.json",
-      "relative": "supported-os.json",
-      "title": "Supported OSes",
-      "type": "application/json"
+      "relative": "9.0/manifest.json",
+      "title": "Manifest",
+      "type": "application/hal\u002Bjson"
     },
     "supported-os-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/supported-os.md",
-      "relative": "supported-os.md",
+      "relative": "9.0/supported-os.md",
       "title": "Supported OSes (Raw Markdown)",
       "type": "application/markdown"
     },
     "supported-os-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/supported-os.md",
-      "relative": "supported-os.md",
-      "title": "Supported OSes",
+      "relative": "9.0/supported-os.md",
+      "title": "Supported OSes (Markdown)",
       "type": "application/markdown"
     },
     "readme-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/README.md",
-      "relative": "README.md",
-      "title": "Release Notes",
+      "relative": "9.0/README.md",
+      "title": "Release Notes (Markdown)",
       "type": "application/markdown"
     }
   },
@@ -56,8 +50,27 @@
             "relative": "9.0.6/release.json",
             "title": "9.0.6 Release Information",
             "type": "application/json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/06/cve.json",
+            "relative": "history/2025/06/cve.json",
+            "title": "CVE Information (JSON)",
+            "type": "application/json"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/06/cve.md",
+            "relative": "history/2025/06/cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
           }
-        }
+        },
+        "cve-records": [
+          {
+            "id": "CVE-2025-30399",
+            "title": "CVE CVE-2025-30399",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30399"
+          }
+        ]
       },
       {
         "version": "9.0.5",
@@ -68,8 +81,27 @@
             "relative": "9.0.5/release.json",
             "title": "9.0.5 Release Information",
             "type": "application/json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/05/cve.json",
+            "relative": "history/2025/05/cve.json",
+            "title": "CVE Information (JSON)",
+            "type": "application/json"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/05/cve.md",
+            "relative": "history/2025/05/cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
           }
-        }
+        },
+        "cve-records": [
+          {
+            "id": "CVE-2025-26646",
+            "title": "CVE CVE-2025-26646",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26646"
+          }
+        ]
       },
       {
         "version": "9.0.4",
@@ -80,8 +112,27 @@
             "relative": "9.0.4/release.json",
             "title": "9.0.4 Release Information",
             "type": "application/json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/04/cve.json",
+            "relative": "history/2025/04/cve.json",
+            "title": "CVE Information (JSON)",
+            "type": "application/json"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/04/cve.md",
+            "relative": "history/2025/04/cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
           }
-        }
+        },
+        "cve-records": [
+          {
+            "id": "CVE-2025-26682",
+            "title": "CVE CVE-2025-26682",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26682"
+          }
+        ]
       },
       {
         "version": "9.0.3",
@@ -92,8 +143,27 @@
             "relative": "9.0.3/release.json",
             "title": "9.0.3 Release Information",
             "type": "application/json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/03/cve.json",
+            "relative": "history/2025/03/cve.json",
+            "title": "CVE Information (JSON)",
+            "type": "application/json"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/03/cve.md",
+            "relative": "history/2025/03/cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
           }
-        }
+        },
+        "cve-records": [
+          {
+            "id": "CVE-2025-24070",
+            "title": "CVE CVE-2025-24070",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-24070"
+          }
+        ]
       },
       {
         "version": "9.0.2",
@@ -116,8 +186,42 @@
             "relative": "9.0.1/release.json",
             "title": "9.0.1 Release Information",
             "type": "application/json"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/01/cve.json",
+            "relative": "history/2025/01/cve.json",
+            "title": "CVE Information (JSON)",
+            "type": "application/json"
+          },
+          "cve-markdown": {
+            "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/01/cve.md",
+            "relative": "history/2025/01/cve.md",
+            "title": "CVE Information (Markdown)",
+            "type": "application/markdown"
           }
-        }
+        },
+        "cve-records": [
+          {
+            "id": "CVE-2025-21171",
+            "title": "CVE CVE-2025-21171",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21171"
+          },
+          {
+            "id": "CVE-2025-21172",
+            "title": "CVE CVE-2025-21172",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21172"
+          },
+          {
+            "id": "CVE-2025-21176",
+            "title": "CVE CVE-2025-21176",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21176"
+          },
+          {
+            "id": "CVE-2025-21173",
+            "title": "CVE CVE-2025-21173",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21173"
+          }
+        ]
       },
       {
         "version": "9.0.0",
@@ -129,7 +233,19 @@
             "title": "9.0.0 Release Information",
             "type": "application/json"
           }
-        }
+        },
+        "cve-records": [
+          {
+            "id": "CVE-2024-43498",
+            "title": "CVE CVE-2024-43498",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43498"
+          },
+          {
+            "id": "CVE-2024-43499",
+            "title": "CVE CVE-2024-43499",
+            "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43499"
+          }
+        ]
       }
     ]
   },

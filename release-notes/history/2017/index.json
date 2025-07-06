@@ -5,7 +5,7 @@
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2017/index.json",
-      "relative": "index.json",
+      "relative": "history/2017/index.json",
       "title": "Release history for 2017",
       "type": "application/hal\u002Bjson"
     }
@@ -15,56 +15,92 @@
       {
         "month": "12",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "2.0"
+        ],
+        "dotnet-patch-releases": [
+          "2.0.4"
         ]
       },
       {
         "month": "11",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "2.0",
           "1.1",
           "1.0"
+        ],
+        "dotnet-patch-releases": [
+          "2.0.3",
+          "1.1.5",
+          "1.0.8"
         ]
       },
       {
         "month": "08",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "2.0"
+        ],
+        "dotnet-patch-releases": [
+          "2.0.0"
         ]
       },
       {
         "month": "06",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "2.0"
+        ],
+        "dotnet-patch-releases": [
+          "2.0.0-preview2-25407-01",
+          "2.0.0-preview2"
         ]
       },
       {
         "month": "05",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "2.0",
           "1.1",
           "1.0"
+        ],
+        "dotnet-patch-releases": [
+          "2.0.0-preview1-002111-00",
+          "2.0.0-preview1",
+          "1.1.2",
+          "1.0.5"
         ]
       },
       {
         "month": "09",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "1.1",
           "1.0"
+        ],
+        "dotnet-patch-releases": [
+          "1.1.4",
+          "1.0.7"
         ]
       },
       {
         "month": "03",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "1.1",
           "1.0"
+        ],
+        "dotnet-patch-releases": [
+          "1.1.1",
+          "1.0.4"
         ]
       }
     ],
@@ -72,45 +108,33 @@
       {
         "version": "2.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/index.json",
-            "title": ".NET 2.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2017/index.json",
+            "relative": "history/2017/index.json",
+            "title": "Release history for 2017",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/2.0/README.md",
-            "title": ".NET 2.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "1.1",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.1/index.json",
-            "title": ".NET 1.1 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2017/index.json",
+            "relative": "history/2017/index.json",
+            "title": "Release history for 2017",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/1.1/README.md",
-            "title": ".NET 1.1 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "1.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.0/index.json",
-            "title": ".NET 1.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2017/index.json",
+            "relative": "history/2017/index.json",
+            "title": "Release history for 2017",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/1.0/README.md",
-            "title": ".NET 1.0 Release Notes",
-            "type": "text/html"
           }
         }
       }

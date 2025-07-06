@@ -3,22 +3,16 @@
   "description": "Index for .NET 2.0 patch releases",
   "_links": {
     "self": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/index.json",
-      "relative": "index.json",
-      "title": ".NET 2.0 Index",
-      "type": "application/json"
-    },
-    "majorrelease": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/releases.json",
-      "relative": "releases.json",
-      "title": ".NET 2.0 MajorRelease",
-      "type": "application/json"
-    },
-    "readme-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/2.0/README.md",
-      "relative": "README.md",
-      "title": "Release Notes",
+      "relative": "2.0/README.md",
+      "title": "Release Notes (Markdown)",
       "type": "application/markdown"
+    },
+    "releases": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/releases.json",
+      "relative": "2.0/releases.json",
+      "title": "Releases",
+      "type": "application/json"
     }
   },
   "support": {

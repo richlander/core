@@ -5,7 +5,7 @@
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2022/index.json",
-      "relative": "index.json",
+      "relative": "history/2022/index.json",
       "title": "Release history for 2022",
       "type": "application/hal\u002Bjson"
     }
@@ -15,103 +15,238 @@
       {
         "month": "12",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.101",
+          "7.0.1",
+          "6.0.404",
+          "6.0.307",
+          "6.0.112",
+          "6.0.12",
+          "3.1.426",
+          "3.1.32"
         ]
       },
       {
         "month": "11",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100",
+          "7.0.0",
+          "6.0.403",
+          "6.0.306",
+          "6.0.111",
+          "6.0.11",
+          "3.1.425",
+          "3.1.31"
         ]
       },
       {
         "month": "10",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-rc.2.22477.23",
+          "7.0.0-rc.2.22472.3",
+          "7.0.0-rc.2",
+          "6.0.402",
+          "6.0.305",
+          "6.0.110",
+          "6.0.10",
+          "3.1.424",
+          "3.1.30"
         ]
       },
       {
         "month": "09",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-rc.1.22431.12",
+          "7.0.0-rc.1.22426.10",
+          "7.0.0-rc.1",
+          "6.0.401",
+          "6.0.304",
+          "6.0.109",
+          "6.0.9",
+          "3.1.423",
+          "3.1.29"
         ]
       },
       {
         "month": "08",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-preview.7.22377.5",
+          "7.0.0-preview.7.22375.6",
+          "7.0.0-preview.7",
+          "6.0.400",
+          "6.0.303",
+          "6.0.108",
+          "6.0.8",
+          "3.1.422",
+          "3.1.28"
         ]
       },
       {
         "month": "07",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-preview.6.22352.1",
+          "7.0.0-preview.6.22324.4",
+          "7.0.0-preview.6",
+          "6.0.302",
+          "6.0.107",
+          "6.0.7",
+          "3.1.421",
+          "3.1.27"
         ]
       },
       {
         "month": "06",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-preview.5.22307.18",
+          "7.0.0-preview.5.22301.12",
+          "7.0.0-preview.5",
+          "6.0.301",
+          "6.0.106",
+          "6.0.6",
+          "3.1.420",
+          "3.1.26"
         ]
       },
       {
         "month": "05",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "5.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-preview.4.22252.9",
+          "7.0.0-preview.4.22229.4",
+          "7.0.0-preview.4",
+          "6.0.300",
+          "6.0.203",
+          "6.0.105",
+          "6.0.5",
+          "5.0.408",
+          "5.0.214",
+          "5.0.17",
+          "3.1.419",
+          "3.1.25"
         ]
       },
       {
         "month": "04",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "5.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-preview.3.22179.4",
+          "7.0.0-preview.3.22175.4",
+          "7.0.0-preview.3",
+          "6.0.202",
+          "6.0.104",
+          "6.0.4",
+          "5.0.407",
+          "5.0.213",
+          "5.0.16",
+          "3.1.418",
+          "3.1.24"
         ]
       },
       {
         "month": "03",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "5.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-preview.2.22153.17",
+          "7.0.0-preview.2.22152.2",
+          "7.0.0-preview.2",
+          "6.0.201",
+          "6.0.103",
+          "6.0.3",
+          "5.0.406",
+          "5.0.212",
+          "5.0.15",
+          "3.1.417",
+          "3.1.23"
         ]
       },
       {
         "month": "02",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "7.0",
           "6.0",
           "5.0"
+        ],
+        "dotnet-patch-releases": [
+          "7.0.100-preview.1.22110.4",
+          "7.0.0-preview.1.22076.8",
+          "7.0.0-preview.1",
+          "6.0.200",
+          "6.0.102",
+          "6.0.2",
+          "5.0.405",
+          "5.0.211",
+          "5.0.14"
         ]
       }
     ],
@@ -119,60 +254,44 @@
       {
         "version": "7.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/index.json",
-            "title": ".NET 7.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2022/index.json",
+            "relative": "history/2022/index.json",
+            "title": "Release history for 2022",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/README.md",
-            "title": ".NET 7.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "6.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/index.json",
-            "title": ".NET 6.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2022/index.json",
+            "relative": "history/2022/index.json",
+            "title": "Release history for 2022",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/6.0/README.md",
-            "title": ".NET 6.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "5.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/5.0/index.json",
-            "title": ".NET 5.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2022/index.json",
+            "relative": "history/2022/index.json",
+            "title": "Release history for 2022",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/5.0/README.md",
-            "title": ".NET 5.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "3.1",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/3.1/index.json",
-            "title": ".NET 3.1 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2022/index.json",
+            "relative": "history/2022/index.json",
+            "title": "Release history for 2022",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/3.1/README.md",
-            "title": ".NET 3.1 Release Notes",
-            "type": "text/html"
           }
         }
       }

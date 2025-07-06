@@ -3,45 +3,39 @@
   "description": "Index for .NET 10.0 patch releases",
   "_links": {
     "self": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/index.json",
-      "relative": "index.json",
-      "title": ".NET 10.0 Index",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/supported-os.json",
+      "relative": "10.0/supported-os.json",
+      "title": "Supported OSes",
       "type": "application/json"
     },
-    "majorrelease": {
+    "releases": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/releases.json",
-      "relative": "releases.json",
-      "title": ".NET 10.0 MajorRelease",
+      "relative": "10.0/releases.json",
+      "title": "Releases",
       "type": "application/json"
     },
     "manifest": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/manifest.json",
-      "relative": "manifest.json",
-      "title": ".NET 10.0 Manifest",
-      "type": "application/json"
-    },
-    "supported-os": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/supported-os.json",
-      "relative": "supported-os.json",
-      "title": "Supported OSes",
-      "type": "application/json"
+      "relative": "10.0/manifest.json",
+      "title": "Manifest",
+      "type": "application/hal\u002Bjson"
     },
     "supported-os-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/supported-os.md",
-      "relative": "supported-os.md",
+      "relative": "10.0/supported-os.md",
       "title": "Supported OSes (Raw Markdown)",
       "type": "application/markdown"
     },
     "supported-os-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/10.0/supported-os.md",
-      "relative": "supported-os.md",
-      "title": "Supported OSes",
+      "relative": "10.0/supported-os.md",
+      "title": "Supported OSes (Markdown)",
       "type": "application/markdown"
     },
     "readme-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/10.0/README.md",
-      "relative": "README.md",
-      "title": "Release Notes",
+      "relative": "10.0/README.md",
+      "title": "Release Notes (Markdown)",
       "type": "application/markdown"
     }
   },

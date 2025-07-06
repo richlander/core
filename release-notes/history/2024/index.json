@@ -5,7 +5,7 @@
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/index.json",
-      "relative": "index.json",
+      "relative": "history/2024/index.json",
       "title": "Release history for 2024",
       "type": "application/hal\u002Bjson"
     }
@@ -15,8 +15,14 @@
       {
         "month": "12",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "9.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.101",
+          "9.0.100",
+          "9.0.0"
         ]
       },
       {
@@ -24,28 +30,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/10/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/10/cve.json",
             "title": "Release history for 2024-10",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/10/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/10/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/10/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/10/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "9.0",
-          "8.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-43483",
@@ -67,14 +68,43 @@
             "title": ".NET Remote Code Execution Vulnerability",
             "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-7vw9-cfwx-9gx9"
           }
+        ],
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-rc.2.24474.11",
+          "9.0.0-rc.2.24473.5",
+          "9.0.0-rc.2",
+          "8.0.403",
+          "8.0.306",
+          "8.0.110",
+          "8.0.10",
+          "6.0.427",
+          "6.0.135",
+          "6.0.35"
         ]
       },
       {
         "month": "09",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "9.0",
           "8.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-rc.1.24452.12",
+          "9.0.0-rc.1.24431.7",
+          "9.0.0-rc.1",
+          "8.0.402",
+          "8.0.401",
+          "8.0.400",
+          "8.0.304",
+          "8.0.108",
+          "8.0.8"
         ]
       },
       {
@@ -82,27 +112,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/08/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/08/cve.json",
             "title": "Release history for 2024-08",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/08/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/08/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/08/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/08/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "9.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-38167",
@@ -114,6 +140,18 @@
             "title": ".NET Denial of Service Vulnerability",
             "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-7qrv-8f9x-3h32"
           }
+        ],
+        "dotnet-releases": [
+          "9.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-preview.7.24407.12",
+          "9.0.0-preview.7.24405.7",
+          "9.0.0-preview.7",
+          "6.0.425",
+          "6.0.133",
+          "6.0.33"
         ]
       },
       {
@@ -121,28 +159,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/07/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/07/cve.json",
             "title": "Release history for 2024-07",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/07/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/07/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/07/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/07/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "9.0",
-          "8.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-30105",
@@ -164,14 +197,41 @@
             "title": ".NET Denial of Service Vulnerability",
             "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-447r-wph3-92pm"
           }
+        ],
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-preview.6.24328.19",
+          "9.0.0-preview.6.24327.7",
+          "9.0.0-preview.6",
+          "8.0.303",
+          "8.0.107",
+          "8.0.7",
+          "6.0.424",
+          "6.0.132",
+          "6.0.32"
         ]
       },
       {
         "month": "06",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "9.0",
           "8.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-preview.5.24307.3",
+          "9.0.0-preview.5.24306.7",
+          "9.0.0-preview.5",
+          "8.0.302",
+          "8.0.301",
+          "8.0.206",
+          "8.0.106",
+          "8.0.6"
         ]
       },
       {
@@ -179,29 +239,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/05/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/05/cve.json",
             "title": "Release history for 2024-05",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/05/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/05/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/05/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/05/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "9.0",
-          "8.0",
-          "7.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-30045",
@@ -213,6 +267,35 @@
             "title": ".NET Denial of Service Vulnerability",
             "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-hhc7-x9w4-cw47"
           }
+        ],
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-preview.4.24267.66",
+          "9.0.0-preview.4.24266.19",
+          "9.0.0-preview.4",
+          "8.0.300",
+          "8.0.205",
+          "8.0.105",
+          "8.0.5",
+          "7.0.410",
+          "7.0.409",
+          "7.0.317",
+          "7.0.316",
+          "7.0.120",
+          "7.0.119",
+          "7.0.20",
+          "7.0.19",
+          "6.0.423",
+          "6.0.422",
+          "6.0.131",
+          "6.0.130",
+          "6.0.31",
+          "6.0.30"
         ]
       },
       {
@@ -220,35 +303,50 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/04/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/04/cve.json",
             "title": "Release history for 2024-04",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/04/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/04/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/04/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/04/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "9.0",
-          "8.0",
-          "7.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-21409",
             "title": ".NET Elevation of Privilege Vulnerability",
             "href": "https://github.com/dotnet/wpf/security/advisories/GHSA-6qmx-42h2-j8h6"
           }
+        ],
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-preview.3.24204.13",
+          "9.0.0-preview.3.24172.9",
+          "9.0.0-preview.3",
+          "8.0.204",
+          "8.0.104",
+          "8.0.4",
+          "7.0.408",
+          "7.0.315",
+          "7.0.118",
+          "7.0.18",
+          "6.0.421",
+          "6.0.129",
+          "6.0.29"
         ]
       },
       {
@@ -256,29 +354,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/03/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/03/cve.json",
             "title": "Release history for 2024-03",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/03/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/03/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/03/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/03/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "9.0",
-          "8.0",
-          "7.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-26190",
@@ -290,6 +382,28 @@
             "title": ".NET Denial of Service Vulnerability",
             "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-5fxj-whcv-crrc"
           }
+        ],
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-preview.2.24157.14",
+          "9.0.0-preview.2.24128.5",
+          "9.0.0-preview.2",
+          "8.0.203",
+          "8.0.202",
+          "8.0.103",
+          "8.0.3",
+          "7.0.407",
+          "7.0.314",
+          "7.0.117",
+          "7.0.17",
+          "6.0.420",
+          "6.0.128",
+          "6.0.28"
         ]
       },
       {
@@ -297,29 +411,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/02/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/02/cve.json",
             "title": "Release history for 2024-02",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/02/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/02/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/02/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/02/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "9.0",
-          "8.0",
-          "7.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-21386",
@@ -331,6 +439,28 @@
             "title": ".NET Denial of Service Vulnerability",
             "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-qqwf-5c27-4xxx"
           }
+        ],
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.100-preview.1.24101.2",
+          "9.0.0-preview.1.24080.9",
+          "9.0.0-preview.1",
+          "8.0.201",
+          "8.0.200",
+          "8.0.102",
+          "8.0.2",
+          "7.0.406",
+          "7.0.313",
+          "7.0.116",
+          "7.0.16",
+          "6.0.419",
+          "6.0.127",
+          "6.0.27"
         ]
       },
       {
@@ -338,27 +468,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/11/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/11/cve.json",
             "title": "Release history for 2024-11",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/11/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/11/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/11/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/11/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "8.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-43498",
@@ -370,6 +496,19 @@
             "title": ".NET Core - DoS - (unbounded work factor) in NrbfDecoder component",
             "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-6x36-qxmj-rv4p"
           }
+        ],
+        "dotnet-releases": [
+          "8.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "8.0.404",
+          "8.0.307",
+          "8.0.111",
+          "8.0.11",
+          "6.0.428",
+          "6.0.136",
+          "6.0.36"
         ]
       },
       {
@@ -377,28 +516,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/01/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2024/01/cve.json",
             "title": "Release history for 2024-01",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/01/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/01/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2024/01/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2024/01/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "8.0",
-          "7.0",
-          "6.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2024-0056",
@@ -415,6 +549,23 @@
             "title": ".NET Denial of Service Vulnerability",
             "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-59j7-ghrg-fj52"
           }
+        ],
+        "dotnet-releases": [
+          "8.0",
+          "7.0",
+          "6.0"
+        ],
+        "dotnet-patch-releases": [
+          "8.0.101",
+          "8.0.1",
+          "7.0.405",
+          "7.0.312",
+          "7.0.115",
+          "7.0.15",
+          "6.0.418",
+          "6.0.321",
+          "6.0.126",
+          "6.0.26"
         ]
       }
     ],
@@ -422,60 +573,44 @@
       {
         "version": "9.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
-            "title": ".NET 9.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/index.json",
+            "relative": "history/2024/index.json",
+            "title": "Release history for 2024",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/README.md",
-            "title": ".NET 9.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "8.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/index.json",
-            "title": ".NET 8.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/index.json",
+            "relative": "history/2024/index.json",
+            "title": "Release history for 2024",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/README.md",
-            "title": ".NET 8.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "7.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/index.json",
-            "title": ".NET 7.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/index.json",
+            "relative": "history/2024/index.json",
+            "title": "Release history for 2024",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/README.md",
-            "title": ".NET 7.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "6.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/index.json",
-            "title": ".NET 6.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/index.json",
+            "relative": "history/2024/index.json",
+            "title": "Release history for 2024",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/6.0/README.md",
-            "title": ".NET 6.0 Release Notes",
-            "type": "text/html"
           }
         }
       }

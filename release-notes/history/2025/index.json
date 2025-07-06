@@ -5,7 +5,7 @@
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/index.json",
-      "relative": "index.json",
+      "relative": "history/2025/index.json",
       "title": "Release history for 2025",
       "type": "application/hal\u002Bjson"
     }
@@ -17,34 +17,47 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/06/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2025/06/cve.json",
             "title": "Release history for 2025-06",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/06/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/06/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/06/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/06/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "10.0",
-          "9.0",
-          "8.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2025-30399",
             "title": "DLL Hijacking Remote Code Execution Vulnerability",
             "href": "https://github.com/dotnet/announcements/issues/362"
           }
+        ],
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "dotnet-patch-releases": [
+          "10.0.100-preview.5.25277.114",
+          "10.0.0-preview.5.25277.114",
+          "10.0.0-preview.5",
+          "9.0.301",
+          "9.0.205",
+          "9.0.107",
+          "9.0.6",
+          "8.0.411",
+          "8.0.314",
+          "8.0.117",
+          "8.0.17"
         ]
       },
       {
@@ -52,34 +65,49 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/05/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2025/05/cve.json",
             "title": "Release history for 2025-05",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/05/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/05/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/05/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/05/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "10.0",
-          "9.0",
-          "8.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2025-26646",
             "title": ".NET and Visual Studio Spoofing Vulnerability",
             "href": "https://github.com/dotnet/msbuild/security/advisories/GHSA-h4j7-5rxr-p4wc"
           }
+        ],
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "dotnet-patch-releases": [
+          "10.0.100-preview.4.25258.110",
+          "10.0.0-preview.4.25258.110",
+          "10.0.0-preview.4",
+          "9.0.300",
+          "9.0.204",
+          "9.0.106",
+          "9.0.5",
+          "8.0.410",
+          "8.0.409",
+          "8.0.313",
+          "8.0.312",
+          "8.0.116",
+          "8.0.16"
         ]
       },
       {
@@ -87,34 +115,46 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/04/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2025/04/cve.json",
             "title": "Release history for 2025-04",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/04/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/04/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/04/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/04/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "10.0",
-          "9.0",
-          "8.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2025-26682",
             "title": ".NET Denial of Service Vulnerability",
             "href": "https://github.com/dotnet/aspnetcore/issues/61390"
           }
+        ],
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "dotnet-patch-releases": [
+          "10.0.100-preview.3.25201.16",
+          "10.0.0-preview.3.25171.5",
+          "10.0.0-preview.3",
+          "9.0.203",
+          "9.0.105",
+          "9.0.4",
+          "8.0.408",
+          "8.0.311",
+          "8.0.115",
+          "8.0.15"
         ]
       },
       {
@@ -122,43 +162,69 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/03/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2025/03/cve.json",
             "title": "Release history for 2025-03",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/03/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/03/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/03/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/03/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "10.0",
-          "9.0",
-          "8.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2025-24070",
             "title": ".NET Elevation of Privilege Vulnerability",
             "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-2865-hh9g-w894"
           }
+        ],
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ],
+        "dotnet-patch-releases": [
+          "10.0.100-preview.2.25164.34",
+          "10.0.0-preview.2.25163.2",
+          "10.0.0-preview.2",
+          "9.0.202",
+          "9.0.201",
+          "9.0.104",
+          "9.0.3",
+          "8.0.407",
+          "8.0.310",
+          "8.0.114",
+          "8.0.14"
         ]
       },
       {
         "month": "02",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "10.0",
           "9.0",
           "8.0"
+        ],
+        "dotnet-patch-releases": [
+          "10.0.100-preview.1.25120.13",
+          "10.0.0-preview.1.25080.5",
+          "10.0.0-preview.1",
+          "9.0.200",
+          "9.0.103",
+          "9.0.2",
+          "8.0.406",
+          "8.0.309",
+          "8.0.113",
+          "8.0.13"
         ]
       },
       {
@@ -166,27 +232,23 @@
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/01/cve.json",
-            "relative": "cve.json",
+            "relative": "history/2025/01/cve.json",
             "title": "Release history for 2025-01",
             "type": "application/json"
           },
           "cve-markdown-raw": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/01/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/01/cve.md",
             "title": "CVE Information (Raw Markdown)",
             "type": "application/markdown"
           },
           "cve-markdown": {
             "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/01/cve.md",
-            "relative": "cve.md",
+            "relative": "history/2025/01/cve.md",
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
         },
-        "dotnet-releases": [
-          "9.0",
-          "8.0"
-        ],
         "cve-records": [
           {
             "id": "CVE-2025-21171",
@@ -208,6 +270,18 @@
             "title": ".NET Elevation of Privilege Vulnerability",
             "href": "https://github.com/dotnet/sdk/issues/45959"
           }
+        ],
+        "dotnet-releases": [
+          "9.0",
+          "8.0"
+        ],
+        "dotnet-patch-releases": [
+          "9.0.102",
+          "9.0.1",
+          "8.0.405",
+          "8.0.308",
+          "8.0.112",
+          "8.0.12"
         ]
       }
     ],
@@ -215,45 +289,33 @@
       {
         "version": "10.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/index.json",
-            "title": ".NET 10.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/index.json",
+            "relative": "history/2025/index.json",
+            "title": "Release history for 2025",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/10.0/README.md",
-            "title": ".NET 10.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "9.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
-            "title": ".NET 9.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/index.json",
+            "relative": "history/2025/index.json",
+            "title": "Release history for 2025",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/README.md",
-            "title": ".NET 9.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "8.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/index.json",
-            "title": ".NET 8.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/index.json",
+            "relative": "history/2025/index.json",
+            "title": "Release history for 2025",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/8.0/README.md",
-            "title": ".NET 8.0 Release Notes",
-            "type": "text/html"
           }
         }
       }

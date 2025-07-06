@@ -3,51 +3,45 @@
   "description": "Index for .NET 7.0 patch releases",
   "_links": {
     "self": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/index.json",
-      "relative": "index.json",
-      "title": ".NET 7.0 Index",
-      "type": "application/json"
-    },
-    "majorrelease": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/releases.json",
-      "relative": "releases.json",
-      "title": ".NET 7.0 MajorRelease",
-      "type": "application/json"
-    },
-    "supported-os": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/supported-os.json",
-      "relative": "supported-os.json",
+      "relative": "7.0/supported-os.json",
       "title": "Supported OSes",
+      "type": "application/json"
+    },
+    "releases": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/releases.json",
+      "relative": "7.0/releases.json",
+      "title": "Releases",
       "type": "application/json"
     },
     "supported-os-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/supported-os.md",
-      "relative": "supported-os.md",
+      "relative": "7.0/supported-os.md",
       "title": "Supported OSes (Raw Markdown)",
       "type": "application/markdown"
     },
     "supported-os-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/supported-os.md",
-      "relative": "supported-os.md",
-      "title": "Supported OSes",
+      "relative": "7.0/supported-os.md",
+      "title": "Supported OSes (Markdown)",
       "type": "application/markdown"
     },
     "linux-packages-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/linux-packages.md",
-      "relative": "linux-packages.md",
+      "relative": "7.0/linux-packages.md",
       "title": "Linux Packages (Raw Markdown)",
       "type": "application/markdown"
     },
     "linux-packages-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/linux-packages.md",
-      "relative": "linux-packages.md",
-      "title": "Linux Packages",
+      "relative": "7.0/linux-packages.md",
+      "title": "Linux Packages (Markdown)",
       "type": "application/markdown"
     },
     "readme-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/README.md",
-      "relative": "README.md",
-      "title": "Release Notes",
+      "relative": "7.0/README.md",
+      "title": "Release Notes (Markdown)",
       "type": "application/markdown"
     }
   },

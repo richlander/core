@@ -5,7 +5,7 @@
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2020/index.json",
-      "relative": "index.json",
+      "relative": "history/2020/index.json",
       "title": "Release history for 2020",
       "type": "application/hal\u002Bjson"
     }
@@ -15,103 +15,243 @@
       {
         "month": "12",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.101",
+          "5.0.1"
         ]
       },
       {
         "month": "11",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100",
+          "5.0.0",
+          "3.1.404",
+          "3.1.110",
+          "3.1.10"
         ]
       },
       {
         "month": "10",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100-rc.2.20479.15",
+          "5.0.0-rc.2.20475.5",
+          "5.0.0-rc.2",
+          "3.1.403",
+          "3.1.109",
+          "3.1.9",
+          "2.1.811",
+          "2.1.616",
+          "2.1.519",
+          "2.1.23"
         ]
       },
       {
         "month": "09",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100-rc.1.20452.10",
+          "5.0.0-rc.1.20451.14",
+          "5.0.0-rc.1",
+          "3.1.402",
+          "3.1.108",
+          "3.1.8",
+          "2.1.810",
+          "2.1.615",
+          "2.1.518",
+          "2.1.22"
         ]
       },
       {
         "month": "08",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100-preview.8.20417.9",
+          "5.0.0-preview.8.20407.11",
+          "5.0.0-preview.8",
+          "3.1.401",
+          "3.1.107",
+          "3.1.7",
+          "2.1.809",
+          "2.1.614",
+          "2.1.517",
+          "2.1.21"
         ]
       },
       {
         "month": "07",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100-preview.7.20366.6",
+          "5.0.0-preview.7.20364.11",
+          "5.0.0-preview.7",
+          "3.1.302",
+          "3.1.106",
+          "3.1.6",
+          "2.1.808",
+          "2.1.613",
+          "2.1.516",
+          "2.1.20"
         ]
       },
       {
         "month": "06",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100-preview.6.20318.15",
+          "5.0.100-preview.5.20279.10",
+          "5.0.0-preview.6.20305.6",
+          "5.0.0-preview.6",
+          "5.0.0-preview.5.20278.1",
+          "5.0.0-preview.5",
+          "3.1.301",
+          "3.1.105",
+          "3.1.5",
+          "2.1.807",
+          "2.1.612",
+          "2.1.515",
+          "2.1.19"
         ]
       },
       {
         "month": "05",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100-preview.4.20258.7",
+          "5.0.0-preview.4.20251.6",
+          "5.0.0-preview.4",
+          "3.1.300",
+          "3.1.202",
+          "3.1.104",
+          "3.1.4",
+          "2.1.806",
+          "2.1.611",
+          "2.1.514",
+          "2.1.18"
         ]
       },
       {
         "month": "04",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100-preview.3.20216.6",
+          "5.0.100-preview.2.20176.6",
+          "5.0.0-preview.3.20214.6",
+          "5.0.0-preview.3",
+          "5.0.0-preview.2.20160.6",
+          "5.0.0-preview.2"
         ]
       },
       {
         "month": "03",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "5.0.100-preview.1.20155.7",
+          "5.0.0-preview.1.20120.5",
+          "5.0.0-preview.1",
+          "3.1.201",
+          "3.1.200",
+          "3.1.103",
+          "3.1.102",
+          "3.1.3",
+          "3.1.2",
+          "2.1.805",
+          "2.1.610",
+          "2.1.513",
+          "2.1.17"
         ]
       },
       {
         "month": "01",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "3.1",
           "3.0",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "3.1.101",
+          "3.1.1",
+          "3.0.102",
+          "3.0.2",
+          "2.1.803",
+          "2.1.608",
+          "2.1.511",
+          "2.1.15"
         ]
       },
       {
         "month": "02",
         "_links": {},
+        "cve-records": [],
         "dotnet-releases": [
           "3.0",
           "2.1"
+        ],
+        "dotnet-patch-releases": [
+          "3.0.103",
+          "3.0.3",
+          "2.1.804",
+          "2.1.609",
+          "2.1.512",
+          "2.1.16"
         ]
       }
     ],
@@ -119,60 +259,44 @@
       {
         "version": "5.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/5.0/index.json",
-            "title": ".NET 5.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2020/index.json",
+            "relative": "history/2020/index.json",
+            "title": "Release history for 2020",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/5.0/README.md",
-            "title": ".NET 5.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "3.1",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/3.1/index.json",
-            "title": ".NET 3.1 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2020/index.json",
+            "relative": "history/2020/index.json",
+            "title": "Release history for 2020",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/3.1/README.md",
-            "title": ".NET 3.1 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "3.0",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/3.0/index.json",
-            "title": ".NET 3.0 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2020/index.json",
+            "relative": "history/2020/index.json",
+            "title": "Release history for 2020",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/3.0/README.md",
-            "title": ".NET 3.0 Release Notes",
-            "type": "text/html"
           }
         }
       },
       {
         "version": "2.1",
         "_links": {
-          "index": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.1/index.json",
-            "title": ".NET 2.1 Release Index",
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2020/index.json",
+            "relative": "history/2020/index.json",
+            "title": "Release history for 2020",
             "type": "application/hal\u002Bjson"
-          },
-          "readme": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/2.1/README.md",
-            "title": ".NET 2.1 Release Notes",
-            "type": "text/html"
           }
         }
       }
