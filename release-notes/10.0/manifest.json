@@ -2,13 +2,13 @@
   "kind": "manifest",
   "_links": {
     "self": {
-      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases/10.0/manifest.json",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/releases/10.0/manifest.json",
       "relative": "manifest.json",
       "title": ".NET 10 Release Manifest",
       "type": "application/json"
     },
     "index": {
-      "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/10.0/index.json",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/index.json",
       "relative": "index.json",
       "title": ".NET 10 Index",
       "type": "application/json"
