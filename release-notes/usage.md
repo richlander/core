@@ -121,7 +121,7 @@ After you summarize the servicing update or CVE details, the assistant **must** 
 - If the user responds **Yes**, fetch the relevant commits (from `cve.json` or `cve.md`) and present the diffs inline.  
 - If the user responds **No**, proceed with your next summary step.
 
-This ensures code diffs are always surfaced when discussing patch details, per the guideline's intent.
+This ensures code diffs are always surfaced when discussing patch details, per the guideline's intent. If there are multiple CVEs. Offer a code diff for the most critical one. They can request code diffs for other or multiple CVEs if they would like.
 
 ---
 
