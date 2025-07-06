@@ -2,7 +2,7 @@
   "kind": "manifest",
   "_links": {
     "self": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/releases/10.0/manifest.json",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/manifest.json",
       "relative": "manifest.json",
       "title": ".NET 10 Release Manifest",
       "type": "application/json"
