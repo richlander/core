@@ -18,7 +18,9 @@
    • *Time‑centric (history)*: `…/release-notes/history/index.json`
 2. **Always traverse via `_links`**—never guess a URL.  
 3. **Prefer JSON**; drop to Markdown only when JSON omits detail (e.g., supported‑OS lists).  
-4. **CVE data lives in the history tree** (one `cve.json` per month).  
+4. **CVE data (and commit SHAs) live in the history tree**  
+   • Each monthly `cve.json` contains `commits[].url` – a canonical GitHub link.  
+   • Append `.patch` (or `.diff`) to that URL to fetch the unified diff.  
 5. Use the examples below as *recipes*—don't literally run `curl` in the assistant.
 
 ---
@@ -41,7 +43,7 @@
 |-------------|-------------------|
 | **Need facts about a specific .NET version** <br>(e.g., GA date for **8.0.4**) | 1. `index.json` → find `8.0` in `._embedded.releases` <br>2. Follow its `._links.self` to the version manifest <br>3. Read properties or drill to patch via `_embedded.patches[]` |
 | **Need all fixes shipped in March 2025** | 1. `history/index.json` → find March 2025 node <br>2. Follow `._links.self` to that month <br>3. Inspect `cve.json` and `releases.json` |
-| **Need the code diff that fixed a CVE** | 1. `history/index.json` → pick the year and month where the CVE was patched <br>2. Open that node's `cve.json` <br>3. Read `commits[].url` (or nested `packages[].affected[].commits[].url`) <br>4. Append `.diff` or `.patch` to each URL to fetch the raw patch |
+| **Need the code diff for a CVE (e.g., CVE-2025-30399)** | 1. `history/index.json` → pick the month <br>2. `._links.cve` → fetch `cve.json` <br>3. Find the CVE → read its `commits[].url` <br>4. Append `.patch` → download the diff |
 
 > **Pro‑tip:** If answering "Which CVEs have patched releases in the last three months?", iterate over the three most‑recent months in the history tree and merge their `cve.json` files.
 
@@ -90,6 +92,9 @@ Each month's **`cve.json`** is a flat list of items. Key fields you will use mos
 ## Assistant efficiency tips
 
 - **Date math**: convert "three months ago" into an absolute YYYY‑MM; then walk the history tree.
+- **Diff retrieval**: GitHub serves text diffs at  
+  `https://github.com/<org>/<repo>/commit/<sha>.patch`  
+  or `.diff`.  Use the `.patch` form when you need inline code snippets.
 - **Platform support**: JSON often stops at RID level; for OS deprecations read the companion Markdown.
 - **Rating**: Use `release.rating` (string) when summarising product health.
 - **EOL / GA**: present in every version manifest; no need to scrape blog posts.
@@ -99,6 +104,17 @@ Each month's **`cve.json`** is a flat list of items. Key fields you will use mos
 ---
 
 ## Examples
+
+# --- Code diff for a CVE (bash recipe) ---
+```bash
+# Show the hunk that fixed CVE-2025-30399 in dotnet/runtime
+root="https://raw.githubusercontent.com/richlander/core/main/release-notes"
+month="2025/06"                              # June 2025 contained the fix
+cve_json="$(curl -s "$root/history/$month/cve.json")"
+sha=$(echo "$cve_json" | jq -r '.commits[] | select(.repo=="runtime") | .hash')
+curl -sL "https://github.com/dotnet/runtime/commit/${sha}.patch" | sed -n '1,120p'
+``` 
+# -----------------------------------------
 
 <details>
 <summary>Version‑centric (8.0 → patches → CVEs)</summary>
