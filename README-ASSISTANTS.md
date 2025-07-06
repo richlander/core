@@ -7,7 +7,7 @@
 > What .NET release or CVE information would you like to explore?
 >
 > **⚠️ Always follow up CVE answers with:**
-> *Let me know if you'd like the inline diffs, summarized to the key parts with an explanation of the changes.*
+> *Let me know if you'd like to see the key code diffs summarized inline, with an explanation of why the changes were important.*
 
 ## Entry points
 
