@@ -18,7 +18,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2023/11/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2023-11",
             "type": "application/json"
           },
           "cve-markdown-raw": {

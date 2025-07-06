@@ -5,7 +5,7 @@
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
       "relative": "index.json",
-      "title": "History Index",
+      "title": "History of .NET releases",
       "type": "application/hal\u002Bjson"
     }
   },
@@ -19,7 +19,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2025",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -37,7 +37,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2024",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -56,7 +56,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2023/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2023",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -74,7 +74,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2022/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2022",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -93,7 +93,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2021",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -112,7 +112,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2020/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2020",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -131,7 +131,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2019/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2019",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -152,7 +152,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2018/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2018",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -173,7 +173,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2017/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2017",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -191,7 +191,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2016/index.json",
             "relative": "index.json",
-            "title": "History Index",
+            "title": "Release history for 2016",
             "type": "application/hal\u002Bjson"
           }
         },

@@ -25,7 +25,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/10/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-10",
             "type": "application/json"
           },
           "cve-markdown-raw": {
@@ -83,7 +83,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/08/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-08",
             "type": "application/json"
           },
           "cve-markdown-raw": {
@@ -122,7 +122,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/07/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-07",
             "type": "application/json"
           },
           "cve-markdown-raw": {
@@ -180,7 +180,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/05/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-05",
             "type": "application/json"
           },
           "cve-markdown-raw": {
@@ -221,7 +221,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/04/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-04",
             "type": "application/json"
           },
           "cve-markdown-raw": {
@@ -257,7 +257,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/03/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-03",
             "type": "application/json"
           },
           "cve-markdown-raw": {
@@ -298,7 +298,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/02/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-02",
             "type": "application/json"
           },
           "cve-markdown-raw": {
@@ -339,7 +339,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/11/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-11",
             "type": "application/json"
           },
           "cve-markdown-raw": {
@@ -378,7 +378,7 @@
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/01/cve.json",
             "relative": "cve.json",
-            "title": "CVE Information",
+            "title": "Release history for 2024-01",
             "type": "application/json"
           },
           "cve-markdown-raw": {
