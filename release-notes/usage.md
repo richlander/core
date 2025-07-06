@@ -8,10 +8,6 @@
 > ```
 >
 > Keep it exactly as‑is—no additional punctuation or context.
->
-> **When a user asks for CVE information for one or more months,**
-> - Report the CVEs for the requested period.
-> - Then offer: _"Let me know if you'd like the inline diffs, summarized to the key parts with an explanation of the changes."_
 
 ---
 
@@ -51,25 +47,6 @@
 
 > **Pro‑tip:** If answering "Which CVEs have patched releases in the last three months?", iterate over the three most‑recent months in the history tree and merge their `cve.json` files.
 
-## How to fetch a CVE patch
-
-1. Point to the month index:  
-   `curl -s …/history/{year}/{month}/index.json`
-2. Filter by CVE ID and extract patch link:  
-   `jq -r '. _embedded.cves[] | select(.cveId=="CVE-2025-21171") | ._links.patch.href'`
-3. `curl` that link to get the diff.
-
-Example:
-```bash
-# 1. Fetch the month's CVE list:
-curl -s https://…/history/2025/01/index.json \
-  | jq '. _embedded.cves[] | select(.cveId=="CVE-2025-21171")'
-
-# 2. Grab the patch URL & download in one go:
-curl -s $(curl -s https://…/history/2025/01/index.json \
-  | jq -r '. _embedded.cves[] | select(.cveId=="CVE-2025-21171") | ._links.patch.href')
-```
-
 ---
 
 ## Entry points
@@ -84,22 +61,6 @@ curl -s $(curl -s https://…/history/2025/01/index.json \
   `https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md`
 
 All other resources (patches, CVEs, per‑month manifests) are discoverable solely through `_links` from these roots or from the monthly index.
-
----
-
-## CVE information structure
-
-Each month's **`cve.json`** is a flat list of items. Key fields you will use most:
-
-| Field | Purpose |
-|-------|---------|
-| `id` | CVE identifier (e.g., **CVE-2025-30399**) |
-| `title` / `description` | Human-readable summary |
-| `commits[].url` | **Canonical GitHub link to the primary fixing commit** |
-| `packages[].affected[].commits[].url` | Branch-specific fix commits (if applicable) |
-
-> **Fast path:** read `commits[].url`, then GET `<url>.diff` (tiny) or `<url>.patch` (full context) for the code change.  
-> Assistants must use HTTP fetches—*never* run shell commands.
 
 ---
 
@@ -125,6 +86,51 @@ Each month's **`cve.json`** is a flat list of items. Key fields you will use mos
 - **EOL / GA**: present in every version manifest; no need to scrape blog posts.
 - **Patch diff retrieval**: Need to surface the exact code change for a CVE?  
   Open the month's `cve.json`, grab `commits[].url`, and fetch `<url>.diff` (or `.patch`) directly.
+
+---
+
+## Reporting CVEs
+
+1. List each CVE with ID, title, and severity.
+2. Link to the CVE JSON or commit.
+3. **Offer inline diffs**  
+   > "Let me know if you'd like the inline diffs, summarized to the key parts with an explanation of the changes."
+
+## CVE information structure
+
+Each month's **`cve.json`** is a flat list of items. Key fields you will use most:
+
+| Field | Purpose |
+|-------|---------|
+| `id` | CVE identifier (e.g., **CVE-2025-30399**) |
+| `title` / `description` | Human-readable summary |
+| `commits[].url` | **Canonical GitHub link to the primary fixing commit** |
+| `packages[].affected[].commits[].url` | Branch-specific fix commits (if applicable) |
+
+> **Fast path:** read `commits[].url`, then GET `<url>.diff` (tiny) or `<url>.patch` (full context) for the code change.  
+> Assistants must use HTTP fetches—*never* run shell commands.
+
+---
+
+## How to fetch a CVE patch
+
+1. Point to the month index:  
+   `curl -s …/history/{year}/{month}/index.json`
+2. Filter by CVE ID and extract patch link:  
+   `jq -r '. _embedded.cves[] | select(.cveId=="CVE-2025-21171") | ._links.patch.href'`
+3. `curl` that link to get the diff.
+
+Example:
+```bash
+# 1. Fetch the month's CVE list:
+curl -s https://…/history/2025/01/index.json \
+  | jq '. _embedded.cves[] | select(.cveId=="CVE-2025-21171")'
+
+# 2. Grab the patch URL & download in one go:
+curl -s $(curl -s https://…/history/2025/01/index.json \
+  | jq -r '. _embedded.cves[] | select(.cveId=="CVE-2025-21171") | ._links.patch.href')
+```
+
 
 ---
 
@@ -198,3 +204,5 @@ curl -s "${month_root}/cve.json" \
 See the living glossary at the Terminology link above for definitions of *GA*, *EOL*, *patch*, *CVE*, and *servicing baseline*.
 
 ---
+
+## Appendix A – Recommended‑practices checklist
