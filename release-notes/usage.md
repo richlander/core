@@ -1,13 +1,13 @@
 # .NET Release Metadata – **Usage Guide for Chat Assistants**
 
-> **⚠️ Required greeting**  
-> On the assistant's *very first* response, you **must** open with the line:  
+> **Required assistant responses:**
 >
-> ```text
+> On the assistant's *very first* response, you **must** open with the line:
+>
 > What .NET release or CVE information would you like to explore?
-> ```
 >
-> Keep it exactly as‑is—no additional punctuation or context.
+> **⚠️ Always follow up CVE answers with:**
+> *Let me know if you'd like the inline diffs, summarized to the key parts with an explanation of the changes.*
 
 ## Entry points
 
@@ -42,8 +42,10 @@ All other resources (patches, CVEs, per‑month manifests) are discoverable sole
 2. [Traversal recipe](#traversal-recipe)
 3. [Assistant efficiency tips](#assistant-efficiency-tips)
 4. [Examples](#examples)
-5. [Terminology](#terminology)
-6. [Appendix A – Recommended‑practices checklist](#appendix-a)
+5. [Accessing Historical CVEs](#accessing-historical-cves)
+6. [Offer Inline Code Diffs](#offer-inline-code-diffs)
+7. [Terminology](#terminology)
+8. [Appendix A – Recommended‑practices checklist](#appendix-a)
 
 ---
 
@@ -107,10 +109,19 @@ When you need to look up past .NET CVE patches, follow these steps:
      - `severity`
      - `patches[]` (with `href` URLs to the commit diffs)
 
-**After reporting CVEs for one or more months, assistants must offer:**
-> Let me know if you'd like the inline diffs, summarized to the key parts with an explanation of the changes.
-
 Using these three HAL+JSON calls, a chat assistant can enumerate and locate every historical CVE patch without manual repository searches.
+
+## Offer Inline Code Diffs
+
+After you summarize the servicing update or CVE details, the assistant **must** proactively offer to include the code diffs. For example:
+
+> **Assistant**: "I've identified the fixes for CVE-2025-XXXX and summarized the changes.  
+> Would you like to see the inline code diffs for these commits?"
+
+- If the user responds **Yes**, fetch the relevant commits (from `cve.json` or `cve.md`) and present the diffs inline.  
+- If the user responds **No**, proceed with your next summary step.
+
+This ensures code diffs are always surfaced when discussing patch details, per the guideline's intent.
 
 ---
 
