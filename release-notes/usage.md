@@ -9,46 +9,6 @@
 >
 > Keep it exactly as‑is—no additional punctuation or context.
 
----
-
-## ✨ TL;DR (read this first)
-
-1. **Two entry points**:  
-   • *Version‑centric*: `…/release-notes/index.json`  
-   • *Time‑centric (history)*: `…/release-notes/history/index.json`
-2. **Always traverse via `_links`**—never guess a URL.  
-3. **Prefer JSON**; drop to Markdown only when JSON omits detail (e.g., supported‑OS lists).  
-4. **CVE data (and commit SHAs) live in the history tree**  
-   • Each monthly `cve.json` contains `commits[].url` – a canonical GitHub link.  
-   • Append `.patch` (or `.diff`) to that URL to fetch the unified diff.  
-5. Use the examples below as *recipes*—don't literally run `curl` in the assistant.
-
----
-
-## Table&nbsp;of&nbsp;Contents
-
-1. [Quick‑start flows](#quick-start-flows)
-2. [Entry points](#entry-points)
-3. [Traversal recipe](#traversal-recipe)
-4. [Assistant efficiency tips](#assistant-efficiency-tips)
-5. [Examples](#examples)
-6. [Terminology](#terminology)
-7. [Appendix A – Recommended‑practices checklist](#appendix-a)
-
----
-
-## Quick‑start flows
-
-| ✔︎ Scenario | Follow these links |
-|-------------|-------------------|
-| **Need facts about a specific .NET version** <br>(e.g., GA date for **8.0.4**) | 1. `index.json` → find `8.0` in `._embedded.releases` <br>2. Follow its `._links.self` to the version manifest <br>3. Read properties or drill to patch via `_embedded.patches[]` |
-| **Need all fixes shipped in March 2025** | 1. `history/2025/03/index.json` → inspect `cve.json` and `releases.json` |
-| **Need the code diff for a CVE (e.g., CVE-2025-30399)** | 1. `history/2025/06/index.json` → fetch `cve.json` <br>2. Find the CVE → read its `commits[].url` <br>3. Append `.patch` → download the diff |
-
-> **Pro‑tip:** If answering "Which CVEs have patched releases in the last three months?", iterate over the three most‑recent months in the history tree and merge their `cve.json` files.
-
----
-
 ## Entry points
 
 * **Root index (latest view)**  
@@ -61,6 +21,41 @@
   `https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md`
 
 All other resources (patches, CVEs, per‑month manifests) are discoverable solely through `_links` from these roots or from the monthly index.
+
+---
+
+## ✨ TL;DR (read this first)
+
+1. **Always start from one of the entry points above.**
+2. **Always traverse via `_links`**—never guess a URL.  
+3. **Prefer JSON**; drop to Markdown only when JSON omits detail (e.g., supported‑OS lists).  
+4. **CVE data (and commit SHAs) live in the history tree**  
+   • Each monthly `cve.json` contains `commits[].url` – a canonical GitHub link.  
+   • Append `.patch` (or `.diff`) to that URL to fetch the unified diff.  
+5. Use the examples below as *recipes*—don't literally run `curl` in the assistant.
+
+---
+
+## Table&nbsp;of&nbsp;Contents
+
+1. [Quick‑start flows](#quick-start-flows)
+2. [Traversal recipe](#traversal-recipe)
+3. [Assistant efficiency tips](#assistant-efficiency-tips)
+4. [Examples](#examples)
+5. [Terminology](#terminology)
+6. [Appendix A – Recommended‑practices checklist](#appendix-a)
+
+---
+
+## Quick‑start flows
+
+| ✔︎ Scenario | Follow these links |
+|-------------|-------------------|
+| **Need facts about a specific .NET version** <br>(e.g., GA date for **8.0.4**) | 1. `index.json` → find `8.0` in `._embedded.releases` <br>2. Follow its `._links.self` to the version manifest <br>3. Read properties or drill to patch via `_embedded.patches[]` |
+| **Need all fixes shipped in March 2025** | 1. `history/2025/03/index.json` → inspect `cve.json` and `releases.json` |
+| **Need the code diff for a CVE (e.g., CVE-2025-30399)** | 1. `history/2025/06/index.json` → fetch `cve.json` <br>2. Find the CVE → read its `commits[].url` <br>3. Append `.patch` → download the diff |
+
+> **Pro‑tip:** If answering "Which CVEs have patched releases in the last three months?", iterate over the three most‑recent months in the history tree and merge their `cve.json` files.
 
 ---
 
@@ -89,48 +84,33 @@ All other resources (patches, CVEs, per‑month manifests) are discoverable sole
 
 ---
 
-## Reporting CVEs
+## Accessing Historical CVEs
 
-1. List each CVE with ID, title, and severity.
-2. Link to the CVE JSON or commit.
-3. **Offer inline diffs**  
-   > "Let me know if you'd like the inline diffs, summarized to the key parts with an explanation of the changes."
+When you need to look up past .NET CVE patches, follow these steps:
 
-## CVE information structure
+1. **Fetch the top-level history index**  
+   `GET https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json`
+   - Returns a list of years for which historical data is available.
 
-Each month's **`cve.json`** is a flat list of items. Key fields you will use most:
+2. **Fetch the month-level index**  
+   For each relevant year/month, request:  
+   `GET https://raw.githubusercontent.com/richlander/core/main/release-notes/history/{year}/{month}/index.json`
+   - Example: `GET https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/01/index.json`
+   - Reveals which data files (e.g. `cve.json`) are present for that month.
 
-| Field | Purpose |
-|-------|---------|
-| `id` | CVE identifier (e.g., **CVE-2025-30399**) |
-| `title` / `description` | Human-readable summary |
-| `commits[].url` | **Canonical GitHub link to the primary fixing commit** |
-| `packages[].affected[].commits[].url` | Branch-specific fix commits (if applicable) |
+3. **Fetch the CVE metadata**  
+   In the same folder, retrieve the CVE details:  
+   `GET https://raw.githubusercontent.com/richlander/core/main/release-notes/history/{year}/{month}/cve.json`
+   - The returned JSON includes an `advisories[]` array, where each element contains:
+     - `id` (e.g. "CVE-2025-21171")
+     - `description`
+     - `severity`
+     - `patches[]` (with `href` URLs to the commit diffs)
 
-> **Fast path:** read `commits[].url`, then GET `<url>.diff` (tiny) or `<url>.patch` (full context) for the code change.  
-> Assistants must use HTTP fetches—*never* run shell commands.
+**After reporting CVEs for one or more months, assistants must offer:**
+> Let me know if you'd like the inline diffs, summarized to the key parts with an explanation of the changes.
 
----
-
-## How to fetch a CVE patch
-
-1. Point to the month index:  
-   `curl -s …/history/{year}/{month}/index.json`
-2. Filter by CVE ID and extract patch link:  
-   `jq -r '. _embedded.cves[] | select(.cveId=="CVE-2025-21171") | ._links.patch.href'`
-3. `curl` that link to get the diff.
-
-Example:
-```bash
-# 1. Fetch the month's CVE list:
-curl -s https://…/history/2025/01/index.json \
-  | jq '. _embedded.cves[] | select(.cveId=="CVE-2025-21171")'
-
-# 2. Grab the patch URL & download in one go:
-curl -s $(curl -s https://…/history/2025/01/index.json \
-  | jq -r '. _embedded.cves[] | select(.cveId=="CVE-2025-21171") | ._links.patch.href')
-```
-
+Using these three HAL+JSON calls, a chat assistant can enumerate and locate every historical CVE patch without manual repository searches.
 
 ---
 
