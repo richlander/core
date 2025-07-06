@@ -49,13 +49,6 @@
     "commits": [
         {
             "repo": "runtime",
-            "branch": "release/6.0",
-            "hash": "973aad6a695436f3a8227e0c5e017d1f99dc5199",
-            "org": "dotnet",
-            "url": "https://github.com/dotnet/runtime/commit/973aad6a695436f3a8227e0c5e017d1f99dc5199"
-        },
-        {
-            "repo": "runtime",
             "branch": "release/8.0",
             "hash": "b33d4e34e1cbf993583d78fc1b64ea8400935978",
             "org": "dotnet",
