@@ -1,0 +1,36 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2019-07",
+  "year": "2019",
+  "month": "07",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2019/07/index.json",
+      "relative": "history/2019/07/index.json",
+      "title": "Release history for 2019-07",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "3.0",
+      "2.2",
+      "2.1"
+    ],
+    "dotnet-patch-releases": [
+      "3.0.100-preview7-012821",
+      "3.0.0-preview7-27912-14",
+      "3.0.0-preview7",
+      "2.2.401",
+      "2.2.301",
+      "2.2.205",
+      "2.2.108",
+      "2.2.6",
+      "2.1.801",
+      "2.1.701",
+      "2.1.605",
+      "2.1.508",
+      "2.1.12"
+    ]
+  }
+}

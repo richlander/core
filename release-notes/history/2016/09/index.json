@@ -1,0 +1,22 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2016-09",
+  "year": "2016",
+  "month": "09",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2016/09/index.json",
+      "relative": "history/2016/09/index.json",
+      "title": "Release history for 2016-09",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "1.0"
+    ],
+    "dotnet-patch-releases": [
+      "1.0.1"
+    ]
+  }
+}

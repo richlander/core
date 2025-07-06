@@ -1,0 +1,33 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2020-08",
+  "year": "2020",
+  "month": "08",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2020/08/index.json",
+      "relative": "history/2020/08/index.json",
+      "title": "Release history for 2020-08",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "5.0",
+      "3.1",
+      "2.1"
+    ],
+    "dotnet-patch-releases": [
+      "5.0.100-preview.8.20417.9",
+      "5.0.0-preview.8.20407.11",
+      "5.0.0-preview.8",
+      "3.1.401",
+      "3.1.107",
+      "3.1.7",
+      "2.1.809",
+      "2.1.614",
+      "2.1.517",
+      "2.1.21"
+    ]
+  }
+}

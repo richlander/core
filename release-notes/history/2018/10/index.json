@@ -1,0 +1,29 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2018-10",
+  "year": "2018",
+  "month": "10",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2018/10/index.json",
+      "relative": "history/2018/10/index.json",
+      "title": "Release history for 2018-10",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "2.2",
+      "2.1",
+      "1.1",
+      "1.0"
+    ],
+    "dotnet-patch-releases": [
+      "2.2.0-preview3-27014-02",
+      "2.2.0-preview3",
+      "2.1.5",
+      "1.1.10",
+      "1.0.13"
+    ]
+  }
+}

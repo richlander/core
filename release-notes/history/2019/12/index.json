@@ -1,0 +1,23 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2019-12",
+  "year": "2019",
+  "month": "12",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2019/12/index.json",
+      "relative": "history/2019/12/index.json",
+      "title": "Release history for 2019-12",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "3.1"
+    ],
+    "dotnet-patch-releases": [
+      "3.1.100",
+      "3.1.0"
+    ]
+  }
+}

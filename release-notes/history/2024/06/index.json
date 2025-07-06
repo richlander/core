@@ -1,0 +1,30 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2024-06",
+  "year": "2024",
+  "month": "06",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2024/06/index.json",
+      "relative": "history/2024/06/index.json",
+      "title": "Release history for 2024-06",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "9.0",
+      "8.0"
+    ],
+    "dotnet-patch-releases": [
+      "9.0.100-preview.5.24307.3",
+      "9.0.0-preview.5.24306.7",
+      "9.0.0-preview.5",
+      "8.0.302",
+      "8.0.301",
+      "8.0.206",
+      "8.0.106",
+      "8.0.6"
+    ]
+  }
+}

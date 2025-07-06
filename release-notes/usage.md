@@ -42,10 +42,29 @@
 | ✔︎ Scenario | Follow these links |
 |-------------|-------------------|
 | **Need facts about a specific .NET version** <br>(e.g., GA date for **8.0.4**) | 1. `index.json` → find `8.0` in `._embedded.releases` <br>2. Follow its `._links.self` to the version manifest <br>3. Read properties or drill to patch via `_embedded.patches[]` |
-| **Need all fixes shipped in March 2025** | 1. `history/index.json` → find March 2025 node <br>2. Follow `._links.self` to that month <br>3. Inspect `cve.json` and `releases.json` |
-| **Need the code diff for a CVE (e.g., CVE-2025-30399)** | 1. `history/index.json` → pick the month <br>2. `._links.cve` → fetch `cve.json` <br>3. Find the CVE → read its `commits[].url` <br>4. Append `.patch` → download the diff |
+| **Need all fixes shipped in March 2025** | 1. `history/2025/03/index.json` → inspect `cve.json` and `releases.json` |
+| **Need the code diff for a CVE (e.g., CVE-2025-30399)** | 1. `history/2025/06/index.json` → fetch `cve.json` <br>2. Find the CVE → read its `commits[].url` <br>3. Append `.patch` → download the diff |
 
 > **Pro‑tip:** If answering "Which CVEs have patched releases in the last three months?", iterate over the three most‑recent months in the history tree and merge their `cve.json` files.
+
+## How to fetch a CVE patch
+
+1. Point to the month index:  
+   `curl -s …/history/{year}/{month}/index.json`
+2. Filter by CVE ID and extract patch link:  
+   `jq -r '. _embedded.cves[] | select(.cveId=="CVE-2025-21171") | ._links.patch.href'`
+3. `curl` that link to get the diff.
+
+Example:
+```bash
+# 1. Fetch the month's CVE list:
+curl -s https://…/history/2025/01/index.json \
+  | jq '. _embedded.cves[] | select(.cveId=="CVE-2025-21171")'
+
+# 2. Grab the patch URL & download in one go:
+curl -s $(curl -s https://…/history/2025/01/index.json \
+  | jq -r '. _embedded.cves[] | select(.cveId=="CVE-2025-21171") | ._links.patch.href')
+```
 
 ---
 
@@ -55,10 +74,12 @@
   `https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json`
 * **Historical index (chronological view)**  
   `https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json`
+* **Monthly index (direct to month)**  
+  `https://raw.githubusercontent.com/richlander/core/main/release-notes/history/{year}/{month}/index.json`
 * **Terminology**  
   `https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md`
 
-All other resources (patches, CVEs, per‑month manifests) are discoverable solely through `_links` from these roots.
+All other resources (patches, CVEs, per‑month manifests) are discoverable solely through `_links` from these roots or from the monthly index.
 
 ---
 

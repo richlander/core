@@ -14,57 +14,77 @@
     "months": [
       {
         "month": "11",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2016/11/index.json",
+            "relative": "history/2016/11/index.json",
+            "title": "Release history for 2016-11",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "1.1"
-        ],
-        "dotnet-patch-releases": [
-          "1.1.0"
         ]
       },
       {
         "month": "12",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2016/12/index.json",
+            "relative": "history/2016/12/index.json",
+            "title": "Release history for 2016-12",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "1.0"
-        ],
-        "dotnet-patch-releases": [
-          "1.0.3"
         ]
       },
       {
         "month": "10",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2016/10/index.json",
+            "relative": "history/2016/10/index.json",
+            "title": "Release history for 2016-10",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "1.0"
-        ],
-        "dotnet-patch-releases": [
-          "1.0.2"
         ]
       },
       {
         "month": "09",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2016/09/index.json",
+            "relative": "history/2016/09/index.json",
+            "title": "Release history for 2016-09",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "1.0"
-        ],
-        "dotnet-patch-releases": [
-          "1.0.1"
         ]
       },
       {
         "month": "06",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2016/06/index.json",
+            "relative": "history/2016/06/index.json",
+            "title": "Release history for 2016-06",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "1.0"
-        ],
-        "dotnet-patch-releases": [
-          "1.0.0"
         ]
       }
     ],

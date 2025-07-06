@@ -1,0 +1,31 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2022-06",
+  "year": "2022",
+  "month": "06",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2022/06/index.json",
+      "relative": "history/2022/06/index.json",
+      "title": "Release history for 2022-06",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "7.0",
+      "6.0",
+      "3.1"
+    ],
+    "dotnet-patch-releases": [
+      "7.0.100-preview.5.22307.18",
+      "7.0.0-preview.5.22301.12",
+      "7.0.0-preview.5",
+      "6.0.301",
+      "6.0.106",
+      "6.0.6",
+      "3.1.420",
+      "3.1.26"
+    ]
+  }
+}

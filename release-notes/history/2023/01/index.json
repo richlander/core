@@ -1,0 +1,28 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2023-01",
+  "year": "2023",
+  "month": "01",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2023/01/index.json",
+      "relative": "history/2023/01/index.json",
+      "title": "Release history for 2023-01",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "7.0",
+      "6.0"
+    ],
+    "dotnet-patch-releases": [
+      "7.0.102",
+      "7.0.2",
+      "6.0.405",
+      "6.0.308",
+      "6.0.113",
+      "6.0.13"
+    ]
+  }
+}

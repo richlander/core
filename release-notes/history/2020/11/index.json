@@ -1,0 +1,27 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2020-11",
+  "year": "2020",
+  "month": "11",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2020/11/index.json",
+      "relative": "history/2020/11/index.json",
+      "title": "Release history for 2020-11",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "5.0",
+      "3.1"
+    ],
+    "dotnet-patch-releases": [
+      "5.0.100",
+      "5.0.0",
+      "3.1.404",
+      "3.1.110",
+      "3.1.10"
+    ]
+  }
+}

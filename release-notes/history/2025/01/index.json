@@ -1,0 +1,46 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2025-01",
+  "year": "2025",
+  "month": "01",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/01/index.json",
+      "relative": "history/2025/01/index.json",
+      "title": "Release history for 2025-01",
+      "type": "application/hal\u002Bjson"
+    },
+    "cve": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/01/cve.json",
+      "relative": "history/2025/01/cve.json",
+      "title": "CVE Information",
+      "type": "application/json"
+    },
+    "cve-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/01/cve.md",
+      "relative": "history/2025/01/cve.md",
+      "title": "CVE Information (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "cve-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/history/2025/01/cve.md",
+      "relative": "history/2025/01/cve.md",
+      "title": "CVE Information (Markdown)",
+      "type": "application/markdown"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "9.0",
+      "8.0"
+    ],
+    "dotnet-patch-releases": [
+      "9.0.102",
+      "9.0.1",
+      "8.0.405",
+      "8.0.308",
+      "8.0.112",
+      "8.0.12"
+    ]
+  }
+}

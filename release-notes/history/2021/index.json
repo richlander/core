@@ -14,269 +14,210 @@
     "months": [
       {
         "month": "12",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/12/index.json",
+            "relative": "history/2021/12/index.json",
+            "title": "Release history for 2021-12",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.101",
-          "6.0.1",
-          "5.0.404",
-          "5.0.210",
-          "5.0.13",
-          "3.1.416",
-          "3.1.22"
         ]
       },
       {
         "month": "11",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/11/index.json",
+            "relative": "history/2021/11/index.json",
+            "title": "Release history for 2021-11",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100",
-          "6.0.0",
-          "5.0.403",
-          "5.0.209",
-          "5.0.12",
-          "3.1.415",
-          "3.1.21"
         ]
       },
       {
         "month": "10",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/10/index.json",
+            "relative": "history/2021/10/index.json",
+            "title": "Release history for 2021-10",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-rc.2.21505.57",
-          "6.0.0-rc.2.21480.5",
-          "6.0.0-rc.2",
-          "5.0.402",
-          "5.0.208",
-          "5.0.11",
-          "3.1.414",
-          "3.1.120",
-          "3.1.20"
         ]
       },
       {
         "month": "09",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/09/index.json",
+            "relative": "history/2021/09/index.json",
+            "title": "Release history for 2021-09",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-rc.1.21463.6",
-          "6.0.0-rc.1.21451.13",
-          "6.0.0-rc.1",
-          "5.0.401",
-          "5.0.207",
-          "5.0.10",
-          "3.1.413",
-          "3.1.119",
-          "3.1.19"
         ]
       },
       {
         "month": "08",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/08/index.json",
+            "relative": "history/2021/08/index.json",
+            "title": "Release history for 2021-08",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1",
           "2.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-preview.7.21379.14",
-          "6.0.0-preview.7.21377.19",
-          "6.0.0-preview.7",
-          "5.0.400",
-          "5.0.303",
-          "5.0.206",
-          "5.0.9",
-          "3.1.412",
-          "3.1.118",
-          "3.1.18",
-          "2.1.818",
-          "2.1.526",
-          "2.1.30"
         ]
       },
       {
         "month": "07",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/07/index.json",
+            "relative": "history/2021/07/index.json",
+            "title": "Release history for 2021-07",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-preview.6.21355.2",
-          "6.0.0-preview.6.21352.12",
-          "6.0.0-preview.6",
-          "5.0.302",
-          "5.0.205",
-          "5.0.8",
-          "3.1.411",
-          "3.1.117",
-          "3.1.17"
         ]
       },
       {
         "month": "06",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/06/index.json",
+            "relative": "history/2021/06/index.json",
+            "title": "Release history for 2021-06",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-preview.5.21302.13",
-          "6.0.0-preview.5.21301.5",
-          "6.0.0-preview.5",
-          "5.0.301",
-          "5.0.204",
-          "5.0.7",
-          "3.1.410",
-          "3.1.116",
-          "3.1.16"
         ]
       },
       {
         "month": "05",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/05/index.json",
+            "relative": "history/2021/05/index.json",
+            "title": "Release history for 2021-05",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1",
           "2.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-preview.4.21255.9",
-          "6.0.0-preview.4.21253.7",
-          "6.0.0-preview.4",
-          "5.0.300",
-          "5.0.203",
-          "5.0.6",
-          "3.1.409",
-          "3.1.115",
-          "3.1.15",
-          "2.1.816",
-          "2.1.524",
-          "2.1.28"
         ]
       },
       {
         "month": "04",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/04/index.json",
+            "relative": "history/2021/04/index.json",
+            "title": "Release history for 2021-04",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1",
           "2.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-preview.3.21202.5",
-          "6.0.0-preview.3.21201.4",
-          "6.0.0-preview.3",
-          "5.0.202",
-          "5.0.5",
-          "3.1.408",
-          "3.1.114",
-          "3.1.14",
-          "2.1.815",
-          "2.1.523",
-          "2.1.27"
         ]
       },
       {
         "month": "03",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/03/index.json",
+            "relative": "history/2021/03/index.json",
+            "title": "Release history for 2021-03",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "5.0",
           "3.1",
           "2.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-preview.2.21155.3",
-          "6.0.0-preview.2.21154.6",
-          "6.0.0-preview.2",
-          "5.0.201",
-          "5.0.200",
-          "5.0.104",
-          "5.0.103",
-          "5.0.4",
-          "5.0.3",
-          "3.1.407",
-          "3.1.113",
-          "3.1.13",
-          "2.1.814",
-          "2.1.522",
-          "2.1.26"
         ]
       },
       {
         "month": "02",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/02/index.json",
+            "relative": "history/2021/02/index.json",
+            "title": "Release history for 2021-02",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "6.0",
           "3.1",
           "2.1"
-        ],
-        "dotnet-patch-releases": [
-          "6.0.100-preview.1.21103.13",
-          "6.0.0-preview.1.21102.12",
-          "6.0.0-preview.1",
-          "3.1.406",
-          "3.1.112",
-          "3.1.12",
-          "2.1.813",
-          "2.1.521",
-          "2.1.25"
         ]
       },
       {
         "month": "01",
-        "_links": {},
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/01/index.json",
+            "relative": "history/2021/01/index.json",
+            "title": "Release history for 2021-01",
+            "type": "application/hal\u002Bjson"
+          }
+        },
         "cve-records": [],
         "dotnet-releases": [
           "5.0",
           "3.1",
           "2.1"
-        ],
-        "dotnet-patch-releases": [
-          "5.0.102",
-          "5.0.2",
-          "3.1.405",
-          "3.1.111",
-          "3.1.11",
-          "2.1.812",
-          "2.1.617",
-          "2.1.520",
-          "2.1.24"
         ]
       }
     ],

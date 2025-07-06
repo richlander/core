@@ -1,0 +1,34 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2023-09",
+  "year": "2023",
+  "month": "09",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2023/09/index.json",
+      "relative": "history/2023/09/index.json",
+      "title": "Release history for 2023-09",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "8.0",
+      "7.0",
+      "6.0"
+    ],
+    "dotnet-patch-releases": [
+      "8.0.100-rc.1.23463.5",
+      "8.0.0-rc.1.23419.4",
+      "8.0.0-rc.1",
+      "7.0.401",
+      "7.0.308",
+      "7.0.111",
+      "7.0.11",
+      "6.0.414",
+      "6.0.317",
+      "6.0.122",
+      "6.0.22"
+    ]
+  }
+}

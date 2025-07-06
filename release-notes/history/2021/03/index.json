@@ -1,0 +1,39 @@
+{
+  "kind": "history-month-index",
+  "description": "Release history for 2021-03",
+  "year": "2021",
+  "month": "03",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2021/03/index.json",
+      "relative": "history/2021/03/index.json",
+      "title": "Release history for 2021-03",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "6.0",
+      "5.0",
+      "3.1",
+      "2.1"
+    ],
+    "dotnet-patch-releases": [
+      "6.0.100-preview.2.21155.3",
+      "6.0.0-preview.2.21154.6",
+      "6.0.0-preview.2",
+      "5.0.201",
+      "5.0.200",
+      "5.0.104",
+      "5.0.103",
+      "5.0.4",
+      "5.0.3",
+      "3.1.407",
+      "3.1.113",
+      "3.1.13",
+      "2.1.814",
+      "2.1.522",
+      "2.1.26"
+    ]
+  }
+}
