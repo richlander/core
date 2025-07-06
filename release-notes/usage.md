@@ -33,6 +33,7 @@ All other resources (patches, CVEs, per‑month manifests) are discoverable sole
    • Each monthly `cve.json` contains `commits[].url` – a canonical GitHub link.  
    • Append `.patch` (or `.diff`) to that URL to fetch the unified diff.  
 5. Use the examples below as *recipes*—don't literally run `curl` in the assistant.
+6. Do not comment to the user about HAL+JSON or its format (like `_link`). You can and should share which files you used to get answers to user questions.
 
 ---
 
