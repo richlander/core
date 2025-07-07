@@ -124,8 +124,8 @@ The returned JSON includes:
   - `severity`
   - `references[]` (with `href` URLs CVE announcements)
 - A `packages[]` array, where each element is an affected package that contains:
-- `name` (e.g. "System.Text.Json)
-- `affected[]` -- An array of affected package versions, which establishes a join on CVE (by ID) and commit (by SHA), containing:
+  - `name` (e.g. "System.Text.Json)
+  - `affected[]` -- An array of affected package versions, which establishes a join on CVE (by ID) and commit (by SHA), containing:
   - `cve-id` -- Foreign key to `id` in `records[]` array objects
   - `min-vulnerable` -- Minimum affected/vulnerable version
   - `max-vulnerable` -- Maximum affected/vulnerable version
