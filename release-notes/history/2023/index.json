@@ -20,6 +20,12 @@
             "relative": "history/2023/11/index.json",
             "title": "Release history for 2023-11",
             "type": "application/hal\u002Bjson"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2023/11/cve.json",
+            "relative": "history/2023/11/cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
           }
         },
         "cve-records": [

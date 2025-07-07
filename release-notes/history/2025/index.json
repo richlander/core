@@ -20,6 +20,12 @@
             "relative": "history/2025/06/index.json",
             "title": "Release history for 2025-06",
             "type": "application/hal\u002Bjson"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/06/cve.json",
+            "relative": "history/2025/06/cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
           }
         },
         "cve-records": [
@@ -43,6 +49,12 @@
             "relative": "history/2025/05/index.json",
             "title": "Release history for 2025-05",
             "type": "application/hal\u002Bjson"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/05/cve.json",
+            "relative": "history/2025/05/cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
           }
         },
         "cve-records": [
@@ -66,6 +78,12 @@
             "relative": "history/2025/04/index.json",
             "title": "Release history for 2025-04",
             "type": "application/hal\u002Bjson"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/04/cve.json",
+            "relative": "history/2025/04/cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
           }
         },
         "cve-records": [
@@ -89,6 +107,12 @@
             "relative": "history/2025/03/index.json",
             "title": "Release history for 2025-03",
             "type": "application/hal\u002Bjson"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/03/cve.json",
+            "relative": "history/2025/03/cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
           }
         },
         "cve-records": [
@@ -129,6 +153,12 @@
             "relative": "history/2025/01/index.json",
             "title": "Release history for 2025-01",
             "type": "application/hal\u002Bjson"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/2025/01/cve.json",
+            "relative": "history/2025/01/cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
           }
         },
         "cve-records": [

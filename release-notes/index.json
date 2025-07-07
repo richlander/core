@@ -8,18 +8,6 @@
       "title": ".NET Release",
       "type": "application/hal\u002Bjson"
     },
-    "usage-markdown-raw": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md",
-      "relative": "usage.md",
-      "title": "Usage (Raw Markdown)",
-      "type": "application/markdown"
-    },
-    "usage-markdown": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/usage.md",
-      "relative": "usage.md",
-      "title": "Usage (Markdown)",
-      "type": "application/markdown"
-    },
     "terminology-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md",
       "relative": "terminology.md",
