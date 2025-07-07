@@ -165,9 +165,9 @@ The following examples should how to download useful content from the various JS
 
 ```bash
 # Show the hunk that fixed CVE-2025-30399 in dotnet/runtime
-root="https://raw.githubusercontent.com/richlander/core/main/release-notes"
+root="https://raw.githubusercontent.com/richlander/core/main/release-notes/history"
 month="2025/06"                              # June 2025 contained the fix
-cve_json="$(curl -s "$root/history/$month/cve.json")"
+cve_json="$(curl -s "$root/$month/cve.json")"
 sha=$(echo "$cve_json" | jq -r '.commits[] | select(.repo=="runtime") | .hash')
 curl -sL "https://github.com/dotnet/runtime/commit/${sha}.patch" | sed -n '1,120p'
 ``` 
