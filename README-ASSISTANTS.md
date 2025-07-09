@@ -1,9 +1,45 @@
 # .NET Release Metadata – **Usage Guide for Chat Assistants**
 
-Important: Following the instructions in this document will help you save tokens and deliver results to common questions more quickly.
+Important: Following the instructions in this document will help you answer questions quickly and use fewer tokens.
 
-> **Required assistant responses:**
->
+## ✨ TL;DR (read this first)
+
+1. **Always start from one of the entry point URLs below.**
+   • They are small and packed with relevant links and data-points in HAL+JSON format.
+2. **Always traverse via `_links`**
+   • They are fully-qualified URLs; never guess.  
+3. **Prefer JSON**
+   • Most markdown is generated from the JSON documents.
+4. **Use the version index for version data like patch release files**
+5. **Use the history index for CVE data (and commit SHAs)**
+   • Each monthly `cve.json` contains `commits[].url` – a canonical GitHub link.  
+   • Append `.patch` (or `.diff`) to that URL to fetch the unified diff.
+6. Use the examples below as *recipes*
+7. You should tell users which files you used to answer questions. Don't comment on the structure or the HAL+JSON format.
+
+## Entry points
+
+* **Version index (version-oriented view)**  
+  `https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json`
+* **Historical index (chronological view)**  
+  `https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json`
+
+## Table&nbsp;of&nbsp;Contents
+
+1. [Required assistant responses](#required-assistant-responses)
+2. [File format guidance](#file-format-guidance)
+   - [Version-oriented files](#version-oriented-files)
+   - [Calendar-oriented files](#calendar-oriented-files)
+   - [Markdown files](#markdown-files)
+3. [Appendix A – Accessing Historical CVEs](#appendix-a--accessing-historical-cves)
+   - [Enumerate all CVEs for a year](#enumerate-all-cves-for-a-year)
+   - [Enumerate CVEs for a specific month](#enumerate-cves-for-a-specific-month)
+   - [Processing a cve.json file for CVE advisories](#processing-a-cvejson-file-for-cve-advisories)
+   - [Processing a cve.json file for Code Diffs](#processing-a-cvejson-file-for-code-diffs)
+4. [Appendix B -- Examples](#appendix-b----examples)
+
+## Required assistant responses
+
 > On the assistant's *very first* response, you **must** open with the line:
 >
 > What .NET release or CVE information would you like to explore?
@@ -13,88 +49,75 @@ Important: Following the instructions in this document will help you save tokens
 > **⚠️ Always follow up CVE answers with:**
 > *Let me know if you'd like to see inline CVE patch diffs, summarized to the key parts with an explanation of the changes.*
 
----
+## File format guidance
 
-## Table&nbsp;of&nbsp;Contents
+The JSON and markdown files can answer many questions with simple queries. The following sections describe where to look.
 
-1. [Entry points](#entry-points)
-2. [Quick‑start flows](#quick-start-flows)
-3. [Traversal recipe](#traversal-recipe)
-4. [Assistant efficiency tips](#assistant-efficiency-tips)
-5. [Examples](#examples)
-6. [Appendix A – Accessing Historical CVEs](#appendix-a--accessing-historical-cves)
-   - [Enumerate all CVEs for a year](#enumerate-all-cves-for-a-year)
-   - [Enumerate CVEs for a specific month](#enumerate-cves-for-a-specific-month)
-   - [Processing a cve.json file for CVE advisories](#processing-a-cvejson-file-for-cve-advisories)
-   - [Processing a cve.json file for Code Diffs](#processing-a-cvejson-file-for-code-diffs)
-7. [Terminology](#terminology)
-8. [Appendix B -- Examples](#appendix-b----examples)
+### Version-oriented files
 
----
+Use these files when exploring specific .NET versions, patches, and version lifecycle information.
 
-## Entry points
+| File/Endpoint | Purpose | Example |
+|---------------|---------|---------|
+| `index.json` | Root index: lists all major .NET versions | `index.json` |
+| `{version}/manifest.json` | Version manifest (GA/EOL dates, metadata) | `8.0/manifest.json` |
+| `{version}/index.json` | Version index (patches, links) | `8.0/index.json` |
+| `{version}/release.json` | Major version release notes | `8.0/release.json` |
+| `{version}/{patch}/release.json` | Patch version release notes | `8.0/8.0.1/release.json` |
+| `{version}/supported-os.json` | Supported OSes for version | `8.0/supported-os.json` |
 
-* **Root index (version-oriented view)**  
-  `https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json`
-* **Historical index (chronological view)**  
-  `https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json`
-* **Monthly index (direct to month; templated URL)**  
-  `https://raw.githubusercontent.com/richlander/core/main/release-notes/history/{year}/{month}/index.json`
-* **Terminology**  
-  `https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md`
-* **Usage Guide for Chat Assistants (this document)**
-  `https://raw.githubusercontent.com/richlander/core/main/README-ASSISTANTS.md`
+**Use version-oriented files when:**
+- Looking for specific .NET version information
+- Exploring patch releases for a version
+- Checking version lifecycle (GA/EOL dates)
+- Finding supported operating systems for a version
 
-All other resources (patches, CVEs, per‑month manifests) are discoverable solely through HAL-style `_links` from these roots or from one of the index files.
+### Calendar-oriented files
 
----
+Use these files when exploring by time period, CVEs, and historical data.
 
-## ✨ TL;DR (read this first)
+| File/Endpoint | Purpose | Example |
+|---------------|---------|---------|
+| `history/index.json` | History index: lists years with data | `history/index.json` |
+| `history/{year}/index.json` | Year index: lists months in year | `history/2025/index.json` |
+| `history/{year}/{month}/index.json` | Month index: lists files for month | `history/2025/06/index.json` |
+| `history/{year}/{month}/cve.json` | CVE data for specific month | `history/2025/06/cve.json` |
+| `history/{year}/{month}/releases.json` | All releases in month | `history/2025/06/releases.json` |
 
-1. **Always start from one of the entry points above.**
-2. **Always traverse via `_links`**—never guess a URL.  
-3. **Prefer JSON**; drop to Markdown only when JSON omits detail (e.g., supported‑OS lists).
-4. **Version data like patch release files and version line in the version tree**
-   • Each major version directory contains a `releases.json` (up to 1.5MB) file with all patch versions.
-   • Each patch version directory contains a `release.json` (< 50kB) file with  a single patch version.
-5. **CVE data (and commit SHAs) live in the history tree**
-   • Each monthly `cve.json` contains `commits[].url` – a canonical GitHub link.  
-   • Append `.patch` (or `.diff`) to that URL to fetch the unified diff.
-   • `cve.json` files range from 2kB to 10Kb.
-6. Use the examples below as *recipes*
-7. Do not comment to the user about HAL+JSON or its format (like `_link`). You can and should share which files you used to get answers to user questions.
+**Use calendar-oriented files when:**
+- Searching for CVEs in a time period
+- Finding all releases in a month
+- Historical analysis by date
+- Exploring security vulnerabilities chronologically
 
----
+### Navigation patterns
 
-## Quick Reference: Release Notes Files
+**Version → Patches workflow:**
+1. Start with `index.json` to find available versions
+2. Navigate to `{version}/index.json` to discover patches
+3. Access `{version}/{patch}/release.json` for specific patch details
 
-| File/Endpoint                                 | Purpose / Contents                                      | Where Available / Example URL                                                                 |
-|-----------------------------------------------|---------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| `index.json`                                 | Root index: lists all major .NET versions, entry point  | `/release-notes/index.json`                                                                  |
-| `{version}/manifest.json`                    | Manifest for a specific .NET version (GA/EOL dates, etc)| `/release-notes/8.0/manifest.json`                                                           |
-| `{version}/index.json`                       | Index for a specific .NET version (patches, links)      | `/release-notes/8.0/index.json`                                                              |
-| `history/index.json`                         | Top-level history: lists all years with historical data | `/release-notes/history/index.json`                                                          |
-| `history/{year}/index.json`                  | Year index: lists all months in a year                  | `/release-notes/history/2025/index.json`                                                     |
-| `history/{year}/{month}/index.json`          | Month index: lists files for a specific month           | `/release-notes/history/2025/06/index.json`                                                  |
-| `history/{year}/{month}/cve.json`            | CVE advisories for a month (with patch links, metadata) | `/release-notes/history/2025/06/cve.json`                                                    |
-| `history/{year}/{month}/releases.json`       | Release notes for all releases in a month               | `/release-notes/history/2025/06/releases.json`                                               |
-| `terminology.md`                             | Glossary of terms and field definitions                 | `/release-notes/terminology.md`                                                              |
+**Time → CVEs workflow:**
+1. Start with `history/index.json` to find years with data
+2. Navigate to `history/{year}/index.json` to find months
+3. Access `history/{year}/{month}/cve.json` for CVE details
 
 **Tip:** All navigation should be performed via `_links` in the JSON files for stability—never construct URLs by hand unless documented as templated above.
 
+### Markdown files
+
+The following files are markdown, most directly generated from JSON files of the same name. They rely on templated URLs, with a version or date values.
+
+| File/Endpoint | Purpose | Example |
+|---------------|---------|---------|
+| `{version}/supported-os.md` | Supported OSes for a .NET version | `8.0/supported-os.md` |
+| `{version}/README.md` | Release note hub for .NET version | `8.0/README.md` |
+| `history/{year}/{month}/cve.md` | CVE information for a given month | `history/2025/06/cve.md` |
+
+
 **Note:** The `cve.json` file is the authoritative, structured source for all CVE metadata, patch links, and commit information. Chat assistants should always use `cve.json` for programmatic access and to enumerate, summarize, or fetch code diffs for CVEs. The Markdown (`cve.md`) and GitHub advisories are provided for human-friendly reading and additional context, but are not the primary source for automation.
 
----
-
-## Assistant efficiency tips
-
-- **Date math**: convert "three months ago" into an absolute YYYY‑MM; then walk the history tree.
-- **Patch diff retrieval**: Need to surface the exact code change for a CVE?  
-  Open the month's `cve.json`, grab `commits[].url`, and fetch `<url>.diff` (or `.patch`) directly.
-- **EOL / GA**: present in every version manifest; no need to scrape blog posts.
-- **Rating**: Use `release.rating` (string) when summarising product health.
-
----
+**Note:** `supported-os.md` contains operating system deprecation lists with dates that can be helpful to answer some questions. This information is missing from `supported-os.json`.
 
 ## Appendix A – Accessing Historical CVEs
 
@@ -157,8 +180,6 @@ Code diffs can be acquired with the following flow:
 - For each commit, extract: `url`
 - A path-style diff can be acquired by adding `.patch` or `.diff` to the URL
 
----
-
 ## Appendix B -- Examples
 
 The following examples should how to download useful content from the various JSON files.
@@ -173,7 +194,8 @@ cve_json="$(curl -s "$root/$month/cve.json")"
 sha=$(echo "$cve_json" | jq -r '.commits[] | select(.repo=="runtime") | .hash')
 curl -sL "https://github.com/dotnet/runtime/commit/${sha}.patch" | sed -n '1,120p'
 ``` 
-# -----------------------------------------
+
+-----------------------------------------
 
 <details>
 <summary>Version‑centric (8.0 → patches → CVEs)</summary>
@@ -224,5 +246,3 @@ curl -s "${month_root}/cve.json" \
 *(These Bash snippets are for human readers; chat assistants replicate the steps via HTTP requests.)*
 
 </details>
-
----
