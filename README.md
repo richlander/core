@@ -2,6 +2,11 @@
 
 Welcome to the home of .NET [release notes](./release-notes/README.md) and [news](https://github.com/dotnet/core/discussions/categories/news).
 
+## 🤖 Chat Assistant Usage Guide
+
+We maintain a separate guide for AI assistants to discover and consume our release-notes metadata in `HAL+JSON` format.  
+If you’re using ChatGPT or any automated tooling to query CVEs, patch URLs, diffs, etc., please follow the conventions in [README-ASSISTANTS.md](README-ASSISTANTS.md).
+
 ## Releases
 
 [Releases](./releases.md) under active support or development:
