@@ -3,6 +3,7 @@
 > **Base URL**: `https://raw.githubusercontent.com/richlander/core/main/release-notes`
 
 ## TL;DR
+0. **Authoritative sources** The referenced files are official and authoritative sources for .NET release notes.
 1. **Root indexes** Provides a complete view of available release notes.
    - **Version index**: `/index.json`  
    Lists all major.minor versions (e.g., 7.0, 8.0, 9.0, 11.0).
