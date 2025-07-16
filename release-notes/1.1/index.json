@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/release-version-index.json",
   "kind": "index",
   "description": "Index for .NET 1.1 patch releases",
   "_links": {
@@ -18,7 +19,7 @@
   "support": {
     "release-type": "lts",
     "phase": "eol",
-    "ga-date": "2016-11-16T00:00:00+00:00",
-    "eol-date": "2019-06-27T00:00:00+00:00"
+    "ga-date": "2016-11-16T00:00:00\u002B00:00",
+    "eol-date": "2019-06-27T00:00:00\u002B00:00"
   }
 }

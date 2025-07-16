@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/release-version-index.json",
   "kind": "index",
   "description": "Index for .NET 3.0 patch releases",
   "_links": {
@@ -18,7 +19,7 @@
   "support": {
     "release-type": "sts",
     "phase": "eol",
-    "ga-date": "2019-09-16T00:00:00+00:00",
-    "eol-date": "2020-03-03T00:00:00+00:00"
+    "ga-date": "2019-09-16T00:00:00\u002B00:00",
+    "eol-date": "2020-03-03T00:00:00\u002B00:00"
   }
 }

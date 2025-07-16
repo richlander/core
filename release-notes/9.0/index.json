@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/release-version-index.json",
   "kind": "index",
   "description": "Index for .NET 9.0 patch releases",
   "_links": {
@@ -252,7 +253,7 @@
   "support": {
     "release-type": "sts",
     "phase": "active",
-    "ga-date": "2024-11-12T00:00:00+00:00",
-    "eol-date": "2026-05-12T00:00:00+00:00"
+    "ga-date": "2024-11-12T00:00:00\u002B00:00",
+    "eol-date": "2026-05-12T00:00:00\u002B00:00"
   }
 }

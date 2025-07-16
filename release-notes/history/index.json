@@ -1,5 +1,6 @@
 {
-  "kind": "history-index",
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/release-history-index.json",
+  "kind": "release-history-index",
   "description": "History of .NET releases",
   "_links": {
     "self": {

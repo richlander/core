@@ -1,4 +1,5 @@
 {
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/release-history-index.json",
   "kind": "history-year-index",
   "description": "Release history for 2019",
   "year": "2019",
