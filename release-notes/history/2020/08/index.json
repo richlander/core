@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-month-index",
   "title": ".NET Release History Index - 2020-08",
-  "description": "Release history for 2020-08. This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2020-08 (2.1\u20135.0); This file is cache-friendly; follow links for the most current details.",
   "year": "2020",
   "month": "08",
   "_links": {
@@ -31,5 +31,9 @@
       "2.1.517",
       "2.1.21"
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.168183\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

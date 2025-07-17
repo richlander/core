@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-version-index.json",
   "kind": "index",
   "title": ".NET 3.0 Patch Release Index",
-  "description": "Index for .NET 3.0 patch releases. This file is cache-friendly; follow links for the most current details.",
+  "description": "Index of .NET versions 3.0.0\u20133.0.3; This file is cache-friendly; follow links for the most current details.",
   "_links": {
     "self": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/3.0/README.md",
@@ -22,5 +22,9 @@
     "phase": "eol",
     "ga-date": "2019-09-16T00:00:00\u002B00:00",
     "eol-date": "2020-03-03T00:00:00\u002B00:00"
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.128993\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-month-index",
   "title": ".NET Release History Index - 2025-04",
-  "description": "Release history for 2025-04. This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2025-04 (8.0\u201310.0); This file is cache-friendly; follow links for the most current details.",
   "year": "2025",
   "month": "04",
   "_links": {
@@ -49,5 +49,9 @@
       "8.0.115",
       "8.0.15"
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.138345\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

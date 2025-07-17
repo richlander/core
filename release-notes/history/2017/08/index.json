@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-month-index",
   "title": ".NET Release History Index - 2017-08",
-  "description": "Release history for 2017-08. This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2017-08 (2.0\u20132.0); This file is cache-friendly; follow links for the most current details.",
   "year": "2017",
   "month": "08",
   "_links": {
@@ -20,5 +20,9 @@
     "dotnet-patch-releases": [
       "2.0.0"
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.183309\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

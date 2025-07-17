@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-year-index",
   "title": ".NET Release History Index - 2020",
-  "description": "Release history for 2020. This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2020 (2.1\u20135.0); This file is cache-friendly; follow links for the most current details.",
   "year": "2020",
   "_links": {
     "self": {
@@ -259,5 +259,9 @@
         }
       }
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.171893\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

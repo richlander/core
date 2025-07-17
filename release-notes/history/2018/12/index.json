@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-month-index",
   "title": ".NET Release History Index - 2018-12",
-  "description": "Release history for 2018-12. This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2018-12 (2.1\u20133.0); This file is cache-friendly; follow links for the most current details.",
   "year": "2018",
   "month": "12",
   "_links": {
@@ -28,5 +28,9 @@
       "2.1.600-preview",
       "2.1.502"
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.179619\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

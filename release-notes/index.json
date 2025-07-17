@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-version-index.json",
   "kind": "index",
   "title": ".NET Release Version Index",
-  "description": "Index of .NET major versions. This file is cache-friendly; follow links for the most current details.",
+  "description": "Index of .NET versions 1.0\u201310.0; This file is cache-friendly; follow links for the most current details.",
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json",
@@ -266,5 +266,9 @@
         }
       }
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.133974\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

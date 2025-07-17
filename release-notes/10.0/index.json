@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-version-index.json",
   "kind": "index",
   "title": ".NET 10.0 Patch Release Index",
-  "description": "Index for .NET 10.0 patch releases. This file is cache-friendly; follow links for the most current details.",
+  "description": "Index of .NET versions 10.0.0-preview.1\u201310.0.0-preview.5; This file is cache-friendly; follow links for the most current details.",
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/supported-os.json",
@@ -46,5 +46,9 @@
     "phase": "preview",
     "ga-date": "2025-11-11T00:00:00\u002B00:00",
     "eol-date": "2028-11-14T00:00:00\u002B00:00"
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.125683\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

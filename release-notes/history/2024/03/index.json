@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-month-index",
   "title": ".NET Release History Index - 2024-03",
-  "description": "Release history for 2024-03. This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2024-03 (6.0\u20139.0); This file is cache-friendly; follow links for the most current details.",
   "year": "2024",
   "month": "03",
   "_links": {
@@ -54,5 +54,9 @@
       "6.0.128",
       "6.0.28"
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.150209\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

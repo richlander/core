@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-year-index",
   "title": ".NET Release History Index - 2017",
-  "description": "Release history for 2017. This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2017 (1.0\u20132.0); This file is cache-friendly; follow links for the most current details.",
   "year": "2017",
   "_links": {
     "self": {
@@ -161,5 +161,9 @@
         }
       }
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.184287\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }

@@ -244,6 +244,29 @@
         "ga-date",
         "eol-date"
       ]
+    },
+    "metadata": {
+      "description": "Metadata about when and how this document was generated",
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "generated-on": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "generated-by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "generated-on",
+        "generated-by"
+      ]
     }
   },
   "required": [

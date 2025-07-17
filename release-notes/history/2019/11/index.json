@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-month-index",
   "title": ".NET Release History Index - 2019-11",
-  "description": "Release history for 2019-11. This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2019-11 (2.1\u20133.1); This file is cache-friendly; follow links for the most current details.",
   "year": "2019",
   "month": "11",
   "_links": {
@@ -36,5 +36,9 @@
       "2.1.510",
       "2.1.14"
     ]
+  },
+  "metadata": {
+    "generated-on": "2025-07-17T06:10:18.174001\u002B00:00",
+    "generated-by": "UpdateIndexes"
   }
 }
