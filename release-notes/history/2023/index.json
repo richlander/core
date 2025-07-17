@@ -1,7 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/release-history-index.json",
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-year-index",
-  "description": "Release history for 2023",
+  "title": ".NET Release History Index - 2023",
+  "description": "Release history for 2023. This file is cache-friendly; follow links for the most current details.",
   "year": "2023",
   "_links": {
     "self": {

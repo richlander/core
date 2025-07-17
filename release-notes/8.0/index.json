@@ -1,7 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/release-version-index.json",
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-version-index.json",
   "kind": "index",
-  "description": "Index for .NET 8.0 patch releases",
+  "title": ".NET 8.0 Patch Release Index",
+  "description": "Index for .NET 8.0 patch releases. This file is cache-friendly; follow links for the most current details.",
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/supported-os.json",
