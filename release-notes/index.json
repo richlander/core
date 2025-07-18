@@ -9,6 +9,36 @@
       "relative": "index.json",
       "title": ".NET Release",
       "type": "application/hal\u002Bjson"
+    },
+    "usage-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md",
+      "relative": "usage.md",
+      "title": "Usage (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "usage-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/usage.md",
+      "relative": "usage.md",
+      "title": "Usage (Markdown)",
+      "type": "application/markdown"
+    },
+    "terminology-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md",
+      "relative": "terminology.md",
+      "title": "Terminology (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "terminology-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/terminology.md",
+      "relative": "terminology.md",
+      "title": "Terminology (Markdown)",
+      "type": "application/markdown"
+    },
+    "release-history-index": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
+      "relative": "history/index.json",
+      "title": ".NET Release and CVE History",
+      "type": "application/hal\u002Bjson"
     }
   },
   "_embedded": {
@@ -268,7 +298,7 @@
     ]
   },
   "metadata": {
-    "generated-on": "2025-07-17T06:10:18.133974\u002B00:00",
+    "generated-on": "2025-07-18T00:36:23.910002\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
