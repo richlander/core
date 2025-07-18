@@ -39,6 +39,16 @@
       "relative": "history/index.json",
       "title": ".NET Release and CVE History",
       "type": "application/hal\u002Bjson"
+    },
+    "latest": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/index.json",
+      "title": ".NET 10.0",
+      "type": "application/json"
+    },
+    "latest-lts": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/index.json",
+      "title": ".NET 8.0 (LTS)",
+      "type": "application/json"
     }
   },
   "_embedded": {
@@ -60,7 +70,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "sts",
           "phase": "preview",
           "ga-date": "2025-11-11T00:00:00\u002B00:00",
@@ -84,7 +94,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "sts",
           "phase": "active",
           "ga-date": "2024-11-12T00:00:00\u002B00:00",
@@ -108,7 +118,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "lts",
           "phase": "active",
           "ga-date": "2023-11-14T00:00:00\u002B00:00",
@@ -126,7 +136,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2022-09-14T00:00:00\u002B00:00",
@@ -144,7 +154,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2021-09-14T00:00:00\u002B00:00",
@@ -162,7 +172,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2020-09-14T00:00:00\u002B00:00",
@@ -180,7 +190,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2019-12-03T00:00:00\u002B00:00",
@@ -198,7 +208,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2019-09-16T00:00:00\u002B00:00",
@@ -216,7 +226,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2018-12-04T00:00:00\u002B00:00",
@@ -234,7 +244,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2018-05-07T00:00:00\u002B00:00",
@@ -252,7 +262,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2017-08-14T00:00:00\u002B00:00",
@@ -270,7 +280,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2016-11-16T00:00:00\u002B00:00",
@@ -288,7 +298,7 @@
             "type": "application/hal\u002Bjson"
           }
         },
-        "support": {
+        "lifecycle": {
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2016-06-27T00:00:00\u002B00:00",
@@ -298,7 +308,7 @@
     ]
   },
   "metadata": {
-    "generated-on": "2025-07-18T01:15:51.897085\u002B00:00",
+    "generated-on": "2025-07-18T04:19:32.0336593\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

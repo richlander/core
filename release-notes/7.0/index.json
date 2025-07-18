@@ -47,14 +47,14 @@
       "type": "application/markdown"
     }
   },
-  "support": {
+  "lifecycle": {
     "release-type": "sts",
     "phase": "eol",
     "ga-date": "2022-09-14T00:00:00\u002B00:00",
     "eol-date": "2024-05-14T00:00:00\u002B00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T01:15:51.894005\u002B00:00",
+    "generated-on": "2025-07-18T04:19:32.0329885\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

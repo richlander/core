@@ -54,6 +54,8 @@ All dates use ISO 8601 format with UTC timezone: `YYYY-MM-DDTHH:MM:SS+00:00`
 ### Links (`_links`)
 - **`self`**: Current document URL
 - **`index`**: Root index document
+- **`latest`**: Most recent .NET release (any support type) - **Root index only**
+- **`latest-lts`**: Most recent Long-Term Support release - **Root index only**
 - **`releases`**: Releases list for major version
 - **`release`**: Specific release document
 - **`manifest`**: High-level metadata with contextual links

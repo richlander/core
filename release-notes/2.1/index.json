@@ -17,14 +17,14 @@
       "type": "application/json"
     }
   },
-  "support": {
+  "lifecycle": {
     "release-type": "lts",
     "phase": "eol",
     "ga-date": "2018-05-07T00:00:00\u002B00:00",
     "eol-date": "2021-08-21T00:00:00\u002B00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T01:15:51.885195\u002B00:00",
+    "generated-on": "2025-07-18T04:19:32.0329226\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
