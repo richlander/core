@@ -1,0 +1,30 @@
+{
+  "kind": "manifest",
+  "title": ".NET 9.0 Manifest",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
+      "relative": "9.0/index.json",
+      "title": ".NET 9.0",
+      "type": "application/hal\u002Bjson"
+    },
+    "manifest": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/manifest.json",
+      "relative": "9.0/manifest.json",
+      "title": "Manifest",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "version": "9.0",
+  "label": ".NET 9.0",
+  "lifecycle": {
+    "release-type": "sts",
+    "phase": "preview",
+    "ga-date": "2024-11-12T00:00:00+00:00",
+    "eol-date": "2026-05-12T00:00:00+00:00"
+  },
+  "metadata": {
+    "generated-on": "2025-07-18T06:27:15.1917101+00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}
