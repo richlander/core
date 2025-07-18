@@ -19,11 +19,6 @@
       "title": ".NET Core 1.0 Downloads",
       "type": "text/html"
     },
-    "whats-new": {
-      "href": "https://learn.microsoft.com/dotnet/core/whats-new/dotnet-core-1-0",
-      "title": "What\u0027s new in .NET Core 1.0",
-      "type": "text/html"
-    },
     "ga-blog": {
       "href": "https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/",
       "title": "Announcing .NET Core 1.0",
@@ -44,7 +39,7 @@
     "eol-date": "2019-06-27T00:00:00+00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T06:10:49.8274375+00:00",
+    "generated-on": "2025-07-18T06:27:15.1913672+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

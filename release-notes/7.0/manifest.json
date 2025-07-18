@@ -35,7 +35,7 @@
       "type": "text/html"
     },
     "eol-blog": {
-      "href": "https://devblogs.microsoft.com/dotnet/dotnet-7-is-now-end-of-life/",
+      "href": "https://devblogs.microsoft.com/dotnet/dotnet-7-end-of-support/",
       "title": ".NET 7 is now end-of-life",
       "type": "text/html"
     }
@@ -49,7 +49,7 @@
     "eol-date": "2024-05-14T00:00:00+00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T06:10:49.8277497+00:00",
+    "generated-on": "2025-07-18T06:27:15.1915995+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

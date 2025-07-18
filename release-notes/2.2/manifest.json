@@ -24,11 +24,6 @@
       "title": "What\u0027s new in .NET Core 2.2",
       "type": "text/html"
     },
-    "breaking-changes": {
-      "href": "https://learn.microsoft.com/dotnet/core/compatibility/2.2",
-      "title": "Breaking changes in .NET Core 2.2",
-      "type": "text/html"
-    },
     "ga-blog": {
       "href": "https://devblogs.microsoft.com/dotnet/announcing-net-core-2-2/",
       "title": "Announcing .NET Core 2.2",
@@ -49,7 +44,7 @@
     "eol-date": "2019-12-23T00:00:00+00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T06:10:49.8294672+00:00",
+    "generated-on": "2025-07-18T06:27:15.1918757+00:00",
     "generated-by": "UpdateIndexes"
   }
 }
