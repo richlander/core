@@ -9,6 +9,12 @@
       "relative": "history/index.json",
       "title": "History of .NET releases",
       "type": "application/hal\u002Bjson"
+    },
+    "release-version-index": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json",
+      "relative": "index.json",
+      "title": ".NET Release Version Index",
+      "type": "application/hal\u002Bjson"
     }
   },
   "_embedded": {
@@ -202,155 +208,10 @@
           "1.0"
         ]
       }
-    ],
-    "releases": [
-      {
-        "version": "10.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "9.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "8.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "7.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "6.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "5.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "3.1",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "3.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "2.2",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "2.1",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "2.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "1.1",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      },
-      {
-        "version": "1.0",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
-            "relative": "history/index.json",
-            "title": "History of .NET releases",
-            "type": "application/hal\u002Bjson"
-          }
-        }
-      }
     ]
   },
   "metadata": {
-    "generated-on": "2025-07-18T00:36:24.185655\u002B00:00",
+    "generated-on": "2025-07-18T01:04:18.956908\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
