@@ -47,6 +47,12 @@
       "type": "application/markdown"
     }
   },
+  "glossary": {
+    "LTS": "Long-Term Support \u2013 3-year support window",
+    "STS": "Standard-Term Support \u2013 18-month support window",
+    "GA": "General Availability \u2013 Production-ready release",
+    "EOL": "End of Life \u2013 No longer supported"
+  },
   "lifecycle": {
     "release-type": "sts",
     "phase": "eol",
@@ -54,7 +60,7 @@
     "eol-date": "2024-05-14T00:00:00\u002B00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T04:59:40.6994222\u002B00:00",
+    "generated-on": "2025-07-18T05:03:00.5924075\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
