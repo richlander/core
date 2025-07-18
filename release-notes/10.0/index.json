@@ -48,13 +48,13 @@
     "EOL": "End of Life \u2013 No longer supported"
   },
   "lifecycle": {
-    "release-type": "sts",
+    "release-type": "lts",
     "phase": "preview",
     "ga-date": "2025-11-11T00:00:00\u002B00:00",
     "eol-date": "2028-11-14T00:00:00\u002B00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T05:03:00.5918173\u002B00:00",
+    "generated-on": "2025-07-18T06:10:49.8271315\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

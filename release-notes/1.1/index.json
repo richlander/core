@@ -15,6 +15,12 @@
       "relative": "1.1/releases.json",
       "title": "Releases",
       "type": "application/json"
+    },
+    "manifest": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.1/manifest.json",
+      "relative": "1.1/manifest.json",
+      "title": "Manifest",
+      "type": "application/hal\u002Bjson"
     }
   },
   "glossary": {
@@ -30,7 +36,7 @@
     "eol-date": "2019-06-27T00:00:00\u002B00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T05:03:00.591564\u002B00:00",
+    "generated-on": "2025-07-18T06:10:49.8269831\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

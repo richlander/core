@@ -15,6 +15,12 @@
       "relative": "3.0/releases.json",
       "title": "Releases",
       "type": "application/json"
+    },
+    "manifest": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/3.0/manifest.json",
+      "relative": "3.0/manifest.json",
+      "title": "Manifest",
+      "type": "application/hal\u002Bjson"
     }
   },
   "glossary": {
@@ -26,11 +32,11 @@
   "lifecycle": {
     "release-type": "sts",
     "phase": "eol",
-    "ga-date": "2019-09-16T00:00:00\u002B00:00",
+    "ga-date": "2019-09-23T00:00:00\u002B00:00",
     "eol-date": "2020-03-03T00:00:00\u002B00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T05:03:00.5892929\u002B00:00",
+    "generated-on": "2025-07-18T06:10:49.8173828\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
