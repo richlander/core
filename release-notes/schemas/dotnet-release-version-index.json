@@ -70,6 +70,18 @@
         ]
       }
     },
+    "glossary": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
     "_embedded": {
       "description": "Container for embedded release entries in a version index",
       "type": [
