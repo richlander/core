@@ -41,8 +41,8 @@
       "type": "application/hal\u002Bjson"
     },
     "latest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/index.json",
-      "title": ".NET 10.0",
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
+      "title": ".NET 9.0",
       "type": "application/json"
     },
     "latest-lts": {
@@ -308,7 +308,7 @@
     ]
   },
   "metadata": {
-    "generated-on": "2025-07-18T04:19:32.0336593\u002B00:00",
+    "generated-on": "2025-07-18T04:28:49.4448743\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
