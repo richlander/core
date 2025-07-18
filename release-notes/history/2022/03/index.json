@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
   "kind": "history-month-index",
   "title": ".NET Release History Index - 2022-03",
-  "description": "Release history for 2022-03 (3.1\u20137.0); This file is cache-friendly; follow links for the most current details.",
+  "description": "Release history for 2022-03 (3.1\u20137.0, latest first); This file is cache-friendly; follow links for the most current details.",
   "year": "2022",
   "month": "03",
   "_links": {
@@ -35,7 +35,7 @@
     ]
   },
   "metadata": {
-    "generated-on": "2025-07-18T01:04:18.811263\u002B00:00",
+    "generated-on": "2025-07-18T01:15:51.957691\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

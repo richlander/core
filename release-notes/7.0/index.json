@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-version-index.json",
   "kind": "index",
   "title": ".NET 7.0 Patch Release Index",
-  "description": "Index of .NET versions 7.0.0\u20137.0.20; This file is cache-friendly; follow links for the most current details.",
+  "description": "Index of .NET versions 7.0.0\u20137.0.20 (latest first); This file is cache-friendly; follow links for the most current details.",
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/supported-os.json",
@@ -54,7 +54,7 @@
     "eol-date": "2024-05-14T00:00:00\u002B00:00"
   },
   "metadata": {
-    "generated-on": "2025-07-18T01:04:18.678512\u002B00:00",
+    "generated-on": "2025-07-18T01:15:51.894005\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
