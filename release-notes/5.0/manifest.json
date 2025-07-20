@@ -42,15 +42,8 @@
   },
   "version": "5.0",
   "label": ".NET 5.0",
-  "lifecycle": {
-    "release-type": "sts",
-    "phase": "eol",
-    "ga-date": "2020-11-10T00:00:00+00:00",
-    "eol-date": "2022-05-10T00:00:00+00:00",
-    "supported": false
-  },
   "_metadata": {
-    "generated-on": "2025-07-20T02:55:40.006907+00:00",
+    "generated-on": "2025-07-20T03:25:46.0166218+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

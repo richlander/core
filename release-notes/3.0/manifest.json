@@ -42,15 +42,8 @@
   },
   "version": "3.0",
   "label": ".NET 3.0",
-  "lifecycle": {
-    "release-type": "sts",
-    "phase": "eol",
-    "ga-date": "2019-09-23T00:00:00+00:00",
-    "eol-date": "2020-03-03T00:00:00+00:00",
-    "supported": false
-  },
   "_metadata": {
-    "generated-on": "2025-07-20T02:55:40.0046037+00:00",
+    "generated-on": "2025-07-20T03:25:46.0144324+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

@@ -37,15 +37,8 @@
   },
   "version": "2.2",
   "label": ".NET 2.2",
-  "lifecycle": {
-    "release-type": "sts",
-    "phase": "eol",
-    "ga-date": "2018-12-04T00:00:00+00:00",
-    "eol-date": "2019-12-23T00:00:00+00:00",
-    "supported": false
-  },
   "_metadata": {
-    "generated-on": "2025-07-20T02:55:40.0077165+00:00",
+    "generated-on": "2025-07-20T03:25:46.0174839+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

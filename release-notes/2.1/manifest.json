@@ -42,15 +42,8 @@
   },
   "version": "2.1",
   "label": ".NET 2.1",
-  "lifecycle": {
-    "release-type": "lts",
-    "phase": "eol",
-    "ga-date": "2018-05-30T00:00:00+00:00",
-    "eol-date": "2021-08-21T00:00:00+00:00",
-    "supported": false
-  },
   "_metadata": {
-    "generated-on": "2025-07-20T02:55:40.0073513+00:00",
+    "generated-on": "2025-07-20T03:25:46.0171279+00:00",
     "generated-by": "UpdateIndexes"
   }
 }
