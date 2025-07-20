@@ -39,6 +39,16 @@
       "relative": "history/index.json",
       "title": "Historical Release and CVE Records",
       "type": "application/hal\u002Bjson"
+    },
+    "latest": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
+      "title": ".NET 9.0",
+      "type": "application/json"
+    },
+    "latest-lts": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/index.json",
+      "title": ".NET 8.0 (LTS)",
+      "type": "application/json"
     }
   },
   "glossary": {
@@ -71,8 +81,8 @@
         "lifecycle": {
           "release-type": "lts",
           "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2028-11-14T00:00:00\u002B00:00",
+          "release-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2029-11-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -95,10 +105,10 @@
         },
         "lifecycle": {
           "release-type": "sts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2027-05-14T00:00:00\u002B00:00",
-          "supported": false
+          "phase": "active",
+          "release-date": "2024-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-05-14T00:00:00\u002B00:00",
+          "supported": true
         }
       },
       {
@@ -120,10 +130,10 @@
         },
         "lifecycle": {
           "release-type": "lts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2028-11-14T00:00:00\u002B00:00",
-          "supported": false
+          "phase": "active",
+          "release-date": "2023-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "supported": true
         }
       },
       {
@@ -145,9 +155,9 @@
         },
         "lifecycle": {
           "release-type": "sts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2027-05-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2022-11-14T00:00:00\u002B00:00",
+          "eol-date": "2024-05-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -170,9 +180,9 @@
         },
         "lifecycle": {
           "release-type": "lts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2028-11-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2021-11-14T00:00:00\u002B00:00",
+          "eol-date": "2024-11-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -195,9 +205,9 @@
         },
         "lifecycle": {
           "release-type": "sts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2027-05-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2020-11-14T00:00:00\u002B00:00",
+          "eol-date": "2022-05-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -220,9 +230,9 @@
         },
         "lifecycle": {
           "release-type": "sts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2027-05-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2020-11-14T00:00:00\u002B00:00",
+          "eol-date": "2022-05-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -245,9 +255,9 @@
         },
         "lifecycle": {
           "release-type": "sts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2027-05-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2020-11-14T00:00:00\u002B00:00",
+          "eol-date": "2022-05-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -270,9 +280,9 @@
         },
         "lifecycle": {
           "release-type": "lts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2028-11-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2020-11-14T00:00:00\u002B00:00",
+          "eol-date": "2023-11-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -295,9 +305,9 @@
         },
         "lifecycle": {
           "release-type": "lts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2028-11-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2020-11-14T00:00:00\u002B00:00",
+          "eol-date": "2023-11-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -320,9 +330,9 @@
         },
         "lifecycle": {
           "release-type": "lts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2028-11-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2020-11-14T00:00:00\u002B00:00",
+          "eol-date": "2023-11-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -345,9 +355,9 @@
         },
         "lifecycle": {
           "release-type": "sts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2027-05-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2020-11-14T00:00:00\u002B00:00",
+          "eol-date": "2022-05-14T00:00:00\u002B00:00",
           "supported": false
         }
       },
@@ -370,23 +380,16 @@
         },
         "lifecycle": {
           "release-type": "sts",
-          "phase": "preview",
-          "release-date": "2025-11-14T00:00:00\u002B00:00",
-          "eol-date": "2027-05-14T00:00:00\u002B00:00",
+          "phase": "active",
+          "release-date": "2020-11-14T00:00:00\u002B00:00",
+          "eol-date": "2022-05-14T00:00:00\u002B00:00",
           "supported": false
         }
       }
     ]
   },
-  "lifecycle": {
-    "release-type": "lts",
-    "phase": "active",
-    "release-date": "2024-07-20T03:25:46.0177898\u002B00:00",
-    "eol-date": "2035-07-20T03:25:46.0177899\u002B00:00",
-    "supported": true
-  },
   "_metadata": {
-    "generated-on": "2025-07-20T03:25:46.0177956\u002B00:00",
+    "generated-on": "2025-07-20T04:49:18.5643125\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

@@ -1,0 +1,80 @@
+{
+    "component": "sdk",
+    "version": "8.0",
+    "label": ".NET SDK 8.0",
+    "support-phase": "active",
+    "_links": {
+        "self": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases/8.0/sdk-index.json",
+            "relative": "sdk-index.json",
+            "title": ".NET SDK 8.0 Index",
+            "type": "application/json"
+        },
+        "latest": {
+            "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases/8.0/sdk.json",
+            "relative": "sdk.json",
+            "title": ".NET SDK 8.0 Latest",
+            "type": "application/json"
+        }
+    },
+    "_embedded": {
+        "sdk-feature-bands": [
+            {
+                "kind": "band",
+                "version": "8.0.1xx",
+                "label": ".NET SDK 8.0.1xx",
+                "support-phase": "active",
+                "_links": {
+                    "self": {
+                        "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases/8.0/sdk-8.0.1xx.json",
+                        "relative": "sdk-8.0.1xx.json",
+                        "title": ".NET SDK 8.0.1xx",
+                        "type": "application/json"
+                    }
+                }
+            },
+            {
+                "kind": "band",
+                "version": "8.0.2xx",
+                "label": ".NET SDK 8.0.2xx",
+                "support-phase": "eol",
+                "_links": {
+                    "self": {
+                        "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases/8.0/sdk-8.0.2xx.json",
+                        "relative": "sdk-8.0.2xx.json",
+                        "title": ".NET SDK 8.0.2xx",
+                        "type": "application/json"
+                    }
+                }
+            },
+            {
+                "kind": "band",
+                "version": "8.0.3xx",
+                "label": ".NET SDK 8.0.3xx",
+                "support-phase": "active",
+                "_links": {
+                    "self": {
+                        "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases/8.0/sdk-8.0.3xx.json",
+                        "relative": "sdk-8.0.3xx.json",
+                        "title": ".NET SDK 8.0.3xx",
+                        "type": "application/json"
+                    }
+                }
+            },
+            {
+                "kind": "band",
+                "version": "8.0.4xx",
+                "label": ".NET SDK 8.0.4xx",
+                "support-phase": "active",
+                "_links": {
+                    "self": {
+                        "href": "https://builds.dotnet.microsoft.com/dotnet/release-metadata/releases/8.0/sdk-8.0.4xx.json",
+                        "relative": "sdk-8.0.4xx.json",
+                        "title": ".NET SDK 8.0.4xx",
+                        "type": "application/json"
+                    }
+                }
+            }
+        ]
+    }
+}
