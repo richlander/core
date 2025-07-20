@@ -1,69 +1,72 @@
 {
-    "date": "2024-05-14",
-    "records": [
-        {
-            "id": "CVE-2024-30045",
-            "title": ".NET Remote Code Execution Vulnerability",
-            "severity": "Critical",
-            "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L/E:U/RL:O/RC:C",
-            "product": ".NET",
-            "description": [
-                "A Remote Code Execution vulnerability exists in .NET 7.0 and .NET 8.0 where a stack buffer overrun occurs in .NET Double Parse routine."
-            ],
-            "references": [
-                "https://github.com/dotnet/runtime/security/advisories/GHSA-7fcr-8qw6-92fr",
-                "https://github.com/dotnet/runtime/issues/102206"
-            ]
-        },
-        {
-            "id": "CVE-2024-30046",
-            "title": ".NET Denial of Service Vulnerability",
-            "severity": "Critical",
-            "cvss": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
-            "product": "ASP.NET Core",
-            "description": [
-                "A vulnerability exists in Microsoft.AspNetCore.Server.Kestrel.Core.dll where a dead-lock can occur resulting in Denial of Service."
-            ],
-            "references": [
-                "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-hhc7-x9w4-cw47",
-                "https://github.com/dotnet/aspnetcore/issues/55714"
-            ]
-        }
+  "date": "2024-05-14",
+  "records": [
+    {
+      "id": "CVE-2024-30045",
+      "title": ".NET Remote Code Execution Vulnerability",
+      "severity": "Critical",
+      "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L/E:U/RL:O/RC:C",
+      "product": ".NET",
+      "description": [
+        "A Remote Code Execution vulnerability exists in .NET 7.0 and .NET 8.0 where a stack buffer overrun occurs in .NET Double Parse routine."
+      ],
+      "references": [
+        "https://github.com/dotnet/runtime/security/advisories/GHSA-7fcr-8qw6-92fr",
+        "https://github.com/dotnet/runtime/issues/102206"
+      ]
+    },
+    {
+      "id": "CVE-2024-30046",
+      "title": ".NET Denial of Service Vulnerability",
+      "severity": "Critical",
+      "cvss": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+      "product": "ASP.NET Core",
+      "description": [
+        "A vulnerability exists in Microsoft.AspNetCore.Server.Kestrel.Core.dll where a dead-lock can occur resulting in Denial of Service."
+      ],
+      "references": [
+        "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-hhc7-x9w4-cw47",
+        "https://github.com/dotnet/aspnetcore/issues/55714"
+      ]
+    }
+  ],
+  "platform": {
+    "7.0": [
+      {
+        "component": "Microsoft.NETCore.App.Runtime",
+        "cve-id": "CVE-2024-30045",
+        "min-vulnerable": "7.0.0",
+        "max-vulnerable": "7.0.18",
+        "fixed": "7.0.19",
+        "family": "7.0"
+      },
+      {
+        "component": "Microsoft.AspNetCore.App.Runtime",
+        "cve-id": "CVE-2024-30046",
+        "min-vulnerable": "7.0.0",
+        "max-vulnerable": "7.0.18",
+        "fixed": "7.0.19",
+        "family": "7.0"
+      }
     ],
-    "packages": [
-        {
-            "name": "Microsoft.NETCore.App.Runtime",
-            "affected": [
-                {
-                    "cve-id": "CVE-2024-30045",
-                    "min-vulnerable": "7.0.0",
-                    "max-vulnerable": "7.0.18",
-                    "fixed": "7.0.19"
-                },
-                {
-                    "cve-id": "CVE-2024-30045",
-                    "min-vulnerable": "8.0.0",
-                    "max-vulnerable": "8.0.4",
-                    "fixed": "8.0.5"
-                }
-            ]
-        },
-        {
-            "name": "Microsoft.AspNetCore.App.Runtime",
-            "affected": [
-                {
-                    "cve-id": "CVE-2024-30046",
-                    "min-vulnerable": "7.0.0",
-                    "max-vulnerable": "7.0.18",
-                    "fixed": "7.0.19"
-                },
-                {
-                    "cve-id": "CVE-2024-30046",
-                    "min-vulnerable": "8.0.0",
-                    "max-vulnerable": "8.0.4",
-                    "fixed": "8.0.5"
-                }
-            ]
-        }
+    "8.0": [
+      {
+        "component": "Microsoft.NETCore.App.Runtime",
+        "cve-id": "CVE-2024-30045",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.4",
+        "fixed": "8.0.5",
+        "family": "8.0"
+      },
+      {
+        "component": "Microsoft.AspNetCore.App.Runtime",
+        "cve-id": "CVE-2024-30046",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.4",
+        "fixed": "8.0.5",
+        "family": "8.0"
+      }
     ]
+  },
+  "packages": {}
 }
