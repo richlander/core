@@ -1,50 +1,55 @@
 {
-    "date": "2024-04-09",
-    "records": [
-        {
-            "id": "CVE-2024-21409",
-            "title": ".NET Elevation of Privilege Vulnerability",
-            "severity": "Critical",
-            "cvss": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
-            "product": ".NET",
-            "platforms": [
-                "Windows"
-            ],
-            "description": [
-                "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
-            ],
-            "references": [
-                "https://github.com/dotnet/wpf/security/advisories/GHSA-6qmx-42h2-j8h6",
-                "https://github.com/dotnet/wpf/issues/9003"
-            ]
-        }
+  "date": "2024-04-09",
+  "records": [
+    {
+      "id": "CVE-2024-21409",
+      "title": ".NET Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "product": ".NET",
+      "platforms": [
+        "Windows"
+      ],
+      "description": [
+        "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
+      ],
+      "references": [
+        "https://github.com/dotnet/wpf/security/advisories/GHSA-6qmx-42h2-j8h6",
+        "https://github.com/dotnet/wpf/issues/9003"
+      ]
+    }
+  ],
+  "platform": {
+    "6.0": [
+      {
+        "cve-id": "CVE-2024-21409",
+        "min-vulnerable": "6.0.0",
+        "max-vulnerable": "6.0.28",
+        "fixed": "6.0.29",
+        "family": "6.0",
+        "component": "Microsoft.WindowsDesktop.App.Runtime"
+      }
     ],
-    "packages": [
-        {
-            "name": "Microsoft.WindowsDesktop.App.Runtime",
-            "affected": [
-                {
-                    "cve-id": "CVE-2024-21409",
-                    "min-vulnerable": "6.0.0",
-                    "max-vulnerable": "6.0.28",
-                    "fixed": "6.0.29",
-                    "family": "6.0"
-                },
-                {
-                    "cve-id": "CVE-2024-21409",
-                    "min-vulnerable": "7.0.0",
-                    "max-vulnerable": "7.0.17",
-                    "fixed": "7.0.18",
-                    "family": "7.0"
-                },
-                {
-                    "cve-id": "CVE-2024-21409",
-                    "min-vulnerable": "8.0.0",
-                    "max-vulnerable": "8.0.3",
-                    "fixed": "8.0.4",
-                    "family": "8.0"
-                }
-            ]
-        }
+    "7.0": [
+      {
+        "cve-id": "CVE-2024-21409",
+        "min-vulnerable": "7.0.0",
+        "max-vulnerable": "7.0.17",
+        "fixed": "7.0.18",
+        "family": "7.0",
+        "component": "Microsoft.WindowsDesktop.App.Runtime"
+      }
+    ],
+    "8.0": [
+      {
+        "cve-id": "CVE-2024-21409",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.3",
+        "fixed": "8.0.4",
+        "family": "8.0",
+        "component": "Microsoft.WindowsDesktop.App.Runtime"
+      }
     ]
+  },
+  "packages": {}
 }

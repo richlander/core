@@ -1,60 +1,62 @@
 {
-    "date": "2025-04-08",
-    "records": [
-        {
-            "id": "CVE-2025-26682",
-            "title": ".NET Denial of Service Vulnerability",
-            "severity": "High",
-            "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
-            "description": [
-                "A vulnerability exists in ASP.NET Core where using HTTP/3 improperly may result in a Denial of Service by allocation of resources without limits or throttling."
-            ],
-            "references": [
-                "https://github.com/dotnet/aspnetcore/issues/61390"
-            ]
-        }
+  "date": "2025-04-08",
+  "records": [
+    {
+      "id": "CVE-2025-26682",
+      "title": ".NET Denial of Service Vulnerability",
+      "severity": "High",
+      "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+      "description": [
+        "A vulnerability exists in ASP.NET Core where using HTTP/3 improperly may result in a Denial of Service by allocation of resources without limits or throttling."
+      ],
+      "references": [
+        "https://github.com/dotnet/aspnetcore/issues/61390"
+      ]
+    }
+  ],
+  "commits": [
+    {
+      "repo": "aspnetcore",
+      "branch": "main",
+      "hash": "d6605eb150c993dd8943e2c1a6875a93927c301a",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/d6605eb150c993dd8943e2c1a6875a93927c301a"
+    },
+    {
+      "repo": "aspnetcore",
+      "branch": "main",
+      "hash": "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
+    }
+  ],
+  "platform": {
+    "8.0": [
+      {
+        "cve-id": "CVE-2025-26682",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.14",
+        "fixed": "8.0.15",
+        "family": "8.0",
+        "commits": [
+          "d6605eb150c993dd8943e2c1a6875a93927c301a"
+        ],
+        "component": "Microsoft.ASPNetCore.App.Runtime"
+      }
     ],
-    "packages": [
-        {
-            "name": "Microsoft.ASPNetCore.App.Runtime",
-            "affected": [
-                {
-                    "cve-id": "CVE-2025-26682",
-                    "min-vulnerable": "8.0.0",
-                    "max-vulnerable": "8.0.14",
-                    "fixed": "8.0.15",
-                    "family": "8.0",
-                    "commits": [
-                        "d6605eb150c993dd8943e2c1a6875a93927c301a"
-                    ]
-                },
-                {
-                    "cve-id": "CVE-2025-26682",
-                    "min-vulnerable": "9.0.0",
-                    "max-vulnerable": "9.0.3",
-                    "fixed": "9.0.4",
-                    "family": "9.0",
-                    "commits": [
-                        "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
-                    ]
-                }
-            ]
-        }
-    ],
-    "commits": [
-        {
-            "repo": "aspnetcore",
-            "branch": "main",
-            "hash": "d6605eb150c993dd8943e2c1a6875a93927c301a",
-            "org": "dotnet",
-            "url": "https://github.com/dotnet/aspnetcore/commit/d6605eb150c993dd8943e2c1a6875a93927c301a"
-        },
-        {
-            "repo": "aspnetcore",
-            "branch": "main",
-            "hash": "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad",
-            "org": "dotnet",
-            "url": "https://github.com/dotnet/aspnetcore/commit/d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
-        }
+    "9.0": [
+      {
+        "cve-id": "CVE-2025-26682",
+        "min-vulnerable": "9.0.0",
+        "max-vulnerable": "9.0.3",
+        "fixed": "9.0.4",
+        "family": "9.0",
+        "commits": [
+          "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
+        ],
+        "component": "Microsoft.ASPNetCore.App.Runtime"
+      }
     ]
+  },
+  "packages": {}
 }

@@ -1,65 +1,65 @@
 {
-    "date": "2025-06-10",
-    "records": [
-        {
-            "id": "CVE-2025-30399",
-            "title": "DLL Hijacking Remote Code Execution Vulnerability",
-            "security": "High",
-            "cvss": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
-            "references": [
-                "https://github.com/dotnet/announcements/issues/362"
-            ]
-
-        }
-    ],
-    "packages": [
-        {
-            "name": "Microsoft.NetCore.Sdk",
-            "affected": [
-                {
-                    "cve-id": "CVE-2025-30399",
-                    "min-vulnerable": "8.0.100",
-                    "max-vulnerable": "8.0.116",
-                    "fixed": "8.0.117",
-                    "family": "8.0.1xx",
-                    "commits": [
-                        "d00609e7978ee1b0fe62b39a378611311cf85603"
-                    ]
-                },
-                {
-                    "cve-id": "CVE-2025-30399",
-                    "min-vulnerable": "8.0.300",
-                    "max-vulnerable": "8.0.312",
-                    "fixed": "8.0.313",
-                    "family": "8.0.3xx"
-                },
-                {
-                    "cve-id": "CVE-2025-30399",
-                    "min-vulnerable": "8.0.400",
-                    "max-vulnerable": "8.0.409",
-                    "fixed": "8.0.410",
-                    "family": "8.0.4xx",
-                    "commits": [
-                        "7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
-                    ]
-                }
-            ]
-        }
-    ],
-    "commits": [
-        {
-            "repo": "runtime",
-            "branch": "release/8.0",
-            "hash": "b33d4e34e1cbf993583d78fc1b64ea8400935978",
-            "org": "dotnet",
-            "url": "https://github.com/dotnet/runtime/commit/b33d4e34e1cbf993583d78fc1b64ea8400935978"
-        },
-        {
-            "repo": "runtime",
-            "branch": "release/9.0",
-            "hash": "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2",
-            "org": "dotnet",
-            "url": "https://github.com/dotnet/runtime/commit/214743ee2a5a25b9a3a07e3f0451da73eb4e97e2"
-        }
+  "date": "2025-06-10",
+  "records": [
+    {
+      "id": "CVE-2025-30399",
+      "title": "DLL Hijacking Remote Code Execution Vulnerability",
+      "security": "High",
+      "cvss": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "references": [
+        "https://github.com/dotnet/announcements/issues/362"
+      ]
+    }
+  ],
+  "commits": [
+    {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "b33d4e34e1cbf993583d78fc1b64ea8400935978",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/b33d4e34e1cbf993583d78fc1b64ea8400935978"
+    },
+    {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/214743ee2a5a25b9a3a07e3f0451da73eb4e97e2"
+    }
+  ],
+  "platform": {
+    "8.0": [
+      {
+        "cve-id": "CVE-2025-30399",
+        "min-vulnerable": "8.0.100",
+        "max-vulnerable": "8.0.116",
+        "fixed": "8.0.117",
+        "family": "8.0.1xx",
+        "commits": [
+          "d00609e7978ee1b0fe62b39a378611311cf85603"
+        ],
+        "component": "Microsoft.NetCore.Sdk"
+      },
+      {
+        "cve-id": "CVE-2025-30399",
+        "min-vulnerable": "8.0.300",
+        "max-vulnerable": "8.0.312",
+        "fixed": "8.0.313",
+        "family": "8.0.3xx",
+        "component": "Microsoft.NetCore.Sdk"
+      },
+      {
+        "cve-id": "CVE-2025-30399",
+        "min-vulnerable": "8.0.400",
+        "max-vulnerable": "8.0.409",
+        "fixed": "8.0.410",
+        "family": "8.0.4xx",
+        "commits": [
+          "7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
+        ],
+        "component": "Microsoft.NetCore.Sdk"
+      }
     ]
+  },
+  "packages": {}
 }

@@ -1,119 +1,121 @@
 {
-    "date": "2023-11-14",
-    "records": [
-        {
-            "id": "CVE-2023-36038",
-            "title": ".NET Denial of Service Vulnerability",
-            "severity": "Critical",
-            "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H/E:U/RL:O/RC:C",
-            "product": "ASP.NET Core",
-            "platforms": [
-                "Windows"
-            ],
-            "description": [
-                "A vulnerability exists in ASP.NET IIS where a remote unauthenticated user can issue specially crafted requests to a .NET application which may result in denial of service."
-            ],
-            "references": [
-                "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-56cg-fj6f-x8q8",
-                "https://github.com/dotnet/aspnetcore/issues/52043"
-            ]
-        },
-        {
-            "id": "CVE-2023-36049",
-            "title": ".NET Elevation of Privilege Vulnerability",
-            "severity": "Critical",
-            "cvss": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C",
-            "product": ".NET",
-            "description": [
-                "An elevation of privilege vulnerability exists in .NET where untrusted URIs provided to System.Net.WebRequest.Create can be used to inject arbitrary commands to backend FTP servers."
-            ],
-            "references": [
-                "https://github.com/dotnet/runtime/security/advisories/GHSA-c3hf-8vgx-72rh",
-                "https://github.com/dotnet/runtime/issues/94725"
-            ]
-        },
-        {
-            "id": "CVE-2023-36558",
-            "title": ".NET Security Feature Bypass Vulnerability",
-            "severity": "Critical",
-            "cvss": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C",
-            "product": "ASP.NET Core",
-            "description": [
-                "A security feature bypass vulnerability exists in ASP.NET where an unauthenticated user is able to bypass validation on Blazor server forms which could trigger unintended actions."
-            ],
-            "mitigation": [
-                "This vulnerability only affects ASP.NET Core Blazor apps. Other application types, including ASP.NET Core apps which do not utilize Blazor, are not affected."
-            ],
-            "references": [
-                "https://github.com/dotnet/runtime/security/advisories/GHSA-3fx3-85r4-8j3w",
-                "https://github.com/dotnet/runtime/issues/94726"
-            ]
-        }
+  "date": "2023-11-14",
+  "records": [
+    {
+      "id": "CVE-2023-36038",
+      "title": ".NET Denial of Service Vulnerability",
+      "severity": "Critical",
+      "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H/E:U/RL:O/RC:C",
+      "product": "ASP.NET Core",
+      "platforms": [
+        "Windows"
+      ],
+      "description": [
+        "A vulnerability exists in ASP.NET IIS where a remote unauthenticated user can issue specially crafted requests to a .NET application which may result in denial of service."
+      ],
+      "references": [
+        "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-56cg-fj6f-x8q8",
+        "https://github.com/dotnet/aspnetcore/issues/52043"
+      ]
+    },
+    {
+      "id": "CVE-2023-36049",
+      "title": ".NET Elevation of Privilege Vulnerability",
+      "severity": "Critical",
+      "cvss": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C",
+      "product": ".NET",
+      "description": [
+        "An elevation of privilege vulnerability exists in .NET where untrusted URIs provided to System.Net.WebRequest.Create can be used to inject arbitrary commands to backend FTP servers."
+      ],
+      "references": [
+        "https://github.com/dotnet/runtime/security/advisories/GHSA-c3hf-8vgx-72rh",
+        "https://github.com/dotnet/runtime/issues/94725"
+      ]
+    },
+    {
+      "id": "CVE-2023-36558",
+      "title": ".NET Security Feature Bypass Vulnerability",
+      "severity": "Critical",
+      "cvss": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C",
+      "product": "ASP.NET Core",
+      "description": [
+        "A security feature bypass vulnerability exists in ASP.NET where an unauthenticated user is able to bypass validation on Blazor server forms which could trigger unintended actions."
+      ],
+      "mitigation": [
+        "This vulnerability only affects ASP.NET Core Blazor apps. Other application types, including ASP.NET Core apps which do not utilize Blazor, are not affected."
+      ],
+      "references": [
+        "https://github.com/dotnet/runtime/security/advisories/GHSA-3fx3-85r4-8j3w",
+        "https://github.com/dotnet/runtime/issues/94726"
+      ]
+    }
+  ],
+  "platform": {
+    "6.0": [
+      {
+        "cve-id": "CVE-2023-36049",
+        "min-vulnerable": "6.0.0",
+        "max-vulnerable": "6.0.24",
+        "fixed": "6.0.25",
+        "family": "6.0",
+        "component": "Microsoft.NETCore.App.Runtime"
+      }
     ],
-    "packages": [
-        {
-            "name": "Microsoft.AspNetCore.Components",
-            "affected": [
-                {
-                    "cve-id": "CVE-2023-36558",
-                    "min-vulnerable": "6.0.0",
-                    "max-vulnerable": "6.0.24",
-                    "fixed": "6.0.25",
-                    "family": "6.0"
-                },
-                {
-                    "cve-id": "CVE-2023-36558",
-                    "min-vulnerable": "7.0.0",
-                    "max-vulnerable": "7.0.13",
-                    "fixed": "7.0.14",
-                    "family": "7.0"
-                },
-                {
-                    "cve-id": "CVE-2023-36558",
-                    "min-vulnerable": "8.0-rc.2",
-                    "max-vulnerable": "8.0-rc.2",
-                    "fixed": "8.0.0",
-                    "family": "8.0"
-                }
-            ]
-        },
-        {
-            "name": "Microsoft.AspNetCore.App.Runtime",
-            "affected": [
-                {
-                    "cve-id": "CVE-2023-36038",
-                    "min-vulnerable": "8.0-rc.2",
-                    "max-vulnerable": "8.0-rc.2",
-                    "fixed": "8.0.0",
-                    "family": "8.0"
-                }
-            ]
-        },
-        {
-            "name": "Microsoft.NETCore.App.Runtime",
-            "affected": [
-                {
-                    "cve-id": "CVE-2023-36049",
-                    "min-vulnerable": "6.0.0",
-                    "max-vulnerable": "6.0.24",
-                    "fixed": "6.0.25",
-                    "family": "6.0"
-                },
-                {
-                    "cve-id": "CVE-2023-36049",
-                    "min-vulnerable": "7.0.0",
-                    "max-vulnerable": "7.0.13",
-                    "fixed": "7.0.14",
-                    "family": "7.0"
-                },
-                {
-                    "cve-id": "CVE-2023-36049",
-                    "min-vulnerable": "8.0-rc.2",
-                    "max-vulnerable": "8.0-rc.2",
-                    "fixed": "8.0.0",
-                    "family": "8.0"
-                }
-            ]
-        }
+    "7.0": [
+      {
+        "cve-id": "CVE-2023-36049",
+        "min-vulnerable": "7.0.0",
+        "max-vulnerable": "7.0.13",
+        "fixed": "7.0.14",
+        "family": "7.0",
+        "component": "Microsoft.NETCore.App.Runtime"
+      }
+    ],
+    "8.0": [
+      {
+        "cve-id": "CVE-2023-36038",
+        "min-vulnerable": "8.0-rc.2",
+        "max-vulnerable": "8.0-rc.2",
+        "fixed": "8.0.0",
+        "family": "8.0",
+        "component": "Microsoft.AspNetCore.App.Runtime"
+      },
+      {
+        "cve-id": "CVE-2023-36049",
+        "min-vulnerable": "8.0-rc.2",
+        "max-vulnerable": "8.0-rc.2",
+        "fixed": "8.0.0",
+        "family": "8.0",
+        "component": "Microsoft.NETCore.App.Runtime"
+      }
     ]
+  },
+  "packages": {
+    "Microsoft.AspNetCore.Components": [
+      {
+        "cve-id": "CVE-2023-36558",
+        "min-vulnerable": "6.0.0",
+        "max-vulnerable": "6.0.24",
+        "fixed": "6.0.25",
+        "family": "6.0",
+        "component": "Microsoft.AspNetCore.Components"
+      },
+      {
+        "cve-id": "CVE-2023-36558",
+        "min-vulnerable": "7.0.0",
+        "max-vulnerable": "7.0.13",
+        "fixed": "7.0.14",
+        "family": "7.0",
+        "component": "Microsoft.AspNetCore.Components"
+      },
+      {
+        "cve-id": "CVE-2023-36558",
+        "min-vulnerable": "8.0-rc.2",
+        "max-vulnerable": "8.0-rc.2",
+        "fixed": "8.0.0",
+        "family": "8.0",
+        "component": "Microsoft.AspNetCore.Components"
+      }
+    ]
+  }
 }
