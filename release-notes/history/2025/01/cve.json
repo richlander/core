@@ -57,52 +57,6 @@
     }
   ],
   "platform": {
-    "9.0": [
-      {
-        "component": "Microsoft.NetCore.Sdk",
-        "cve-id": "CVE-2025-21173",
-        "min-vulnerable": "9.0.100",
-        "max-vulnerable": "9.0.101",
-        "fixed": "9.0.102",
-        "family": "9.0.1xx",
-        "commits": [
-          "802c364c05180a487624fc839870677625810b10"
-        ]
-      },
-      {
-        "component": "Microsoft.NETCore.App.Runtime",
-        "cve-id": "CVE-2025-21171",
-        "min-vulnerable": "9.0.0",
-        "max-vulnerable": "9.0.0",
-        "fixed": "9.0.1",
-        "family": "9.0",
-        "commits": [
-          "9da8c6a4a6ea03054e776275d3fd5c752897842e"
-        ]
-      },
-      {
-        "component": "Microsoft.NETCore.App.Runtime",
-        "cve-id": "CVE-2025-21172",
-        "min-vulnerable": "9.0.0",
-        "max-vulnerable": "9.0.0",
-        "fixed": "9.0.1",
-        "family": "9.0",
-        "commits": [
-          "32d8ea6eecf7f192a75162645390847b14b56dbb"
-        ]
-      },
-      {
-        "component": "Microsoft.NETCore.App.Runtime",
-        "cve-id": "CVE-2025-21176",
-        "min-vulnerable": "9.0.0",
-        "max-vulnerable": "9.0.0",
-        "fixed": "9.0.1",
-        "family": "9.0",
-        "commits": [
-          "32d8ea6eecf7f192a75162645390847b14b56dbb"
-        ]
-      }
-    ],
     "6.0": [
       {
         "component": "Microsoft.NetCore.Sdk",
@@ -180,6 +134,52 @@
         "family": "8.0",
         "commits": [
           "89ef51c5d8f5239345127a1e282e11036e590c8b"
+        ]
+      }
+    ],
+    "9.0": [
+      {
+        "component": "Microsoft.NetCore.Sdk",
+        "cve-id": "CVE-2025-21173",
+        "min-vulnerable": "9.0.100",
+        "max-vulnerable": "9.0.101",
+        "fixed": "9.0.102",
+        "family": "9.0.1xx",
+        "commits": [
+          "802c364c05180a487624fc839870677625810b10"
+        ]
+      },
+      {
+        "component": "Microsoft.NETCore.App.Runtime",
+        "cve-id": "CVE-2025-21171",
+        "min-vulnerable": "9.0.0",
+        "max-vulnerable": "9.0.0",
+        "fixed": "9.0.1",
+        "family": "9.0",
+        "commits": [
+          "9da8c6a4a6ea03054e776275d3fd5c752897842e"
+        ]
+      },
+      {
+        "component": "Microsoft.NETCore.App.Runtime",
+        "cve-id": "CVE-2025-21172",
+        "min-vulnerable": "9.0.0",
+        "max-vulnerable": "9.0.0",
+        "fixed": "9.0.1",
+        "family": "9.0",
+        "commits": [
+          "32d8ea6eecf7f192a75162645390847b14b56dbb"
+        ]
+      },
+      {
+        "component": "Microsoft.NETCore.App.Runtime",
+        "cve-id": "CVE-2025-21176",
+        "min-vulnerable": "9.0.0",
+        "max-vulnerable": "9.0.0",
+        "fixed": "9.0.1",
+        "family": "9.0",
+        "commits": [
+          "32d8ea6eecf7f192a75162645390847b14b56dbb"
         ]
       }
     ]
