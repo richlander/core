@@ -46,10 +46,11 @@
     "release-type": "sts",
     "phase": "eol",
     "ga-date": "2019-09-23T00:00:00+00:00",
-    "eol-date": "2020-03-03T00:00:00+00:00"
+    "eol-date": "2020-03-03T00:00:00+00:00",
+    "supported": false
   },
-  "metadata": {
-    "generated-on": "2025-07-18T07:00:15.7877387+00:00",
+  "_metadata": {
+    "generated-on": "2025-07-20T02:55:40.0046037+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

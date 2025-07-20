@@ -37,25 +37,29 @@
     "release-history-index": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
       "relative": "history/index.json",
-      "title": ".NET Release and CVE History",
+      "title": "Historical Release and CVE Records",
       "type": "application/hal\u002Bjson"
     },
     "latest": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
       "title": ".NET 9.0",
-      "type": "application/json"
+      "type": "application/hal\u002Bjson"
     },
     "latest-lts": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/index.json",
       "title": ".NET 8.0 (LTS)",
-      "type": "application/json"
+      "type": "application/hal\u002Bjson"
     }
   },
   "glossary": {
-    "LTS": "Long-Term Support \u2013 3-year support window",
-    "STS": "Standard-Term Support \u2013 18-month support window",
-    "GA": "General Availability \u2013 Production-ready release",
-    "EOL": "End of Life \u2013 No longer supported"
+    "lts": "Long-Term Support \u2013 3-year support window",
+    "sts": "Standard-Term Support \u2013 18-month support window",
+    "ga": "General Availability \u2013 Production-ready release",
+    "eol": "End of Life \u2013 No longer supported",
+    "preview": "Pre-release phase with previews and release candidates",
+    "golive": "Production-ready but with limited support",
+    "active": "Full support with regular updates and security fixes",
+    "maintenance": "Security updates only, no new features"
   },
   "_embedded": {
     "releases": [
@@ -80,7 +84,8 @@
           "release-type": "lts",
           "phase": "preview",
           "ga-date": "2025-11-11T00:00:00\u002B00:00",
-          "eol-date": "2028-11-14T00:00:00\u002B00:00"
+          "eol-date": "2028-11-14T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -104,7 +109,8 @@
           "release-type": "sts",
           "phase": "active",
           "ga-date": "2024-11-12T00:00:00\u002B00:00",
-          "eol-date": "2026-05-12T00:00:00\u002B00:00"
+          "eol-date": "2026-05-12T00:00:00\u002B00:00",
+          "supported": true
         }
       },
       {
@@ -128,7 +134,8 @@
           "release-type": "lts",
           "phase": "active",
           "ga-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-10T00:00:00\u002B00:00"
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
+          "supported": true
         }
       },
       {
@@ -152,7 +159,8 @@
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2022-11-08T00:00:00\u002B00:00",
-          "eol-date": "2024-05-14T00:00:00\u002B00:00"
+          "eol-date": "2024-05-14T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -176,7 +184,8 @@
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2021-11-08T00:00:00\u002B00:00",
-          "eol-date": "2024-11-12T00:00:00\u002B00:00"
+          "eol-date": "2024-11-12T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -200,7 +209,8 @@
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2020-11-10T00:00:00\u002B00:00",
-          "eol-date": "2022-05-10T00:00:00\u002B00:00"
+          "eol-date": "2022-05-10T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -224,7 +234,8 @@
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2019-12-03T00:00:00\u002B00:00",
-          "eol-date": "2022-12-13T00:00:00\u002B00:00"
+          "eol-date": "2022-12-13T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -248,7 +259,8 @@
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2019-09-23T00:00:00\u002B00:00",
-          "eol-date": "2020-03-03T00:00:00\u002B00:00"
+          "eol-date": "2020-03-03T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -272,7 +284,8 @@
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2018-12-04T00:00:00\u002B00:00",
-          "eol-date": "2019-12-23T00:00:00\u002B00:00"
+          "eol-date": "2019-12-23T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -296,7 +309,8 @@
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2018-05-30T00:00:00\u002B00:00",
-          "eol-date": "2021-08-21T00:00:00\u002B00:00"
+          "eol-date": "2021-08-21T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -320,7 +334,8 @@
           "release-type": "sts",
           "phase": "eol",
           "ga-date": "2017-08-14T00:00:00\u002B00:00",
-          "eol-date": "2018-10-01T00:00:00\u002B00:00"
+          "eol-date": "2018-10-01T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -344,7 +359,8 @@
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2016-11-16T00:00:00\u002B00:00",
-          "eol-date": "2019-06-27T00:00:00\u002B00:00"
+          "eol-date": "2019-06-27T00:00:00\u002B00:00",
+          "supported": false
         }
       },
       {
@@ -368,13 +384,14 @@
           "release-type": "lts",
           "phase": "eol",
           "ga-date": "2016-06-27T00:00:00\u002B00:00",
-          "eol-date": "2019-06-27T00:00:00\u002B00:00"
+          "eol-date": "2019-06-27T00:00:00\u002B00:00",
+          "supported": false
         }
       }
     ]
   },
-  "metadata": {
-    "generated-on": "2025-07-18T07:00:15.7914416\u002B00:00",
+  "_metadata": {
+    "generated-on": "2025-07-20T02:55:40.0080166\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

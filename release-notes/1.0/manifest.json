@@ -36,10 +36,11 @@
     "release-type": "lts",
     "phase": "eol",
     "ga-date": "2016-06-27T00:00:00+00:00",
-    "eol-date": "2019-06-27T00:00:00+00:00"
+    "eol-date": "2019-06-27T00:00:00+00:00",
+    "supported": false
   },
-  "metadata": {
-    "generated-on": "2025-07-18T07:00:15.7902954+00:00",
+  "_metadata": {
+    "generated-on": "2025-07-20T02:55:40.0072717+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

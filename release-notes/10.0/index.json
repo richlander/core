@@ -42,19 +42,24 @@
     }
   },
   "glossary": {
-    "LTS": "Long-Term Support \u2013 3-year support window",
-    "STS": "Standard-Term Support \u2013 18-month support window",
-    "GA": "General Availability \u2013 Production-ready release",
-    "EOL": "End of Life \u2013 No longer supported"
+    "lts": "Long-Term Support \u2013 3-year support window",
+    "sts": "Standard-Term Support \u2013 18-month support window",
+    "ga": "General Availability \u2013 Production-ready release",
+    "eol": "End of Life \u2013 No longer supported",
+    "preview": "Pre-release phase with previews and release candidates",
+    "golive": "Production-ready but with limited support",
+    "active": "Full support with regular updates and security fixes",
+    "maintenance": "Security updates only, no new features"
   },
   "lifecycle": {
     "release-type": "lts",
     "phase": "preview",
     "ga-date": "2025-11-11T00:00:00\u002B00:00",
-    "eol-date": "2028-11-14T00:00:00\u002B00:00"
+    "eol-date": "2028-11-14T00:00:00\u002B00:00",
+    "supported": false
   },
-  "metadata": {
-    "generated-on": "2025-07-18T07:00:15.790111\u002B00:00",
+  "_metadata": {
+    "generated-on": "2025-07-20T02:55:40.0071192\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

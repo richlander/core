@@ -42,10 +42,14 @@
     }
   },
   "glossary": {
-    "LTS": "Long-Term Support \u2013 3-year support window",
-    "STS": "Standard-Term Support \u2013 18-month support window",
-    "GA": "General Availability \u2013 Production-ready release",
-    "EOL": "End of Life \u2013 No longer supported"
+    "lts": "Long-Term Support \u2013 3-year support window",
+    "sts": "Standard-Term Support \u2013 18-month support window",
+    "ga": "General Availability \u2013 Production-ready release",
+    "eol": "End of Life \u2013 No longer supported",
+    "preview": "Pre-release phase with previews and release candidates",
+    "golive": "Production-ready but with limited support",
+    "active": "Full support with regular updates and security fixes",
+    "maintenance": "Security updates only, no new features"
   },
   "_embedded": {
     "releases": [
@@ -71,6 +75,13 @@
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
+        },
+        "lifecycle": {
+          "release-type": "sts",
+          "phase": "active",
+          "ga-date": "2024-11-12T00:00:00\u002B00:00",
+          "eol-date": "2026-05-12T00:00:00\u002B00:00",
+          "supported": true
         },
         "cve-records": [
           {
@@ -103,6 +114,13 @@
             "type": "application/markdown"
           }
         },
+        "lifecycle": {
+          "release-type": "sts",
+          "phase": "active",
+          "ga-date": "2024-11-12T00:00:00\u002B00:00",
+          "eol-date": "2026-05-12T00:00:00\u002B00:00",
+          "supported": true
+        },
         "cve-records": [
           {
             "id": "CVE-2025-26646",
@@ -133,6 +151,13 @@
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
+        },
+        "lifecycle": {
+          "release-type": "sts",
+          "phase": "active",
+          "ga-date": "2024-11-12T00:00:00\u002B00:00",
+          "eol-date": "2026-05-12T00:00:00\u002B00:00",
+          "supported": true
         },
         "cve-records": [
           {
@@ -165,6 +190,13 @@
             "type": "application/markdown"
           }
         },
+        "lifecycle": {
+          "release-type": "sts",
+          "phase": "active",
+          "ga-date": "2024-11-12T00:00:00\u002B00:00",
+          "eol-date": "2026-05-12T00:00:00\u002B00:00",
+          "supported": true
+        },
         "cve-records": [
           {
             "id": "CVE-2025-24070",
@@ -183,6 +215,13 @@
             "title": "9.0.2 Release Information",
             "type": "application/json"
           }
+        },
+        "lifecycle": {
+          "release-type": "sts",
+          "phase": "active",
+          "ga-date": "2024-11-12T00:00:00\u002B00:00",
+          "eol-date": "2026-05-12T00:00:00\u002B00:00",
+          "supported": true
         }
       },
       {
@@ -207,6 +246,13 @@
             "title": "CVE Information (Markdown)",
             "type": "application/markdown"
           }
+        },
+        "lifecycle": {
+          "release-type": "sts",
+          "phase": "active",
+          "ga-date": "2024-11-12T00:00:00\u002B00:00",
+          "eol-date": "2026-05-12T00:00:00\u002B00:00",
+          "supported": true
         },
         "cve-records": [
           {
@@ -242,6 +288,13 @@
             "type": "application/json"
           }
         },
+        "lifecycle": {
+          "release-type": "sts",
+          "phase": "active",
+          "ga-date": "2024-11-12T00:00:00\u002B00:00",
+          "eol-date": "2026-05-12T00:00:00\u002B00:00",
+          "supported": true
+        },
         "cve-records": [
           {
             "id": "CVE-2024-43498",
@@ -261,10 +314,11 @@
     "release-type": "sts",
     "phase": "active",
     "ga-date": "2024-11-12T00:00:00\u002B00:00",
-    "eol-date": "2026-05-12T00:00:00\u002B00:00"
+    "eol-date": "2026-05-12T00:00:00\u002B00:00",
+    "supported": false
   },
-  "metadata": {
-    "generated-on": "2025-07-18T07:00:15.7908896\u002B00:00",
+  "_metadata": {
+    "generated-on": "2025-07-20T02:55:40.0076135\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
