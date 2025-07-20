@@ -36,38 +36,38 @@
   "platform": {
     "7.0": [
       {
-        "component": "Microsoft.NETCore.App.Runtime",
         "cve-id": "CVE-2024-26190",
         "min-vulnerable": "7.0.0",
         "max-vulnerable": "7.0.16",
         "family": "7.0",
-        "fixed": "7.0.17"
+        "fixed": "7.0.17",
+        "component": "Microsoft.NETCore.App.Runtime"
       },
       {
-        "component": "Microsoft.NETCore.App.Runtime",
         "cve-id": "CVE-2024-21392",
         "min-vulnerable": "7.0.0",
         "max-vulnerable": "7.0.16",
         "family": "7.0",
-        "fixed": "7.0.17"
+        "fixed": "7.0.17",
+        "component": "Microsoft.NETCore.App.Runtime"
       }
     ],
     "8.0": [
       {
-        "component": "Microsoft.NETCore.App.Runtime",
         "cve-id": "CVE-2024-26190",
         "min-vulnerable": "8.0.0",
         "max-vulnerable": "8.0.2",
         "family": "8.0",
-        "fixed": "8.0.3"
+        "fixed": "8.0.3",
+        "component": "Microsoft.NETCore.App.Runtime"
       },
       {
-        "component": "Microsoft.NETCore.App.Runtime",
         "cve-id": "CVE-2024-21392",
         "min-vulnerable": "8.0.0",
         "max-vulnerable": "8.0.2",
         "family": "8.0",
-        "fixed": "8.0.3"
+        "fixed": "8.0.3",
+        "component": "Microsoft.NETCore.App.Runtime"
       }
     ]
   },

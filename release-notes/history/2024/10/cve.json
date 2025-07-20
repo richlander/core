@@ -59,161 +59,6 @@
       ]
     }
   ],
-  "platform": {
-    "6.0": [
-      {
-        "component": "Microsoft.NETCore.App.Runtime",
-        "cve-id": "CVE-2024-43483",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.33",
-        "fixed": "6.0.34",
-        "family": "6.0",
-        "commits": [
-          "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
-        ]
-      },
-      {
-        "component": "Microsoft.NETCore.App.Runtime",
-        "cve-id": "CVE-2024-43485",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.33",
-        "fixed": "6.0.34",
-        "family": "6.0",
-        "commits": [
-          "c3c2cc2e61411fc1c56ca962684348ccf5563ce4"
-        ]
-      }
-    ],
-    "8.0": [
-      {
-        "component": "Microsoft.AspNetCore.App.Runtime",
-        "cve-id": "CVE-2024-38229",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.8",
-        "fixed": "8.0.9",
-        "family": "8.0",
-        "commits": [
-          "1002b673be5803ba63173ef8a2fdebe3e388a34a"
-        ]
-      }
-    ]
-  },
-  "packages": {
-    "System.Security.Cryptography.Cose": [
-      {
-        "component": "System.Security.Cryptography.Cose",
-        "cve-id": "CVE-2024-43483",
-        "min-vulnerable": "8.0.0-preview.1.23110.8",
-        "max-vulnerable": "8.0.0",
-        "fixed": "8.0.1",
-        "family": "8.0"
-      },
-      {
-        "component": "System.Security.Cryptography.Cose",
-        "cve-id": "CVE-2024-43483",
-        "min-vulnerable": "9.0.0-preview.1.24080.9",
-        "max-vulnerable": " 9.0.0-rc.1.24431.7",
-        "fixed": "9.0.0-rc.2.24473.5",
-        "family": "9.0"
-      }
-    ],
-    "System.IO.Packaging": [
-      {
-        "component": "System.IO.Packaging",
-        "cve-id": "CVE-2024-43483",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.0",
-        "fixed": "6.0.1",
-        "family": "6.0",
-        "commits": [
-          "741b04589cdd3514d032cbfd041fb7178bbd15c9"
-        ]
-      },
-      {
-        "component": "System.IO.Packaging",
-        "cve-id": "CVE-2024-43483",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.0",
-        "fixed": "8.0.1",
-        "family": "8.0",
-        "commits": [
-          "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
-        ]
-      },
-      {
-        "component": "System.IO.Packaging",
-        "cve-id": "CVE-2024-43483",
-        "min-vulnerable": "9.0.0-preview.1.24080.9",
-        "max-vulnerable": "9.0.0-rc.1.24431.7",
-        "fixed": "9.0.0-rc.2.24473.5",
-        "family": "9.0",
-        "commits": [
-          "f5456c7804dfd2153cd5cda4054bcde50b153a66"
-        ]
-      },
-      {
-        "component": "System.IO.Packaging",
-        "cve-id": "CVE-2024-43484",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.0",
-        "fixed": "8.0.1",
-        "family": "8.0",
-        "commits": [
-          "c2891d32a0408ce62771120dd7c03bc3dde1fca7",
-          "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
-        ]
-      },
-      {
-        "component": "System.IO.Packaging",
-        "cve-id": "CVE-2024-43484",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.0",
-        "fixed": "6.0.1",
-        "family": "6.0",
-        "commits": [
-          "40d60a122dfd637e1b8a7cccbbbc363d508fb0d7",
-          "741b04589cdd3514d032cbfd041fb7178bbd15c9"
-        ]
-      }
-    ],
-    "System.Runtime.Caching": [
-      {
-        "component": "System.Runtime.Caching",
-        "cve-id": "CVE-2024-43483",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.0",
-        "fixed": "8.0.1",
-        "family": "8.0",
-        "commits": [
-          "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
-        ]
-      }
-    ],
-    "System.Text.Json": [
-      {
-        "component": "System.Text.Json",
-        "cve-id": "CVE-2024-43485",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.9",
-        "fixed": "6.0.10",
-        "family": "6.0",
-        "commits": [
-          "c3c2cc2e61411fc1c56ca962684348ccf5563ce4"
-        ]
-      },
-      {
-        "component": "System.Text.Json",
-        "cve-id": "CVE-2024-43485",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.4",
-        "fixed": "8.0.5",
-        "family": "8.0",
-        "commits": [
-          "be46d16f6ff2daa6632136f7f100c5de89de6809"
-        ]
-      }
-    ]
-  },
   "commits": [
     {
       "repo": "runtime",
@@ -271,5 +116,182 @@
       "org": "dotnet",
       "url": "https://github.com/dotnet/aspnetcore/commit/1002b673be5803ba63173ef8a2fdebe3e388a34a"
     }
-  ]
+  ],
+  "platform": {
+    "6.0": [
+      {
+        "cve-id": "CVE-2024-43483",
+        "min-vulnerable": "6.0.0",
+        "max-vulnerable": "6.0.33",
+        "fixed": "6.0.34",
+        "family": "6.0",
+        "commits": [
+          "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
+        ],
+        "component": "Microsoft.NETCore.App.Runtime"
+      },
+      {
+        "cve-id": "CVE-2024-43485",
+        "min-vulnerable": "6.0.0",
+        "max-vulnerable": "6.0.33",
+        "fixed": "6.0.34",
+        "family": "6.0",
+        "commits": [
+          "c3c2cc2e61411fc1c56ca962684348ccf5563ce4"
+        ],
+        "component": "Microsoft.NETCore.App.Runtime"
+      }
+    ],
+    "8.0": [
+      {
+        "cve-id": "CVE-2024-43483",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.8",
+        "fixed": "8.0.9",
+        "family": "8.0",
+        "commits": [
+          "76f50f60931e85e9240715ebd1f345547cbae366"
+        ],
+        "component": "Microsoft.NETCore.App.Runtime"
+      },
+      {
+        "cve-id": "CVE-2024-43485",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.8",
+        "fixed": "8.0.9",
+        "family": "8.0",
+        "commits": [
+          "be46d16f6ff2daa6632136f7f100c5de89de6809"
+        ],
+        "component": "Microsoft.NETCore.App.Runtime"
+      },
+      {
+        "cve-id": "CVE-2024-38229",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.8",
+        "fixed": "8.0.9",
+        "family": "8.0",
+        "commits": [
+          "1002b673be5803ba63173ef8a2fdebe3e388a34a"
+        ],
+        "component": "Microsoft.AspNetCore.App.Runtime"
+      }
+    ]
+  },
+  "packages": {
+    "System.IO.Packaging": [
+      {
+        "cve-id": "CVE-2024-43483",
+        "min-vulnerable": "6.0.0",
+        "max-vulnerable": "6.0.0",
+        "fixed": "6.0.1",
+        "family": "6.0",
+        "commits": [
+          "741b04589cdd3514d032cbfd041fb7178bbd15c9"
+        ],
+        "component": "System.IO.Packaging"
+      },
+      {
+        "cve-id": "CVE-2024-43483",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.0",
+        "fixed": "8.0.1",
+        "family": "8.0",
+        "commits": [
+          "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
+        ],
+        "component": "System.IO.Packaging"
+      },
+      {
+        "cve-id": "CVE-2024-43483",
+        "min-vulnerable": "9.0.0-preview.1.24080.9",
+        "max-vulnerable": "9.0.0-rc.1.24431.7",
+        "fixed": "9.0.0-rc.2.24473.5",
+        "family": "9.0",
+        "commits": [
+          "f5456c7804dfd2153cd5cda4054bcde50b153a66"
+        ],
+        "component": "System.IO.Packaging"
+      },
+      {
+        "cve-id": "CVE-2024-43484",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.0",
+        "fixed": "8.0.1",
+        "family": "8.0",
+        "commits": [
+          "c2891d32a0408ce62771120dd7c03bc3dde1fca7",
+          "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
+        ],
+        "component": "System.IO.Packaging"
+      },
+      {
+        "cve-id": "CVE-2024-43484",
+        "min-vulnerable": "6.0.0",
+        "max-vulnerable": "6.0.0",
+        "fixed": "6.0.1",
+        "family": "6.0",
+        "commits": [
+          "40d60a122dfd637e1b8a7cccbbbc363d508fb0d7",
+          "741b04589cdd3514d032cbfd041fb7178bbd15c9"
+        ],
+        "component": "System.IO.Packaging"
+      }
+    ],
+    "System.Runtime.Caching": [
+      {
+        "cve-id": "CVE-2024-43483",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.0",
+        "fixed": "8.0.1",
+        "family": "8.0",
+        "commits": [
+          "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
+        ],
+        "component": "System.Runtime.Caching"
+      }
+    ],
+    "System.Security.Cryptography.Cose": [
+      {
+        "cve-id": "CVE-2024-43483",
+        "min-vulnerable": "8.0.0-preview.1.23110.8",
+        "max-vulnerable": "8.0.0",
+        "fixed": "8.0.1",
+        "family": "8.0",
+        "component": "System.Security.Cryptography.Cose"
+      },
+      {
+        "cve-id": "CVE-2024-43483",
+        "min-vulnerable": "9.0.0-preview.1.24080.9",
+        "max-vulnerable": " 9.0.0-rc.1.24431.7",
+        "fixed": "9.0.0-rc.2.24473.5",
+        "family": "9.0",
+        "component": "System.Security.Cryptography.Cose"
+      }
+    ],
+    "System.Text.Json": [
+      {
+        "cve-id": "CVE-2024-43485",
+        "min-vulnerable": "6.0.0",
+        "max-vulnerable": "6.0.9",
+        "fixed": "6.0.10",
+        "family": "6.0",
+        "commits": [
+          "c3c2cc2e61411fc1c56ca962684348ccf5563ce4"
+        ],
+        "component": "System.Text.Json"
+      },
+      {
+        "cve-id": "CVE-2024-43485",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.4",
+        "fixed": "8.0.5",
+        "family": "8.0",
+        "commits": [
+          "be46d16f6ff2daa6632136f7f100c5de89de6809"
+        ],
+        "component": "System.Text.Json"
+      }
+    ]
+  }
 }

@@ -14,35 +14,6 @@
       ]
     }
   ],
-  "platform": {
-    "8.0": [
-      {
-        "component": "Microsoft.ASPNetCore.App.Runtime",
-        "cve-id": "CVE-2025-26682",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.14",
-        "fixed": "8.0.15",
-        "family": "8.0",
-        "commits": [
-          "d6605eb150c993dd8943e2c1a6875a93927c301a"
-        ]
-      }
-    ],
-    "9.0": [
-      {
-        "component": "Microsoft.ASPNetCore.App.Runtime",
-        "cve-id": "CVE-2025-26682",
-        "min-vulnerable": "9.0.0",
-        "max-vulnerable": "9.0.3",
-        "fixed": "9.0.4",
-        "family": "9.0",
-        "commits": [
-          "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
-        ]
-      }
-    ]
-  },
-  "packages": {},
   "commits": [
     {
       "repo": "aspnetcore",
@@ -58,5 +29,34 @@
       "org": "dotnet",
       "url": "https://github.com/dotnet/aspnetcore/commit/d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
     }
-  ]
+  ],
+  "platform": {
+    "8.0": [
+      {
+        "cve-id": "CVE-2025-26682",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.14",
+        "fixed": "8.0.15",
+        "family": "8.0",
+        "commits": [
+          "d6605eb150c993dd8943e2c1a6875a93927c301a"
+        ],
+        "component": "Microsoft.ASPNetCore.App.Runtime"
+      }
+    ],
+    "9.0": [
+      {
+        "cve-id": "CVE-2025-26682",
+        "min-vulnerable": "9.0.0",
+        "max-vulnerable": "9.0.3",
+        "fixed": "9.0.4",
+        "family": "9.0",
+        "commits": [
+          "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
+        ],
+        "component": "Microsoft.ASPNetCore.App.Runtime"
+      }
+    ]
+  },
+  "packages": {}
 }

@@ -53,60 +53,68 @@
   "platform": {
     "6.0": [
       {
-        "component": "Microsoft.NETCore.App.Runtime",
         "cve-id": "CVE-2023-36049",
         "min-vulnerable": "6.0.0",
         "max-vulnerable": "6.0.24",
         "fixed": "6.0.25",
-        "family": "6.0"
+        "family": "6.0",
+        "component": "Microsoft.NETCore.App.Runtime"
       }
     ],
     "7.0": [
       {
-        "component": "Microsoft.NETCore.App.Runtime",
         "cve-id": "CVE-2023-36049",
         "min-vulnerable": "7.0.0",
         "max-vulnerable": "7.0.13",
         "fixed": "7.0.14",
-        "family": "7.0"
+        "family": "7.0",
+        "component": "Microsoft.NETCore.App.Runtime"
       }
     ],
     "8.0": [
       {
-        "component": "Microsoft.NETCore.App.Runtime",
+        "cve-id": "CVE-2023-36038",
+        "min-vulnerable": "8.0-rc.2",
+        "max-vulnerable": "8.0-rc.2",
+        "fixed": "8.0.0",
+        "family": "8.0",
+        "component": "Microsoft.AspNetCore.App.Runtime"
+      },
+      {
         "cve-id": "CVE-2023-36049",
         "min-vulnerable": "8.0-rc.2",
         "max-vulnerable": "8.0-rc.2",
         "fixed": "8.0.0",
-        "family": "8.0"
+        "family": "8.0",
+        "component": "Microsoft.NETCore.App.Runtime"
       }
     ]
   },
   "packages": {
     "Microsoft.AspNetCore.Components": [
       {
-        "component": "Microsoft.AspNetCore.Components",
         "cve-id": "CVE-2023-36558",
         "min-vulnerable": "6.0.0",
         "max-vulnerable": "6.0.24",
         "fixed": "6.0.25",
-        "family": "6.0"
+        "family": "6.0",
+        "component": "Microsoft.AspNetCore.Components"
       },
       {
-        "component": "Microsoft.AspNetCore.Components",
         "cve-id": "CVE-2023-36558",
         "min-vulnerable": "7.0.0",
         "max-vulnerable": "7.0.13",
         "fixed": "7.0.14",
-        "family": "7.0"
+        "family": "7.0",
+        "component": "Microsoft.AspNetCore.Components"
       },
       {
-        "component": "Microsoft.AspNetCore.Components",
         "cve-id": "CVE-2023-36558",
         "min-vulnerable": "8.0-rc.2",
         "max-vulnerable": "8.0-rc.2",
         "fixed": "8.0.0",
-        "family": "8.0"
+        "family": "8.0",
+        "component": "Microsoft.AspNetCore.Components"
       }
     ]
   }

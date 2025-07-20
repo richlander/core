@@ -30,33 +30,6 @@
       ]
     }
   ],
-  "platform": {
-    "8.0": [
-      {
-        "component": "Microsoft.AspNetCore.App.Runtime",
-        "cve-id": "CVE-2024-38168",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.7",
-        "fixed": "8.0.8",
-        "family": "8.0",
-        "commits": [
-          "123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
-        ]
-      },
-      {
-        "component": "Microsoft.NETCore.App.Runtime",
-        "cve-id": "CVE-2024-38167",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.7",
-        "fixed": "8.0.8",
-        "family": "8.0",
-        "commits": [
-          "76f50f60931e85e9240715ebd1f345547cbae366"
-        ]
-      }
-    ]
-  },
-  "packages": {},
   "commits": [
     {
       "repo": "runtime",
@@ -72,5 +45,32 @@
       "org": "dotnet",
       "url": "https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
     }
-  ]
+  ],
+  "platform": {
+    "8.0": [
+      {
+        "cve-id": "CVE-2024-38167",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.7",
+        "fixed": "8.0.8",
+        "family": "8.0",
+        "commits": [
+          "76f50f60931e85e9240715ebd1f345547cbae366"
+        ],
+        "component": "Microsoft.NETCore.App.Runtime"
+      },
+      {
+        "cve-id": "CVE-2024-38168",
+        "min-vulnerable": "8.0.0",
+        "max-vulnerable": "8.0.7",
+        "fixed": "8.0.8",
+        "family": "8.0",
+        "commits": [
+          "123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
+        ],
+        "component": "Microsoft.AspNetCore.App.Runtime"
+      }
+    ]
+  },
+  "packages": {}
 }

@@ -22,32 +22,32 @@
   "platform": {
     "6.0": [
       {
-        "component": "Microsoft.WindowsDesktop.App.Runtime",
         "cve-id": "CVE-2024-21409",
         "min-vulnerable": "6.0.0",
         "max-vulnerable": "6.0.28",
         "fixed": "6.0.29",
-        "family": "6.0"
+        "family": "6.0",
+        "component": "Microsoft.WindowsDesktop.App.Runtime"
       }
     ],
     "7.0": [
       {
-        "component": "Microsoft.WindowsDesktop.App.Runtime",
         "cve-id": "CVE-2024-21409",
         "min-vulnerable": "7.0.0",
         "max-vulnerable": "7.0.17",
         "fixed": "7.0.18",
-        "family": "7.0"
+        "family": "7.0",
+        "component": "Microsoft.WindowsDesktop.App.Runtime"
       }
     ],
     "8.0": [
       {
-        "component": "Microsoft.WindowsDesktop.App.Runtime",
         "cve-id": "CVE-2024-21409",
         "min-vulnerable": "8.0.0",
         "max-vulnerable": "8.0.3",
         "fixed": "8.0.4",
-        "family": "8.0"
+        "family": "8.0",
+        "component": "Microsoft.WindowsDesktop.App.Runtime"
       }
     ]
   },
