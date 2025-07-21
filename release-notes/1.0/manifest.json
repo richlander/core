@@ -19,7 +19,7 @@
       "title": ".NET Core 1.0 Downloads",
       "type": "text/html"
     },
-    "ga-blog": {
+    "release-blog": {
       "href": "https://devblogs.microsoft.com/dotnet/announcing-net-core-1-0/",
       "title": "Announcing .NET Core 1.0",
       "type": "text/html"
@@ -32,8 +32,15 @@
   },
   "version": "1.0",
   "label": ".NET 1.0",
+  "lifecycle": {
+    "release-type": "lts",
+    "phase": "eol",
+    "release-date": "2016-06-27T00:00:00+00:00",
+    "eol-date": "2019-06-27T00:00:00+00:00",
+    "supported": false
+  },
   "_metadata": {
-    "generated-on": "2025-07-20T04:49:18.563555+00:00",
+    "generated-on": "2025-07-21T01:23:42.4213283+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

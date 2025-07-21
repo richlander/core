@@ -6,11 +6,20 @@ The following vulnerabilities have been patched.
 | ----------------- | ----------------- | ------------- | ------------- | ------------- | ---------------------------- |
 | [CVE-2025-26646][CVE-2025-26646] | .NET and Visual Studio Spoofing Vulnerability |  |  | All | CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 
+
 ## Platform Components
 
 The following table lists version ranges for affected platform components.
 
-No platform components with vulnerabilities reported.
+| Component     | Min Version   | Max Version | Fixed Version | CVE     | Source fix |
+| ------------- | ------------- | --------- | --------- | ------------- | -------- |
+| [Microsoft.NetCore.Sdk][Microsoft.NetCore.Sdk] | >=8.0.100 | <=8.0.115 | [8.0.116](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.116) | CVE-2025-26646 | [d00609e][d00609e]  |
+|               | >=8.0.300     | <=8.0.312 | [8.0.313](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.313) | CVE-2025-26646 |  |
+|               | >=8.0.400     | <=8.0.408 | [8.0.409](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.409) | CVE-2025-26646 | [7892f91][7892f91]  |
+|               | >=9.0.100     | <=9.0.105 | [9.0.106](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/9.0.106) | CVE-2025-26646 | [ad312fc][ad312fc]  |
+|               | >=9.0.200     | <=9.0.203 | [9.0.204](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/9.0.204) | CVE-2025-26646 | [070f5a4][070f5a4]  |
+
+
 ## Packages
 
 The following table lists version ranges for affected packages.
@@ -24,11 +33,7 @@ The following table lists version ranges for affected packages.
 |               | >=17.11.4     | <=17.11.4 | [17.13.26](https://www.nuget.org/packages/Microsoft.Build.Tasks.Core/17.13.26) | CVE-2025-26646 |  |
 |               | >=17.12.6     | <=17.12.6 | [17.13.26](https://www.nuget.org/packages/Microsoft.Build.Tasks.Core/17.13.26) | CVE-2025-26646 |  |
 |               | >=17.13.9     | <=17.13.9 | [17.14.8](https://www.nuget.org/packages/Microsoft.Build.Tasks.Core/17.14.8) | CVE-2025-26646 |  |
-| [Microsoft.NetCore.Sdk][Microsoft.NetCore.Sdk] | >=8.0.100 | <=8.0.115 | [8.0.116](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.116) | CVE-2025-26646 | [d00609e][d00609e]  |
-|               | >=8.0.300     | <=8.0.312 | [8.0.313](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.313) | CVE-2025-26646 |  |
-|               | >=8.0.400     | <=8.0.408 | [8.0.409](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.409) | CVE-2025-26646 | [7892f91][7892f91]  |
-|               | >=9.0.100     | <=9.0.105 | [9.0.106](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/9.0.106) | CVE-2025-26646 | [ad312fc][ad312fc]  |
-|               | >=9.0.200     | <=9.0.203 | [9.0.204](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/9.0.204) | CVE-2025-26646 | [070f5a4][070f5a4]  |
+
 
 
 ## Commits
@@ -44,9 +49,10 @@ The following table lists commits for affected packages.
 | [dotnet/sdk][dotnet/sdk]    | [release/9.0.3xx][release/9.0.3xx] | [391e16c][391e16c]                      |
 
 
+
 [CVE-2025-26646]: https://github.com/dotnet/msbuild/security/advisories/GHSA-h4j7-5rxr-p4wc
-[Microsoft.Build.Tasks.Core]: https://www.nuget.org/packages/Microsoft.Build.Tasks.Core
 [Microsoft.NetCore.Sdk]: https://www.nuget.org/packages/Microsoft.NetCore.Sdk
+[Microsoft.Build.Tasks.Core]: https://www.nuget.org/packages/Microsoft.Build.Tasks.Core
 [dotnet/sdk]: https://github.com/dotnet/sdk
 [release/8.0.1xx]: https://github.com/dotnet/sdk/tree/release/8.0.1xx
 [d00609e]: https://github.com/dotnet/sdk/commit/d00609e7978ee1b0fe62b39a378611311cf85603

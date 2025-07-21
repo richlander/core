@@ -61,8 +61,15 @@
     "preview": "Pre-release phase with previews and release candidates",
     "active": "Full support with regular updates and security fixes"
   },
+  "lifecycle": {
+    "release-type": "sts",
+    "phase": "eol",
+    "release-date": "2022-11-08T00:00:00\u002B00:00",
+    "eol-date": "2024-05-14T00:00:00\u002B00:00",
+    "supported": false
+  },
   "_metadata": {
-    "generated-on": "2025-07-20T04:49:18.5637721\u002B00:00",
+    "generated-on": "2025-07-21T01:23:42.421784\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

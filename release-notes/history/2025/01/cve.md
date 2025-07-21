@@ -6,8 +6,9 @@ The following vulnerabilities have been patched.
 | ----------------- | ----------------- | ------------- | ------------- | ------------- | ---------------------------- |
 | [CVE-2025-21171][CVE-2025-21171] | .NET Remote Code Execution Vulnerability | High |  | All | CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H |
 | [CVE-2025-21172][CVE-2025-21172] | .NET and Visual Studio Remote Code Execution Vulnerability | High |  | All | CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H |
-| [CVE-2025-21173][CVE-2025-21173] | .NET Elevation of Privilege Vulnerability |  |  | Linux | CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
-| [CVE-2025-21176][CVE-2025-21176] | .NET and Visual Studio Remote Code Execution Vulnerability |  |  | All | CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H |
+| [CVE-2025-21173][CVE-2025-21173] | .NET Elevation of Privilege Vulnerability | High |  | Linux | CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| [CVE-2025-21176][CVE-2025-21176] | .NET and Visual Studio Remote Code Execution Vulnerability | High |  | All | CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H |
+
 
 ## Platform Components
 
@@ -22,18 +23,18 @@ The following table lists version ranges for affected platform components.
 |               | >=9.0.0       | <=9.0.0   | [9.0.1](https://github.com/dotnet/core/blob/main/release-notes/9.0/9.0.1/9.0.1.md) | CVE-2025-21171 | [9da8c6a][9da8c6a]  |
 |               | >=9.0.0       | <=9.0.0   | [9.0.1](https://github.com/dotnet/core/blob/main/release-notes/9.0/9.0.1/9.0.1.md) | CVE-2025-21172 | [32d8ea6][32d8ea6]  |
 |               | >=9.0.0       | <=9.0.0   | [9.0.1](https://github.com/dotnet/core/blob/main/release-notes/9.0/9.0.1/9.0.1.md) | CVE-2025-21176 | [32d8ea6][32d8ea6]  |
-
-## Packages
-
-The following table lists version ranges for affected packages.
-
-| Package       | Min Version   | Max Version | Fixed Version | CVE     | Source fix |
-| ------------- | ------------- | --------- | --------- | ------------- | -------- |
 | [Microsoft.NetCore.Sdk][Microsoft.NetCore.Sdk] | >= | <= | Unknown | CVE-2025-21173 | [4416ac9][4416ac9]  |
 |               | >=8.0.100     | <=8.0.111 | [8.0.112](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.112) | CVE-2025-21173 | [7034fd9][7034fd9]  |
 |               | >=8.0.300     | <=8.0.307 | [8.0.308](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.308) | CVE-2025-21173 | [2a98e61][2a98e61]  |
 |               | >=            | <=        | Unknown   | CVE-2025-21173 | [1ba6238][1ba6238]  |
 |               | >=9.0.100     | <=9.0.101 | [9.0.102](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/9.0.102) | CVE-2025-21173 | [802c364][802c364]  |
+
+
+## Packages
+
+The following table lists version ranges for affected packages.
+
+No packages with vulnerabilities reported.
 
 
 ## Commits
@@ -51,6 +52,7 @@ The following table lists commits for affected packages.
 | [dotnet/sdk][dotnet/sdk]    | [release/8.0.3xx][release/8.0.3xx] | [2a98e61][2a98e61]                      |
 | [dotnet/sdk][dotnet/sdk]    | [release/8.0.4xx][release/8.0.4xx] | [1ba6238][1ba6238]                      |
 | [dotnet/sdk][dotnet/sdk]    | [release/9.0.1xx][release/9.0.1xx] | [802c364][802c364]                      |
+
 
 
 [CVE-2025-21171]: https://github.com/dotnet/runtime/security/advisories/GHSA-p54p-p3qm-8vgj

@@ -1,8 +1,8 @@
 {
-  "ga-date": "2019-09-23T00:00:00Z",
+  "release-date": "2019-09-23T00:00:00Z",
   "eol-date": "2020-03-03T00:00:00Z",
   "release-type": "sts",
-  "support-phase": "eol",
+  "phase": "eol",
   "_links": {
     "downloads": {
       "href": "https://dotnet.microsoft.com/download/dotnet/3.0",
@@ -19,7 +19,7 @@
       "title": "Breaking changes in .NET Core 3.0",
       "type": "text/html"
     },
-    "ga-blog": {
+    "release-blog": {
       "href": "https://devblogs.microsoft.com/dotnet/announcing-net-core-3-0/",
       "title": "Announcing .NET Core 3.0",
       "type": "text/html"

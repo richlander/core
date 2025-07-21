@@ -6,20 +6,23 @@ The following vulnerabilities have been patched.
 | ----------------- | ----------------- | ------------- | ------------- | ------------- | ---------------------------- |
 | [CVE-2025-30399][CVE-2025-30399] | DLL Hijacking Remote Code Execution Vulnerability |  |  | All | CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 
+
 ## Platform Components
 
 The following table lists version ranges for affected platform components.
 
-No platform components with vulnerabilities reported.
-## Packages
-
-The following table lists version ranges for affected packages.
-
-| Package       | Min Version   | Max Version | Fixed Version | CVE     | Source fix |
+| Component     | Min Version   | Max Version | Fixed Version | CVE     | Source fix |
 | ------------- | ------------- | --------- | --------- | ------------- | -------- |
 | [Microsoft.NetCore.Sdk][Microsoft.NetCore.Sdk] | >=8.0.100 | <=8.0.116 | [8.0.117](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.117) | CVE-2025-30399 | [d00609e][d00609e]  |
 |               | >=8.0.300     | <=8.0.312 | [8.0.313](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.313) | CVE-2025-30399 |  |
 |               | >=8.0.400     | <=8.0.409 | [8.0.410](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.410) | CVE-2025-30399 | [7892f91][7892f91]  |
+
+
+## Packages
+
+The following table lists version ranges for affected packages.
+
+No packages with vulnerabilities reported.
 
 
 ## Commits
@@ -28,16 +31,14 @@ The following table lists commits for affected packages.
 
 | Repo                        | Branch            | Commit                                                   |
 | --------------------------- | ----------------- | -------------------------------------------------------- |
-| [dotnet/runtime][dotnet/runtime] | [release/6.0][release/6.0] | [973aad6][973aad6]                         |
 | [dotnet/runtime][dotnet/runtime] | [release/8.0][release/8.0] | [b33d4e3][b33d4e3]                         |
 | [dotnet/runtime][dotnet/runtime] | [release/9.0][release/9.0] | [214743e][214743e]                         |
 
 
-[CVE-2025-30399]: https://www.cve.org/CVERecord?id=CVE-2025-30399
+
+[CVE-2025-30399]: https://github.com/dotnet/announcements/issues/362
 [Microsoft.NetCore.Sdk]: https://www.nuget.org/packages/Microsoft.NetCore.Sdk
 [dotnet/runtime]: https://github.com/dotnet/runtime
-[release/6.0]: https://github.com/dotnet/runtime/tree/release/6.0
-[973aad6]: https://github.com/dotnet/runtime/commit/973aad6a695436f3a8227e0c5e017d1f99dc5199
 [release/8.0]: https://github.com/dotnet/runtime/tree/release/8.0
 [b33d4e3]: https://github.com/dotnet/runtime/commit/b33d4e34e1cbf993583d78fc1b64ea8400935978
 [release/9.0]: https://github.com/dotnet/runtime/tree/release/9.0

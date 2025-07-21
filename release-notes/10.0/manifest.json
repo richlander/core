@@ -32,8 +32,15 @@
   },
   "version": "10.0",
   "label": ".NET 10.0",
+  "lifecycle": {
+    "release-type": "lts",
+    "phase": "preview",
+    "release-date": "2025-11-11T00:00:00+00:00",
+    "eol-date": "2028-11-14T00:00:00+00:00",
+    "supported": false
+  },
   "_metadata": {
-    "generated-on": "2025-07-20T04:49:18.5631724+00:00",
+    "generated-on": "2025-07-21T01:10:40.5917933+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

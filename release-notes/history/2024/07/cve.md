@@ -9,6 +9,7 @@ The following vulnerabilities have been patched.
 | [CVE-2024-38081][CVE-2024-38081] | .NET Denial of Service Vulnerability | Critical | .NET | Windows | CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 | [CVE-2024-38095][CVE-2024-38095] | .NET Denial of Service Vulnerability | Critical | .NET | All | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U/RL:O/RC:C |
 
+
 ## Platform Components
 
 The following table lists version ranges for affected platform components.
@@ -20,6 +21,7 @@ The following table lists version ranges for affected platform components.
 |               | >=6.0.0       | <=6.0.31  | [6.0.32](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.32/6.0.32.md) | CVE-2024-38095 | [979135d][979135d]  |
 |               | >=8.0.0       | <=8.0.6   | [8.0.7](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.7/8.0.7.md) | CVE-2024-30105 | [fa5b0d8][fa5b0d8]  |
 |               | >=8.0.0       | <=8.0.6   | [8.0.7](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.7/8.0.7.md) | CVE-2024-38095 | [4a8d5a0][4a8d5a0]  |
+
 
 ## Packages
 
@@ -33,6 +35,7 @@ The following table lists version ranges for affected packages.
 | [System.Text.Json][System.Text.Json] | >=8.0.0 | <=8.0.3 | [8.0.4](https://www.nuget.org/packages/System.Text.Json/8.0.4) | CVE-2024-30105 | [fa5b0d8][fa5b0d8]  |
 
 
+
 ## Commits
 
 The following table lists commits for affected packages.
@@ -44,6 +47,7 @@ The following table lists commits for affected packages.
 | [dotnet/runtime][dotnet/runtime] | [release/6.0][release/6.0] | [979135d][979135d]                         |
 | [dotnet/runtime][dotnet/runtime] | [release/8.0][release/8.0] | [4a8d5a0][4a8d5a0]                         |
 | [dotnet/runtime][dotnet/runtime] | [release/8.0][release/8.0] | [fa5b0d8][fa5b0d8]                         |
+
 
 
 [CVE-2024-30105]: https://github.com/dotnet/runtime/security/advisories/GHSA-hh2w-p6rv-4g7w

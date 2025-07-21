@@ -12,6 +12,7 @@
         "manifest",
         "major-release",
         "patch-release",
+        "band",
         "content",
         "unknown"
       ]
@@ -84,10 +85,10 @@
       ],
       "properties": {
         "release-type": {
-          "description": "The release support models offering different support lengths",
           "enum": [
             "lts",
-            "sts"
+            "sts",
+            null
           ]
         },
         "phase": {

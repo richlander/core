@@ -6,6 +6,7 @@ The following vulnerabilities have been patched.
 | ----------------- | ----------------- | ------------- | ------------- | ------------- | ---------------------------- |
 | [CVE-2025-24070][CVE-2025-24070] | .NET Elevation of Privilege Vulnerability | High |  | All | CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 
+
 ## Platform Components
 
 The following table lists version ranges for affected platform components.
@@ -14,6 +15,7 @@ The following table lists version ranges for affected platform components.
 | ------------- | ------------- | --------- | --------- | ------------- | -------- |
 | ASP.NET Runtime | >=8.0.0     | <=8.0.13  | [8.0.14](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.14/8.0.14.md) | CVE-2025-24070 | [67f3b04][67f3b04]  |
 |               | >=9.0.0       | <=8.0.2   | [9.0.3](https://github.com/dotnet/core/blob/main/release-notes/9.0/9.0.3/9.0.3.md) | CVE-2025-24070 | [f71e283][f71e283]  |
+
 
 ## Packages
 
@@ -24,6 +26,7 @@ The following table lists version ranges for affected packages.
 | [Microsoft.AspNetCore.Identity][Microsoft.AspNetCore.Identity] | >=2.3.0 | <=2.3.0 | [2.3.1](https://www.nuget.org/packages/Microsoft.AspNetCore.Identity/2.3.1) | CVE-2025-24070 |  |
 
 
+
 ## Commits
 
 The following table lists commits for affected packages.
@@ -32,6 +35,7 @@ The following table lists commits for affected packages.
 | --------------------------- | ----------------- | -------------------------------------------------------- |
 | [dotnet/aspnetcore][dotnet/aspnetcore] | [release/8.0][release/8.0] | [67f3b04][67f3b04]                   |
 | [dotnet/aspnetcore][dotnet/aspnetcore] | [release/9.0][release/9.0] | [f71e283][f71e283]                   |
+
 
 
 [CVE-2025-24070]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-2865-hh9g-w894

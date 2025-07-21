@@ -1,15 +1,15 @@
 {
-  "ga-date": "2016-11-16T00:00:00Z",
+  "release-date": "2016-11-16T00:00:00Z",
   "eol-date": "2019-06-27T00:00:00Z",
   "release-type": "lts",
-  "support-phase": "eol",
+  "phase": "eol",
   "_links": {
     "downloads": {
       "href": "https://dotnet.microsoft.com/download/dotnet/1.1",
       "title": ".NET Core 1.1 Downloads",
       "type": "text/html"
     },
-    "ga-blog": {
+    "release-blog": {
       "href": "https://devblogs.microsoft.com/dotnet/announcing-net-core-1-1/",
       "title": "Announcing .NET Core 1.1",
       "type": "text/html"

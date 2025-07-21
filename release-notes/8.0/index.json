@@ -51,6 +51,12 @@
       "relative": "8.0/README.md",
       "title": "Release Notes (Markdown)",
       "type": "application/markdown"
+    },
+    "sdk-index": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/sdk/index.json",
+      "relative": "8.0/sdk/index.json",
+      "title": ".NET SDK 8.0 Release Information",
+      "type": "application/hal\u002Bjson"
     }
   },
   "glossary": {
@@ -90,7 +96,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -128,7 +134,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -166,7 +172,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -204,7 +210,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -230,7 +236,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         }
       },
@@ -261,7 +267,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -309,7 +315,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         }
       },
@@ -340,7 +346,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -381,7 +387,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -424,7 +430,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -460,7 +466,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -498,7 +504,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -541,7 +547,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -579,7 +585,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -622,7 +628,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -665,7 +671,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -713,7 +719,7 @@
           "release-type": "lts",
           "phase": "active",
           "release-date": "2023-11-14T00:00:00\u002B00:00",
-          "eol-date": "2026-11-14T00:00:00\u002B00:00",
+          "eol-date": "2026-11-10T00:00:00\u002B00:00",
           "supported": true
         },
         "cve-records": [
@@ -736,8 +742,15 @@
       }
     ]
   },
+  "lifecycle": {
+    "release-type": "lts",
+    "phase": "active",
+    "release-date": "2023-11-14T00:00:00\u002B00:00",
+    "eol-date": "2026-11-10T00:00:00\u002B00:00",
+    "supported": false
+  },
   "_metadata": {
-    "generated-on": "2025-07-20T04:49:18.5641618\u002B00:00",
+    "generated-on": "2025-07-21T01:23:42.4224862\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

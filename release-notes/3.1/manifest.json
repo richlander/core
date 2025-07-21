@@ -29,7 +29,7 @@
       "title": "Breaking changes in .NET Core 3.1",
       "type": "text/html"
     },
-    "ga-blog": {
+    "release-blog": {
       "href": "https://devblogs.microsoft.com/dotnet/announcing-net-core-3-1/",
       "title": "Announcing .NET Core 3.1",
       "type": "text/html"
@@ -42,8 +42,15 @@
   },
   "version": "3.1",
   "label": ".NET 3.1",
+  "lifecycle": {
+    "release-type": "lts",
+    "phase": "eol",
+    "release-date": "2019-12-03T00:00:00+00:00",
+    "eol-date": "2022-12-13T00:00:00+00:00",
+    "supported": false
+  },
   "_metadata": {
-    "generated-on": "2025-07-20T04:49:18.5628511+00:00",
+    "generated-on": "2025-07-21T01:23:42.420678+00:00",
     "generated-by": "UpdateIndexes"
   }
 }
