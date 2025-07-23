@@ -25,4 +25,4 @@ The following table lists version ranges for affected packages.
 No packages with vulnerabilities reported.
 
 
-[CVE-2024-21409]: https://github.com/dotnet/wpf/security/advisories/GHSA-6qmx-42h2-j8h6
+[CVE-2024-21409]: https://github.com/dotnet/announcements/issues/303

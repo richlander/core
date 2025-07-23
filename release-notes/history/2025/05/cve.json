@@ -4,7 +4,7 @@
     {
       "id": "CVE-2025-26646",
       "title": ".NET and Visual Studio Spoofing Vulnerability",
-      "security": "High",
+      "severity": "High",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
       "description": [
         "A vulnerability exists in .NET SDK or MSBuild applications where external control of file name or path allows an unauthorized attacked to perform spoofing over a network."

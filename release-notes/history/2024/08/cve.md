@@ -36,8 +36,8 @@ The following table lists commits for affected packages.
 
 
 
-[CVE-2024-38167]: https://github.com/dotnet/runtime/security/advisories/GHSA-3r34-r6w3-fqp6
-[CVE-2024-38168]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-7qrv-8f9x-3h32
+[CVE-2024-38167]: https://github.com/dotnet/announcements/issues/319
+[CVE-2024-38168]: https://github.com/dotnet/announcements/issues/320
 [dotnet/aspnetcore]: https://github.com/dotnet/aspnetcore
 [release/8.0]: https://github.com/dotnet/aspnetcore/tree/release/8.0
 [123e69c]: https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c

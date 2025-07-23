@@ -27,5 +27,5 @@ The following table lists version ranges for affected packages.
 No packages with vulnerabilities reported.
 
 
-[CVE-2024-21392]: https://github.com/dotnet/runtime/security/advisories/GHSA-5fxj-whcv-crrc
-[CVE-2024-26190]: https://github.com/dotnet/runtime/security/advisories/GHSA-4prj-ff7h-5wr3
+[CVE-2024-21392]: https://github.com/dotnet/announcements/issues/299
+[CVE-2024-26190]: https://github.com/dotnet/announcements/issues/300

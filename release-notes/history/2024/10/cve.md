@@ -59,10 +59,10 @@ The following table lists commits for affected packages.
 
 
 
-[CVE-2024-38229]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-7vw9-cfwx-9gx9
-[CVE-2024-43483]: https://github.com/dotnet/runtime/security/advisories/GHSA-qj66-m88j-hmgj
-[CVE-2024-43484]: https://github.com/dotnet/runtime/security/advisories/GHSA-f32c-w444-8ppv
-[CVE-2024-43485]: https://github.com/dotnet/runtime/security/advisories/GHSA-8g4q-xg66-9fp4
+[CVE-2024-38229]: https://github.com/dotnet/announcements/issues/326
+[CVE-2024-43483]: https://github.com/dotnet/announcements/issues/327
+[CVE-2024-43484]: https://github.com/dotnet/announcements/issues/328
+[CVE-2024-43485]: https://github.com/dotnet/announcements/issues/329
 [System.IO.Packaging]: https://www.nuget.org/packages/System.IO.Packaging
 [System.Runtime.Caching]: https://www.nuget.org/packages/System.Runtime.Caching
 [System.Security.Cryptography.Cose]: https://www.nuget.org/packages/System.Security.Cryptography.Cose

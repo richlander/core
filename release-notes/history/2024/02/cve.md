@@ -29,5 +29,5 @@ The following table lists version ranges for affected packages.
 No packages with vulnerabilities reported.
 
 
-[CVE-2024-21386]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-g74q-5xw3-j7q9
-[CVE-2024-21404]: https://github.com/dotnet/runtime/security/advisories/GHSA-qqwf-5c27-4xxx
+[CVE-2024-21386]: https://github.com/dotnet/announcements/issues/295
+[CVE-2024-21404]: https://github.com/dotnet/announcements/issues/296

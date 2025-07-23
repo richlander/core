@@ -12,12 +12,6 @@
       "title": ".NET SDK 10.0",
       "type": "application/hal\u002Bjson"
     },
-    "latest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/sdk/sdk-10.0.xx.json",
-      "relative": "10.0/sdk/sdk-10.0.xx.json",
-      "title": ".NET SDK 10.0 Latest Feature Band",
-      "type": "application/json"
-    },
     "stable-links": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/sdk/sdk.json",
       "relative": "10.0/sdk/sdk.json",
@@ -43,14 +37,106 @@
         "lifecycle": {
           "phase": "preview",
           "release-date": "2025-06-10T00:00:00-07:00",
-          "eol-date": "2027-06-10T00:00:00-07:00",
+          "eol-date": "2025-06-10T00:00:00-07:00",
+          "supported": true
+        }
+      }
+    ],
+    "releases": [
+      {
+        "version": "10.0.100-preview.5.25277.114",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-preview.5/10.0.0-preview.5.md",
+            "relative": "10.0/10.0.0-preview.5/10.0.0-preview.5.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-06-10T00:00:00-07:00",
+          "eol-date": "2025-06-10T00:00:00-07:00",
+          "supported": true
+        }
+      },
+      {
+        "version": "10.0.100-preview.4.25258.110",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-preview.4/10.0.0-preview.4.md",
+            "relative": "10.0/10.0.0-preview.4/10.0.0-preview.4.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-05-13T00:00:00-07:00",
+          "eol-date": "2025-05-13T00:00:00-07:00",
+          "supported": true
+        }
+      },
+      {
+        "version": "10.0.100-preview.3.25201.16",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-preview.3/10.0.0-preview.3.md",
+            "relative": "10.0/10.0.0-preview.3/10.0.0-preview.3.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-04-10T00:00:00-07:00",
+          "eol-date": "2025-04-10T00:00:00-07:00",
+          "supported": true
+        }
+      },
+      {
+        "version": "10.0.100-preview.2.25164.34",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-preview.2/10.0.0-preview.2.md",
+            "relative": "10.0/10.0.0-preview.2/10.0.0-preview.2.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-03-18T00:00:00-07:00",
+          "eol-date": "2025-03-18T00:00:00-07:00",
+          "supported": true
+        }
+      },
+      {
+        "version": "10.0.100-preview.1.25120.13",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-preview.1/10.0.0-preview.1.md",
+            "relative": "10.0/10.0.0-preview.1/10.0.0-preview.1.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-02-25T00:00:00-08:00",
+          "eol-date": "2025-02-25T00:00:00-08:00",
           "supported": true
         }
       }
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:25:07.4144666\u002B00:00",
+    "generated-on": "2025-07-23T14:40:35.5158685\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

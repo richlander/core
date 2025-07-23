@@ -38,7 +38,7 @@ The following table lists commits for affected packages.
 
 
 
-[CVE-2025-24070]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-2865-hh9g-w894
+[CVE-2025-24070]: https://github.com/dotnet/announcements/issues/348
 [Microsoft.AspNetCore.Identity]: https://www.nuget.org/packages/Microsoft.AspNetCore.Identity
 [dotnet/aspnetcore]: https://github.com/dotnet/aspnetcore
 [release/8.0]: https://github.com/dotnet/aspnetcore/tree/release/8.0

@@ -46,9 +46,9 @@ The following table lists version ranges for affected packages.
 
 
 
-[CVE-2024-0056]: https://github.com/advisories/GHSA-98g6-xh36-x2p7
-[CVE-2024-0057]: https://github.com/dotnet/runtime/security/advisories/GHSA-56gp-vpf5-xmqc
-[CVE-2024-21319]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-59j7-ghrg-fj52
+[CVE-2024-0056]: https://github.com/dotnet/announcements/issues/292
+[CVE-2024-0057]: https://github.com/dotnet/announcements/issues/291
+[CVE-2024-21319]: https://github.com/dotnet/announcements/issues/290
 [Microsoft.Data.SqlClient]: https://www.nuget.org/packages/Microsoft.Data.SqlClient
 [Microsoft.IdentityModel.JsonWebTokens]: https://www.nuget.org/packages/Microsoft.IdentityModel.JsonWebTokens
 [System.Data.SqlClient]: https://www.nuget.org/packages/System.Data.SqlClient

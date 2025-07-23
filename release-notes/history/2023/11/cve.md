@@ -33,7 +33,7 @@ The following table lists version ranges for affected packages.
 
 
 
-[CVE-2023-36038]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-56cg-fj6f-x8q8
-[CVE-2023-36049]: https://github.com/dotnet/runtime/security/advisories/GHSA-c3hf-8vgx-72rh
-[CVE-2023-36558]: https://github.com/dotnet/runtime/security/advisories/GHSA-3fx3-85r4-8j3w
+[CVE-2023-36038]: https://github.com/dotnet/announcements/issues/286
+[CVE-2023-36049]: https://github.com/dotnet/announcements/issues/287
+[CVE-2023-36558]: https://github.com/dotnet/announcements/issues/288
 [Microsoft.AspNetCore.Components]: https://www.nuget.org/packages/Microsoft.AspNetCore.Components

@@ -39,8 +39,8 @@ The following table lists commits for affected packages.
 
 
 
-[CVE-2024-43498]: https://github.com/dotnet/runtime/security/advisories/GHSA-v7vf-f5q6-m899
-[CVE-2024-43499]: https://github.com/dotnet/runtime/security/advisories/GHSA-6x36-qxmj-rv4p
+[CVE-2024-43498]: https://github.com/dotnet/announcements/issues/334
+[CVE-2024-43499]: https://github.com/dotnet/announcements/issues/333
 [System.Formats.Nrbf]: https://www.nuget.org/packages/System.Formats.Nrbf
 [dotnet/runtime]: https://github.com/dotnet/runtime
 [release/9.0]: https://github.com/dotnet/runtime/tree/release/9.0

@@ -27,5 +27,5 @@ The following table lists version ranges for affected packages.
 No packages with vulnerabilities reported.
 
 
-[CVE-2024-30045]: https://github.com/dotnet/runtime/security/advisories/GHSA-7fcr-8qw6-92fr
-[CVE-2024-30046]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-hhc7-x9w4-cw47
+[CVE-2024-30045]: https://github.com/dotnet/announcements/issues/307
+[CVE-2024-30046]: https://github.com/dotnet/announcements/issues/308

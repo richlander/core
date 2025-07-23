@@ -50,10 +50,10 @@ The following table lists commits for affected packages.
 
 
 
-[CVE-2024-30105]: https://github.com/dotnet/runtime/security/advisories/GHSA-hh2w-p6rv-4g7w
-[CVE-2024-35264]: https://github.com/dotnet/aspnetcore/security/advisories/GHSA-chfc-9w6m-75rf
-[CVE-2024-38081]: https://github.com/dotnet/runtime/security/advisories/GHSA-hq7w-xv5x-g34j
-[CVE-2024-38095]: https://github.com/dotnet/runtime/security/advisories/GHSA-447r-wph3-92pm
+[CVE-2024-30105]: https://github.com/dotnet/announcements/issues/315
+[CVE-2024-35264]: https://github.com/dotnet/announcements/issues/314
+[CVE-2024-38081]: https://github.com/dotnet/announcements/issues/313
+[CVE-2024-38095]: https://github.com/dotnet/announcements/issues/312
 [Microsoft.IO.Redist]: https://www.nuget.org/packages/Microsoft.IO.Redist
 [System.Formats.Asn1]: https://www.nuget.org/packages/System.Formats.Asn1
 [System.Text.Json]: https://www.nuget.org/packages/System.Text.Json

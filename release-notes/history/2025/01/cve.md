@@ -55,10 +55,10 @@ The following table lists commits for affected packages.
 
 
 
-[CVE-2025-21171]: https://github.com/dotnet/runtime/security/advisories/GHSA-p54p-p3qm-8vgj
-[CVE-2025-21172]: https://github.com/dotnet/runtime/security/advisories/GHSA-jjcv-wr2g-4rv4
-[CVE-2025-21173]: https://github.com/dotnet/sdk/issues/45959
-[CVE-2025-21176]: https://github.com/dotnet/runtime/security/advisories/GHSA-gjf6-3w4p-7xfh
+[CVE-2025-21171]: https://github.com/dotnet/announcements/issues/340
+[CVE-2025-21172]: https://github.com/dotnet/announcements/issues/339
+[CVE-2025-21173]: https://github.com/dotnet/announcements/issues/337
+[CVE-2025-21176]: https://github.com/dotnet/announcements/issues/338
 [Microsoft.NetCore.Sdk]: https://www.nuget.org/packages/Microsoft.NetCore.Sdk
 [dotnet/runtime]: https://github.com/dotnet/runtime
 [release/6.0]: https://github.com/dotnet/runtime/tree/release/6.0

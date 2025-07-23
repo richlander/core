@@ -35,7 +35,7 @@ The following table lists commits for affected packages.
 
 
 
-[CVE-2025-26682]: https://github.com/dotnet/aspnetcore/issues/61390
+[CVE-2025-26682]: https://github.com/dotnet/announcements/issues/352
 [Microsoft.ASPNetCore.App.Runtime]: https://www.nuget.org/packages/Microsoft.ASPNetCore.App.Runtime
 [dotnet/aspnetcore]: https://github.com/dotnet/aspnetcore
 [main]: https://github.com/dotnet/aspnetcore/tree/main

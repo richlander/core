@@ -63,7 +63,7 @@
           {
             "id": "CVE-2025-26646",
             "title": ".NET and Visual Studio Spoofing Vulnerability",
-            "href": "https://github.com/dotnet/msbuild/security/advisories/GHSA-h4j7-5rxr-p4wc"
+            "href": "https://github.com/dotnet/announcements/issues/356"
           }
         ],
         "dotnet-releases": [
@@ -92,7 +92,7 @@
           {
             "id": "CVE-2025-26682",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/aspnetcore/issues/61390"
+            "href": "https://github.com/dotnet/announcements/issues/352"
           }
         ],
         "dotnet-releases": [
@@ -121,7 +121,7 @@
           {
             "id": "CVE-2025-24070",
             "title": ".NET Elevation of Privilege Vulnerability",
-            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-2865-hh9g-w894"
+            "href": "https://github.com/dotnet/announcements/issues/348"
           }
         ],
         "dotnet-releases": [
@@ -167,22 +167,22 @@
           {
             "id": "CVE-2025-21171",
             "title": ".NET Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-p54p-p3qm-8vgj"
+            "href": "https://github.com/dotnet/announcements/issues/340"
           },
           {
             "id": "CVE-2025-21172",
             "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-jjcv-wr2g-4rv4"
+            "href": "https://github.com/dotnet/announcements/issues/339"
           },
           {
             "id": "CVE-2025-21176",
             "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-gjf6-3w4p-7xfh"
+            "href": "https://github.com/dotnet/announcements/issues/338"
           },
           {
             "id": "CVE-2025-21173",
             "title": ".NET Elevation of Privilege Vulnerability",
-            "href": "https://github.com/dotnet/sdk/issues/45959"
+            "href": "https://github.com/dotnet/announcements/issues/337"
           }
         ],
         "dotnet-releases": [
@@ -228,7 +228,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-20T04:49:18.565098\u002B00:00",
+    "generated-on": "2025-07-23T14:40:35.5180267\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

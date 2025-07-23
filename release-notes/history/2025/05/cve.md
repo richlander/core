@@ -50,7 +50,7 @@ The following table lists commits for affected packages.
 
 
 
-[CVE-2025-26646]: https://github.com/dotnet/msbuild/security/advisories/GHSA-h4j7-5rxr-p4wc
+[CVE-2025-26646]: https://github.com/dotnet/announcements/issues/356
 [Microsoft.NetCore.Sdk]: https://www.nuget.org/packages/Microsoft.NetCore.Sdk
 [Microsoft.Build.Tasks.Core]: https://www.nuget.org/packages/Microsoft.Build.Tasks.Core
 [dotnet/sdk]: https://github.com/dotnet/sdk

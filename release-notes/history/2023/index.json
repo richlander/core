@@ -34,17 +34,17 @@
           {
             "id": "CVE-2023-36038",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-56cg-fj6f-x8q8"
+            "href": "https://github.com/dotnet/announcements/issues/286"
           },
           {
             "id": "CVE-2023-36049",
             "title": ".NET Elevation of Privilege Vulnerability",
-            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-c3hf-8vgx-72rh"
+            "href": "https://github.com/dotnet/announcements/issues/287"
           },
           {
             "id": "CVE-2023-36558",
             "title": ".NET Security Feature Bypass Vulnerability",
-            "href": "https://github.com/dotnet/runtime/security/advisories/GHSA-3fx3-85r4-8j3w"
+            "href": "https://github.com/dotnet/announcements/issues/288"
           }
         ],
         "dotnet-releases": [
@@ -258,7 +258,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-20T04:49:18.5668237\u002B00:00",
+    "generated-on": "2025-07-23T14:40:35.5194101\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
