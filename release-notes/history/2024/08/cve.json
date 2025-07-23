@@ -6,10 +6,10 @@
       "title": ".NET Information Disclosure Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
-      "product": ".NET",
       "description": [
         "A vulnerability exists in .NET runtime TlsStream which may result in Information Disclosure."
       ],
+      "product": ".NET",
       "references": [
         "https://github.com/dotnet/announcements/issues/319"
       ]
@@ -26,22 +26,6 @@
       "references": [
         "https://github.com/dotnet/announcements/issues/320"
       ]
-    }
-  ],
-  "commits": [
-    {
-      "repo": "runtime",
-      "branch": "release/8.0",
-      "hash": "76f50f60931e85e9240715ebd1f345547cbae366",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/76f50f60931e85e9240715ebd1f345547cbae366"
-    },
-    {
-      "repo": "aspnetcore",
-      "branch": "release/8.0",
-      "hash": "123e69ce581cb33fd86c7cd2f8d4ba95e667885c",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
     }
   ],
   "platform": {
@@ -70,5 +54,21 @@
       }
     ]
   },
-  "packages": {}
+  "packages": {},
+  "commits": [
+    {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "76f50f60931e85e9240715ebd1f345547cbae366",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/76f50f60931e85e9240715ebd1f345547cbae366"
+    },
+    {
+      "repo": "aspnetcore",
+      "branch": "release/8.0",
+      "hash": "123e69ce581cb33fd86c7cd2f8d4ba95e667885c",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
+    }
+  ]
 }

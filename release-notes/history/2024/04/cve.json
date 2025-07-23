@@ -6,12 +6,12 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "description": [
+        "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
+      ],
       "product": ".NET",
       "platforms": [
         "Windows"
-      ],
-      "description": [
-        "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/303"

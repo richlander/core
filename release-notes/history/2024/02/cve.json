@@ -6,10 +6,10 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
-      "product": "ASP.NET Core",
       "description": [
         "A vulnerability exists in ASP.NET applications using SignalR where a malicious client can result in a denial-of-service."
       ],
+      "product": "ASP.NET Core",
       "references": [
         "https://github.com/dotnet/announcements/issues/295"
       ]
@@ -19,12 +19,12 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+      "description": [
+        "A denial-of-service vulnerability exists in .NET with OpenSSL support when parsing X509 certificates."
+      ],
       "product": ".NET",
       "platforms": [
         "Linux"
-      ],
-      "description": [
-        "A denial-of-service vulnerability exists in .NET with OpenSSL support when parsing X509 certificates."
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/296"

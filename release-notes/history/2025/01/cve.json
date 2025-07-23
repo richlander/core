@@ -42,80 +42,15 @@
       "title": ".NET Elevation of Privilege Vulnerability",
       "severity": "High",
       "cvss": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
-      "platforms": [
-        "Linux"
-      ],
       "description": [
         "An attacker could exploit this vulnerability to writing a specially crafted file in the security context of the local system."
+      ],
+      "platforms": [
+        "Linux"
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/337"
       ]
-    }
-  ],
-  "commits": [
-    {
-      "repo": "runtime",
-      "branch": "release/9.0",
-      "hash": "9da8c6a4a6ea03054e776275d3fd5c752897842e",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/9da8c6a4a6ea03054e776275d3fd5c752897842e"
-    },
-    {
-      "repo": "runtime",
-      "branch": "release/6.0",
-      "hash": "b3f8ef0105c079c255caa6aa31d630482db5d03c",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/b3f8ef0105c079c255caa6aa31d630482db5d03c"
-    },
-    {
-      "repo": "runtime",
-      "branch": "release/8.0",
-      "hash": "89ef51c5d8f5239345127a1e282e11036e590c8b",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b"
-    },
-    {
-      "repo": "runtime",
-      "branch": "release/9.0",
-      "hash": "32d8ea6eecf7f192a75162645390847b14b56dbb",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/32d8ea6eecf7f192a75162645390847b14b56dbb"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/6.0",
-      "hash": "4416ac92cd8588320132c4ce0d508d78a4a26d15",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/4416ac92cd8588320132c4ce0d508d78a4a26d15"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/8.0.1xx",
-      "hash": "7034fd96502b925b5f65c31e34e99116870bc59f",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/7034fd96502b925b5f65c31e34e99116870bc59f"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/8.0.3xx",
-      "hash": "2a98e615955be9b9d0752d090c3f92f70c7d0223",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/2a98e615955be9b9d0752d090c3f92f70c7d0223"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/8.0.4xx",
-      "hash": "1ba623839f23fe8857d2aa0dc23783692325deab",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/1ba623839f23fe8857d2aa0dc23783692325deab"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/9.0.1xx",
-      "hash": "802c364c05180a487624fc839870677625810b10",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/802c364c05180a487624fc839870677625810b10"
     }
   ],
   "platform": {
@@ -246,5 +181,70 @@
       }
     ]
   },
-  "packages": {}
+  "packages": {},
+  "commits": [
+    {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "9da8c6a4a6ea03054e776275d3fd5c752897842e",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/9da8c6a4a6ea03054e776275d3fd5c752897842e"
+    },
+    {
+      "repo": "runtime",
+      "branch": "release/6.0",
+      "hash": "b3f8ef0105c079c255caa6aa31d630482db5d03c",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/b3f8ef0105c079c255caa6aa31d630482db5d03c"
+    },
+    {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "89ef51c5d8f5239345127a1e282e11036e590c8b",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b"
+    },
+    {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "32d8ea6eecf7f192a75162645390847b14b56dbb",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/32d8ea6eecf7f192a75162645390847b14b56dbb"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/6.0",
+      "hash": "4416ac92cd8588320132c4ce0d508d78a4a26d15",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/4416ac92cd8588320132c4ce0d508d78a4a26d15"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/8.0.1xx",
+      "hash": "7034fd96502b925b5f65c31e34e99116870bc59f",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/7034fd96502b925b5f65c31e34e99116870bc59f"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/8.0.3xx",
+      "hash": "2a98e615955be9b9d0752d090c3f92f70c7d0223",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/2a98e615955be9b9d0752d090c3f92f70c7d0223"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/8.0.4xx",
+      "hash": "1ba623839f23fe8857d2aa0dc23783692325deab",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/1ba623839f23fe8857d2aa0dc23783692325deab"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/9.0.1xx",
+      "hash": "802c364c05180a487624fc839870677625810b10",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/802c364c05180a487624fc839870677625810b10"
+    }
+  ]
 }

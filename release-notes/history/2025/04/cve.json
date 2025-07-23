@@ -14,22 +14,6 @@
       ]
     }
   ],
-  "commits": [
-    {
-      "repo": "aspnetcore",
-      "branch": "main",
-      "hash": "d6605eb150c993dd8943e2c1a6875a93927c301a",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/d6605eb150c993dd8943e2c1a6875a93927c301a"
-    },
-    {
-      "repo": "aspnetcore",
-      "branch": "main",
-      "hash": "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
-    }
-  ],
   "platform": {
     "8.0": [
       {
@@ -58,5 +42,21 @@
       }
     ]
   },
-  "packages": {}
+  "packages": {},
+  "commits": [
+    {
+      "repo": "aspnetcore",
+      "branch": "main",
+      "hash": "d6605eb150c993dd8943e2c1a6875a93927c301a",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/d6605eb150c993dd8943e2c1a6875a93927c301a"
+    },
+    {
+      "repo": "aspnetcore",
+      "branch": "main",
+      "hash": "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
+    }
+  ]
 }

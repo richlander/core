@@ -6,13 +6,13 @@
       "title": ".NET Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
-      "product": ".NET",
       "description": [
         "A remote unauthenticated attacker could exploit this vulnerability by sending specially crafted requests to a .NET vulnerable webapp or loading a specially crafted file into a vulnerable application."
       ],
       "mitigation": [
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
       ],
+      "product": ".NET",
       "references": [
         "https://github.com/dotnet/announcements/issues/334"
       ]
@@ -22,25 +22,16 @@
       "title": ".NET Core - DoS - (unbounded work factor) in NrbfDecoder component",
       "severity": "High",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
-      "product": ".NET",
       "description": [
         "The NrbfDecoder component in .NET 9 contains a denial of service vulnerability due to incorrect input validation."
       ],
       "mitigation": [
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
       ],
+      "product": ".NET",
       "references": [
         "https://github.com/dotnet/announcements/issues/333"
       ]
-    }
-  ],
-  "commits": [
-    {
-      "repo": "runtime",
-      "branch": "release/9.0",
-      "hash": "d16f41ad8fded18bf82bca88df27967cc3365eb0",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/d16f41ad8fded18bf82bca88df27967cc3365eb0"
     }
   ],
   "platform": {
@@ -96,5 +87,14 @@
         "component": "System.Formats.Nrbf"
       }
     ]
-  }
+  },
+  "commits": [
+    {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "d16f41ad8fded18bf82bca88df27967cc3365eb0",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/d16f41ad8fded18bf82bca88df27967cc3365eb0"
+    }
+  ]
 }

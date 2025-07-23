@@ -11,22 +11,6 @@
       ]
     }
   ],
-  "commits": [
-    {
-      "repo": "runtime",
-      "branch": "release/8.0",
-      "hash": "b33d4e34e1cbf993583d78fc1b64ea8400935978",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/b33d4e34e1cbf993583d78fc1b64ea8400935978"
-    },
-    {
-      "repo": "runtime",
-      "branch": "release/9.0",
-      "hash": "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/214743ee2a5a25b9a3a07e3f0451da73eb4e97e2"
-    }
-  ],
   "platform": {
     "8.0": [
       {
@@ -61,5 +45,21 @@
       }
     ]
   },
-  "packages": {}
+  "packages": {},
+  "commits": [
+    {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "b33d4e34e1cbf993583d78fc1b64ea8400935978",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/b33d4e34e1cbf993583d78fc1b64ea8400935978"
+    },
+    {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/214743ee2a5a25b9a3a07e3f0451da73eb4e97e2"
+    }
+  ]
 }

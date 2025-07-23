@@ -6,12 +6,12 @@
       "title": "Microsoft QUIC Denial of Service Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+      "description": [
+        "A Vulnerability exist in MsQuic.dll which might result in a peer to allocate small chunks of memory as long as connection stays alive."
+      ],
       "product": ".NET",
       "platforms": [
         "Windows"
-      ],
-      "description": [
-        "A Vulnerability exist in MsQuic.dll which might result in a peer to allocate small chunks of memory as long as connection stays alive."
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/300"
@@ -22,10 +22,10 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
-      "product": ".NET",
       "description": [
         "A vulnerability exists in .NET where specially crafted requests may cause a resource leak, leading to a Denial of Service."
       ],
+      "product": ".NET",
       "references": [
         "https://github.com/dotnet/announcements/issues/299"
       ]

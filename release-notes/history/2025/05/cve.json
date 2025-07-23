@@ -14,43 +14,6 @@
       ]
     }
   ],
-  "commits": [
-    {
-      "repo": "sdk",
-      "branch": "release/8.0.1xx",
-      "hash": "d00609e7978ee1b0fe62b39a378611311cf85603",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/d00609e7978ee1b0fe62b39a378611311cf85603"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/8.0.4xx",
-      "hash": "7892f91f7191adb473a9e97a79e1c4ca8a2c9247",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/9.0.1xx",
-      "hash": "ad312fc3980fd8c562fac172bc17318c447eeb75",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/ad312fc3980fd8c562fac172bc17318c447eeb75"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/9.0.2xx",
-      "hash": "070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753"
-    },
-    {
-      "repo": "sdk",
-      "branch": "release/9.0.3xx",
-      "hash": "391e16c3b5c49938029e20d9ee69c4d5bdf51c70",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/391e16c3b5c49938029e20d9ee69c4d5bdf51c70"
-    }
-  ],
   "platform": {
     "8.0": [
       {
@@ -161,5 +124,42 @@
         "component": "Microsoft.Build.Tasks.Core"
       }
     ]
-  }
+  },
+  "commits": [
+    {
+      "repo": "sdk",
+      "branch": "release/8.0.1xx",
+      "hash": "d00609e7978ee1b0fe62b39a378611311cf85603",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/d00609e7978ee1b0fe62b39a378611311cf85603"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/8.0.4xx",
+      "hash": "7892f91f7191adb473a9e97a79e1c4ca8a2c9247",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/9.0.1xx",
+      "hash": "ad312fc3980fd8c562fac172bc17318c447eeb75",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/ad312fc3980fd8c562fac172bc17318c447eeb75"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/9.0.2xx",
+      "hash": "070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753"
+    },
+    {
+      "repo": "sdk",
+      "branch": "release/9.0.3xx",
+      "hash": "391e16c3b5c49938029e20d9ee69c4d5bdf51c70",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/sdk/commit/391e16c3b5c49938029e20d9ee69c4d5bdf51c70"
+    }
+  ]
 }

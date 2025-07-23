@@ -6,10 +6,10 @@
       "title": ".NET Remote Code Execution Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L/E:U/RL:O/RC:C",
-      "product": ".NET",
       "description": [
         "A Remote Code Execution vulnerability exists in .NET 7.0 and .NET 8.0 where a stack buffer overrun occurs in .NET Double Parse routine."
       ],
+      "product": ".NET",
       "references": [
         "https://github.com/dotnet/announcements/issues/307"
       ]
@@ -19,10 +19,10 @@
       "title": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
       "cvss": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
-      "product": "ASP.NET Core",
       "description": [
         "A vulnerability exists in Microsoft.AspNetCore.Server.Kestrel.Core.dll where a dead-lock can occur resulting in Denial of Service."
       ],
+      "product": "ASP.NET Core",
       "references": [
         "https://github.com/dotnet/announcements/issues/308"
       ]
