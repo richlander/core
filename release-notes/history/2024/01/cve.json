@@ -11,7 +11,6 @@
         "A vulnerability exists in the Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider where an attackercan perform an AiTM (adversary-in-the-middle) attack between the SQL client and the SQL server. This may allow the attacker to steal authentication credentials intended for the database server, even if the connection is established over an encrypted channel like TLS."
       ],
       "references": [
-        "https://github.com/advisories/GHSA-98g6-xh36-x2p7",
         "https://github.com/dotnet/announcements/issues/292"
       ]
     },
@@ -28,8 +27,7 @@
       "cvss": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C",
       "product": ".NET",
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-56gp-vpf5-xmqc",
-        "https://github.com/dotnet/runtime/issues/96700"
+        "https://github.com/dotnet/announcements/issues/291"
       ]
     },
     {
@@ -45,8 +43,7 @@
         "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
       ],
       "references": [
-        "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-59j7-ghrg-fj52",
-        "https://github.com/dotnet/aspnetcore/issues/53246"
+        "https://github.com/dotnet/announcements/issues/290"
       ]
     }
   ],

@@ -14,8 +14,7 @@
         "A vulnerability exists in ASP.NET IIS where a remote unauthenticated user can issue specially crafted requests to a .NET application which may result in denial of service."
       ],
       "references": [
-        "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-56cg-fj6f-x8q8",
-        "https://github.com/dotnet/aspnetcore/issues/52043"
+        "https://github.com/dotnet/announcements/issues/286"
       ]
     },
     {
@@ -28,8 +27,7 @@
         "An elevation of privilege vulnerability exists in .NET where untrusted URIs provided to System.Net.WebRequest.Create can be used to inject arbitrary commands to backend FTP servers."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-c3hf-8vgx-72rh",
-        "https://github.com/dotnet/runtime/issues/94725"
+        "https://github.com/dotnet/announcements/issues/287"
       ]
     },
     {
@@ -45,8 +43,7 @@
         "This vulnerability only affects ASP.NET Core Blazor apps. Other application types, including ASP.NET Core apps which do not utilize Blazor, are not affected."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-3fx3-85r4-8j3w",
-        "https://github.com/dotnet/runtime/issues/94726"
+        "https://github.com/dotnet/announcements/issues/288"
       ]
     }
   ],

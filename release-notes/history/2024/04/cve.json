@@ -14,8 +14,7 @@
         "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
       ],
       "references": [
-        "https://github.com/dotnet/wpf/security/advisories/GHSA-6qmx-42h2-j8h6",
-        "https://github.com/dotnet/wpf/issues/9003"
+        "https://github.com/dotnet/announcements/issues/303"
       ]
     }
   ],

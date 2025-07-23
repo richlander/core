@@ -10,8 +10,7 @@
         "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user's account, resulting in Elevation of Privilege."
       ],
       "references": [
-        "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-2865-hh9g-w894",
-        "https://github.com/dotnet/aspnetcore/issues/60871"
+        "https://github.com/dotnet/announcements/issues/348"
       ]
     }
   ],

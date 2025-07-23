@@ -11,8 +11,7 @@
         "A vulnerability exists in ASP.NET applications using SignalR where a malicious client can result in a denial-of-service."
       ],
       "references": [
-        "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-g74q-5xw3-j7q9",
-        "https://github.com/dotnet/aspnetcore/issues/54008"
+        "https://github.com/dotnet/announcements/issues/295"
       ]
     },
     {
@@ -28,8 +27,7 @@
         "A denial-of-service vulnerability exists in .NET with OpenSSL support when parsing X509 certificates."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-qqwf-5c27-4xxx",
-        "https://github.com/dotnet/runtime/issues/98373"
+        "https://github.com/dotnet/announcements/issues/296"
       ]
     }
   ],

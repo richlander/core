@@ -11,8 +11,7 @@
         "A Remote Code Execution vulnerability exists in .NET 7.0 and .NET 8.0 where a stack buffer overrun occurs in .NET Double Parse routine."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-7fcr-8qw6-92fr",
-        "https://github.com/dotnet/runtime/issues/102206"
+        "https://github.com/dotnet/announcements/issues/307"
       ]
     },
     {
@@ -25,8 +24,7 @@
         "A vulnerability exists in Microsoft.AspNetCore.Server.Kestrel.Core.dll where a dead-lock can occur resulting in Denial of Service."
       ],
       "references": [
-        "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-hhc7-x9w4-cw47",
-        "https://github.com/dotnet/aspnetcore/issues/55714"
+        "https://github.com/dotnet/announcements/issues/308"
       ]
     }
   ],

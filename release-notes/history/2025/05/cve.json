@@ -10,8 +10,7 @@
         "A vulnerability exists in .NET SDK or MSBuild applications where external control of file name or path allows an unauthorized attacked to perform spoofing over a network."
       ],
       "references": [
-        "https://github.com/dotnet/msbuild/security/advisories/GHSA-h4j7-5rxr-p4wc",
-        "https://github.com/dotnet/msbuild/issues/11846"
+        "https://github.com/dotnet/announcements/issues/356"
       ]
     }
   ],

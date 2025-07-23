@@ -11,8 +11,7 @@
         "A vulnerability exists in .NET when calling the JsonSerializer.DeserializeAsyncEnumerable method against an untrusted input using System.Text.Json may result in Denial of Service."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-hh2w-p6rv-4g7w",
-        "https://github.com/dotnet/runtime/issues/104619"
+        "https://github.com/dotnet/announcements/issues/315"
       ]
     },
     {
@@ -26,8 +25,7 @@
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.7"
       ],
       "references": [
-        "https://github.com/dotnet/aspnetcore/security/advisories/GHSA-chfc-9w6m-75rf",
-        "https://github.com/dotnet/aspnetcore/issues/56691"
+        "https://github.com/dotnet/announcements/issues/314"
       ]
     },
     {
@@ -43,8 +41,7 @@
         "A vulnerability exists in Visual Studio installer on Windowswhere an unprivileged user is allowed to manipulate the Visual Studio installation resulting in elevation of privilege."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-hq7w-xv5x-g34j",
-        "https://github.com/dotnet/runtime/issues/104621"
+        "https://github.com/dotnet/announcements/issues/313"
       ]
     },
     {
@@ -57,8 +54,7 @@
         "A vulnerability exists when System.Formats.Asn1 in .NET parses an X.509 certificate or collection of certificates, a malicious certificate can result in excessive CPU consumption on all platforms result in Denial of Service."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-447r-wph3-92pm",
-        "https://github.com/dotnet/runtime/issues/104622"
+        "https://github.com/dotnet/announcements/issues/312"
       ]
     }
   ],

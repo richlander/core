@@ -10,8 +10,7 @@
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-p54p-p3qm-8vgj",
-        "https://github.com/dotnet/runtime/issues/111423"
+        "https://github.com/dotnet/announcements/issues/340"
       ]
     },
     {
@@ -23,8 +22,7 @@
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-jjcv-wr2g-4rv4",
-        "https://github.com/dotnet/runtime/issues/111424"
+        "https://github.com/dotnet/announcements/issues/339"
       ]
     },
     {
@@ -36,8 +34,7 @@
         "An attacker could exploit this vulnerability by loading a specially crafted file in Visual Studio."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-gjf6-3w4p-7xfh",
-        "https://github.com/dotnet/runtime/issues/111425"
+        "https://github.com/dotnet/announcements/issues/338"
       ]
     },
     {
@@ -52,7 +49,7 @@
         "An attacker could exploit this vulnerability to writing a specially crafted file in the security context of the local system."
       ],
       "references": [
-        "https://github.com/dotnet/sdk/issues/45959"
+        "https://github.com/dotnet/announcements/issues/337"
       ]
     }
   ],

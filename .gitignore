@@ -5,6 +5,9 @@ project.lock.json
 *.pyc
 nupkg/
 
+# Git Worktree directory
+_worktree/
+
 # Visual Studio Code
 .vscode/*
 !.vscode/settings.json

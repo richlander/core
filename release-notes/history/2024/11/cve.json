@@ -14,8 +14,7 @@
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-v7vf-f5q6-m899",
-        "https://github.com/dotnet/runtime/issues/109740"
+        "https://github.com/dotnet/announcements/issues/334"
       ]
     },
     {
@@ -31,8 +30,7 @@
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
       ],
       "references": [
-        "https://github.com/dotnet/runtime/security/advisories/GHSA-6x36-qxmj-rv4p",
-        "https://github.com/dotnet/runtime/issues/109738"
+        "https://github.com/dotnet/announcements/issues/333"
       ]
     }
   ],

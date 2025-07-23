@@ -10,7 +10,7 @@
         "A vulnerability exists in ASP.NET Core where using HTTP/3 improperly may result in a Denial of Service by allocation of resources without limits or throttling."
       ],
       "references": [
-        "https://github.com/dotnet/aspnetcore/issues/61390"
+        "https://github.com/dotnet/announcements/issues/352"
       ]
     }
   ],
