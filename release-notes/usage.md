@@ -61,6 +61,8 @@ The root version index includes convenience links for immediate access to curren
 | Get latest LTS release                               | `/index.json`                             | Follow `_links.latest-lts` href         |
 | List all patches for a version                       | `/{version}/index.json`            | Get releases → follow each `release.json` |
 | Find CVEs by month                                   | `/history/{year}/index.json`   | Follow each month's `cve.json` link      |
+| Get stable SDK download links                        | `/{version}/sdk/sdk.json`                | Latest SDK for version                   |
+| Get specific feature band SDK downloads              | `/{version}/sdk/sdk-{version}.{band}xx.json` | Pinned feature band downloads        |
 
 ## File Types by Use Case
 
@@ -138,6 +140,48 @@ Construct:
 - Web view: `https://github.com/{org}/{repo}/commit/{hash}`
 - Raw diff: `https://github.com/{org}/{repo}/commit/{hash}.diff`
 - Git patch: `https://github.com/{org}/{repo}/commit/{hash}.patch`
+
+## Finding Stable Download Links
+
+For stable download URLs that always point to the latest version:
+
+### Latest SDK Downloads
+```text
+GET /{version}/sdk/sdk.json
+```
+
+Example:
+- .NET 8.0 latest SDK: `https://raw.githubusercontent.com/.../8.0/sdk/sdk.json`
+- .NET 9.0 latest SDK: `https://raw.githubusercontent.com/.../9.0/sdk/sdk.json`
+
+### Specific Feature Band Downloads
+For downloads targeting specific feature bands:
+
+```text
+GET /{version}/sdk/sdk-{version}.{feature-band}xx.json
+```
+
+Examples:
+- .NET 8.0.1xx SDK: `https://raw.githubusercontent.com/.../8.0/sdk/sdk-8.0.1xx.json`
+- .NET 8.0.4xx SDK: `https://raw.githubusercontent.com/.../8.0/sdk/sdk-8.0.4xx.json`
+- .NET 9.0.1xx SDK: `https://raw.githubusercontent.com/.../9.0/sdk/sdk-9.0.1xx.json`
+
+### SDK File Structure
+Each SDK JSON file contains:
+- **component**: "sdk"
+- **version**: Version identifier (e.g., "8.0", "8.0.1xx")
+- **support-phase**: Current support status
+- **files**: Array of download links for all platforms/architectures
+  - **url**: Stable aka.ms download URL
+  - **hashUrl**: Corresponding SHA512 hash file
+  - **rid**: Runtime identifier (e.g., "win-x64", "linux-arm64", "osx-arm64")
+  - **type**: File format ("exe", "zip", "tar.gz", "pkg")
+
+### Use Cases
+- **Latest SDK**: Use `/{version}/sdk/sdk.json` for most recent version
+- **Pinned Feature Band**: Use `/{version}/sdk/sdk-{version}.{band}xx.json` for specific feature band
+- **Cross-Platform**: All major platforms/architectures included in each file
+- **Automation**: Stable aka.ms URLs suitable for CI/CD scripts
 
 ## Error Handling
 
