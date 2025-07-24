@@ -2,10 +2,9 @@
 
 Welcome to the home of .NET [release notes](./release-notes/README.md) and [news](https://github.com/dotnet/core/discussions/categories/news).
 
-## 🤖 Chat Assistant Usage Guide
+## 🤖 AI Assistant Discovery
 
-We maintain a separate guide for AI assistants to discover and consume our release-notes metadata in `HAL+JSON` format.  
-If you’re using ChatGPT or any automated tooling to query CVEs, patch URLs, diffs, etc., please follow the conventions in [README-ASSISTANTS.md](README-ASSISTANTS.md).
+AI assistants can discover and consume our release-notes metadata in `HAL+JSON` format through our machine-readable discovery file at [llms.txt](llms.txt). This file provides structured entry points for CVE data, patch URLs, diffs, and other release metadata.
 
 ## Releases
 
