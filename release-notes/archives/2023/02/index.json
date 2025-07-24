@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2023-02",
+  "description": "Release history for 2023-02 (6.0\u20138.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2023",
+  "month": "02",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2023/02/index.json",
+      "relative": "archives/2023/02/index.json",
+      "title": "Release history for 2023-02",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "8.0",
+      "7.0",
+      "6.0"
+    ],
+    "dotnet-patch-releases": [
+      "8.0.100-preview.1.23115.2",
+      "8.0.0-preview.1.23110.8",
+      "8.0.0-preview.1",
+      "7.0.201",
+      "7.0.200",
+      "7.0.103",
+      "7.0.3",
+      "6.0.406",
+      "6.0.309",
+      "6.0.114",
+      "6.0.14"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.045716\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

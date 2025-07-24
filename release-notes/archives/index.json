@@ -1,0 +1,217 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "release-history-index",
+  "title": ".NET Release History Index",
+  "description": "History of .NET releases 1.0\u201310.0 (latest first); This file is cache-friendly; follow links for the most current details.",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/index.json",
+      "relative": "archives/index.json",
+      "title": "History of .NET releases",
+      "type": "application/hal\u002Bjson"
+    },
+    "release-version-index": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json",
+      "relative": "index.json",
+      "title": ".NET Release Version Index",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "years": [
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2025",
+        "year": "2025",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/index.json",
+            "relative": "archives/2025/index.json",
+            "title": "Release history for 2025",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2024",
+        "year": "2024",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2024/index.json",
+            "relative": "archives/2024/index.json",
+            "title": "Release history for 2024",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "9.0",
+          "8.0",
+          "6.0",
+          "7.0"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2023",
+        "year": "2023",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2023/index.json",
+            "relative": "archives/2023/index.json",
+            "title": "Release history for 2023",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "8.0",
+          "7.0",
+          "6.0"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2022",
+        "year": "2022",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2022/index.json",
+            "relative": "archives/2022/index.json",
+            "title": "Release history for 2022",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "7.0",
+          "6.0",
+          "3.1",
+          "5.0"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2021",
+        "year": "2021",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2021/index.json",
+            "relative": "archives/2021/index.json",
+            "title": "Release history for 2021",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "6.0",
+          "5.0",
+          "3.1",
+          "2.1"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2020",
+        "year": "2020",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2020/index.json",
+            "relative": "archives/2020/index.json",
+            "title": "Release history for 2020",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "5.0",
+          "3.1",
+          "2.1",
+          "3.0"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2019",
+        "year": "2019",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2019/index.json",
+            "relative": "archives/2019/index.json",
+            "title": "Release history for 2019",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "3.1",
+          "3.0",
+          "2.2",
+          "2.1",
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2018",
+        "year": "2018",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2018/index.json",
+            "relative": "archives/2018/index.json",
+            "title": "Release history for 2018",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "3.0",
+          "2.2",
+          "2.1",
+          "1.1",
+          "1.0",
+          "2.0"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2017",
+        "year": "2017",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2017/index.json",
+            "relative": "archives/2017/index.json",
+            "title": "Release history for 2017",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "2.0",
+          "1.1",
+          "1.0"
+        ]
+      },
+      {
+        "kind": "history-year-index",
+        "description": ".NET release history for 2016",
+        "year": "2016",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2016/index.json",
+            "relative": "archives/2016/index.json",
+            "title": "Release history for 2016",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "dotnet-releases": [
+          "1.1",
+          "1.0"
+        ]
+      }
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.096985\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

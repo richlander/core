@@ -108,8 +108,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.17/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.17/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.17/release.json",
+            "relative": "8.0/8.0.17/release.json",
             "title": "8.0.17 Release Information",
             "type": "application/json"
           },
@@ -130,8 +130,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.16/release.json",
+            "relative": "8.0/8.0.16/release.json",
             "title": "8.0.16 Release Information",
             "type": "application/json"
           },
@@ -152,8 +152,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.16/release.json",
+            "relative": "8.0/8.0.16/release.json",
             "title": "8.0.16 Release Information",
             "type": "application/json"
           },
@@ -174,8 +174,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.15/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.15/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.15/release.json",
+            "relative": "8.0/8.0.15/release.json",
             "title": "8.0.15 Release Information",
             "type": "application/json"
           },
@@ -196,8 +196,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.14/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.14/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.14/release.json",
+            "relative": "8.0/8.0.14/release.json",
             "title": "8.0.14 Release Information",
             "type": "application/json"
           },
@@ -218,8 +218,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.13/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.13/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.13/release.json",
+            "relative": "8.0/8.0.13/release.json",
             "title": "8.0.13 Release Information",
             "type": "application/json"
           },
@@ -240,8 +240,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.12/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.12/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.12/release.json",
+            "relative": "8.0/8.0.12/release.json",
             "title": "8.0.12 Release Information",
             "type": "application/json"
           },
@@ -262,8 +262,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.11/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.11/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.11/release.json",
+            "relative": "8.0/8.0.11/release.json",
             "title": "8.0.11 Release Information",
             "type": "application/json"
           },
@@ -284,8 +284,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.10/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.10/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.10/release.json",
+            "relative": "8.0/8.0.10/release.json",
             "title": "8.0.10 Release Information",
             "type": "application/json"
           },
@@ -306,8 +306,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.8/release.json",
+            "relative": "8.0/8.0.8/release.json",
             "title": "8.0.8 Release Information",
             "type": "application/json"
           },
@@ -328,8 +328,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.8/release.json",
+            "relative": "8.0/8.0.8/release.json",
             "title": "8.0.8 Release Information",
             "type": "application/json"
           },
@@ -350,8 +350,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.8/release.json",
+            "relative": "8.0/8.0.8/release.json",
             "title": "8.0.8 Release Information",
             "type": "application/json"
           },
@@ -372,8 +372,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.17/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.17/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.17/release.json",
+            "relative": "8.0/8.0.17/release.json",
             "title": "8.0.17 Release Information",
             "type": "application/json"
           },
@@ -394,8 +394,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.16/release.json",
+            "relative": "8.0/8.0.16/release.json",
             "title": "8.0.16 Release Information",
             "type": "application/json"
           },
@@ -416,8 +416,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.16/release.json",
+            "relative": "8.0/8.0.16/release.json",
             "title": "8.0.16 Release Information",
             "type": "application/json"
           },
@@ -438,8 +438,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.15/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.15/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.15/release.json",
+            "relative": "8.0/8.0.15/release.json",
             "title": "8.0.15 Release Information",
             "type": "application/json"
           },
@@ -460,8 +460,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.14/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.14/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.14/release.json",
+            "relative": "8.0/8.0.14/release.json",
             "title": "8.0.14 Release Information",
             "type": "application/json"
           },
@@ -482,8 +482,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.13/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.13/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.13/release.json",
+            "relative": "8.0/8.0.13/release.json",
             "title": "8.0.13 Release Information",
             "type": "application/json"
           },
@@ -504,8 +504,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.12/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.12/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.12/release.json",
+            "relative": "8.0/8.0.12/release.json",
             "title": "8.0.12 Release Information",
             "type": "application/json"
           },
@@ -526,8 +526,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.11/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.11/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.11/release.json",
+            "relative": "8.0/8.0.11/release.json",
             "title": "8.0.11 Release Information",
             "type": "application/json"
           },
@@ -548,8 +548,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.10/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.10/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.10/release.json",
+            "relative": "8.0/8.0.10/release.json",
             "title": "8.0.10 Release Information",
             "type": "application/json"
           },
@@ -570,8 +570,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.8/release.json",
+            "relative": "8.0/8.0.8/release.json",
             "title": "8.0.8 Release Information",
             "type": "application/json"
           },
@@ -592,8 +592,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.7/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.7/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.7/release.json",
+            "relative": "8.0/8.0.7/release.json",
             "title": "8.0.7 Release Information",
             "type": "application/json"
           },
@@ -614,8 +614,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.6/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.6/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.6/release.json",
+            "relative": "8.0/8.0.6/release.json",
             "title": "8.0.6 Release Information",
             "type": "application/json"
           },
@@ -636,8 +636,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.6/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.6/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.6/release.json",
+            "relative": "8.0/8.0.6/release.json",
             "title": "8.0.6 Release Information",
             "type": "application/json"
           },
@@ -658,8 +658,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.5/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.5/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.5/release.json",
+            "relative": "8.0/8.0.5/release.json",
             "title": "8.0.5 Release Information",
             "type": "application/json"
           },
@@ -680,8 +680,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.6/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.6/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.6/release.json",
+            "relative": "8.0/8.0.6/release.json",
             "title": "8.0.6 Release Information",
             "type": "application/json"
           },
@@ -702,8 +702,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.5/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.5/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.5/release.json",
+            "relative": "8.0/8.0.5/release.json",
             "title": "8.0.5 Release Information",
             "type": "application/json"
           },
@@ -724,8 +724,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.4/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.4/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.4/release.json",
+            "relative": "8.0/8.0.4/release.json",
             "title": "8.0.4 Release Information",
             "type": "application/json"
           },
@@ -746,8 +746,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.3/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.3/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.3/release.json",
+            "relative": "8.0/8.0.3/release.json",
             "title": "8.0.3 Release Information",
             "type": "application/json"
           },
@@ -768,8 +768,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.3/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.3/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.3/release.json",
+            "relative": "8.0/8.0.3/release.json",
             "title": "8.0.3 Release Information",
             "type": "application/json"
           },
@@ -790,8 +790,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.2/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.2/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.2/release.json",
+            "relative": "8.0/8.0.2/release.json",
             "title": "8.0.2 Release Information",
             "type": "application/json"
           },
@@ -812,8 +812,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.2/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.2/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.2/release.json",
+            "relative": "8.0/8.0.2/release.json",
             "title": "8.0.2 Release Information",
             "type": "application/json"
           },
@@ -834,8 +834,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.17/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.17/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.17/release.json",
+            "relative": "8.0/8.0.17/release.json",
             "title": "8.0.17 Release Information",
             "type": "application/json"
           },
@@ -856,8 +856,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.16/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.16/release.json",
+            "relative": "8.0/8.0.16/release.json",
             "title": "8.0.16 Release Information",
             "type": "application/json"
           },
@@ -878,8 +878,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.15/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.15/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.15/release.json",
+            "relative": "8.0/8.0.15/release.json",
             "title": "8.0.15 Release Information",
             "type": "application/json"
           },
@@ -900,8 +900,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.14/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.14/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.14/release.json",
+            "relative": "8.0/8.0.14/release.json",
             "title": "8.0.14 Release Information",
             "type": "application/json"
           },
@@ -922,8 +922,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.13/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.13/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.13/release.json",
+            "relative": "8.0/8.0.13/release.json",
             "title": "8.0.13 Release Information",
             "type": "application/json"
           },
@@ -944,8 +944,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.12/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.12/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.12/release.json",
+            "relative": "8.0/8.0.12/release.json",
             "title": "8.0.12 Release Information",
             "type": "application/json"
           },
@@ -966,8 +966,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.11/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.11/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.11/release.json",
+            "relative": "8.0/8.0.11/release.json",
             "title": "8.0.11 Release Information",
             "type": "application/json"
           },
@@ -988,8 +988,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.10/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.10/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.10/release.json",
+            "relative": "8.0/8.0.10/release.json",
             "title": "8.0.10 Release Information",
             "type": "application/json"
           },
@@ -1010,8 +1010,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.8/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.8/release.json",
+            "relative": "8.0/8.0.8/release.json",
             "title": "8.0.8 Release Information",
             "type": "application/json"
           },
@@ -1032,8 +1032,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.7/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.7/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.7/release.json",
+            "relative": "8.0/8.0.7/release.json",
             "title": "8.0.7 Release Information",
             "type": "application/json"
           },
@@ -1054,8 +1054,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.6/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.6/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.6/release.json",
+            "relative": "8.0/8.0.6/release.json",
             "title": "8.0.6 Release Information",
             "type": "application/json"
           },
@@ -1076,8 +1076,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.5/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.5/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.5/release.json",
+            "relative": "8.0/8.0.5/release.json",
             "title": "8.0.5 Release Information",
             "type": "application/json"
           },
@@ -1098,8 +1098,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.4/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.4/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.4/release.json",
+            "relative": "8.0/8.0.4/release.json",
             "title": "8.0.4 Release Information",
             "type": "application/json"
           },
@@ -1120,8 +1120,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.3/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.3/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.3/release.json",
+            "relative": "8.0/8.0.3/release.json",
             "title": "8.0.3 Release Information",
             "type": "application/json"
           },
@@ -1142,8 +1142,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.2/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.2/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.2/release.json",
+            "relative": "8.0/8.0.2/release.json",
             "title": "8.0.2 Release Information",
             "type": "application/json"
           },
@@ -1164,8 +1164,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.1/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.1/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.1/release.json",
+            "relative": "8.0/8.0.1/release.json",
             "title": "8.0.1 Release Information",
             "type": "application/json"
           },
@@ -1330,8 +1330,8 @@
         "kind": "patch-release",
         "_links": {
           "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/../../distroessed/_worktree/root-cross-ref/8.0/8.0.0/release.json",
-            "relative": "../../distroessed/_worktree/root-cross-ref/8.0/8.0.0/release.json",
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.0/release.json",
+            "relative": "8.0/8.0.0/release.json",
             "title": "8.0.0 Release Information",
             "type": "application/json"
           },
@@ -1350,7 +1350,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-23T23:57:49.703622\u002B00:00",
+    "generated-on": "2025-07-24T05:48:35.071942\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

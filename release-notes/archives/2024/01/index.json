@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2024-01",
+  "description": "Release history for 2024-01 (6.0\u20138.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2024",
+  "month": "01",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2024/01/index.json",
+      "relative": "archives/2024/01/index.json",
+      "title": "Release history for 2024-01",
+      "type": "application/hal\u002Bjson"
+    },
+    "cve": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2024/01/cve.json",
+      "relative": "archives/2024/01/cve.json",
+      "title": "CVE Information",
+      "type": "application/json"
+    },
+    "cve-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2024/01/cve.md",
+      "relative": "archives/2024/01/cve.md",
+      "title": "CVE Information (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "cve-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/archives/2024/01/cve.md",
+      "relative": "archives/2024/01/cve.md",
+      "title": "CVE Information (Markdown)",
+      "type": "application/markdown"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "8.0",
+      "7.0",
+      "6.0"
+    ],
+    "dotnet-patch-releases": [
+      "8.0.101",
+      "8.0.1",
+      "7.0.405",
+      "7.0.312",
+      "7.0.115",
+      "7.0.15",
+      "6.0.418",
+      "6.0.321",
+      "6.0.126",
+      "6.0.26"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.039509\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2019-04",
+  "description": "Release history for 2019-04 (2.1\u20133.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2019",
+  "month": "04",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2019/04/index.json",
+      "relative": "archives/2019/04/index.json",
+      "title": "Release history for 2019-04",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "3.0",
+      "2.2",
+      "2.1"
+    ],
+    "dotnet-patch-releases": [
+      "3.0.0-preview4-27615-11",
+      "3.0.0-preview4",
+      "2.2.203",
+      "2.2.202",
+      "2.2.4",
+      "2.2.3",
+      "2.1.603",
+      "2.1.602",
+      "2.1.10",
+      "2.1.9"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.082473\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

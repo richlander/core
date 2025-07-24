@@ -1,0 +1,57 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2025-04",
+  "description": "Release history for 2025-04 (8.0\u201310.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2025",
+  "month": "04",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/04/index.json",
+      "relative": "archives/2025/04/index.json",
+      "title": "Release history for 2025-04",
+      "type": "application/hal\u002Bjson"
+    },
+    "cve": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/04/cve.json",
+      "relative": "archives/2025/04/cve.json",
+      "title": "CVE Information",
+      "type": "application/json"
+    },
+    "cve-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/04/cve.md",
+      "relative": "archives/2025/04/cve.md",
+      "title": "CVE Information (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "cve-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/archives/2025/04/cve.md",
+      "relative": "archives/2025/04/cve.md",
+      "title": "CVE Information (Markdown)",
+      "type": "application/markdown"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ],
+    "dotnet-patch-releases": [
+      "10.0.100-preview.3.25201.16",
+      "10.0.0-preview.3.25171.5",
+      "10.0.0-preview.3",
+      "9.0.203",
+      "9.0.105",
+      "9.0.4",
+      "8.0.408",
+      "8.0.311",
+      "8.0.115",
+      "8.0.15"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.023493\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

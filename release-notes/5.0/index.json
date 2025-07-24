@@ -30,12 +30,14 @@
     }
   },
   "glossary": {
-    "lts": "Long-Term Support \u2013 3-year support window",
-    "sts": "Standard-Term Support \u2013 18-month support window",
-    "release": "General Availability \u2013 Production-ready release",
-    "eol": "End of Life \u2013 No longer supported",
-    "preview": "Pre-release phase with previews and release candidates",
-    "active": "Full support with regular updates and security fixes"
+    "terms": {
+      "lts": "Long-Term Support \u2013 3-year support window",
+      "sts": "Standard-Term Support \u2013 18-month support window",
+      "release": "General Availability \u2013 Production-ready release",
+      "eol": "End of Life \u2013 No longer supported",
+      "preview": "Pre-release phase with previews and release candidates",
+      "active": "Full support with regular updates and security fixes"
+    }
   },
   "lifecycle": {
     "release-type": "sts",
@@ -45,7 +47,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-23T22:34:02.978689\u002B00:00",
+    "generated-on": "2025-07-24T05:01:19.519062\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

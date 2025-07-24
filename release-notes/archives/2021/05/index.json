@@ -1,0 +1,42 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2021-05",
+  "description": "Release history for 2021-05 (2.1\u20136.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2021",
+  "month": "05",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2021/05/index.json",
+      "relative": "archives/2021/05/index.json",
+      "title": "Release history for 2021-05",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "6.0",
+      "5.0",
+      "3.1",
+      "2.1"
+    ],
+    "dotnet-patch-releases": [
+      "6.0.100-preview.4.21255.9",
+      "6.0.0-preview.4.21253.7",
+      "6.0.0-preview.4",
+      "5.0.300",
+      "5.0.203",
+      "5.0.6",
+      "3.1.409",
+      "3.1.115",
+      "3.1.15",
+      "2.1.816",
+      "2.1.524",
+      "2.1.28"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.065942\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

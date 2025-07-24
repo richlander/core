@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2020-04",
+  "description": "Release history for 2020-04 (5.0\u20135.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2020",
+  "month": "04",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2020/04/index.json",
+      "relative": "archives/2020/04/index.json",
+      "title": "Release history for 2020-04",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "5.0"
+    ],
+    "dotnet-patch-releases": [
+      "5.0.100-preview.3.20216.6",
+      "5.0.100-preview.2.20176.6",
+      "5.0.0-preview.3.20214.6",
+      "5.0.0-preview.3",
+      "5.0.0-preview.2.20160.6",
+      "5.0.0-preview.2"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.074366\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

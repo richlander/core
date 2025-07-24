@@ -1,0 +1,62 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2024-02",
+  "description": "Release history for 2024-02 (6.0\u20139.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2024",
+  "month": "02",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2024/02/index.json",
+      "relative": "archives/2024/02/index.json",
+      "title": "Release history for 2024-02",
+      "type": "application/hal\u002Bjson"
+    },
+    "cve": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2024/02/cve.json",
+      "relative": "archives/2024/02/cve.json",
+      "title": "CVE Information",
+      "type": "application/json"
+    },
+    "cve-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2024/02/cve.md",
+      "relative": "archives/2024/02/cve.md",
+      "title": "CVE Information (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "cve-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/archives/2024/02/cve.md",
+      "relative": "archives/2024/02/cve.md",
+      "title": "CVE Information (Markdown)",
+      "type": "application/markdown"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "9.0",
+      "8.0",
+      "7.0",
+      "6.0"
+    ],
+    "dotnet-patch-releases": [
+      "9.0.100-preview.1.24101.2",
+      "9.0.0-preview.1.24080.9",
+      "9.0.0-preview.1",
+      "8.0.201",
+      "8.0.200",
+      "8.0.102",
+      "8.0.2",
+      "7.0.406",
+      "7.0.313",
+      "7.0.116",
+      "7.0.16",
+      "6.0.419",
+      "6.0.127",
+      "6.0.27"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.037455\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

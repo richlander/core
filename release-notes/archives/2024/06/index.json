@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2024-06",
+  "description": "Release history for 2024-06 (8.0\u20139.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2024",
+  "month": "06",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2024/06/index.json",
+      "relative": "archives/2024/06/index.json",
+      "title": "Release history for 2024-06",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "9.0",
+      "8.0"
+    ],
+    "dotnet-patch-releases": [
+      "9.0.100-preview.5.24307.3",
+      "9.0.0-preview.5.24306.7",
+      "9.0.0-preview.5",
+      "8.0.302",
+      "8.0.301",
+      "8.0.206",
+      "8.0.106",
+      "8.0.6"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.033113\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2022-04",
+  "description": "Release history for 2022-04 (3.1\u20137.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2022",
+  "month": "04",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2022/04/index.json",
+      "relative": "archives/2022/04/index.json",
+      "title": "Release history for 2022-04",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "7.0",
+      "6.0",
+      "5.0",
+      "3.1"
+    ],
+    "dotnet-patch-releases": [
+      "7.0.100-preview.3.22179.4",
+      "7.0.0-preview.3.22175.4",
+      "7.0.0-preview.3",
+      "6.0.202",
+      "6.0.104",
+      "6.0.4",
+      "5.0.407",
+      "5.0.213",
+      "5.0.16",
+      "3.1.418",
+      "3.1.24"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-07-24T03:40:24.05823\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}
