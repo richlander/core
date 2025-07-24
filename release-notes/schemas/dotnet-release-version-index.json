@@ -64,6 +64,12 @@
               "string",
               "null"
             ]
+          },
+          "templated": {
+            "type": [
+              "boolean",
+              "null"
+            ]
           }
         },
         "required": [

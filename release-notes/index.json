@@ -28,6 +28,13 @@
       "title": "LTS release (.NET 8.0)",
       "type": "application/hal\u002Bjson"
     },
+    "stable-sdk-downloads": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/{version}/sdk/sdk.json",
+      "relative": "{version}/sdk/sdk.json",
+      "title": "Stable SDK download links (template: replace {version} with version number)",
+      "type": "application/hal\u002Bjson",
+      "templated": true
+    },
     "help-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md",
       "relative": "usage.md",
@@ -317,7 +324,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T05:01:19.564024\u002B00:00",
+    "generated-on": "2025-07-24T20:46:04.198156\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
