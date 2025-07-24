@@ -95,6 +95,16 @@ https://raw.githubusercontent.com/.../release-notes/index.json
 https://raw.githubusercontent.com/.../release-notes/history/index.json
 ```
 
+## Analyzing Security Fixes
+
+When investigating CVE fixes, you can append `.diff` or `.patch` to commit URLs to get the raw changes:
+
+- Diff format: `https://github.com/dotnet/runtime/commit/{commit-hash}.diff`
+- Patch format: `https://github.com/dotnet/runtime/commit/{commit-hash}.patch`
+- Web format: `https://github.com/dotnet/runtime/commit/{commit-hash}`
+
+This allows automated tools to analyze the actual code changes for security fixes.
+
 ## Error Handling
 
 - **404 on `cve.json` or `release.json`**: Skip that resource and continue
