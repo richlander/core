@@ -8,12 +8,6 @@
       "title": ".NET 2.0",
       "type": "application/hal\u002Bjson"
     },
-    "manifest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/manifest.json",
-      "relative": "2.0/manifest.json",
-      "title": "Manifest",
-      "type": "application/hal\u002Bjson"
-    },
     "downloads": {
       "href": "https://dotnet.microsoft.com/download/dotnet/2.0",
       "title": ".NET Core 2.0 Downloads",
@@ -45,7 +39,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:23:42.4204963+00:00",
+    "generated-on": "2025-07-23T21:52:56.550307+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

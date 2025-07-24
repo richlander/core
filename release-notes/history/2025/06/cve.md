@@ -4,7 +4,7 @@ The following vulnerabilities have been patched.
 
 | ID                | Title             | Severity      | Product       | Platforms     | CVSS                         |
 | ----------------- | ----------------- | ------------- | ------------- | ------------- | ---------------------------- |
-| [CVE-2025-30399][CVE-2025-30399] | DLL Hijacking Remote Code Execution Vulnerability |  |  | All | CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| [CVE-2025-30399][CVE-2025-30399] | DLL Hijacking Remote Code Execution Vulnerability | High |  | All | CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 
 
 ## Platform Components

@@ -8,12 +8,6 @@
       "title": ".NET 10.0",
       "type": "application/hal\u002Bjson"
     },
-    "manifest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/manifest.json",
-      "relative": "10.0/manifest.json",
-      "title": "Manifest",
-      "type": "application/hal\u002Bjson"
-    },
     "downloads": {
       "href": "https://dotnet.microsoft.com/download/dotnet/10.0",
       "title": ".NET 10 Downloads",
@@ -40,7 +34,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:10:40.5917933+00:00",
+    "generated-on": "2025-07-23T21:52:56.536366+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

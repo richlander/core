@@ -10,45 +10,47 @@
       "title": ".NET Release",
       "type": "application/hal\u002Bjson"
     },
-    "usage-markdown-raw": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md",
-      "relative": "usage.md",
-      "title": "Usage (Raw Markdown)",
-      "type": "application/markdown"
-    },
-    "usage-markdown": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/usage.md",
-      "relative": "usage.md",
-      "title": "Usage (Markdown)",
-      "type": "application/markdown"
-    },
-    "terminology-markdown-raw": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md",
-      "relative": "terminology.md",
-      "title": "Terminology (Raw Markdown)",
-      "type": "application/markdown"
-    },
-    "terminology-markdown": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/terminology.md",
-      "relative": "terminology.md",
-      "title": "Terminology (Markdown)",
-      "type": "application/markdown"
-    },
     "release-history-index": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/history/index.json",
       "relative": "history/index.json",
       "title": "Historical Release and CVE Records",
       "type": "application/hal\u002Bjson"
     },
-    "latest": {
+    "latest-release": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
-      "title": ".NET 9.0",
-      "type": "application/json"
+      "relative": "9.0/index.json",
+      "title": "Latest .NET release (.NET 9.0)",
+      "type": "application/hal\u002Bjson"
     },
-    "latest-lts": {
+    "latest-lts-release": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/index.json",
-      "title": ".NET 8.0 (LTS)",
-      "type": "application/json"
+      "relative": "8.0/index.json",
+      "title": "Latest .NET LTS release (.NET 8.0)",
+      "type": "application/hal\u002Bjson"
+    },
+    "usage-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md",
+      "relative": "usage.md",
+      "title": "Instructions for navigating the .NET release HAL\u002BJSON information graph (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "usage-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/usage.md",
+      "relative": "usage.md",
+      "title": "Instructions for navigating the .NET release HAL\u002BJSON information graph (Markdown)",
+      "type": "application/markdown"
+    },
+    "terminology-markdown-raw": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/terminology.md",
+      "relative": "terminology.md",
+      "title": "Terminology used to describe the .NET release notes domain (Raw Markdown)",
+      "type": "application/markdown"
+    },
+    "terminology-markdown": {
+      "href": "https://github.com/dotnet/core/blob/main/release-notes/terminology.md",
+      "relative": "terminology.md",
+      "title": "Terminology used to describe the .NET release notes domain (Markdown)",
+      "type": "application/markdown"
     }
   },
   "glossary": {
@@ -70,12 +72,6 @@
             "relative": "10.0/index.json",
             "title": ".NET 10.0",
             "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/manifest.json",
-            "relative": "10.0/manifest.json",
-            "title": "Manifest",
-            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -94,12 +90,6 @@
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
             "relative": "9.0/index.json",
             "title": ".NET 9.0",
-            "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/manifest.json",
-            "relative": "9.0/manifest.json",
-            "title": "Manifest",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -120,12 +110,6 @@
             "relative": "8.0/index.json",
             "title": ".NET 8.0",
             "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/manifest.json",
-            "relative": "8.0/manifest.json",
-            "title": "Manifest",
-            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -144,12 +128,6 @@
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/index.json",
             "relative": "7.0/index.json",
             "title": ".NET 7.0",
-            "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/manifest.json",
-            "relative": "7.0/manifest.json",
-            "title": "Manifest",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -170,12 +148,6 @@
             "relative": "6.0/index.json",
             "title": ".NET 6.0",
             "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/manifest.json",
-            "relative": "6.0/manifest.json",
-            "title": "Manifest",
-            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -194,12 +166,6 @@
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/5.0/index.json",
             "relative": "5.0/index.json",
             "title": ".NET 5.0",
-            "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/5.0/manifest.json",
-            "relative": "5.0/manifest.json",
-            "title": "Manifest",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -220,12 +186,6 @@
             "relative": "3.1/index.json",
             "title": ".NET 3.1",
             "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/3.1/manifest.json",
-            "relative": "3.1/manifest.json",
-            "title": "Manifest",
-            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -244,12 +204,6 @@
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/3.0/index.json",
             "relative": "3.0/index.json",
             "title": ".NET 3.0",
-            "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/3.0/manifest.json",
-            "relative": "3.0/manifest.json",
-            "title": "Manifest",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -270,12 +224,6 @@
             "relative": "2.2/index.json",
             "title": ".NET 2.2",
             "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.2/manifest.json",
-            "relative": "2.2/manifest.json",
-            "title": "Manifest",
-            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -294,12 +242,6 @@
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.1/index.json",
             "relative": "2.1/index.json",
             "title": ".NET 2.1",
-            "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.1/manifest.json",
-            "relative": "2.1/manifest.json",
-            "title": "Manifest",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -320,12 +262,6 @@
             "relative": "2.0/index.json",
             "title": ".NET 2.0",
             "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/manifest.json",
-            "relative": "2.0/manifest.json",
-            "title": "Manifest",
-            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -344,12 +280,6 @@
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.1/index.json",
             "relative": "1.1/index.json",
             "title": ".NET 1.1",
-            "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.1/manifest.json",
-            "relative": "1.1/manifest.json",
-            "title": "Manifest",
             "type": "application/hal\u002Bjson"
           }
         },
@@ -370,12 +300,6 @@
             "relative": "1.0/index.json",
             "title": ".NET 1.0",
             "type": "application/hal\u002Bjson"
-          },
-          "manifest": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.0/manifest.json",
-            "relative": "1.0/manifest.json",
-            "title": "Manifest",
-            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -389,7 +313,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:23:42.4227241\u002B00:00",
+    "generated-on": "2025-07-23T23:57:49.656355\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

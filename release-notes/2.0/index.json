@@ -10,17 +10,17 @@
       "title": "Release Notes (Markdown)",
       "type": "application/markdown"
     },
+    "release-manifest": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/manifest.json",
+      "relative": "2.0/manifest.json",
+      "title": "Release manifest",
+      "type": "application/hal\u002Bjson"
+    },
     "releases": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/releases.json",
       "relative": "2.0/releases.json",
-      "title": "Releases",
+      "title": "Complete (large file) release information for all patch releases",
       "type": "application/json"
-    },
-    "manifest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/2.0/manifest.json",
-      "relative": "2.0/manifest.json",
-      "title": "Manifest",
-      "type": "application/hal\u002Bjson"
     }
   },
   "glossary": {
@@ -39,7 +39,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:23:42.4205786\u002B00:00",
+    "generated-on": "2025-07-23T22:34:03.01342\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

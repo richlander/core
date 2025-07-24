@@ -8,12 +8,6 @@
       "title": ".NET 8.0",
       "type": "application/hal\u002Bjson"
     },
-    "manifest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/manifest.json",
-      "relative": "8.0/manifest.json",
-      "title": "Manifest",
-      "type": "application/hal\u002Bjson"
-    },
     "downloads": {
       "href": "https://dotnet.microsoft.com/download/dotnet/8.0",
       "title": ".NET 8 Downloads",
@@ -45,7 +39,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:23:42.4223955+00:00",
+    "generated-on": "2025-07-23T21:52:56.545332+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

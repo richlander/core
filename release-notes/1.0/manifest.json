@@ -8,12 +8,6 @@
       "title": ".NET 1.0",
       "type": "application/hal\u002Bjson"
     },
-    "manifest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/1.0/manifest.json",
-      "relative": "1.0/manifest.json",
-      "title": "Manifest",
-      "type": "application/hal\u002Bjson"
-    },
     "downloads": {
       "href": "https://dotnet.microsoft.com/download/dotnet/1.0",
       "title": ".NET Core 1.0 Downloads",
@@ -40,7 +34,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:23:42.4213283+00:00",
+    "generated-on": "2025-07-23T21:52:56.526161+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

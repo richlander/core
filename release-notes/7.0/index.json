@@ -10,17 +10,17 @@
       "title": "Supported OSes",
       "type": "application/json"
     },
+    "release-manifest": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/manifest.json",
+      "relative": "7.0/manifest.json",
+      "title": "Release manifest",
+      "type": "application/hal\u002Bjson"
+    },
     "releases": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/releases.json",
       "relative": "7.0/releases.json",
-      "title": "Releases",
+      "title": "Complete (large file) release information for all patch releases",
       "type": "application/json"
-    },
-    "manifest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/manifest.json",
-      "relative": "7.0/manifest.json",
-      "title": "Manifest",
-      "type": "application/hal\u002Bjson"
     },
     "supported-os-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/7.0/supported-os.md",
@@ -46,7 +46,7 @@
       "title": "Linux Packages (Markdown)",
       "type": "application/markdown"
     },
-    "readme-markdown": {
+    "release-readme-markdown": {
       "href": "https://github.com/dotnet/core/blob/main/release-notes/7.0/README.md",
       "relative": "7.0/README.md",
       "title": "Release Notes (Markdown)",
@@ -69,7 +69,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:23:42.421784\u002B00:00",
+    "generated-on": "2025-07-23T22:34:03.064025\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

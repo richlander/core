@@ -8,12 +8,6 @@
       "title": ".NET 6.0",
       "type": "application/hal\u002Bjson"
     },
-    "manifest": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/6.0/manifest.json",
-      "relative": "6.0/manifest.json",
-      "title": "Manifest",
-      "type": "application/hal\u002Bjson"
-    },
     "downloads": {
       "href": "https://dotnet.microsoft.com/download/dotnet/6.0",
       "title": ".NET 6 Downloads",
@@ -50,7 +44,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-21T01:23:42.4211744+00:00",
+    "generated-on": "2025-07-23T21:52:56.558417+00:00",
     "generated-by": "UpdateIndexes"
   }
 }

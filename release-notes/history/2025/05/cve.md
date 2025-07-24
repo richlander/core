@@ -4,7 +4,7 @@ The following vulnerabilities have been patched.
 
 | ID                | Title             | Severity      | Product       | Platforms     | CVSS                         |
 | ----------------- | ----------------- | ------------- | ------------- | ------------- | ---------------------------- |
-| [CVE-2025-26646][CVE-2025-26646] | .NET and Visual Studio Spoofing Vulnerability |  |  | All | CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| [CVE-2025-26646][CVE-2025-26646] | .NET and Visual Studio Spoofing Vulnerability | High |  | All | CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 
 
 ## Platform Components
