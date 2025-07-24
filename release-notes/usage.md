@@ -97,13 +97,47 @@ https://raw.githubusercontent.com/.../release-notes/history/index.json
 
 ## Analyzing Security Fixes
 
-When investigating CVE fixes, you can append `.diff` or `.patch` to commit URLs to get the raw changes:
+When investigating CVE fixes from commit hashes in the JSON data:
 
-- Diff format: `https://github.com/dotnet/runtime/commit/{commit-hash}.diff`
-- Patch format: `https://github.com/dotnet/runtime/commit/{commit-hash}.patch`
-- Web format: `https://github.com/dotnet/runtime/commit/{commit-hash}`
+### Getting Commit Details
+```text
+# GitHub commit URL formats
+https://github.com/dotnet/runtime/commit/{commit-hash}         # Web/HTML view
+https://github.com/dotnet/runtime/commit/{commit-hash}.diff    # Unified diff format
+https://github.com/dotnet/runtime/commit/{commit-hash}.patch   # Git patch format with commit message
 
-This allows automated tools to analyze the actual code changes for security fixes.
+# Example from CVE-2025-21172:
+https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b         # Web view
+https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b.diff    # Raw diff
+https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b.patch   # Git patch
+```
+
+### Workflow for CVE Analysis
+```
+1. GET /history/{year}/{month}/cve.json
+2. Find commits array with repo, branch, and hash
+3. Construct GitHub URL from commit data
+4. Choose format:
+  - No extension for web/HTML view
+  - Append .diff for raw unified diff
+  - Append .patch for git patch with commit message
+5. Parse diff to understand the security fix
+```
+
+### Commit URL Construction
+From JSON commit data:
+```json
+{
+ "repo": "runtime",
+ "branch": "release/8.0",
+ "hash": "89ef51c5d8f5239345127a1e282e11036e590c8b",
+ "org": "dotnet"
+}
+```
+Construct: 
+- Web view: `https://github.com/{org}/{repo}/commit/{hash}`
+- Raw diff: `https://github.com/{org}/{repo}/commit/{hash}.diff`
+- Git patch: `https://github.com/{org}/{repo}/commit/{hash}.patch`
 
 ## Error Handling
 
