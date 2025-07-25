@@ -2,7 +2,6 @@
   "component": "sdk",
   "version": "10.0",
   "label": ".NET SDK 10.0",
-  "support-phase": "preview",
   "hash-algorithm": "sha512",
   "files": [
     {

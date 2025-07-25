@@ -4,7 +4,6 @@
   "component": "sdk",
   "version": "8.0",
   "label": ".NET SDK 8.0",
-  "support-phase": "active",
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/sdk/index.json",
@@ -25,7 +24,6 @@
         "kind": "band",
         "version": "8.0.4xx",
         "label": ".NET SDK 8.0.4xx",
-        "support-phase": "active",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/sdk/sdk-8.0.4xx.json",
@@ -36,16 +34,13 @@
         },
         "lifecycle": {
           "phase": "active",
-          "release-date": "2025-06-10T00:00:00-07:00",
-          "eol-date": "2025-06-10T00:00:00-07:00",
-          "supported": true
+          "release-date": "2025-06-10T00:00:00-07:00"
         }
       },
       {
         "kind": "band",
         "version": "8.0.3xx",
         "label": ".NET SDK 8.0.3xx",
-        "support-phase": "active",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/sdk/sdk-8.0.3xx.json",
@@ -56,16 +51,13 @@
         },
         "lifecycle": {
           "phase": "active",
-          "release-date": "2025-06-10T00:00:00-07:00",
-          "eol-date": "2025-06-10T00:00:00-07:00",
-          "supported": true
+          "release-date": "2025-06-10T00:00:00-07:00"
         }
       },
       {
         "kind": "band",
         "version": "8.0.1xx",
         "label": ".NET SDK 8.0.1xx",
-        "support-phase": "active",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/sdk/sdk-8.0.1xx.json",
@@ -76,16 +68,13 @@
         },
         "lifecycle": {
           "phase": "active",
-          "release-date": "2025-06-10T00:00:00-07:00",
-          "eol-date": "2025-06-10T00:00:00-07:00",
-          "supported": true
+          "release-date": "2025-06-10T00:00:00-07:00"
         }
       },
       {
         "kind": "band",
         "version": "8.0.2xx",
         "label": ".NET SDK 8.0.2xx",
-        "support-phase": "eol",
         "_links": {
           "self": {
             "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/sdk/sdk-8.0.2xx.json",
@@ -96,9 +85,7 @@
         },
         "lifecycle": {
           "phase": "eol",
-          "release-date": "2024-06-11T00:00:00-07:00",
-          "eol-date": "2024-06-11T00:00:00-07:00",
-          "supported": false
+          "release-date": "2024-06-11T00:00:00-07:00"
         }
       }
     ],
@@ -1350,7 +1337,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T20:46:04.214453\u002B00:00",
+    "generated-on": "2025-07-25T04:45:53.415204\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

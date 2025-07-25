@@ -2,7 +2,6 @@
   "component": "sdk",
   "version": "8.0.2xx",
   "label": ".NET SDK 8.0.2xx",
-  "support-phase": "eol",
   "hash-algorithm": "sha512",
   "files": [
     {

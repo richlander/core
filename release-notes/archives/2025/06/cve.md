@@ -2,20 +2,20 @@
 
 The following vulnerabilities have been patched.
 
-| ID                | Title             | Severity      | Product       | Platforms     | CVSS                         |
-| ----------------- | ----------------- | ------------- | ------------- | ------------- | ---------------------------- |
-| [CVE-2025-30399][CVE-2025-30399] | DLL Hijacking Remote Code Execution Vulnerability | High |  | All | CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| ID                               | Title                                             | Severity | Product | Platforms | CVSS                                                       |
+| -------------------------------- | ------------------------------------------------- | -------- | ------- | --------- | ---------------------------------------------------------- |
+| [CVE-2025-30399][CVE-2025-30399] | DLL Hijacking Remote Code Execution Vulnerability | High     |         | All       | CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 
 
 ## Platform Components
 
 The following table lists version ranges for affected platform components.
 
-| Component     | Min Version   | Max Version | Fixed Version | CVE     | Source fix |
-| ------------- | ------------- | --------- | --------- | ------------- | -------- |
+| Component | Min Version | Max Version | Fixed Version                                                           | CVE            | Source fix          |
+| --------- | ----------- | ----------- | ----------------------------------------------------------------------- | -------------- | ------------------- |
 | [Microsoft.NetCore.Sdk][Microsoft.NetCore.Sdk] | >=8.0.100 | <=8.0.116 | [8.0.117](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.117) | CVE-2025-30399 | [d00609e][d00609e]  |
-|               | >=8.0.300     | <=8.0.312 | [8.0.313](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.313) | CVE-2025-30399 |  |
-|               | >=8.0.400     | <=8.0.409 | [8.0.410](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.410) | CVE-2025-30399 | [7892f91][7892f91]  |
+|           | >=8.0.300   | <=8.0.312   | [8.0.313](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.313) | CVE-2025-30399 |                     |
+|           | >=8.0.400   | <=8.0.409   | [8.0.410](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.410) | CVE-2025-30399 | [7892f91][7892f91]  |
 
 
 ## Packages
@@ -29,10 +29,10 @@ No packages with vulnerabilities reported.
 
 The following table lists commits for affected packages.
 
-| Repo                        | Branch            | Commit                                                   |
-| --------------------------- | ----------------- | -------------------------------------------------------- |
-| [dotnet/runtime][dotnet/runtime] | [release/8.0][release/8.0] | [b33d4e3][b33d4e3]                         |
-| [dotnet/runtime][dotnet/runtime] | [release/9.0][release/9.0] | [214743e][214743e]                         |
+| Repo                             | Branch                     | Commit             |
+| -------------------------------- | -------------------------- | ------------------ |
+| [dotnet/runtime][dotnet/runtime] | [release/8.0][release/8.0] | [b33d4e3][b33d4e3] |
+| [dotnet/runtime][dotnet/runtime] | [release/9.0][release/9.0] | [214743e][214743e] |
 
 
 

@@ -2,10 +2,10 @@
 
 The following vulnerabilities have been patched.
 
-| ID                | Title             | Severity      | Product       | Platforms     | CVSS                         |
-| ----------------- | ----------------- | ------------- | ------------- | ------------- | ---------------------------- |
-| [CVE-2024-38229][CVE-2024-38229] | .NET Remote Code Execution Vulnerability | Critical | ASP.NET Core | All | CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
-| [CVE-2024-43483][CVE-2024-43483] | .NET Denial of Service Vulnerability | Critical | .NET | All | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C |
+| ID                               | Title                                    | Severity | Product | Platforms | CVSS                                                       |
+| -------------------------------- | ---------------------------------------- | -------- | ------- | --------- | ---------------------------------------------------------- |
+| [CVE-2024-38229][CVE-2024-38229] | .NET Remote Code Execution Vulnerability | Critical | ASP.NET Core | All  | CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| [CVE-2024-43483][CVE-2024-43483] | .NET Denial of Service Vulnerability     | Critical | .NET    | All       | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C |
 | [CVE-2024-43484][CVE-2024-43484] | (DoS) System.IO.Packaging - Multiple DoS vectors in use of SortedList | Critical | .NET | All | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C |
 | [CVE-2024-43485][CVE-2024-43485] | (DoS) Denial of Service attack against System.Text.Json ExtensionData feature | Critical | .NET | All | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C |
 
@@ -14,31 +14,31 @@ The following vulnerabilities have been patched.
 
 The following table lists version ranges for affected platform components.
 
-| Component     | Min Version   | Max Version | Fixed Version | CVE     | Source fix |
-| ------------- | ------------- | --------- | --------- | ------------- | -------- |
-| ASP.NET Runtime | >=8.0.0     | <=8.0.8   | [8.0.9](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.9/8.0.9.md) | CVE-2024-38229 | [1002b67][1002b67]  |
-| .NET Runtime  | >=6.0.0       | <=6.0.33  | [6.0.34](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.34/6.0.34.md) | CVE-2024-43483 | [132fb31][132fb31]  |
-|               | >=6.0.0       | <=6.0.33  | [6.0.34](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.34/6.0.34.md) | CVE-2024-43485 | [c3c2cc2][c3c2cc2]  |
-|               | >=8.0.0       | <=8.0.8   | [8.0.9](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.9/8.0.9.md) | CVE-2024-43483 | [76f50f6][76f50f6]  |
-|               | >=8.0.0       | <=8.0.8   | [8.0.9](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.9/8.0.9.md) | CVE-2024-43485 | [be46d16][be46d16]  |
+| Component | Min Version | Max Version | Fixed Version                                                                         | CVE            | Source fix          |
+| --------- | ----------- | ----------- | ------------------------------------------------------------------------------------- | -------------- | ------------------- |
+| ASP.NET Runtime | >=8.0.0 | <=8.0.8   | [8.0.9](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.9/8.0.9.md)    | CVE-2024-38229 | [1002b67][1002b67]  |
+| .NET Runtime | >=6.0.0  | <=6.0.33    | [6.0.34](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.34/6.0.34.md) | CVE-2024-43483 | [132fb31][132fb31]  |
+|           | >=6.0.0     | <=6.0.33    | [6.0.34](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.34/6.0.34.md) | CVE-2024-43485 | [c3c2cc2][c3c2cc2]  |
+|           | >=8.0.0     | <=8.0.8     | [8.0.9](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.9/8.0.9.md)    | CVE-2024-43483 | [76f50f6][76f50f6]  |
+|           | >=8.0.0     | <=8.0.8     | [8.0.9](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.9/8.0.9.md)    | CVE-2024-43485 | [be46d16][be46d16]  |
 
 
 ## Packages
 
 The following table lists version ranges for affected packages.
 
-| Package       | Min Version   | Max Version | Fixed Version | CVE     | Source fix |
-| ------------- | ------------- | --------- | --------- | ------------- | -------- |
+| Package | Min Version | Max Version | Fixed Version                                                        | CVE            | Source fix          |
+| ------- | ----------- | ----------- | -------------------------------------------------------------------- | -------------- | ------------------- |
 | [System.IO.Packaging][System.IO.Packaging] | >=6.0.0 | <=6.0.0 | [6.0.1](https://www.nuget.org/packages/System.IO.Packaging/6.0.1) | CVE-2024-43483 | [741b045][741b045]  |
-|               | >=6.0.0       | <=6.0.0   | [6.0.1](https://www.nuget.org/packages/System.IO.Packaging/6.0.1) | CVE-2024-43484 | [40d60a1][40d60a1] [741b045][741b045]  |
-|               | >=8.0.0       | <=8.0.0   | [8.0.1](https://www.nuget.org/packages/System.IO.Packaging/8.0.1) | CVE-2024-43483 | [132fb31][132fb31]  |
-|               | >=8.0.0       | <=8.0.0   | [8.0.1](https://www.nuget.org/packages/System.IO.Packaging/8.0.1) | CVE-2024-43484 | [c2891d3][c2891d3] [132fb31][132fb31]  |
-|               | >=9.0.0-preview.1.24080.9 | <=9.0.0-rc.1.24431.7 | [9.0.0-rc.2.24473.5](https://www.nuget.org/packages/System.IO.Packaging/9.0.0-rc.2.24473.5) | CVE-2024-43483 | [f5456c7][f5456c7]  |
+|         | >=6.0.0     | <=6.0.0     | [6.0.1](https://www.nuget.org/packages/System.IO.Packaging/6.0.1)    | CVE-2024-43484 | [40d60a1][40d60a1] [741b045][741b045]  |
+|         | >=8.0.0     | <=8.0.0     | [8.0.1](https://www.nuget.org/packages/System.IO.Packaging/8.0.1)    | CVE-2024-43483 | [132fb31][132fb31]  |
+|         | >=8.0.0     | <=8.0.0     | [8.0.1](https://www.nuget.org/packages/System.IO.Packaging/8.0.1)    | CVE-2024-43484 | [c2891d3][c2891d3] [132fb31][132fb31]  |
+|         | >=9.0.0-preview.1.24080.9 | <=9.0.0-rc.1.24431.7 | [9.0.0-rc.2.24473.5](https://www.nuget.org/packages/System.IO.Packaging/9.0.0-rc.2.24473.5) | CVE-2024-43483 | [f5456c7][f5456c7]  |
 | [System.Runtime.Caching][System.Runtime.Caching] | >=8.0.0 | <=8.0.0 | [8.0.1](https://www.nuget.org/packages/System.Runtime.Caching/8.0.1) | CVE-2024-43483 | [132fb31][132fb31]  |
 | [System.Security.Cryptography.Cose][System.Security.Cryptography.Cose] | >=8.0.0-preview.1.23110.8 | <=8.0.0 | [8.0.1](https://www.nuget.org/packages/System.Security.Cryptography.Cose/8.0.1) | CVE-2024-43483 |  |
-|               | >=9.0.0-preview.1.24080.9 | <= 9.0.0-rc.1.24431.7 | [9.0.0-rc.2.24473.5](https://www.nuget.org/packages/System.Security.Cryptography.Cose/9.0.0-rc.2.24473.5) | CVE-2024-43483 |  |
+|         | >=9.0.0-preview.1.24080.9 | <= 9.0.0-rc.1.24431.7 | [9.0.0-rc.2.24473.5](https://www.nuget.org/packages/System.Security.Cryptography.Cose/9.0.0-rc.2.24473.5) | CVE-2024-43483 |  |
 | [System.Text.Json][System.Text.Json] | >=6.0.0 | <=6.0.9 | [6.0.10](https://www.nuget.org/packages/System.Text.Json/6.0.10) | CVE-2024-43485 | [c3c2cc2][c3c2cc2]  |
-|               | >=8.0.0       | <=8.0.4   | [8.0.5](https://www.nuget.org/packages/System.Text.Json/8.0.5) | CVE-2024-43485 | [be46d16][be46d16]  |
+|         | >=8.0.0     | <=8.0.4     | [8.0.5](https://www.nuget.org/packages/System.Text.Json/8.0.5)       | CVE-2024-43485 | [be46d16][be46d16]  |
 
 
 
@@ -46,16 +46,16 @@ The following table lists version ranges for affected packages.
 
 The following table lists commits for affected packages.
 
-| Repo                        | Branch            | Commit                                                   |
-| --------------------------- | ----------------- | -------------------------------------------------------- |
-| [dotnet/aspnetcore][dotnet/aspnetcore] | [release/8.0][release/8.0] | [1002b67][1002b67]                   |
-| [dotnet/runtime][dotnet/runtime] | [release/6.0][release/6.0] | [40d60a1][40d60a1]                         |
-| [dotnet/runtime][dotnet/runtime] | [release/6.0][release/6.0] | [741b045][741b045]                         |
-| [dotnet/runtime][dotnet/runtime] | [release/6.0][release/6.0] | [c3c2cc2][c3c2cc2]                         |
-| [dotnet/runtime][dotnet/runtime] | [release/8.0][release/8.0] | [132fb31][132fb31]                         |
-| [dotnet/runtime][dotnet/runtime] | [release/8.0][release/8.0] | [be46d16][be46d16]                         |
-| [dotnet/runtime][dotnet/runtime] | [release/8.0][release/8.0] | [c2891d3][c2891d3]                         |
-| [dotnet/runtime][dotnet/runtime] | [release/9.0][release/9.0] | [f5456c7][f5456c7]                         |
+| Repo                                   | Branch                     | Commit             |
+| -------------------------------------- | -------------------------- | ------------------ |
+| [dotnet/aspnetcore][dotnet/aspnetcore] | [release/8.0][release/8.0] | [1002b67][1002b67] |
+| [dotnet/runtime][dotnet/runtime]       | [release/6.0][release/6.0] | [40d60a1][40d60a1] |
+| [dotnet/runtime][dotnet/runtime]       | [release/6.0][release/6.0] | [741b045][741b045] |
+| [dotnet/runtime][dotnet/runtime]       | [release/6.0][release/6.0] | [c3c2cc2][c3c2cc2] |
+| [dotnet/runtime][dotnet/runtime]       | [release/8.0][release/8.0] | [132fb31][132fb31] |
+| [dotnet/runtime][dotnet/runtime]       | [release/8.0][release/8.0] | [be46d16][be46d16] |
+| [dotnet/runtime][dotnet/runtime]       | [release/8.0][release/8.0] | [c2891d3][c2891d3] |
+| [dotnet/runtime][dotnet/runtime]       | [release/9.0][release/9.0] | [f5456c7][f5456c7] |
 
 
 
