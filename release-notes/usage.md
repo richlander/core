@@ -143,9 +143,9 @@ Construct:
 
 ## Finding Stable Download Links
 
-For stable download URLs that always point to the latest version:
+**Most users should use these stable SDK download links** - they automatically point to the latest SDK version and are ideal for automation, scripts, and documentation.
 
-### Latest SDK Downloads
+### Latest SDK Downloads (Recommended)
 ```text
 GET /{version}/sdk/sdk.json
 ```
@@ -153,6 +153,8 @@ GET /{version}/sdk/sdk.json
 Example:
 - .NET 8.0 latest SDK: `https://raw.githubusercontent.com/.../8.0/sdk/sdk.json`
 - .NET 9.0 latest SDK: `https://raw.githubusercontent.com/.../9.0/sdk/sdk.json`
+
+These files provide stable aka.ms URLs that always redirect to the current SDK version - perfect for CI/CD pipelines and installation scripts.
 
 ### Specific Feature Band Downloads
 For downloads targeting specific feature bands:
@@ -178,10 +180,11 @@ Each SDK JSON file contains:
   - **type**: File format ("exe", "zip", "tar.gz", "pkg")
 
 ### Use Cases
-- **Latest SDK**: Use `/{version}/sdk/sdk.json` for most recent version
-- **Pinned Feature Band**: Use `/{version}/sdk/sdk-{version}.{band}xx.json` for specific feature band
+- **Latest SDK (Most Common)**: Use `/{version}/sdk/sdk.json` for most recent version - **this is what most users want**
+- **CI/CD & Automation**: These stable URLs are perfect for build pipelines and installation scripts
+- **Documentation**: Link to these files for always-current SDK downloads
 - **Cross-Platform**: All major platforms/architectures included in each file
-- **Automation**: Stable aka.ms URLs suitable for CI/CD scripts
+- **Pinned Feature Band (Advanced)**: Use `/{version}/sdk/sdk-{version}.{band}xx.json` only if you need a specific feature band
 
 ## Error Handling
 
