@@ -1,24 +1,31 @@
 {
   "date": "2024-01-09",
-  "records": [
+  "cves": [
     {
       "id": "CVE-2024-0056",
-      "title": "Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider Information Disclosure Vulnerability",
+      "problem": "Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider Information Disclosure Vulnerability",
       "severity": "High",
-      "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C"
+      },
       "description": [
         "A vulnerability exists in the Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider where an attackercan perform an AiTM (adversary-in-the-middle) attack between the SQL client and the SQL server. This may allow the attacker to steal authentication credentials intended for the database server, even if the connection is established over an encrypted channel like TLS."
       ],
       "product": ".NET",
+      "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/292"
       ]
     },
     {
       "id": "CVE-2024-0057",
-      "title": ".NET Security Feature Bypass Vulnerability",
+      "problem": ".NET Security Feature Bypass Vulnerability",
       "severity": "Critical",
-      "cvss": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
+      },
       "description": [
         "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
       ],
@@ -26,15 +33,19 @@
         "Within .NET, only the WindowsDesktop shared runtime contains inbox components which utilize X.509 chain building APIs in a vulnerable manner. Other project types, such as web applications, are not impacted by this vulnerability unless they explicitly invoke the X.509 chain building APIs themselves in a vulnerable manner or they consume an external package which does this on their behalf."
       ],
       "product": ".NET",
+      "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/291"
       ]
     },
     {
       "id": "CVE-2024-21319",
-      "title": ".NET Denial of Service Vulnerability",
+      "problem": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
-      "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C"
+      },
       "description": [
         "A Denial of Service vulnerability exists in ASP.NET Core project templates which utilize JWT-based authentication tokens. This vulnerability allows an unauthenticated client to consume arbitrarily large amounts of server memory, potentially triggering an out-of-memory condition on the server and making the server no longer able to respond to legitimate requests."
       ],
@@ -42,194 +53,211 @@
         "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
       ],
       "product": "ASP.NET Core",
+      "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/290"
       ]
     }
   ],
-  "platform": {
-    "6.0": [
-      {
-        "cve-id": "CVE-2024-0057",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.25",
-        "fixed": "6.0.26",
-        "family": "6.0",
-        "binaries": [
-          "System.Security.Cryptography.X509Certificates.dll"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2024-0057",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.25",
-        "fixed": "6.0.26",
-        "family": "6.0",
-        "component": "Microsoft.WindowsDesktop.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.25",
-        "fixed": "6.0.26",
-        "family": "6.0",
-        "binaries": [
-          "System.IdentityModel.dll"
-        ],
-        "component": "Microsoft.AspNetCore.App.Runtime"
-      }
+  "core": [
+    {
+      "cve-id": "CVE-2024-0057",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "6.0.0",
+      "max-vulnerable": "6.0.25",
+      "fixed": "6.0.26",
+      "release": "6.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0057",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min-vulnerable": "6.0.0",
+      "max-vulnerable": "6.0.25",
+      "fixed": "6.0.26",
+      "release": "6.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "Microsoft.AspNetCore.App.Runtime",
+      "min-vulnerable": "6.0.0",
+      "max-vulnerable": "6.0.25",
+      "fixed": "6.0.26",
+      "release": "6.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0057",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "7.0.0",
+      "max-vulnerable": "7.0.14",
+      "fixed": "7.0.15",
+      "release": "7.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0057",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min-vulnerable": "7.0.0",
+      "max-vulnerable": "7.0.14",
+      "fixed": "7.0.15",
+      "release": "7.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "Microsoft.AspNetCore.App.Runtime",
+      "min-vulnerable": "7.0.0",
+      "max-vulnerable": "7.0.14",
+      "fixed": "7.0.15",
+      "release": "7.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0057",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "8.0.0",
+      "max-vulnerable": "8.0.0",
+      "fixed": "8.0.1",
+      "release": "8.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0057",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min-vulnerable": "8.0.0",
+      "max-vulnerable": "8.0.0",
+      "fixed": "8.0.1",
+      "release": "8.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "Microsoft.AspNetCore.App.Runtime",
+      "min-vulnerable": "8.0.0",
+      "max-vulnerable": "8.0.0",
+      "fixed": "8.0.1",
+      "release": "8.0",
+      "commits": null
+    }
+  ],
+  "extensions": [
+    {
+      "cve-id": "CVE-2024-0056",
+      "name": "Microsoft.Data.SqlClient",
+      "min-vulnerable": "1.0.19123.2-Preview",
+      "max-vulnerable": "2.1.6",
+      "fixed": "2.17",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0056",
+      "name": "Microsoft.Data.SqlClient",
+      "min-vulnerable": "3.0.0",
+      "max-vulnerable": "3.1.4",
+      "fixed": "3.1.5",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0056",
+      "name": "Microsoft.Data.SqlClient",
+      "min-vulnerable": "4.0.0",
+      "max-vulnerable": "4.0.4",
+      "fixed": "4.0.5",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0056",
+      "name": "Microsoft.Data.SqlClient",
+      "min-vulnerable": "5.0.0",
+      "max-vulnerable": "5.1.2",
+      "fixed": "5.1.3",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "min-vulnerable": "5.2.4",
+      "max-vulnerable": "5.6.0",
+      "fixed": "5.7.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "min-vulnerable": "6.5.0",
+      "max-vulnerable": "6.33.0",
+      "fixed": "6.34.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "Microsoft.IdentityModel.JsonWebTokens",
+      "min-vulnerable": "7.0.0",
+      "max-vulnerable": "7.0.3",
+      "fixed": "7.1.2",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-0056",
+      "name": "System.Data.SqlClient",
+      "min-vulnerable": "1.0.0-beta1",
+      "max-vulnerable": "4.8.5",
+      "fixed": "4.8.6",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "System.IdentityModel.Tokens.Jwt",
+      "min-vulnerable": "5.2.4",
+      "max-vulnerable": "5.6.0",
+      "fixed": "5.7.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "System.IdentityModel.Tokens.Jwt",
+      "min-vulnerable": "6.5.0",
+      "max-vulnerable": "6.33.0",
+      "fixed": "6.34.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21319",
+      "name": "System.IdentityModel.Tokens.Jwt",
+      "min-vulnerable": "7.0.0",
+      "max-vulnerable": "7.0.3",
+      "fixed": "7.1.2",
+      "commits": null
+    }
+  ],
+  "commits": {},
+  "cve-commits": {},
+  "cve-releases": {
+    "CVE-2024-0057": [
+      "6.0",
+      "7.0",
+      "8.0"
     ],
-    "7.0": [
-      {
-        "cve-id": "CVE-2024-0057",
-        "min-vulnerable": "7.0.0",
-        "max-vulnerable": "7.0.14",
-        "fixed": "7.0.15",
-        "family": "7.0",
-        "binaries": [
-          "System.Security.Cryptography.dll"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2024-0057",
-        "min-vulnerable": "7.0.0",
-        "max-vulnerable": "7.0.14",
-        "fixed": "7.0.15",
-        "family": "7.0",
-        "component": "Microsoft.WindowsDesktop.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "7.0.0",
-        "max-vulnerable": "7.0.14",
-        "fixed": "7.0.15",
-        "family": "7.0",
-        "binaries": [
-          "System.IdentityModel.dll"
-        ],
-        "component": "Microsoft.AspNetCore.App.Runtime"
-      }
-    ],
-    "8.0": [
-      {
-        "cve-id": "CVE-2024-0057",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.0",
-        "fixed": "8.0.1",
-        "family": "8.0",
-        "binaries": [
-          "System.Security.Cryptography.dll"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2024-0057",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.0",
-        "fixed": "8.0.1",
-        "family": "8.0",
-        "component": "Microsoft.WindowsDesktop.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.0",
-        "fixed": "8.0.1",
-        "family": "8.0",
-        "binaries": [
-          "System.IdentityModel.dll"
-        ],
-        "component": "Microsoft.AspNetCore.App.Runtime"
-      }
+    "CVE-2024-21319": [
+      "6.0",
+      "7.0",
+      "8.0"
     ]
   },
-  "packages": {
-    "Microsoft.Data.SqlClient": [
-      {
-        "cve-id": "CVE-2024-0056",
-        "min-vulnerable": "1.0.19123.2-Preview",
-        "max-vulnerable": "2.1.6",
-        "fixed": "2.17",
-        "component": "Microsoft.Data.SqlClient"
-      },
-      {
-        "cve-id": "CVE-2024-0056",
-        "min-vulnerable": "3.0.0",
-        "max-vulnerable": "3.1.4",
-        "fixed": "3.1.5",
-        "component": "Microsoft.Data.SqlClient"
-      },
-      {
-        "cve-id": "CVE-2024-0056",
-        "min-vulnerable": "4.0.0",
-        "max-vulnerable": "4.0.4",
-        "fixed": "4.0.5",
-        "component": "Microsoft.Data.SqlClient"
-      },
-      {
-        "cve-id": "CVE-2024-0056",
-        "min-vulnerable": "5.0.0",
-        "max-vulnerable": "5.1.2",
-        "fixed": "5.1.3",
-        "component": "Microsoft.Data.SqlClient"
-      }
+  "release-cves": {
+    "6.0": [
+      "CVE-2024-0057",
+      "CVE-2024-21319"
     ],
-    "Microsoft.IdentityModel.JsonWebTokens": [
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "5.2.4",
-        "max-vulnerable": "5.6.0",
-        "fixed": "5.7.0",
-        "component": "Microsoft.IdentityModel.JsonWebTokens"
-      },
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "6.5.0",
-        "max-vulnerable": "6.33.0",
-        "fixed": "6.34.0",
-        "component": "Microsoft.IdentityModel.JsonWebTokens"
-      },
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "7.0.0",
-        "max-vulnerable": "7.0.3",
-        "fixed": "7.1.2",
-        "component": "Microsoft.IdentityModel.JsonWebTokens"
-      }
+    "7.0": [
+      "CVE-2024-0057",
+      "CVE-2024-21319"
     ],
-    "System.Data.SqlClient": [
-      {
-        "cve-id": "CVE-2024-0056",
-        "min-vulnerable": "1.0.0-beta1",
-        "max-vulnerable": "4.8.5",
-        "fixed": "4.8.6",
-        "component": "System.Data.SqlClient"
-      }
-    ],
-    "System.IdentityModel.Tokens.Jwt": [
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "5.2.4",
-        "max-vulnerable": "5.6.0",
-        "fixed": "5.7.0",
-        "component": "System.IdentityModel.Tokens.Jwt"
-      },
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "6.5.0",
-        "max-vulnerable": "6.33.0",
-        "fixed": "6.34.0",
-        "component": "System.IdentityModel.Tokens.Jwt"
-      },
-      {
-        "cve-id": "CVE-2024-21319",
-        "min-vulnerable": "7.0.0",
-        "max-vulnerable": "7.0.3",
-        "fixed": "7.1.2",
-        "component": "System.IdentityModel.Tokens.Jwt"
-      }
+    "8.0": [
+      "CVE-2024-0057",
+      "CVE-2024-21319"
     ]
   }
 }

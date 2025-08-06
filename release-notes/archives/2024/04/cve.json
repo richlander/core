@@ -1,15 +1,19 @@
 {
   "date": "2024-04-09",
-  "records": [
+  "cves": [
     {
       "id": "CVE-2024-21409",
-      "title": ".NET Elevation of Privilege Vulnerability",
+      "problem": ".NET Elevation of Privilege Vulnerability",
       "severity": "Critical",
-      "cvss": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+      },
       "description": [
         "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
       ],
       "product": ".NET",
+      "cna": "Microsoft",
       "platforms": [
         "Windows"
       ],
@@ -18,37 +22,54 @@
       ]
     }
   ],
-  "platform": {
-    "6.0": [
-      {
-        "cve-id": "CVE-2024-21409",
-        "min-vulnerable": "6.0.0",
-        "max-vulnerable": "6.0.28",
-        "fixed": "6.0.29",
-        "family": "6.0",
-        "component": "Microsoft.WindowsDesktop.App.Runtime"
-      }
-    ],
-    "7.0": [
-      {
-        "cve-id": "CVE-2024-21409",
-        "min-vulnerable": "7.0.0",
-        "max-vulnerable": "7.0.17",
-        "fixed": "7.0.18",
-        "family": "7.0",
-        "component": "Microsoft.WindowsDesktop.App.Runtime"
-      }
-    ],
-    "8.0": [
-      {
-        "cve-id": "CVE-2024-21409",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.3",
-        "fixed": "8.0.4",
-        "family": "8.0",
-        "component": "Microsoft.WindowsDesktop.App.Runtime"
-      }
+  "core": [
+    {
+      "cve-id": "CVE-2024-21409",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min-vulnerable": "6.0.0",
+      "max-vulnerable": "6.0.28",
+      "fixed": "6.0.29",
+      "release": "6.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21409",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min-vulnerable": "7.0.0",
+      "max-vulnerable": "7.0.17",
+      "fixed": "7.0.18",
+      "release": "7.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21409",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min-vulnerable": "8.0.0",
+      "max-vulnerable": "8.0.3",
+      "fixed": "8.0.4",
+      "release": "8.0",
+      "commits": null
+    }
+  ],
+  "extensions": [],
+  "commits": {},
+  "cve-commits": {},
+  "cve-releases": {
+    "CVE-2024-21409": [
+      "6.0",
+      "7.0",
+      "8.0"
     ]
   },
-  "packages": {}
+  "release-cves": {
+    "6.0": [
+      "CVE-2024-21409"
+    ],
+    "7.0": [
+      "CVE-2024-21409"
+    ],
+    "8.0": [
+      "CVE-2024-21409"
+    ]
+  }
 }

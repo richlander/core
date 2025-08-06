@@ -1,50 +1,70 @@
 {
   "date": "2025-01-14",
-  "records": [
+  "cves": [
     {
       "id": "CVE-2025-21171",
-      "title": ".NET Remote Code Execution Vulnerability",
+      "problem": ".NET Remote Code Execution Vulnerability",
       "severity": "High",
-      "cvss": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+      },
       "description": [
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
       ],
+      "product": null,
+      "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/340"
       ]
     },
     {
       "id": "CVE-2025-21172",
-      "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
+      "problem": ".NET and Visual Studio Remote Code Execution Vulnerability",
       "severity": "High",
-      "cvss": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+      },
       "description": [
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
       ],
+      "product": null,
+      "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/339"
       ]
     },
     {
       "id": "CVE-2025-21176",
-      "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
+      "problem": ".NET and Visual Studio Remote Code Execution Vulnerability",
       "severity": "High",
-      "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+      },
       "description": [
         "An attacker could exploit this vulnerability by loading a specially crafted file in Visual Studio."
       ],
+      "product": null,
+      "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/338"
       ]
     },
     {
       "id": "CVE-2025-21173",
-      "title": ".NET Elevation of Privilege Vulnerability",
+      "problem": ".NET Elevation of Privilege Vulnerability",
       "severity": "High",
-      "cvss": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+      },
       "description": [
         "An attacker could exploit this vulnerability to writing a specially crafted file in the security context of the local system."
       ],
+      "product": null,
+      "cna": "Microsoft",
       "platforms": [
         "Linux"
       ],
@@ -53,198 +73,239 @@
       ]
     }
   ],
-  "platform": {
-    "6.0": [
-      {
-        "cve-id": "CVE-2025-21172",
-        "family": "6.0",
-        "commits": [
-          "b3f8ef0105c079c255caa6aa31d630482db5d03c"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2025-21173",
-        "family": "6.0.4xx",
-        "commits": [
-          "4416ac92cd8588320132c4ce0d508d78a4a26d15"
-        ],
-        "component": "Microsoft.NetCore.Sdk"
-      },
-      {
-        "cve-id": "CVE-2025-21176",
-        "family": "6.0",
-        "commits": [
-          "b3f8ef0105c079c255caa6aa31d630482db5d03c"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      }
-    ],
-    "8.0": [
-      {
-        "cve-id": "CVE-2025-21172",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.11",
-        "fixed": "8.0.12",
-        "family": "8.0",
-        "commits": [
-          "89ef51c5d8f5239345127a1e282e11036e590c8b"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2025-21173",
-        "min-vulnerable": "8.0.100",
-        "max-vulnerable": "8.0.111",
-        "fixed": "8.0.112",
-        "family": "8.0.1xx",
-        "commits": [
-          "7034fd96502b925b5f65c31e34e99116870bc59f"
-        ],
-        "component": "Microsoft.NetCore.Sdk"
-      },
-      {
-        "cve-id": "CVE-2025-21173",
-        "min-vulnerable": "8.0.300",
-        "max-vulnerable": "8.0.307",
-        "fixed": "8.0.308",
-        "family": "8.0.3xx",
-        "commits": [
-          "2a98e615955be9b9d0752d090c3f92f70c7d0223"
-        ],
-        "component": "Microsoft.NetCore.Sdk"
-      },
-      {
-        "cve-id": "CVE-2025-21173",
-        "family": "8.0.4xx",
-        "commits": [
-          "1ba623839f23fe8857d2aa0dc23783692325deab"
-        ],
-        "component": "Microsoft.NetCore.Sdk"
-      },
-      {
-        "cve-id": "CVE-2025-21176",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.11",
-        "fixed": "8.0.12",
-        "family": "8.0",
-        "commits": [
-          "89ef51c5d8f5239345127a1e282e11036e590c8b"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      }
-    ],
-    "9.0": [
-      {
-        "cve-id": "CVE-2025-21171",
-        "min-vulnerable": "9.0.0",
-        "max-vulnerable": "9.0.0",
-        "fixed": "9.0.1",
-        "family": "9.0",
-        "commits": [
-          "9da8c6a4a6ea03054e776275d3fd5c752897842e"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2025-21172",
-        "min-vulnerable": "9.0.0",
-        "max-vulnerable": "9.0.0",
-        "fixed": "9.0.1",
-        "family": "9.0",
-        "commits": [
-          "32d8ea6eecf7f192a75162645390847b14b56dbb"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2025-21173",
-        "min-vulnerable": "9.0.100",
-        "max-vulnerable": "9.0.101",
-        "fixed": "9.0.102",
-        "family": "9.0.1xx",
-        "commits": [
-          "802c364c05180a487624fc839870677625810b10"
-        ],
-        "component": "Microsoft.NetCore.Sdk"
-      },
-      {
-        "cve-id": "CVE-2025-21176",
-        "min-vulnerable": "9.0.0",
-        "max-vulnerable": "9.0.0",
-        "fixed": "9.0.1",
-        "family": "9.0",
-        "commits": [
-          "32d8ea6eecf7f192a75162645390847b14b56dbb"
-        ],
-        "component": "Microsoft.NETCore.App.Runtime"
-      }
-    ]
-  },
-  "packages": {},
-  "commits": [
+  "core": [
     {
+      "cve-id": "CVE-2025-21172",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "release": "6.0",
+      "commits": [
+        "b3f8ef0105c079c255caa6aa31d630482db5d03c"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21173",
+      "name": "Microsoft.NetCore.Sdk",
+      "commits": [
+        "4416ac92cd8588320132c4ce0d508d78a4a26d15"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21176",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "release": "6.0",
+      "commits": [
+        "b3f8ef0105c079c255caa6aa31d630482db5d03c"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21172",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "8.0.0",
+      "max-vulnerable": "8.0.11",
+      "fixed": "8.0.12",
+      "release": "8.0",
+      "commits": [
+        "89ef51c5d8f5239345127a1e282e11036e590c8b"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21173",
+      "name": "Microsoft.NetCore.Sdk",
+      "min-vulnerable": "8.0.100",
+      "max-vulnerable": "8.0.111",
+      "fixed": "8.0.112",
+      "commits": [
+        "7034fd96502b925b5f65c31e34e99116870bc59f"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21173",
+      "name": "Microsoft.NetCore.Sdk",
+      "min-vulnerable": "8.0.300",
+      "max-vulnerable": "8.0.307",
+      "fixed": "8.0.308",
+      "commits": [
+        "2a98e615955be9b9d0752d090c3f92f70c7d0223"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21173",
+      "name": "Microsoft.NetCore.Sdk",
+      "commits": [
+        "1ba623839f23fe8857d2aa0dc23783692325deab"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21176",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "8.0.0",
+      "max-vulnerable": "8.0.11",
+      "fixed": "8.0.12",
+      "release": "8.0",
+      "commits": [
+        "89ef51c5d8f5239345127a1e282e11036e590c8b"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21171",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "9.0.0",
+      "max-vulnerable": "9.0.0",
+      "fixed": "9.0.1",
+      "release": "9.0",
+      "commits": [
+        "9da8c6a4a6ea03054e776275d3fd5c752897842e"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21172",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "9.0.0",
+      "max-vulnerable": "9.0.0",
+      "fixed": "9.0.1",
+      "release": "9.0",
+      "commits": [
+        "32d8ea6eecf7f192a75162645390847b14b56dbb"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21173",
+      "name": "Microsoft.NetCore.Sdk",
+      "min-vulnerable": "9.0.100",
+      "max-vulnerable": "9.0.101",
+      "fixed": "9.0.102",
+      "commits": [
+        "802c364c05180a487624fc839870677625810b10"
+      ]
+    },
+    {
+      "cve-id": "CVE-2025-21176",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "9.0.0",
+      "max-vulnerable": "9.0.0",
+      "fixed": "9.0.1",
+      "release": "9.0",
+      "commits": [
+        "32d8ea6eecf7f192a75162645390847b14b56dbb"
+      ]
+    }
+  ],
+  "extensions": [],
+  "commits": {
+    "9da8c6a4a6ea03054e776275d3fd5c752897842e": {
       "repo": "runtime",
       "branch": "release/9.0",
       "hash": "9da8c6a4a6ea03054e776275d3fd5c752897842e",
       "org": "dotnet",
       "url": "https://github.com/dotnet/runtime/commit/9da8c6a4a6ea03054e776275d3fd5c752897842e"
     },
-    {
+    "b3f8ef0105c079c255caa6aa31d630482db5d03c": {
       "repo": "runtime",
       "branch": "release/6.0",
       "hash": "b3f8ef0105c079c255caa6aa31d630482db5d03c",
       "org": "dotnet",
       "url": "https://github.com/dotnet/runtime/commit/b3f8ef0105c079c255caa6aa31d630482db5d03c"
     },
-    {
+    "89ef51c5d8f5239345127a1e282e11036e590c8b": {
       "repo": "runtime",
       "branch": "release/8.0",
       "hash": "89ef51c5d8f5239345127a1e282e11036e590c8b",
       "org": "dotnet",
       "url": "https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b"
     },
-    {
+    "32d8ea6eecf7f192a75162645390847b14b56dbb": {
       "repo": "runtime",
       "branch": "release/9.0",
       "hash": "32d8ea6eecf7f192a75162645390847b14b56dbb",
       "org": "dotnet",
       "url": "https://github.com/dotnet/runtime/commit/32d8ea6eecf7f192a75162645390847b14b56dbb"
     },
-    {
+    "4416ac92cd8588320132c4ce0d508d78a4a26d15": {
       "repo": "sdk",
       "branch": "release/6.0",
       "hash": "4416ac92cd8588320132c4ce0d508d78a4a26d15",
       "org": "dotnet",
       "url": "https://github.com/dotnet/sdk/commit/4416ac92cd8588320132c4ce0d508d78a4a26d15"
     },
-    {
+    "7034fd96502b925b5f65c31e34e99116870bc59f": {
       "repo": "sdk",
       "branch": "release/8.0.1xx",
       "hash": "7034fd96502b925b5f65c31e34e99116870bc59f",
       "org": "dotnet",
       "url": "https://github.com/dotnet/sdk/commit/7034fd96502b925b5f65c31e34e99116870bc59f"
     },
-    {
+    "2a98e615955be9b9d0752d090c3f92f70c7d0223": {
       "repo": "sdk",
       "branch": "release/8.0.3xx",
       "hash": "2a98e615955be9b9d0752d090c3f92f70c7d0223",
       "org": "dotnet",
       "url": "https://github.com/dotnet/sdk/commit/2a98e615955be9b9d0752d090c3f92f70c7d0223"
     },
-    {
+    "1ba623839f23fe8857d2aa0dc23783692325deab": {
       "repo": "sdk",
       "branch": "release/8.0.4xx",
       "hash": "1ba623839f23fe8857d2aa0dc23783692325deab",
       "org": "dotnet",
       "url": "https://github.com/dotnet/sdk/commit/1ba623839f23fe8857d2aa0dc23783692325deab"
     },
-    {
+    "802c364c05180a487624fc839870677625810b10": {
       "repo": "sdk",
       "branch": "release/9.0.1xx",
       "hash": "802c364c05180a487624fc839870677625810b10",
       "org": "dotnet",
       "url": "https://github.com/dotnet/sdk/commit/802c364c05180a487624fc839870677625810b10"
     }
-  ]
+  },
+  "cve-commits": {
+    "CVE-2025-21172": [
+      "b3f8ef0105c079c255caa6aa31d630482db5d03c",
+      "89ef51c5d8f5239345127a1e282e11036e590c8b",
+      "32d8ea6eecf7f192a75162645390847b14b56dbb"
+    ],
+    "CVE-2025-21173": [
+      "4416ac92cd8588320132c4ce0d508d78a4a26d15",
+      "7034fd96502b925b5f65c31e34e99116870bc59f",
+      "2a98e615955be9b9d0752d090c3f92f70c7d0223",
+      "1ba623839f23fe8857d2aa0dc23783692325deab",
+      "802c364c05180a487624fc839870677625810b10"
+    ],
+    "CVE-2025-21176": [
+      "b3f8ef0105c079c255caa6aa31d630482db5d03c",
+      "89ef51c5d8f5239345127a1e282e11036e590c8b",
+      "32d8ea6eecf7f192a75162645390847b14b56dbb"
+    ],
+    "CVE-2025-21171": [
+      "9da8c6a4a6ea03054e776275d3fd5c752897842e"
+    ]
+  },
+  "cve-releases": {
+    "CVE-2025-21172": [
+      "6.0",
+      "8.0",
+      "9.0"
+    ],
+    "CVE-2025-21176": [
+      "6.0",
+      "8.0",
+      "9.0"
+    ],
+    "CVE-2025-21171": [
+      "9.0"
+    ]
+  },
+  "release-cves": {
+    "6.0": [
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ],
+    "8.0": [
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ],
+    "9.0": [
+      "CVE-2025-21171",
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ]
+  }
 }

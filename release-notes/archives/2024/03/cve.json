@@ -1,15 +1,19 @@
 {
   "date": "2024-03-12",
-  "records": [
+  "cves": [
     {
       "id": "CVE-2024-26190",
-      "title": "Microsoft QUIC Denial of Service Vulnerability",
+      "problem": "Microsoft QUIC Denial of Service Vulnerability",
       "severity": "Critical",
-      "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
+      },
       "description": [
         "A Vulnerability exist in MsQuic.dll which might result in a peer to allocate small chunks of memory as long as connection stays alive."
       ],
       "product": ".NET",
+      "cna": "Microsoft",
       "platforms": [
         "Windows"
       ],
@@ -19,55 +23,81 @@
     },
     {
       "id": "CVE-2024-21392",
-      "title": ".NET Denial of Service Vulnerability",
+      "problem": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
-      "cvss": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
+      },
       "description": [
         "A vulnerability exists in .NET where specially crafted requests may cause a resource leak, leading to a Denial of Service."
       ],
       "product": ".NET",
+      "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/299"
       ]
     }
   ],
-  "platform": {
-    "7.0": [
-      {
-        "cve-id": "CVE-2024-21392",
-        "min-vulnerable": "7.0.0",
-        "max-vulnerable": "7.0.16",
-        "family": "7.0",
-        "fixed": "7.0.17",
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2024-26190",
-        "min-vulnerable": "7.0.0",
-        "max-vulnerable": "7.0.16",
-        "family": "7.0",
-        "fixed": "7.0.17",
-        "component": "Microsoft.NETCore.App.Runtime"
-      }
+  "core": [
+    {
+      "cve-id": "CVE-2024-21392",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "7.0.0",
+      "max-vulnerable": "7.0.16",
+      "fixed": "7.0.17",
+      "release": "7.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-26190",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "7.0.0",
+      "max-vulnerable": "7.0.16",
+      "fixed": "7.0.17",
+      "release": "7.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-21392",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "8.0.0",
+      "max-vulnerable": "8.0.2",
+      "fixed": "8.0.3",
+      "release": "8.0",
+      "commits": null
+    },
+    {
+      "cve-id": "CVE-2024-26190",
+      "name": "Microsoft.NETCore.App.Runtime",
+      "min-vulnerable": "8.0.0",
+      "max-vulnerable": "8.0.2",
+      "fixed": "8.0.3",
+      "release": "8.0",
+      "commits": null
+    }
+  ],
+  "extensions": [],
+  "commits": {},
+  "cve-commits": {},
+  "cve-releases": {
+    "CVE-2024-21392": [
+      "7.0",
+      "8.0"
     ],
-    "8.0": [
-      {
-        "cve-id": "CVE-2024-21392",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.2",
-        "family": "8.0",
-        "fixed": "8.0.3",
-        "component": "Microsoft.NETCore.App.Runtime"
-      },
-      {
-        "cve-id": "CVE-2024-26190",
-        "min-vulnerable": "8.0.0",
-        "max-vulnerable": "8.0.2",
-        "family": "8.0",
-        "fixed": "8.0.3",
-        "component": "Microsoft.NETCore.App.Runtime"
-      }
+    "CVE-2024-26190": [
+      "7.0",
+      "8.0"
     ]
   },
-  "packages": {}
+  "release-cves": {
+    "7.0": [
+      "CVE-2024-21392",
+      "CVE-2024-26190"
+    ],
+    "8.0": [
+      "CVE-2024-21392",
+      "CVE-2024-26190"
+    ]
+  }
 }
