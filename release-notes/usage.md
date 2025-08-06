@@ -16,7 +16,7 @@ This document provides detailed workflows, examples, and best practices for AI a
 
 ### Root Indexes (Complete View)
 - **Version index**: `/index.json` - Lists all major.minor versions (e.g., 7.0, 8.0, 9.0, 11.0)
-- **History index**: `/history/index.json` - Lists all years with historical releaes and CVE data (e.g., 2024, 2025)
+- **Calendar index**: `/archives/index.json` - Lists all years with historical releases and CVE data (e.g., 2024, 2025)
 
 ### Quick Access Links
 The root version index includes convenience links for immediate access to current releases:
@@ -25,7 +25,7 @@ The root version index includes convenience links for immediate access to curren
 
 ### Specific Indexes (Focused View)
 - **Version index**: `/{version}/index.json` - All patches for a specific version
-- **History index**: `/history/{year}/index.json` - Monthly data for a specific year
+- **Calendar index**: `/archives/{year}/index.json` - Monthly data for a specific year
 
 ## Common Workflows
 
@@ -42,10 +42,10 @@ The root version index includes convenience links for immediate access to curren
 4. GET /{version}/{patch}/release.json for specific release data
 
 ### Finding CVEs by Date Range
-1. GET /history/{year}/index.json
+1. GET /archives/{year}/index.json
 2. Read _embedded.months array
 3. For target months, follow _links.cve-json
-4. GET /history/{year}/{month}/cve.json for CVE details
+4. GET /archives/{year}/{month}/cve.json for CVE details
 
 ### Finding Support Information
 1. GET /index.json
@@ -60,7 +60,7 @@ The root version index includes convenience links for immediate access to curren
 | Get latest release (any support type)               | `/index.json`                             | Follow `_links.latest` href             |
 | Get latest LTS release                               | `/index.json`                             | Follow `_links.latest-lts` href         |
 | List all patches for a version                       | `/{version}/index.json`            | Get releases → follow each `release.json` |
-| Find CVEs by month                                   | `/history/{year}/index.json`   | Follow each month's `cve.json` link      |
+| Find CVEs by month                                   | `/archives/{year}/index.json`   | Follow each month's `cve.json` link      |
 | Get stable SDK download links                        | `/{version}/sdk/sdk.json`                | Latest SDK for version                   |
 | Get specific feature band SDK downloads              | `/{version}/sdk/sdk-{version}.{band}xx.json` | Pinned feature band downloads        |
 
@@ -70,12 +70,12 @@ The root version index includes convenience links for immediate access to curren
 |-----------------------------------|--------------------------------|-------------------------|
 | List all patches for a version   | `/{version}/index.json`        | `/{version}/README.md`  |
 | Get specific release details      | `/{version}/{patch}/release.json` | `/{version}/{patch}.md` |
-| Find CVEs by month               | `/history/{year}/{month}/cve.json` | `/history/{year}/{month}.md` |
+| Find CVEs by month               | `/archives/{year}/{month}/cve.json` | `/archives/{year}/{month}.md` |
 | Check OS support                 | `/{version}/supported-os.json` | `/{version}/supported-os.md` |
 
 ## Required Assistant Responses
 
-- **Opening prompt**: "Here's what I found in the JSON entry points…"
+- **Opening prompt**: "Here's what I found in .NET release notes ..."
 - **CVE queries**: After listing IDs, **always** follow up with "Would you like inline diffs for these fixes?"
 - **Concise format**: Reference JSON fields directly; avoid embedding long prose
 - **Offer diffs**: After listing changes, provide GitHub patch or diff snippet
@@ -89,57 +89,99 @@ https://raw.githubusercontent.com/.../release-notes/8.0/8.0.17/release.json
 https://raw.githubusercontent.com/.../release-notes/8.0/supported-os.json
 
 # Calendar-oriented
-https://raw.githubusercontent.com/.../release-notes/history/2025/index.json
-https://raw.githubusercontent.com/.../release-notes/history/2025/06/cve.json
+https://raw.githubusercontent.com/.../release-notes/archives/2025/index.json
+https://raw.githubusercontent.com/.../release-notes/archives/2025/06/cve.json
 
 # Root indexes
 https://raw.githubusercontent.com/.../release-notes/index.json
-https://raw.githubusercontent.com/.../release-notes/history/index.json
+https://raw.githubusercontent.com/.../release-notes/archives/index.json
+```
+
+## CVE JSON Schema
+
+The CVE JSON files use a query-optimized schema designed for easy filtering and analysis:
+
+### Core Structure
+- **`cves[]`**: Array of CVE records with metadata (id, problem, severity, cvss, description, product, references)
+- **`core[]`**: Array of affected core runtime components (Microsoft.NETCore.App.Runtime, Microsoft.AspNetCore.App.Runtime, etc.)
+- **`extensions[]`**: Array of affected extension packages (System.Text.Json, System.Formats.Asn1, etc.)
+- **`commits{}`**: Dictionary mapping commit hashes to commit metadata (repo, branch, url)
+
+### Join Indices for Fast Queries
+The schema includes pre-computed indices to simplify common queries:
+- **`cve-commits`**: Maps CVE IDs to arrays of commit hashes
+- **`cve-releases`**: Maps CVE IDs to affected release versions (e.g., ["6.0", "8.0"])  
+- **`release-cves`**: Maps release versions to arrays of CVE IDs
+
+### Common Query Patterns
+```bash
+# Get all CVE IDs for a month
+jq -r '.cves[].id' cve.json
+
+# Get CVEs affecting .NET 8.0
+jq -r '.["release-cves"]["8.0"][]' cve.json
+
+# Get commits for a specific CVE
+jq -r '. as $root | .["cve-commits"]["CVE-2025-21172"][] | $root.commits[.].url' cve.json
+
+# Get critical severity CVEs
+jq -r '.cves[] | select(.severity == "Critical") | .id' cve.json
 ```
 
 ## Analyzing Security Fixes
 
-When investigating CVE fixes from commit hashes in the JSON data:
+When investigating CVE fixes from commit data in the JSON:
 
 ### Getting Commit Details
 ```text
 # GitHub commit URL formats
-https://github.com/dotnet/runtime/commit/{commit-hash}         # Web/HTML view
-https://github.com/dotnet/runtime/commit/{commit-hash}.diff    # Unified diff format
-https://github.com/dotnet/runtime/commit/{commit-hash}.patch   # Git patch format with commit message
+https://github.com/dotnet/runtime/commit/{commit-hash}         # Web/HTML view (for humans)
+https://github.com/dotnet/runtime/commit/{commit-hash}.diff    # Raw unified diff (BEST for code analysis)
+https://github.com/dotnet/runtime/commit/{commit-hash}.patch   # Git patch with metadata (BEST for context)
 
 # Example from CVE-2025-21172:
 https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b         # Web view
-https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b.diff    # Raw diff
-https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b.patch   # Git patch
+https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b.diff    # Raw diff (code focus)
+https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b.patch   # Git patch (with context)
 ```
 
 ### Workflow for CVE Analysis
 ```
-1. GET /history/{year}/{month}/cve.json
-2. Find commits array with repo, branch, and hash
-3. Construct GitHub URL from commit data
-4. Choose format:
-  - No extension for web/HTML view
-  - Append .diff for raw unified diff
-  - Append .patch for git patch with commit message
-5. Parse diff to understand the security fix
+1. GET /archives/{year}/{month}/cve.json
+2. Use cve-commits index to get commit hashes for a CVE
+3. Look up commit details in commits{} dictionary
+4. Construct GitHub .diff URL from commit metadata
+5. Attempt to GET the .diff URL directly
+6. If access fails (common with GitHub rate limits):
+   - Provide the .diff URL to the user
+   - Ask: "I cannot fetch this diff URL directly. One of the following approaches may work:
+     - Copy/paste the URL: {diff-url}
+     - Copy/paste the contents of the URL"
+   - User pastes the diff content for analysis
+7. Parse diff to understand the security fix
 ```
 
+**Note for AI Assistants**: The `.diff` format is optimal for code analysis as it provides clean, parseable unified diff format focused purely on code changes. Use `.patch` format when you need commit context (author, date, commit message) for understanding the "why" behind changes. If you cannot access GitHub URLs directly due to rate limiting or authentication, provide the appropriate URL to users and request they paste the content. The URL without an extension will provide the human-focussed web view.
+
 ### Commit URL Construction
-From JSON commit data:
+From JSON commit data in the `commits{}` dictionary:
 ```json
 {
- "repo": "runtime",
- "branch": "release/8.0",
- "hash": "89ef51c5d8f5239345127a1e282e11036e590c8b",
- "org": "dotnet"
+ "commits": {
+   "89ef51c5d8f5239345127a1e282e11036e590c8b": {
+     "repo": "runtime",
+     "branch": "release/8.0", 
+     "hash": "89ef51c5d8f5239345127a1e282e11036e590c8b",
+     "org": "dotnet",
+     "url": "https://github.com/dotnet/runtime/commit/89ef51c5d8f5239345127a1e282e11036e590c8b"
+   }
+ }
 }
 ```
-Construct: 
-- Web view: `https://github.com/{org}/{repo}/commit/{hash}`
-- Raw diff: `https://github.com/{org}/{repo}/commit/{hash}.diff`
-- Git patch: `https://github.com/{org}/{repo}/commit/{hash}.patch`
+Construct:
+- Web view: Use `commit.url` field directly, or `https://github.com/{org}/{repo}/commit/{hash}`
+- Raw diff: Append `.diff` to the URL
+- Git patch: Append `.patch` to the URL
 
 ## Finding Stable Download Links
 
