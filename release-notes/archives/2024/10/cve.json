@@ -244,56 +244,56 @@
       "branch": "release/6.0",
       "hash": "741b04589cdd3514d032cbfd041fb7178bbd15c9",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/741b04589cdd3514d032cbfd041fb7178bbd15c9"
+      "url": "https://github.com/dotnet/runtime/commit/741b04589cdd3514d032cbfd041fb7178bbd15c9.diff"
     },
     "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8": {
       "repo": "runtime",
       "branch": "release/8.0",
       "hash": "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
+      "url": "https://github.com/dotnet/runtime/commit/132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8.diff"
     },
     "f5456c7804dfd2153cd5cda4054bcde50b153a66": {
       "repo": "runtime",
       "branch": "release/9.0",
       "hash": "f5456c7804dfd2153cd5cda4054bcde50b153a66",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/f5456c7804dfd2153cd5cda4054bcde50b153a66"
+      "url": "https://github.com/dotnet/runtime/commit/f5456c7804dfd2153cd5cda4054bcde50b153a66.diff"
     },
     "c3c2cc2e61411fc1c56ca962684348ccf5563ce4": {
       "repo": "runtime",
       "branch": "release/6.0",
       "hash": "c3c2cc2e61411fc1c56ca962684348ccf5563ce4",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/c3c2cc2e61411fc1c56ca962684348ccf5563ce4"
+      "url": "https://github.com/dotnet/runtime/commit/c3c2cc2e61411fc1c56ca962684348ccf5563ce4.diff"
     },
     "be46d16f6ff2daa6632136f7f100c5de89de6809": {
       "repo": "runtime",
       "branch": "release/8.0",
       "hash": "be46d16f6ff2daa6632136f7f100c5de89de6809",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/be46d16f6ff2daa6632136f7f100c5de89de6809"
+      "url": "https://github.com/dotnet/runtime/commit/be46d16f6ff2daa6632136f7f100c5de89de6809.diff"
     },
     "40d60a122dfd637e1b8a7cccbbbc363d508fb0d7": {
       "repo": "runtime",
       "branch": "release/6.0",
       "hash": "40d60a122dfd637e1b8a7cccbbbc363d508fb0d7",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/40d60a122dfd637e1b8a7cccbbbc363d508fb0d7"
+      "url": "https://github.com/dotnet/runtime/commit/40d60a122dfd637e1b8a7cccbbbc363d508fb0d7.diff"
     },
     "c2891d32a0408ce62771120dd7c03bc3dde1fca7": {
       "repo": "runtime",
       "branch": "release/8.0",
       "hash": "c2891d32a0408ce62771120dd7c03bc3dde1fca7",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/c2891d32a0408ce62771120dd7c03bc3dde1fca7"
+      "url": "https://github.com/dotnet/runtime/commit/c2891d32a0408ce62771120dd7c03bc3dde1fca7.diff"
     },
     "1002b673be5803ba63173ef8a2fdebe3e388a34a": {
       "repo": "aspnetcore",
       "branch": "release/8.0",
       "hash": "1002b673be5803ba63173ef8a2fdebe3e388a34a",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/1002b673be5803ba63173ef8a2fdebe3e388a34a"
+      "url": "https://github.com/dotnet/aspnetcore/commit/1002b673be5803ba63173ef8a2fdebe3e388a34a.diff"
     }
   },
   "cve-commits": {

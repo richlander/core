@@ -68,14 +68,14 @@
       "branch": "release/8.0",
       "hash": "76f50f60931e85e9240715ebd1f345547cbae366",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/76f50f60931e85e9240715ebd1f345547cbae366"
+      "url": "https://github.com/dotnet/runtime/commit/76f50f60931e85e9240715ebd1f345547cbae366.diff"
     },
     "123e69ce581cb33fd86c7cd2f8d4ba95e667885c": {
       "repo": "aspnetcore",
       "branch": "release/8.0",
       "hash": "123e69ce581cb33fd86c7cd2f8d4ba95e667885c",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
+      "url": "https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c.diff"
     }
   },
   "cve-commits": {

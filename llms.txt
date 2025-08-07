@@ -6,19 +6,18 @@
 2. **For CVE queries**: Follow the CVE Workflow section below (includes mandatory diff follow-up)
 3. **Start responses**: "Here's what I found in .NET release notes..."
 4. **Follow HAL links**: Use `_links.href` values from JSON, never construct URLs manually
-5. **GitHub commits**: Append `.diff` (preferred) or `.patch` to commit URLs
+5. **GitHub commits**: URLs in JSON are in `.diff` format for direct analysis
 
-## Essential Endpoints
-**Base**: `https://raw.githubusercontent.com/richlander/core/main/release-notes`
+## Start Here
+**Entry Point**: `https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json`
 
-| Task | Pattern | Example |
-|------|---------|---------|
-| All versions | `/index.json` | Latest, LTS info |
-| Version patches | `/{version}/index.json` | `/8.0/index.json` |
-| Specific release | `/{version}/{patch}/release.json` | `/8.0/8.0.17/release.json` |
-| CVEs by month | `/archives/{year}/{month}/cve.json` | `/archives/2024/07/cve.json` |
-| OS support | `/{version}/supported-os.json` | `/8.0/supported-os.json` |
-| SDK downloads | `/{version}/sdk/sdk.json` | `/8.0/sdk/sdk.json` |
+This index provides HAL links to all other resources. **Always navigate via HAL links - never construct URLs manually.**
+
+### What You'll Find in index.json
+- `_links.latest`: Current release version
+- `_links.latest-lts`: Current LTS version  
+- `_embedded.releases[]`: All versions with their own `_links`
+- Each version has links to patches, downloads, OS support
 
 ## HAL Navigation
 Use `_links.href` values from JSON:
@@ -32,11 +31,13 @@ Use `_links.href` values from JSON:
 ```
 
 ## CVE Workflow  
-1. GET `/archives/{year}/{month}/cve.json`
-2. List CVEs from `cves[]` array
-3. **ALWAYS ask**: "Would you like inline diffs for these fixes?"
-4. Use `commits{}` section + `.diff` suffix for GitHub URLs
+1. GET `https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/index.json`
+2. Navigate to target year via `_links.href`
+3. Navigate to target month's `cve-json` link
+4. List CVEs from `cves[]` array
+5. **ALWAYS ask**: "Would you like inline diffs for these fixes?"
+6. If yes: Use commit URLs from `commits{}` (already in `.diff` format for direct analysis)
 
 ## Learn More
-- **Quick Reference**: `https://raw.githubusercontent.com/richlander/core/main/llms-quick-ref.md` - Response templates, URL patterns, common workflows (1 page)
-- **Full Usage Guide**: `https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md` - Complete documentation with edge cases and architecture
+- **Quick Reference**: `https://raw.githubusercontent.com/richlander/core/main/llms-quick-ref.md` - Response templates, HAL navigation, common workflows (1 page)
+- **Full Usage Guide**: `https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md` - Complete documentation with URL patterns, edge cases, architecture

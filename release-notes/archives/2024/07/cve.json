@@ -5,7 +5,10 @@
       "id": "CVE-2024-30105",
       "problem": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
-      "cvss": {"version": "3.1", "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"},
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
+      },
       "description": [
         "A vulnerability exists in .NET when calling the JsonSerializer.DeserializeAsyncEnumerable method against an untrusted input using System.Text.Json may result in Denial of Service."
       ],
@@ -19,7 +22,10 @@
       "id": "CVE-2024-35264",
       "problem": ".NET Remote Code Execution Vulnerability",
       "severity": "Critical",
-      "cvss": {"version": "3.1", "uri": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"},
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+      },
       "description": [
         "A Vulnerability exists in ASP.NET Core 8 where Data Corruption in Kestrel HTTP/3 can result in remote code execution.",
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.7"
@@ -33,7 +39,10 @@
       "id": "CVE-2024-38081",
       "problem": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
-      "cvss": {"version": "3.1", "uri": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"},
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+      },
       "description": [
         "A vulnerability exists in Visual Studio installer on Windowswhere an unprivileged user is allowed to manipulate the Visual Studio installation resulting in elevation of privilege."
       ],
@@ -49,7 +58,10 @@
       "id": "CVE-2024-38095",
       "problem": ".NET Denial of Service Vulnerability",
       "severity": "Critical",
-      "cvss": {"version": "3.1", "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U/RL:O/RC:C"},
+      "cvss": {
+        "version": "3.1",
+        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U/RL:O/RC:C"
+      },
       "description": [
         "A vulnerability exists when System.Formats.Asn1 in .NET parses an X.509 certificate or collection of certificates, a malicious certificate can result in excessive CPU consumption on all platforms result in Denial of Service."
       ],
@@ -167,51 +179,76 @@
       "branch": "release/8.0",
       "hash": "fa5b0d8f4a8b424732cc992158aa92842f8a2846",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/fa5b0d8f4a8b424732cc992158aa92842f8a2846"
+      "url": "https://github.com/dotnet/runtime/commit/fa5b0d8f4a8b424732cc992158aa92842f8a2846.diff"
     },
     "c5721fb7a65ddc13d1b445c2c08c27b72ab57cdc": {
       "repo": "aspnetcore",
       "branch": "release/8.0",
       "hash": "c5721fb7a65ddc13d1b445c2c08c27b72ab57cdc",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/c5721fb7a65ddc13d1b445c2c08c27b72ab57cdc"
+      "url": "https://github.com/dotnet/aspnetcore/commit/c5721fb7a65ddc13d1b445c2c08c27b72ab57cdc.diff"
     },
     "0a0dd0e27560e692e11ee286ed9f45471b2131fa": {
       "repo": "runtime",
       "branch": "release/6.0",
       "hash": "0a0dd0e27560e692e11ee286ed9f45471b2131fa",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/0a0dd0e27560e692e11ee286ed9f45471b2131fa"
+      "url": "https://github.com/dotnet/runtime/commit/0a0dd0e27560e692e11ee286ed9f45471b2131fa.diff"
     },
     "4a8d5a007971d19f389ca17f7b8eb4f9bb199991": {
       "repo": "runtime",
       "branch": "release/8.0",
       "hash": "4a8d5a007971d19f389ca17f7b8eb4f9bb199991",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/4a8d5a007971d19f389ca17f7b8eb4f9bb199991"
+      "url": "https://github.com/dotnet/runtime/commit/4a8d5a007971d19f389ca17f7b8eb4f9bb199991.diff"
     },
     "979135d5ca4efaf6436ee13539cc3f1e039d570a": {
       "repo": "runtime",
       "branch": "release/6.0",
       "hash": "979135d5ca4efaf6436ee13539cc3f1e039d570a",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/979135d5ca4efaf6436ee13539cc3f1e039d570a"
+      "url": "https://github.com/dotnet/runtime/commit/979135d5ca4efaf6436ee13539cc3f1e039d570a.diff"
     }
   },
   "cve-commits": {
-      "CVE-2024-30105": ["fa5b0d8f4a8b424732cc992158aa92842f8a2846"],
-      "CVE-2024-35264": ["c5721fb7a65ddc13d1b445c2c08c27b72ab57cdc"],
-      "CVE-2024-38081": ["0a0dd0e27560e692e11ee286ed9f45471b2131fa"],
-      "CVE-2024-38095": ["979135d5ca4efaf6436ee13539cc3f1e039d570a", "4a8d5a007971d19f389ca17f7b8eb4f9bb199991"]
-    },
+    "CVE-2024-30105": [
+      "fa5b0d8f4a8b424732cc992158aa92842f8a2846"
+    ],
+    "CVE-2024-35264": [
+      "c5721fb7a65ddc13d1b445c2c08c27b72ab57cdc"
+    ],
+    "CVE-2024-38081": [
+      "0a0dd0e27560e692e11ee286ed9f45471b2131fa"
+    ],
+    "CVE-2024-38095": [
+      "979135d5ca4efaf6436ee13539cc3f1e039d570a",
+      "4a8d5a007971d19f389ca17f7b8eb4f9bb199991"
+    ]
+  },
   "cve-releases": {
-      "CVE-2024-30105": ["8.0"],
-      "CVE-2024-35264": ["8.0"],
-      "CVE-2024-38081": ["6.0"],
-      "CVE-2024-38095": ["6.0", "8.0"]
-    },
+    "CVE-2024-30105": [
+      "8.0"
+    ],
+    "CVE-2024-35264": [
+      "8.0"
+    ],
+    "CVE-2024-38081": [
+      "6.0"
+    ],
+    "CVE-2024-38095": [
+      "6.0",
+      "8.0"
+    ]
+  },
   "release-cves": {
-    "6.0": ["CVE-2024-38081", "CVE-2024-38095"],
-    "8.0": ["CVE-2024-30105", "CVE-2024-35264", "CVE-2024-38095"]
+    "6.0": [
+      "CVE-2024-38081",
+      "CVE-2024-38095"
+    ],
+    "8.0": [
+      "CVE-2024-30105",
+      "CVE-2024-35264",
+      "CVE-2024-38095"
+    ]
   }
 }

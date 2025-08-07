@@ -96,7 +96,7 @@
       "branch": "release/9.0",
       "hash": "d16f41ad8fded18bf82bca88df27967cc3365eb0",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/d16f41ad8fded18bf82bca88df27967cc3365eb0"
+      "url": "https://github.com/dotnet/runtime/commit/d16f41ad8fded18bf82bca88df27967cc3365eb0.diff"
     }
   },
   "cve-commits": {

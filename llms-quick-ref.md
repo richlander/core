@@ -16,25 +16,27 @@ Assistant: [Lists CVEs]
 Assistant: "Would you like inline diffs for these fixes?"
 ```
 
-### GitHub Access Failure
+### GitHub Diff Analysis
 ```
-"I cannot fetch this diff URL directly. One of the following approaches may work:
-- Copy/paste the URL: {diff-url}  
-- Copy/paste the contents of the URL"
+"Here are the commit URLs for the security fixes (ready for immediate analysis):
+- {commit-url} (diff format)
+Note: Remove '.diff' from URL for web view, or change to '.patch' for commit message"
 ```
 
-## URL Patterns Cheat Sheet
+## HAL Navigation Patterns
 
-| Task | Pattern | Example |
-|------|---------|---------|
-| **All versions** | `/index.json` | Get latest, LTS info |
-| **Version patches** | `/{version}/index.json` | `/8.0/index.json` |
-| **Specific release** | `/{version}/{patch}/release.json` | `/8.0/8.0.17/release.json` |
-| **CVEs by month** | `/archives/{year}/{month}/cve.json` | `/archives/2024/07/cve.json` |
-| **OS support** | `/{version}/supported-os.json` | `/8.0/supported-os.json` |
-| **SDK downloads** | `/{version}/sdk/sdk.json` | `/8.0/sdk/sdk.json` |
+**Start from**: `https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json`
 
-**Base URL**: `https://raw.githubusercontent.com/richlander/core/main/release-notes`
+| Need to find | Navigation path |
+|--------------|-----------------|
+| **Latest release** | `index.json` → `_links.latest.href` |
+| **LTS release** | `index.json` → `_links.latest-lts.href` |
+| **Version patches** | `index.json` → `_embedded.releases[]` → `_links.self.href` |
+| **Specific patch** | Version index → `_embedded.releases[]` → `_links.release.href` |
+| **CVEs** | `archives/index.json` → Year → Month → `_links.cve-json.href` |
+| **SDK downloads** | Version index → `_links.sdk.href` |
+
+**Remember**: Always follow `_links.href` values - never construct URLs from patterns!
 
 ## HAL Navigation
 
@@ -51,12 +53,14 @@ Always use `_links.href` values from JSON responses:
 
 ## CVE Analysis Quick Workflow
 
-1. **GET** `/archives/{year}/{month}/cve.json`
-2. **Extract** CVE IDs from `cves[]` array
-3. **List** CVEs with `id`, `problem`, `severity`
-4. **ALWAYS ask**: "Would you like inline diffs for these fixes?"
-5. **If yes**: Get commit URLs from `commits{}` section
-6. **Append** `.diff` (preferred) or `.patch` to GitHub URLs
+1. **GET** `https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/index.json`
+2. **Navigate** to year via `_links.href`
+3. **Navigate** to month via `_links.cve-json.href`
+4. **Extract** CVE IDs from `cves[]` array
+5. **List** CVEs with `id`, `problem`, `severity`
+6. **ALWAYS ask**: "Would you like inline diffs for these fixes?"
+7. **If yes**: Use commit URLs from `commits{}` (already in `.diff` format)
+8. **Fetch URLs directly** for immediate diff analysis
 
 ### CVE JSON Quick Reference
 
@@ -76,32 +80,35 @@ jq -r '.cves[] | select(.severity == "Critical") | .id' cve.json
 
 ## GitHub URL Formats
 
-From commit hash `abc123...`:
-- **Code analysis**: `https://github.com/dotnet/runtime/commit/abc123.diff` ✅ 
-- **With context**: `https://github.com/dotnet/runtime/commit/abc123.patch`
-- **Web view**: `https://github.com/dotnet/runtime/commit/abc123`
+URLs in CVE JSON are `.diff` format by default for LLM analysis:
+- **Ready to use**: `https://github.com/dotnet/runtime/commit/abc123.diff` ✅
+- **For context**: Change `.diff` to `.patch` (includes commit message)  
+- **For web view**: Remove `.diff` suffix
 
 ## Common Response Patterns
 
 ### Latest Release Query
 ```
-1. GET /index.json
-2. Follow _links.latest or _links.latest-lts  
-3. Present version, release date, support phase
+1. GET index.json (from entry point URL)
+2. Follow _links.latest.href or _links.latest-lts.href  
+3. Present version, release date, support phase from fetched resource
 ```
 
 ### Version Comparison
 ```  
-1. GET /{version1}/index.json and /{version2}/index.json
-2. Compare support phases, EOL dates, patch counts
-3. Reference latest patches from _embedded.releases
+1. GET index.json, find versions in _embedded.releases[]
+2. Follow each version's _links.self.href
+3. Compare support phases, EOL dates, patch counts
+4. Reference latest patches from _embedded.releases
 ```
 
 ### SDK Downloads
 ```
-1. GET /{version}/sdk/sdk.json
-2. Present files[] array with url, rid, type
-3. Emphasize these are stable aka.ms URLs
+1. GET index.json, find target version
+2. Follow version's _links.self.href
+3. Follow _links.sdk.href from version index
+4. Present files[] array with url, rid, type
+5. Emphasize these are stable aka.ms URLs
 ```
 
 ## Error Handling
