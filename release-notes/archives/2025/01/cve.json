@@ -12,7 +12,6 @@
       "description": [
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
       ],
-      "product": null,
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/340"
@@ -29,7 +28,6 @@
       "description": [
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
       ],
-      "product": null,
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/339"
@@ -46,7 +44,6 @@
       "description": [
         "An attacker could exploit this vulnerability by loading a specially crafted file in Visual Studio."
       ],
-      "product": null,
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/338"
@@ -63,7 +60,6 @@
       "description": [
         "An attacker could exploit this vulnerability to writing a specially crafted file in the security context of the local system."
       ],
-      "product": null,
       "cna": "Microsoft",
       "platforms": [
         "Linux"
@@ -73,10 +69,10 @@
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2025-21172",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "release": "6.0",
       "commits": [
         "b3f8ef0105c079c255caa6aa31d630482db5d03c"
@@ -84,14 +80,14 @@
     },
     {
       "cve-id": "CVE-2025-21173",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "commits": [
         "4416ac92cd8588320132c4ce0d508d78a4a26d15"
       ]
     },
     {
       "cve-id": "CVE-2025-21176",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "release": "6.0",
       "commits": [
         "b3f8ef0105c079c255caa6aa31d630482db5d03c"
@@ -99,7 +95,7 @@
     },
     {
       "cve-id": "CVE-2025-21172",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.11",
       "fixed": "8.0.12",
@@ -110,7 +106,7 @@
     },
     {
       "cve-id": "CVE-2025-21173",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "8.0.100",
       "max-vulnerable": "8.0.111",
       "fixed": "8.0.112",
@@ -120,7 +116,7 @@
     },
     {
       "cve-id": "CVE-2025-21173",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "8.0.300",
       "max-vulnerable": "8.0.307",
       "fixed": "8.0.308",
@@ -130,14 +126,14 @@
     },
     {
       "cve-id": "CVE-2025-21173",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "commits": [
         "1ba623839f23fe8857d2aa0dc23783692325deab"
       ]
     },
     {
       "cve-id": "CVE-2025-21176",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.11",
       "fixed": "8.0.12",
@@ -148,7 +144,7 @@
     },
     {
       "cve-id": "CVE-2025-21171",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "9.0.0",
       "max-vulnerable": "9.0.0",
       "fixed": "9.0.1",
@@ -159,7 +155,7 @@
     },
     {
       "cve-id": "CVE-2025-21172",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "9.0.0",
       "max-vulnerable": "9.0.0",
       "fixed": "9.0.1",
@@ -170,7 +166,7 @@
     },
     {
       "cve-id": "CVE-2025-21173",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "9.0.100",
       "max-vulnerable": "9.0.101",
       "fixed": "9.0.102",
@@ -180,7 +176,7 @@
     },
     {
       "cve-id": "CVE-2025-21176",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "9.0.0",
       "max-vulnerable": "9.0.0",
       "fixed": "9.0.1",
@@ -306,6 +302,20 @@
       "CVE-2025-21171",
       "CVE-2025-21172",
       "CVE-2025-21176"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
+      "CVE-2025-21171",
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ],
+    "microsoft.netcore.sdk": [
+      "CVE-2025-21173"
     ]
   }
 }

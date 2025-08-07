@@ -12,7 +12,6 @@
       "description": [
         "A vulnerability exists in the Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider where an attackercan perform an AiTM (adversary-in-the-middle) attack between the SQL client and the SQL server. This may allow the attacker to steal authentication credentials intended for the database server, even if the connection is established over an encrypted channel like TLS."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/292"
@@ -32,7 +31,6 @@
       "mitigation": [
         "Within .NET, only the WindowsDesktop shared runtime contains inbox components which utilize X.509 chain building APIs in a vulnerable manner. Other project types, such as web applications, are not impacted by this vulnerability unless they explicitly invoke the X.509 chain building APIs themselves in a vulnerable manner or they consume an external package which does this on their behalf."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/291"
@@ -52,17 +50,16 @@
       "mitigation": [
         "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
       ],
-      "product": "ASP.NET Core",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/290"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2024-0057",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -71,7 +68,7 @@
     },
     {
       "cve-id": "CVE-2024-0057",
-      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -80,7 +77,7 @@
     },
     {
       "cve-id": "CVE-2024-21319",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -89,7 +86,7 @@
     },
     {
       "cve-id": "CVE-2024-0057",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -98,7 +95,7 @@
     },
     {
       "cve-id": "CVE-2024-0057",
-      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -107,7 +104,7 @@
     },
     {
       "cve-id": "CVE-2024-21319",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -116,7 +113,7 @@
     },
     {
       "cve-id": "CVE-2024-0057",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -125,7 +122,7 @@
     },
     {
       "cve-id": "CVE-2024-0057",
-      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -134,7 +131,7 @@
     },
     {
       "cve-id": "CVE-2024-21319",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -257,6 +254,18 @@
     ],
     "8.0": [
       "CVE-2024-0057",
+      "CVE-2024-21319"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
+      "CVE-2024-0057"
+    ],
+    "aspnetcore": [
       "CVE-2024-21319"
     ]
   }

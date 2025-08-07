@@ -12,7 +12,6 @@
       "description": [
         "A Remote Code Execution vulnerability exists in .NET 7.0 and .NET 8.0 where a stack buffer overrun occurs in .NET Double Parse routine."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/307"
@@ -29,17 +28,16 @@
       "description": [
         "A vulnerability exists in Microsoft.AspNetCore.Server.Kestrel.Core.dll where a dead-lock can occur resulting in Denial of Service."
       ],
-      "product": "ASP.NET Core",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/308"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2024-30045",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.18",
       "fixed": "7.0.19",
@@ -48,7 +46,7 @@
     },
     {
       "cve-id": "CVE-2024-30045",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.4",
       "fixed": "8.0.5",
@@ -57,7 +55,7 @@
     },
     {
       "cve-id": "CVE-2024-30046",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.18",
       "fixed": "7.0.19",
@@ -66,7 +64,7 @@
     },
     {
       "cve-id": "CVE-2024-30046",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.4",
       "fixed": "8.0.5",
@@ -88,6 +86,18 @@
   "release-cves": {
     "unknown": [
       "CVE-2024-30045",
+      "CVE-2024-30046"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
+      "CVE-2024-30045"
+    ],
+    "aspnetcore": [
       "CVE-2024-30046"
     ]
   }

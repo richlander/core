@@ -12,7 +12,6 @@
       "description": [
         "A Vulnerability exist in MsQuic.dll which might result in a peer to allocate small chunks of memory as long as connection stays alive."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "platforms": [
         "Windows"
@@ -32,17 +31,16 @@
       "description": [
         "A vulnerability exists in .NET where specially crafted requests may cause a resource leak, leading to a Denial of Service."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/299"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2024-21392",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.16",
       "fixed": "7.0.17",
@@ -51,7 +49,7 @@
     },
     {
       "cve-id": "CVE-2024-26190",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.16",
       "fixed": "7.0.17",
@@ -60,7 +58,7 @@
     },
     {
       "cve-id": "CVE-2024-21392",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.2",
       "fixed": "8.0.3",
@@ -69,7 +67,7 @@
     },
     {
       "cve-id": "CVE-2024-26190",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.2",
       "fixed": "8.0.3",
@@ -96,6 +94,16 @@
       "CVE-2024-26190"
     ],
     "8.0": [
+      "CVE-2024-21392",
+      "CVE-2024-26190"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
       "CVE-2024-21392",
       "CVE-2024-26190"
     ]

@@ -12,7 +12,6 @@
       "description": [
         "System.Security.Cryptography.Cose, System.IO.Packaging, Microsoft.Extensions.Caching.Memory may be exposed to a hostile input which may lead them to be susceptible to hash flooding attacks resulting in denial of service."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/327"
@@ -29,7 +28,6 @@
       "description": [
         "The System.IO.Packaging library may allow untrusted inputs to influence algorithmically complex operations, leading to denial of service."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/328"
@@ -46,7 +44,6 @@
       "description": [
         "In System.Text.Json 6.0.x and 8.0.x, applications which deserialize input to a model with an [ExtensionData] property can be vulnerable to an algorithmic complexity attack resulting in Denial of Service."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/329"
@@ -64,17 +61,16 @@
         "A vulnerability exists in ASP.NET when closing an HTTP/3 stream while application code is writing to the response body, a race condition may lead to use-after-free.",
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.10. .NET 6.0 will not receive a security patch for this vulnerability."
       ],
-      "product": "ASP.NET Core",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/326"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2024-43483",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.33",
       "fixed": "6.0.34",
@@ -85,7 +81,7 @@
     },
     {
       "cve-id": "CVE-2024-43485",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.33",
       "fixed": "6.0.34",
@@ -96,7 +92,7 @@
     },
     {
       "cve-id": "CVE-2024-38229",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.8",
       "fixed": "8.0.9",
@@ -107,7 +103,7 @@
     },
     {
       "cve-id": "CVE-2024-43483",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.8",
       "fixed": "8.0.9",
@@ -118,7 +114,7 @@
     },
     {
       "cve-id": "CVE-2024-43485",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.8",
       "fixed": "8.0.9",
@@ -349,6 +345,19 @@
     ],
     "9.0": [
       "CVE-2024-43483"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
+      "CVE-2024-43483",
+      "CVE-2024-43485"
+    ],
+    "aspnetcore": [
+      "CVE-2024-38229"
     ]
   }
 }

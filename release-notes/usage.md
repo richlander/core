@@ -101,17 +101,34 @@ https://raw.githubusercontent.com/.../release-notes/archives/index.json
 
 The CVE JSON files use a query-optimized schema designed for easy filtering and analysis:
 
+### Products vs Extensions
+
+**Products** are components with standalone installers (MSI, PKG, deb, tar.gz):
+- **dotnet**: .NET Runtime (Microsoft.NETCore.App.Runtime)
+- **aspnetcore**: ASP.NET Core (Microsoft.AspNetCore.App.Runtime)
+- **windowsdesktop**: Windows Desktop (Microsoft.WindowsDesktop.App.Runtime)
+- **sdk**: .NET SDK itself (Microsoft.NetCore.Sdk)
+
+**Extensions** are components distributed as NuGet packages:
+- System.Text.Json
+- System.Formats.Asn1
+- Microsoft.Data.SqlClient
+- Microsoft.IdentityModel.JsonWebTokens
+- etc.
+
 ### Core Structure
-- **`cves[]`**: Array of CVE records with metadata (id, problem, severity, cvss, description, product, references)
-- **`core[]`**: Array of affected core runtime components (Microsoft.NETCore.App.Runtime, Microsoft.AspNetCore.App.Runtime, etc.)
-- **`extensions[]`**: Array of affected extension packages (System.Text.Json, System.Formats.Asn1, etc.)
+- **`cves[]`**: Array of CVE records with metadata (id, problem, severity, cvss, description, references)
+- **`products[]`**: Array of affected product components (major SDK components)
+- **`extensions[]`**: Array of affected extension packages (NuGet packages)
 - **`commits{}`**: Dictionary mapping commit hashes to commit metadata (repo, branch, url)
 
 ### Join Indices for Fast Queries
 The schema includes pre-computed indices to simplify common queries:
-- **`cve-commits`**: Maps CVE IDs to arrays of commit hashes
-- **`cve-releases`**: Maps CVE IDs to affected release versions (e.g., ["6.0", "8.0"])  
-- **`release-cves`**: Maps release versions to arrays of CVE IDs
+- **`product-names{}`**: Maps product IDs to display names ("dotnet" → ".NET")
+- **`product-cves{}`**: Maps product IDs to arrays of CVE IDs
+- **`cve-commits{}`**: Maps CVE IDs to arrays of commit hashes
+- **`cve-releases{}`**: Maps CVE IDs to affected release versions (e.g., ["6.0", "8.0"])  
+- **`release-cves{}`**: Maps release versions to arrays of CVE IDs
 
 ### Common Query Patterns
 ```bash
@@ -120,6 +137,9 @@ jq -r '.cves[].id' cve.json
 
 # Get CVEs affecting .NET 8.0
 jq -r '.["release-cves"]["8.0"][]' cve.json
+
+# Get CVEs affecting .NET product
+jq -r '.["product-cves"]["dotnet"][]' cve.json
 
 # Get commits for a specific CVE
 jq -r '. as $root | .["cve-commits"]["CVE-2025-21172"][] | $root.commits[.].url' cve.json

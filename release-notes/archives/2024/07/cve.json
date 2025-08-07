@@ -12,7 +12,6 @@
       "description": [
         "A vulnerability exists in .NET when calling the JsonSerializer.DeserializeAsyncEnumerable method against an untrusted input using System.Text.Json may result in Denial of Service."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/315"
@@ -30,7 +29,6 @@
         "A Vulnerability exists in ASP.NET Core 8 where Data Corruption in Kestrel HTTP/3 can result in remote code execution.",
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.7"
       ],
-      "product": "ASP.NET Core",
       "references": [
         "https://github.com/dotnet/announcements/issues/314"
       ]
@@ -46,7 +44,6 @@
       "description": [
         "A vulnerability exists in Visual Studio installer on Windowswhere an unprivileged user is allowed to manipulate the Visual Studio installation resulting in elevation of privilege."
       ],
-      "product": ".NET",
       "platforms": [
         "Windows"
       ],
@@ -65,16 +62,15 @@
       "description": [
         "A vulnerability exists when System.Formats.Asn1 in .NET parses an X.509 certificate or collection of certificates, a malicious certificate can result in excessive CPU consumption on all platforms result in Denial of Service."
       ],
-      "product": ".NET",
       "references": [
         "https://github.com/dotnet/announcements/issues/312"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2024-38081",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.31",
       "fixed": "6.0.32",
@@ -85,7 +81,7 @@
     },
     {
       "cve-id": "CVE-2024-38095",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.31",
       "fixed": "6.0.32",
@@ -96,7 +92,7 @@
     },
     {
       "cve-id": "CVE-2024-30105",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.6",
       "fixed": "8.0.7",
@@ -107,7 +103,7 @@
     },
     {
       "cve-id": "CVE-2024-35264",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.6",
       "fixed": "8.0.7",
@@ -118,7 +114,7 @@
     },
     {
       "cve-id": "CVE-2024-38095",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.6",
       "fixed": "8.0.7",
@@ -249,6 +245,20 @@
       "CVE-2024-30105",
       "CVE-2024-35264",
       "CVE-2024-38095"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
+      "CVE-2024-30105",
+      "CVE-2024-38081",
+      "CVE-2024-38095"
+    ],
+    "aspnetcore": [
+      "CVE-2024-35264"
     ]
   }
 }

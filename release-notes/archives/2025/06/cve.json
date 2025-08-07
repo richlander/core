@@ -10,17 +10,16 @@
         "uri": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": null,
-      "product": null,
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/362"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2025-30399",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "8.0.100",
       "max-vulnerable": "8.0.116",
       "fixed": "8.0.117",
@@ -30,7 +29,7 @@
     },
     {
       "cve-id": "CVE-2025-30399",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "8.0.300",
       "max-vulnerable": "8.0.312",
       "fixed": "8.0.313",
@@ -38,7 +37,7 @@
     },
     {
       "cve-id": "CVE-2025-30399",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "8.0.400",
       "max-vulnerable": "8.0.409",
       "fixed": "8.0.410",
@@ -71,5 +70,14 @@
     ]
   },
   "cve-releases": {},
-  "release-cves": {}
+  "release-cves": {},
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "microsoft.netcore.sdk": [
+      "CVE-2025-30399"
+    ]
+  }
 }

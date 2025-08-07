@@ -12,7 +12,6 @@
       "description": [
         "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "platforms": [
         "Windows"
@@ -22,10 +21,10 @@
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2024-21409",
-      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.28",
       "fixed": "6.0.29",
@@ -34,7 +33,7 @@
     },
     {
       "cve-id": "CVE-2024-21409",
-      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.17",
       "fixed": "7.0.18",
@@ -43,7 +42,7 @@
     },
     {
       "cve-id": "CVE-2024-21409",
-      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.3",
       "fixed": "8.0.4",
@@ -69,6 +68,15 @@
       "CVE-2024-21409"
     ],
     "8.0": [
+      "CVE-2024-21409"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
       "CVE-2024-21409"
     ]
   }

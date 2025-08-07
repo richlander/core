@@ -12,7 +12,6 @@
       "description": [
         "A vulnerability exists in .NET runtime TlsStream which may result in Information Disclosure."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/319"
@@ -27,7 +26,6 @@
         "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
       },
       "description": null,
-      "product": "ASP.NET Core",
       "cna": "Microsoft",
       "platforms": [
         "Windows"
@@ -37,10 +35,10 @@
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2024-38167",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.7",
       "fixed": "8.0.8",
@@ -51,7 +49,7 @@
     },
     {
       "cve-id": "CVE-2024-38168",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.7",
       "fixed": "8.0.8",
@@ -97,6 +95,18 @@
   "release-cves": {
     "8.0": [
       "CVE-2024-38167",
+      "CVE-2024-38168"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
+      "CVE-2024-38167"
+    ],
+    "aspnetcore": [
       "CVE-2024-38168"
     ]
   }

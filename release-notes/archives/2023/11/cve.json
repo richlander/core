@@ -12,7 +12,6 @@
       "description": [
         "A vulnerability exists in ASP.NET IIS where a remote unauthenticated user can issue specially crafted requests to a .NET application which may result in denial of service."
       ],
-      "product": "ASP.NET Core",
       "cna": "Microsoft",
       "platforms": [
         "Windows"
@@ -32,7 +31,6 @@
       "description": [
         "An elevation of privilege vulnerability exists in .NET where untrusted URIs provided to System.Net.WebRequest.Create can be used to inject arbitrary commands to backend FTP servers."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/287"
@@ -52,17 +50,16 @@
       "mitigation": [
         "This vulnerability only affects ASP.NET Core Blazor apps. Other application types, including ASP.NET Core apps which do not utilize Blazor, are not affected."
       ],
-      "product": "ASP.NET Core",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/288"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2023-36049",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.24",
       "fixed": "6.0.25",
@@ -71,7 +68,7 @@
     },
     {
       "cve-id": "CVE-2023-36049",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.13",
       "fixed": "7.0.14",
@@ -80,7 +77,7 @@
     },
     {
       "cve-id": "CVE-2023-36038",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "8.0-rc.2",
       "max-vulnerable": "8.0-rc.2",
       "fixed": "8.0.0",
@@ -89,7 +86,7 @@
     },
     {
       "cve-id": "CVE-2023-36049",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0-rc.2",
       "max-vulnerable": "8.0-rc.2",
       "fixed": "8.0.0",
@@ -156,6 +153,18 @@
       "CVE-2023-36038",
       "CVE-2023-36049",
       "CVE-2023-36558"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "dotnet": [
+      "CVE-2023-36049"
+    ],
+    "aspnetcore": [
+      "CVE-2023-36038"
     ]
   }
 }

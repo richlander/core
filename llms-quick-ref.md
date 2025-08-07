@@ -69,7 +69,10 @@ Always use `_links.href` values from JSON responses:
 jq -r '.cves[].id' cve.json
 
 # Get CVEs for .NET 8.0
-jq -r '.["release-cves"]["8.0"][]' cve.json  
+jq -r '.["release-cves"]["8.0"][]' cve.json
+
+# Get CVEs affecting .NET product
+jq -r '.["product-cves"]["dotnet"][]' cve.json  
 
 # Get commits for specific CVE
 jq -r '. as $root | .["cve-commits"]["CVE-2024-38095"][] | $root.commits[.].url' cve.json
@@ -124,12 +127,14 @@ URLs in CVE JSON are `.diff` format by default for LLM analysis:
 
 ### CVE JSON Structure
 - `cves[]`: CVE metadata (id, problem, severity, cvss, description)
-- `core[]`: Affected runtime components  
-- `extensions[]`: Affected packages
+- `products[]`: Major SDK components (dotnet, aspnetcore, windowsdesktop, sdk)
+- `extensions[]`: NuGet packages (System.Text.Json, Microsoft.Data.SqlClient, etc.)
 - `commits{}`: Commit details keyed by hash
-- `cve-commits`: CVE ID → commit hashes
-- `cve-releases`: CVE ID → release versions
-- `release-cves`: Release version → CVE IDs
+- `product-names{}`: Product ID → display name ("dotnet" → ".NET")
+- `product-cves{}`: Product ID → CVE IDs  
+- `cve-commits{}`: CVE ID → commit hashes
+- `cve-releases{}`: CVE ID → release versions
+- `release-cves{}`: Release version → CVE IDs
 
 ### Release JSON Structure
 - `channel-version`: Major.minor (e.g. "8.0")

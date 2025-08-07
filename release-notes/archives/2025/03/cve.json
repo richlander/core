@@ -12,17 +12,16 @@
       "description": [
         "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user's account, resulting in Elevation of Privilege."
       ],
-      "product": null,
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/348"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2025-24070",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.13",
       "fixed": "8.0.14",
@@ -33,7 +32,7 @@
     },
     {
       "cve-id": "CVE-2025-24070",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "9.0.0",
       "max-vulnerable": "8.0.2",
       "fixed": "9.0.3",
@@ -86,6 +85,15 @@
       "CVE-2025-24070"
     ],
     "9.0": [
+      "CVE-2025-24070"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "aspnetcore": [
       "CVE-2025-24070"
     ]
   }

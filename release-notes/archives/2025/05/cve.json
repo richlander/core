@@ -12,17 +12,16 @@
       "description": [
         "A vulnerability exists in .NET SDK or MSBuild applications where external control of file name or path allows an unauthorized attacked to perform spoofing over a network."
       ],
-      "product": null,
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/356"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2025-26646",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "8.0.100",
       "max-vulnerable": "8.0.115",
       "fixed": "8.0.116",
@@ -32,7 +31,7 @@
     },
     {
       "cve-id": "CVE-2025-26646",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "8.0.300",
       "max-vulnerable": "8.0.312",
       "fixed": "8.0.313",
@@ -40,7 +39,7 @@
     },
     {
       "cve-id": "CVE-2025-26646",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "8.0.400",
       "max-vulnerable": "8.0.408",
       "fixed": "8.0.409",
@@ -50,7 +49,7 @@
     },
     {
       "cve-id": "CVE-2025-26646",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "9.0.100",
       "max-vulnerable": "9.0.105",
       "fixed": "9.0.106",
@@ -60,7 +59,7 @@
     },
     {
       "cve-id": "CVE-2025-26646",
-      "name": "Microsoft.NetCore.Sdk",
+      "name": "microsoft.netcore.sdk",
       "min-vulnerable": "9.0.200",
       "max-vulnerable": "9.0.203",
       "fixed": "9.0.204",
@@ -173,5 +172,14 @@
     ]
   },
   "cve-releases": {},
-  "release-cves": {}
+  "release-cves": {},
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "microsoft.netcore.sdk": [
+      "CVE-2025-26646"
+    ]
+  }
 }

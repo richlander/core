@@ -12,17 +12,16 @@
       "description": [
         "A vulnerability exists in ASP.NET Core where using HTTP/3 improperly may result in a Denial of Service by allocation of resources without limits or throttling."
       ],
-      "product": null,
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/352"
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2025-26682",
-      "name": "Microsoft.ASPNetCore.App.Runtime",
+      "name": "microsoft.aspnetcore.app.runtime",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.14",
       "fixed": "8.0.15",
@@ -33,7 +32,7 @@
     },
     {
       "cve-id": "CVE-2025-26682",
-      "name": "Microsoft.ASPNetCore.App.Runtime",
+      "name": "microsoft.aspnetcore.app.runtime",
       "min-vulnerable": "9.0.0",
       "max-vulnerable": "9.0.3",
       "fixed": "9.0.4",
@@ -77,6 +76,15 @@
       "CVE-2025-26682"
     ],
     "9.0": [
+      "CVE-2025-26682"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "microsoft.aspnetcore.app.runtime": [
       "CVE-2025-26682"
     ]
   }

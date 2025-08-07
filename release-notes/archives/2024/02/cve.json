@@ -12,7 +12,6 @@
       "description": [
         "A vulnerability exists in ASP.NET applications using SignalR where a malicious client can result in a denial-of-service."
       ],
-      "product": "ASP.NET Core",
       "cna": "Microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/295"
@@ -29,7 +28,6 @@
       "description": [
         "A denial-of-service vulnerability exists in .NET with OpenSSL support when parsing X509 certificates."
       ],
-      "product": ".NET",
       "cna": "Microsoft",
       "platforms": [
         "Linux"
@@ -39,10 +37,10 @@
       ]
     }
   ],
-  "core": [
+  "products": [
     {
       "cve-id": "CVE-2024-21386",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.26",
       "fixed": "6.0.27",
@@ -51,7 +49,7 @@
     },
     {
       "cve-id": "CVE-2024-21404",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "6.0.0",
       "max-vulnerable": "6.0.26",
       "fixed": "6.0.27",
@@ -60,7 +58,7 @@
     },
     {
       "cve-id": "CVE-2024-21386",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.15",
       "fixed": "7.0.16",
@@ -69,7 +67,7 @@
     },
     {
       "cve-id": "CVE-2024-21404",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.15",
       "fixed": "7.0.16",
@@ -78,7 +76,7 @@
     },
     {
       "cve-id": "CVE-2024-21386",
-      "name": "Microsoft.AspNetCore.App.Runtime",
+      "name": "aspnetcore",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.1",
       "fixed": "8.0.2",
@@ -87,7 +85,7 @@
     },
     {
       "cve-id": "CVE-2024-21404",
-      "name": "Microsoft.NETCore.App.Runtime",
+      "name": "dotnet",
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.1",
       "fixed": "8.0.2",
@@ -121,6 +119,18 @@
     ],
     "8.0": [
       "CVE-2024-21386",
+      "CVE-2024-21404"
+    ]
+  },
+  "product-names": {
+    "dotnet": ".NET",
+    "aspnetcore": "ASP.NET Core"
+  },
+  "product-cves": {
+    "aspnetcore": [
+      "CVE-2024-21386"
+    ],
+    "dotnet": [
       "CVE-2024-21404"
     ]
   }
