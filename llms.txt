@@ -3,7 +3,7 @@
 
 ## CRITICAL: Required Behaviors
 1. **Always use JSON files** (`*.json`) over Markdown when available
-2. **For CVE queries**: After listing CVEs, ALWAYS ask "Would you like inline diffs for these fixes?"
+2. **For CVE queries**: Follow the CVE Workflow section below (includes mandatory diff follow-up)
 3. **Start responses**: "Here's what I found in .NET release notes..."
 4. **Follow HAL links**: Use `_links.href` values from JSON, never construct URLs manually
 5. **GitHub commits**: Append `.diff` (preferred) or `.patch` to commit URLs
