@@ -13,6 +13,9 @@
         "A vulnerability exists in .NET SDK or MSBuild applications where external control of file name or path allows an unauthorized attacked to perform spoofing over a network."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/356"
       ]
@@ -27,7 +30,8 @@
       "fixed": "8.0.116",
       "commits": [
         "d00609e7978ee1b0fe62b39a378611311cf85603"
-      ]
+      ],
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -35,7 +39,8 @@
       "min-vulnerable": "8.0.300",
       "max-vulnerable": "8.0.312",
       "fixed": "8.0.313",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -45,7 +50,8 @@
       "fixed": "8.0.409",
       "commits": [
         "7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
-      ]
+      ],
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -55,7 +61,8 @@
       "fixed": "9.0.106",
       "commits": [
         "ad312fc3980fd8c562fac172bc17318c447eeb75"
-      ]
+      ],
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -65,7 +72,8 @@
       "fixed": "9.0.204",
       "commits": [
         "070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753"
-      ]
+      ],
+      "release": ""
     }
   ],
   "extensions": [
@@ -75,7 +83,8 @@
       "min-vulnerable": "15.8.166",
       "max-vulnerable": "15.9.20",
       "fixed": "15.9.30",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -83,7 +92,8 @@
       "min-vulnerable": "16.0.461",
       "max-vulnerable": "16.11.0",
       "fixed": "16.11.6",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -91,7 +101,8 @@
       "min-vulnerable": "17.0.0",
       "max-vulnerable": "17.8.3",
       "fixed": "17.8.29",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -99,7 +110,8 @@
       "min-vulnerable": "17.9.5",
       "max-vulnerable": "17.10.4",
       "fixed": "17.10.29",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -107,7 +119,8 @@
       "min-vulnerable": "17.11.4",
       "max-vulnerable": "17.11.4",
       "fixed": "17.13.26",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -115,7 +128,8 @@
       "min-vulnerable": "17.12.6",
       "max-vulnerable": "17.12.6",
       "fixed": "17.13.26",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-26646",
@@ -123,7 +137,8 @@
       "min-vulnerable": "17.13.9",
       "max-vulnerable": "17.13.9",
       "fixed": "17.14.8",
-      "commits": null
+      "commits": null,
+      "release": ""
     }
   ],
   "commits": {

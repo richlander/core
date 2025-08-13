@@ -13,6 +13,9 @@
         "A vulnerability exists in the Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider where an attackercan perform an AiTM (adversary-in-the-middle) attack between the SQL client and the SQL server. This may allow the attacker to steal authentication credentials intended for the database server, even if the connection is established over an encrypted channel like TLS."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/292"
       ]
@@ -32,6 +35,9 @@
         "Within .NET, only the WindowsDesktop shared runtime contains inbox components which utilize X.509 chain building APIs in a vulnerable manner. Other project types, such as web applications, are not impacted by this vulnerability unless they explicitly invoke the X.509 chain building APIs themselves in a vulnerable manner or they consume an external package which does this on their behalf."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/291"
       ]
@@ -51,6 +57,9 @@
         "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/290"
       ]
@@ -146,7 +155,8 @@
       "min-vulnerable": "1.0.19123.2-Preview",
       "max-vulnerable": "2.1.6",
       "fixed": "2.17",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-0056",
@@ -154,7 +164,8 @@
       "min-vulnerable": "3.0.0",
       "max-vulnerable": "3.1.4",
       "fixed": "3.1.5",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-0056",
@@ -162,7 +173,8 @@
       "min-vulnerable": "4.0.0",
       "max-vulnerable": "4.0.4",
       "fixed": "4.0.5",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-0056",
@@ -170,7 +182,8 @@
       "min-vulnerable": "5.0.0",
       "max-vulnerable": "5.1.2",
       "fixed": "5.1.3",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-21319",
@@ -178,7 +191,8 @@
       "min-vulnerable": "5.2.4",
       "max-vulnerable": "5.6.0",
       "fixed": "5.7.0",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-21319",
@@ -186,7 +200,8 @@
       "min-vulnerable": "6.5.0",
       "max-vulnerable": "6.33.0",
       "fixed": "6.34.0",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-21319",
@@ -194,7 +209,8 @@
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.3",
       "fixed": "7.1.2",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-0056",
@@ -202,7 +218,8 @@
       "min-vulnerable": "1.0.0-beta1",
       "max-vulnerable": "4.8.5",
       "fixed": "4.8.6",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-21319",
@@ -210,7 +227,8 @@
       "min-vulnerable": "5.2.4",
       "max-vulnerable": "5.6.0",
       "fixed": "5.7.0",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-21319",
@@ -218,7 +236,8 @@
       "min-vulnerable": "6.5.0",
       "max-vulnerable": "6.33.0",
       "fixed": "6.34.0",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-21319",
@@ -226,7 +245,8 @@
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.3",
       "fixed": "7.1.2",
-      "commits": null
+      "commits": null,
+      "release": ""
     }
   ],
   "commits": {},

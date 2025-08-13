@@ -11,6 +11,9 @@
       },
       "description": null,
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/362"
       ]
@@ -25,7 +28,8 @@
       "fixed": "8.0.117",
       "commits": [
         "d00609e7978ee1b0fe62b39a378611311cf85603"
-      ]
+      ],
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-30399",
@@ -33,7 +37,8 @@
       "min-vulnerable": "8.0.300",
       "max-vulnerable": "8.0.312",
       "fixed": "8.0.313",
-      "commits": null
+      "commits": null,
+      "release": ""
     },
     {
       "cve-id": "CVE-2025-30399",
@@ -43,7 +48,8 @@
       "fixed": "8.0.410",
       "commits": [
         "7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
-      ]
+      ],
+      "release": ""
     }
   ],
   "extensions": [],

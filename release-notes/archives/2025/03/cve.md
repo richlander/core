@@ -2,19 +2,19 @@
 
 The following vulnerabilities have been patched.
 
-| ID                               | Title                                     | Severity | Product | Platforms | CVSS                                                       |
-| -------------------------------- | ----------------------------------------- | -------- | ------- | --------- | ---------------------------------------------------------- |
-| [CVE-2025-24070][CVE-2025-24070] | .NET Elevation of Privilege Vulnerability | High     |         | All       | CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| ID                               | Problem                                   | Severity | Platforms | CVSS                                                       |
+| -------------------------------- | ----------------------------------------- | -------- | --------- | ---------------------------------------------------------- |
+| [CVE-2025-24070][CVE-2025-24070] | .NET Elevation of Privilege Vulnerability | High     | All       | CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 
 
 ## Platform Components
 
 The following table lists version ranges for affected platform components.
 
-| Component | Min Version | Max Version | Fixed Version                                                                         | CVE            | Source fix          |
-| --------- | ----------- | ----------- | ------------------------------------------------------------------------------------- | -------------- | ------------------- |
-| ASP.NET Runtime | >=8.0.0 | <=8.0.13  | [8.0.14](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.14/8.0.14.md) | CVE-2025-24070 | [67f3b04][67f3b04]  |
-|           | >=9.0.0     | <=8.0.2     | [9.0.3](https://github.com/dotnet/core/blob/main/release-notes/9.0/9.0.3/9.0.3.md)    | CVE-2025-24070 | [f71e283][f71e283]  |
+| Component | Min Version | Max Version | Fixed Version                                              | CVE            | Source fix          |
+| --------- | ----------- | ----------- | ---------------------------------------------------------- | -------------- | ------------------- |
+| [aspnetcore][aspnetcore] | >=8.0.0 | <=8.0.13 | [8.0.14](https://www.nuget.org/packages/aspnetcore/8.0.14) | CVE-2025-24070 | [67f3b04][67f3b04]  |
+|           | >=9.0.0     | <=8.0.2     | [9.0.3](https://www.nuget.org/packages/aspnetcore/9.0.3)   | CVE-2025-24070 | [f71e283][f71e283]  |
 
 
 ## Packages
@@ -39,6 +39,7 @@ The following table lists commits for affected packages.
 
 
 [CVE-2025-24070]: https://github.com/dotnet/announcements/issues/348
+[aspnetcore]: https://www.nuget.org/packages/aspnetcore
 [Microsoft.AspNetCore.Identity]: https://www.nuget.org/packages/Microsoft.AspNetCore.Identity
 [dotnet/aspnetcore]: https://github.com/dotnet/aspnetcore
 [release/8.0]: https://github.com/dotnet/aspnetcore/tree/release/8.0

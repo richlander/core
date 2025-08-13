@@ -2,9 +2,9 @@
 
 The following vulnerabilities have been patched.
 
-| ID                               | Title                                         | Severity | Product | Platforms | CVSS                                                       |
-| -------------------------------- | --------------------------------------------- | -------- | ------- | --------- | ---------------------------------------------------------- |
-| [CVE-2025-26646][CVE-2025-26646] | .NET and Visual Studio Spoofing Vulnerability | High     |         | All       | CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| ID                               | Problem                                       | Severity | Platforms | CVSS                                                       |
+| -------------------------------- | --------------------------------------------- | -------- | --------- | ---------------------------------------------------------- |
+| [CVE-2025-26646][CVE-2025-26646] | .NET and Visual Studio Spoofing Vulnerability | High     | All       | CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
 
 
 ## Platform Components
@@ -13,11 +13,11 @@ The following table lists version ranges for affected platform components.
 
 | Component | Min Version | Max Version | Fixed Version                                                           | CVE            | Source fix          |
 | --------- | ----------- | ----------- | ----------------------------------------------------------------------- | -------------- | ------------------- |
-| [Microsoft.NetCore.Sdk][Microsoft.NetCore.Sdk] | >=8.0.100 | <=8.0.115 | [8.0.116](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.116) | CVE-2025-26646 | [d00609e][d00609e]  |
-|           | >=8.0.300   | <=8.0.312   | [8.0.313](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.313) | CVE-2025-26646 |                     |
-|           | >=8.0.400   | <=8.0.408   | [8.0.409](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/8.0.409) | CVE-2025-26646 | [7892f91][7892f91]  |
-|           | >=9.0.100   | <=9.0.105   | [9.0.106](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/9.0.106) | CVE-2025-26646 | [ad312fc][ad312fc]  |
-|           | >=9.0.200   | <=9.0.203   | [9.0.204](https://www.nuget.org/packages/Microsoft.NetCore.Sdk/9.0.204) | CVE-2025-26646 | [070f5a4][070f5a4]  |
+| [microsoft.netcore.sdk][microsoft.netcore.sdk] | >=8.0.100 | <=8.0.115 | [8.0.116](https://www.nuget.org/packages/microsoft.netcore.sdk/8.0.116) | CVE-2025-26646 | [d00609e][d00609e]  |
+|           | >=8.0.300   | <=8.0.312   | [8.0.313](https://www.nuget.org/packages/microsoft.netcore.sdk/8.0.313) | CVE-2025-26646 |                     |
+|           | >=8.0.400   | <=8.0.408   | [8.0.409](https://www.nuget.org/packages/microsoft.netcore.sdk/8.0.409) | CVE-2025-26646 | [7892f91][7892f91]  |
+|           | >=9.0.100   | <=9.0.105   | [9.0.106](https://www.nuget.org/packages/microsoft.netcore.sdk/9.0.106) | CVE-2025-26646 | [ad312fc][ad312fc]  |
+|           | >=9.0.200   | <=9.0.203   | [9.0.204](https://www.nuget.org/packages/microsoft.netcore.sdk/9.0.204) | CVE-2025-26646 | [070f5a4][070f5a4]  |
 
 
 ## Packages
@@ -51,7 +51,7 @@ The following table lists commits for affected packages.
 
 
 [CVE-2025-26646]: https://github.com/dotnet/announcements/issues/356
-[Microsoft.NetCore.Sdk]: https://www.nuget.org/packages/Microsoft.NetCore.Sdk
+[microsoft.netcore.sdk]: https://www.nuget.org/packages/microsoft.netcore.sdk
 [Microsoft.Build.Tasks.Core]: https://www.nuget.org/packages/Microsoft.Build.Tasks.Core
 [dotnet/sdk]: https://github.com/dotnet/sdk
 [release/8.0.1xx]: https://github.com/dotnet/sdk/tree/release/8.0.1xx

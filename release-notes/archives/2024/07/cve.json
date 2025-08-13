@@ -13,6 +13,9 @@
         "A vulnerability exists in .NET when calling the JsonSerializer.DeserializeAsyncEnumerable method against an untrusted input using System.Text.Json may result in Denial of Service."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/315"
       ]
@@ -28,6 +31,9 @@
       "description": [
         "A Vulnerability exists in ASP.NET Core 8 where Data Corruption in Kestrel HTTP/3 can result in remote code execution.",
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.7"
+      ],
+      "platforms": [
+        "All"
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/314"
@@ -61,6 +67,9 @@
       },
       "description": [
         "A vulnerability exists when System.Formats.Asn1 in .NET parses an X.509 certificate or collection of certificates, a malicious certificate can result in excessive CPU consumption on all platforms result in Denial of Service."
+      ],
+      "platforms": [
+        "All"
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/312"
@@ -133,7 +142,8 @@
       "fixed": "6.0.1",
       "commits": [
         "0a0dd0e27560e692e11ee286ed9f45471b2131fa"
-      ]
+      ],
+      "release": ""
     },
     {
       "cve-id": "CVE-2024-38095",

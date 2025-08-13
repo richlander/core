@@ -13,6 +13,9 @@
         "A vulnerability exists in ASP.NET applications using SignalR where a malicious client can result in a denial-of-service."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/295"
       ]

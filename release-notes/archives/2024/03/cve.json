@@ -32,6 +32,9 @@
         "A vulnerability exists in .NET where specially crafted requests may cause a resource leak, leading to a Denial of Service."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/299"
       ]

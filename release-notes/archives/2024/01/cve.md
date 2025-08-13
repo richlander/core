@@ -2,28 +2,28 @@
 
 The following vulnerabilities have been patched.
 
-| ID                               | Title                                      | Severity | Product | Platforms | CVSS                                                       |
-| -------------------------------- | ------------------------------------------ | -------- | ------- | --------- | ---------------------------------------------------------- |
-| [CVE-2024-0056][CVE-2024-0056]   | Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider Information Disclosure Vulnerability | High | .NET | All | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C |
-| [CVE-2024-0057][CVE-2024-0057]   | .NET Security Feature Bypass Vulnerability | Critical | .NET    | All       | CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C |
-| [CVE-2024-21319][CVE-2024-21319] | .NET Denial of Service Vulnerability       | Critical | ASP.NET Core | All  | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C |
+| ID                               | Problem                                    | Severity | Platforms | CVSS                                                       |
+| -------------------------------- | ------------------------------------------ | -------- | --------- | ---------------------------------------------------------- |
+| [CVE-2024-0056][CVE-2024-0056]   | Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider Information Disclosure Vulnerability | High | All | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C |
+| [CVE-2024-0057][CVE-2024-0057]   | .NET Security Feature Bypass Vulnerability | Critical | All       | CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C |
+| [CVE-2024-21319][CVE-2024-21319] | .NET Denial of Service Vulnerability       | Critical | All       | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C |
 
 
 ## Platform Components
 
 The following table lists version ranges for affected platform components.
 
-| Component | Min Version | Max Version | Fixed Version                                                                         | CVE            | Source fix |
-| --------- | ----------- | ----------- | ------------------------------------------------------------------------------------- | -------------- | ---------- |
-| ASP.NET Runtime | >=6.0.0 | <=6.0.25  | [6.0.26](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.26/6.0.26.md) | CVE-2024-21319 |            |
-|           | >=7.0.0     | <=7.0.14    | [7.0.15](https://github.com/dotnet/core/blob/main/release-notes/7.0/7.0.15/7.0.15.md) | CVE-2024-21319 |            |
-|           | >=8.0.0     | <=8.0.0     | [8.0.1](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.1/8.0.1.md)    | CVE-2024-21319 |            |
-| .NET Runtime | >=6.0.0  | <=6.0.25    | [6.0.26](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.26/6.0.26.md) | CVE-2024-0057  |            |
-|           | >=7.0.0     | <=7.0.14    | [7.0.15](https://github.com/dotnet/core/blob/main/release-notes/7.0/7.0.15/7.0.15.md) | CVE-2024-0057  |            |
-|           | >=8.0.0     | <=8.0.0     | [8.0.1](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.1/8.0.1.md)    | CVE-2024-0057  |            |
-| Windows Desktop Runtime | >=6.0.0 | <=6.0.25 | [6.0.26](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.26/6.0.26.md) | CVE-2024-0057 |      |
-|           | >=7.0.0     | <=7.0.14    | [7.0.15](https://github.com/dotnet/core/blob/main/release-notes/7.0/7.0.15/7.0.15.md) | CVE-2024-0057  |            |
-|           | >=8.0.0     | <=8.0.0     | [8.0.1](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.1/8.0.1.md)    | CVE-2024-0057  |            |
+| Component | Min Version | Max Version | Fixed Version                                              | CVE            | Source fix |
+| --------- | ----------- | ----------- | ---------------------------------------------------------- | -------------- | ---------- |
+| [aspnetcore][aspnetcore] | >=6.0.0 | <=6.0.25 | [6.0.26](https://www.nuget.org/packages/aspnetcore/6.0.26) | CVE-2024-21319 |    |
+|           | >=7.0.0     | <=7.0.14    | [7.0.15](https://www.nuget.org/packages/aspnetcore/7.0.15) | CVE-2024-21319 |            |
+|           | >=8.0.0     | <=8.0.0     | [8.0.1](https://www.nuget.org/packages/aspnetcore/8.0.1)   | CVE-2024-21319 |            |
+| [dotnet][dotnet] | >=6.0.0 | <=6.0.25 | [6.0.26](https://www.nuget.org/packages/dotnet/6.0.26)     | CVE-2024-0057  |            |
+|           | >=6.0.0     | <=6.0.25    | [6.0.26](https://www.nuget.org/packages/dotnet/6.0.26)     | CVE-2024-0057  |            |
+|           | >=7.0.0     | <=7.0.14    | [7.0.15](https://www.nuget.org/packages/dotnet/7.0.15)     | CVE-2024-0057  |            |
+|           | >=7.0.0     | <=7.0.14    | [7.0.15](https://www.nuget.org/packages/dotnet/7.0.15)     | CVE-2024-0057  |            |
+|           | >=8.0.0     | <=8.0.0     | [8.0.1](https://www.nuget.org/packages/dotnet/8.0.1)       | CVE-2024-0057  |            |
+|           | >=8.0.0     | <=8.0.0     | [8.0.1](https://www.nuget.org/packages/dotnet/8.0.1)       | CVE-2024-0057  |            |
 
 
 ## Packages
@@ -46,9 +46,20 @@ The following table lists version ranges for affected packages.
 
 
 
+## Commits
+
+The following table lists commits for affected packages.
+
+| Repo | Branch | Commit |
+| ---- | ------ | ------ |
+
+
+
 [CVE-2024-0056]: https://github.com/dotnet/announcements/issues/292
 [CVE-2024-0057]: https://github.com/dotnet/announcements/issues/291
 [CVE-2024-21319]: https://github.com/dotnet/announcements/issues/290
+[aspnetcore]: https://www.nuget.org/packages/aspnetcore
+[dotnet]: https://www.nuget.org/packages/dotnet
 [Microsoft.Data.SqlClient]: https://www.nuget.org/packages/Microsoft.Data.SqlClient
 [Microsoft.IdentityModel.JsonWebTokens]: https://www.nuget.org/packages/Microsoft.IdentityModel.JsonWebTokens
 [System.Data.SqlClient]: https://www.nuget.org/packages/System.Data.SqlClient

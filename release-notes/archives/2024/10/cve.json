@@ -13,6 +13,9 @@
         "System.Security.Cryptography.Cose, System.IO.Packaging, Microsoft.Extensions.Caching.Memory may be exposed to a hostile input which may lead them to be susceptible to hash flooding attacks resulting in denial of service."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/327"
       ]
@@ -29,6 +32,9 @@
         "The System.IO.Packaging library may allow untrusted inputs to influence algorithmically complex operations, leading to denial of service."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/328"
       ]
@@ -45,6 +51,9 @@
         "In System.Text.Json 6.0.x and 8.0.x, applications which deserialize input to a model with an [ExtensionData] property can be vulnerable to an algorithmic complexity attack resulting in Denial of Service."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/329"
       ]
@@ -62,6 +71,9 @@
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.10. .NET 6.0 will not receive a security patch for this vulnerability."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/326"
       ]

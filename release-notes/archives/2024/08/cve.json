@@ -13,6 +13,9 @@
         "A vulnerability exists in .NET runtime TlsStream which may result in Information Disclosure."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/319"
       ]

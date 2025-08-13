@@ -2,25 +2,25 @@
 
 The following vulnerabilities have been patched.
 
-| ID                               | Title                                    | Severity | Product | Platforms | CVSS                                                       |
-| -------------------------------- | ---------------------------------------- | -------- | ------- | --------- | ---------------------------------------------------------- |
-| [CVE-2024-30105][CVE-2024-30105] | .NET Denial of Service Vulnerability     | Critical | .NET    | All       | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C |
-| [CVE-2024-35264][CVE-2024-35264] | .NET Remote Code Execution Vulnerability | Critical | ASP.NET Core | All  | CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
-| [CVE-2024-38081][CVE-2024-38081] | .NET Denial of Service Vulnerability     | Critical | .NET    | Windows   | CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
-| [CVE-2024-38095][CVE-2024-38095] | .NET Denial of Service Vulnerability     | Critical | .NET    | All       | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U/RL:O/RC:C |
+| ID                               | Problem                                  | Severity | Platforms | CVSS                                                       |
+| -------------------------------- | ---------------------------------------- | -------- | --------- | ---------------------------------------------------------- |
+| [CVE-2024-30105][CVE-2024-30105] | .NET Denial of Service Vulnerability     | Critical | All       | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C |
+| [CVE-2024-35264][CVE-2024-35264] | .NET Remote Code Execution Vulnerability | Critical | All       | CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| [CVE-2024-38081][CVE-2024-38081] | .NET Denial of Service Vulnerability     | Critical | Windows   | CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C |
+| [CVE-2024-38095][CVE-2024-38095] | .NET Denial of Service Vulnerability     | Critical | All       | CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L/E:U/RL:O/RC:C |
 
 
 ## Platform Components
 
 The following table lists version ranges for affected platform components.
 
-| Component | Min Version | Max Version | Fixed Version                                                                         | CVE            | Source fix          |
-| --------- | ----------- | ----------- | ------------------------------------------------------------------------------------- | -------------- | ------------------- |
-| ASP.NET Runtime | >=8.0.0 | <=8.0.6   | [8.0.7](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.7/8.0.7.md)    | CVE-2024-35264 | [c5721fb][c5721fb]  |
-| .NET Runtime | >=6.0.0  | <=6.0.31    | [6.0.32](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.32/6.0.32.md) | CVE-2024-38081 | [0a0dd0e][0a0dd0e]  |
-|           | >=6.0.0     | <=6.0.31    | [6.0.32](https://github.com/dotnet/core/blob/main/release-notes/6.0/6.0.32/6.0.32.md) | CVE-2024-38095 | [979135d][979135d]  |
-|           | >=8.0.0     | <=8.0.6     | [8.0.7](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.7/8.0.7.md)    | CVE-2024-30105 | [fa5b0d8][fa5b0d8]  |
-|           | >=8.0.0     | <=8.0.6     | [8.0.7](https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.7/8.0.7.md)    | CVE-2024-38095 | [4a8d5a0][4a8d5a0]  |
+| Component | Min Version | Max Version | Fixed Version                                            | CVE            | Source fix          |
+| --------- | ----------- | ----------- | -------------------------------------------------------- | -------------- | ------------------- |
+| [aspnetcore][aspnetcore] | >=8.0.0 | <=8.0.6 | [8.0.7](https://www.nuget.org/packages/aspnetcore/8.0.7) | CVE-2024-35264 | [c5721fb][c5721fb]  |
+| [dotnet][dotnet] | >=6.0.0 | <=6.0.31 | [6.0.32](https://www.nuget.org/packages/dotnet/6.0.32)   | CVE-2024-38081 | [0a0dd0e][0a0dd0e]  |
+|           | >=6.0.0     | <=6.0.31    | [6.0.32](https://www.nuget.org/packages/dotnet/6.0.32)   | CVE-2024-38095 | [979135d][979135d]  |
+|           | >=8.0.0     | <=8.0.6     | [8.0.7](https://www.nuget.org/packages/dotnet/8.0.7)     | CVE-2024-30105 | [fa5b0d8][fa5b0d8]  |
+|           | >=8.0.0     | <=8.0.6     | [8.0.7](https://www.nuget.org/packages/dotnet/8.0.7)     | CVE-2024-38095 | [4a8d5a0][4a8d5a0]  |
 
 
 ## Packages
@@ -54,6 +54,8 @@ The following table lists commits for affected packages.
 [CVE-2024-35264]: https://github.com/dotnet/announcements/issues/314
 [CVE-2024-38081]: https://github.com/dotnet/announcements/issues/313
 [CVE-2024-38095]: https://github.com/dotnet/announcements/issues/312
+[aspnetcore]: https://www.nuget.org/packages/aspnetcore
+[dotnet]: https://www.nuget.org/packages/dotnet
 [Microsoft.IO.Redist]: https://www.nuget.org/packages/Microsoft.IO.Redist
 [System.Formats.Asn1]: https://www.nuget.org/packages/System.Formats.Asn1
 [System.Text.Json]: https://www.nuget.org/packages/System.Text.Json

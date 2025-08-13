@@ -13,6 +13,9 @@
         "A Remote Code Execution vulnerability exists in .NET 7.0 and .NET 8.0 where a stack buffer overrun occurs in .NET Double Parse routine."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/307"
       ]
@@ -29,6 +32,9 @@
         "A vulnerability exists in Microsoft.AspNetCore.Server.Kestrel.Core.dll where a dead-lock can occur resulting in Denial of Service."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/308"
       ]
@@ -41,7 +47,7 @@
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.18",
       "fixed": "7.0.19",
-      "release": "unknown",
+      "release": "",
       "commits": null
     },
     {
@@ -50,7 +56,7 @@
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.4",
       "fixed": "8.0.5",
-      "release": "unknown",
+      "release": "",
       "commits": null
     },
     {
@@ -59,7 +65,7 @@
       "min-vulnerable": "7.0.0",
       "max-vulnerable": "7.0.18",
       "fixed": "7.0.19",
-      "release": "unknown",
+      "release": "",
       "commits": null
     },
     {
@@ -68,7 +74,7 @@
       "min-vulnerable": "8.0.0",
       "max-vulnerable": "8.0.4",
       "fixed": "8.0.5",
-      "release": "unknown",
+      "release": "",
       "commits": null
     }
   ],

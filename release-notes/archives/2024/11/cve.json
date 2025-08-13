@@ -16,6 +16,9 @@
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/334"
       ]
@@ -35,6 +38,9 @@
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
       ],
       "cna": "Microsoft",
+      "platforms": [
+        "All"
+      ],
       "references": [
         "https://github.com/dotnet/announcements/issues/333"
       ]
