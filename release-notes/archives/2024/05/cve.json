@@ -1,21 +1,29 @@
 {
-  "date": "2024-05-14",
+  "last_updated": "2024-05-14",
+  "title": ".NET Security Updates for May 2024 (2024-05-14)",
   "cves": [
     {
       "id": "CVE-2024-30045",
       "problem": ".NET Remote Code Execution Vulnerability",
-      "severity": "Critical",
+      "severity": "critical",
+      "timeline": {
+        "disclosed": "2024-05-14",
+        "fixed": "2024-05-14"
+      },
       "cvss": {
         "version": "3.1",
-        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L/E:U/RL:O/RC:C"
       },
       "description": [
         "A Remote Code Execution vulnerability exists in .NET 7.0 and .NET 8.0 where a stack buffer overrun occurs in .NET Double Parse routine."
       ],
-      "cna": "Microsoft",
       "platforms": [
-        "All"
+        "all"
       ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/307"
       ]
@@ -23,18 +31,25 @@
     {
       "id": "CVE-2024-30046",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "Critical",
+      "severity": "critical",
+      "timeline": {
+        "disclosed": "2024-05-14",
+        "fixed": "2024-05-14"
+      },
       "cvss": {
         "version": "3.1",
-        "uri": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
       },
       "description": [
         "A vulnerability exists in Microsoft.AspNetCore.Server.Kestrel.Core.dll where a dead-lock can occur resulting in Denial of Service."
       ],
-      "cna": "Microsoft",
       "platforms": [
-        "All"
+        "all"
       ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/308"
       ]
@@ -42,37 +57,37 @@
   ],
   "products": [
     {
-      "cve-id": "CVE-2024-30045",
-      "name": "dotnet",
-      "min-vulnerable": "7.0.0",
-      "max-vulnerable": "7.0.18",
+      "cve_id": "CVE-2024-30045",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "7.0.0",
+      "max_vulnerable": "7.0.18",
       "fixed": "7.0.19",
       "release": "",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-30045",
-      "name": "dotnet",
-      "min-vulnerable": "8.0.0",
-      "max-vulnerable": "8.0.4",
+      "cve_id": "CVE-2024-30045",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.4",
       "fixed": "8.0.5",
       "release": "",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-30046",
-      "name": "aspnetcore",
-      "min-vulnerable": "7.0.0",
-      "max-vulnerable": "7.0.18",
+      "cve_id": "CVE-2024-30046",
+      "name": "dotnet-runtime-aspnetcore",
+      "min_vulnerable": "7.0.0",
+      "max_vulnerable": "7.0.18",
       "fixed": "7.0.19",
       "release": "",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-30046",
-      "name": "aspnetcore",
-      "min-vulnerable": "8.0.0",
-      "max-vulnerable": "8.0.4",
+      "cve_id": "CVE-2024-30046",
+      "name": "dotnet-runtime-aspnetcore",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.4",
       "fixed": "8.0.5",
       "release": "",
       "commits": null
@@ -80,8 +95,8 @@
   ],
   "extensions": [],
   "commits": {},
-  "cve-commits": {},
-  "cve-releases": {
+  "cve_commits": {},
+  "cve_releases": {
     "CVE-2024-30045": [
       "unknown"
     ],
@@ -89,21 +104,21 @@
       "unknown"
     ]
   },
-  "release-cves": {
+  "release_cves": {
     "unknown": [
       "CVE-2024-30045",
       "CVE-2024-30046"
     ]
   },
-  "product-names": {
-    "dotnet": ".NET",
-    "aspnetcore": "ASP.NET Core"
+  "product_name": {
+    "dotnet-runtime-libraries": ".NET Runtime Libraries",
+    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product-cves": {
-    "dotnet": [
+  "product_cves": {
+    "dotnet-runtime-libraries": [
       "CVE-2024-30045"
     ],
-    "aspnetcore": [
+    "dotnet-runtime-aspnetcore": [
       "CVE-2024-30046"
     ]
   }

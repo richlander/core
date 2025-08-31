@@ -1,21 +1,29 @@
 {
-  "date": "2024-04-09",
+  "last_updated": "2024-04-09",
+  "title": ".NET Security Updates for April 2024 (2024-04-09)",
   "cves": [
     {
       "id": "CVE-2024-21409",
       "problem": ".NET Elevation of Privilege Vulnerability",
-      "severity": "Critical",
+      "severity": "critical",
+      "timeline": {
+        "disclosed": "2024-04-09",
+        "fixed": "2024-04-09"
+      },
       "cvss": {
         "version": "3.1",
-        "uri": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": [
         "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
       ],
-      "cna": "Microsoft",
       "platforms": [
-        "Windows"
+        "windows"
       ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/303"
       ]
@@ -23,28 +31,28 @@
   ],
   "products": [
     {
-      "cve-id": "CVE-2024-21409",
-      "name": "dotnet",
-      "min-vulnerable": "6.0.0",
-      "max-vulnerable": "6.0.28",
+      "cve_id": "CVE-2024-21409",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "6.0.0",
+      "max_vulnerable": "6.0.28",
       "fixed": "6.0.29",
       "release": "6.0",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-21409",
-      "name": "dotnet",
-      "min-vulnerable": "7.0.0",
-      "max-vulnerable": "7.0.17",
+      "cve_id": "CVE-2024-21409",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "7.0.0",
+      "max_vulnerable": "7.0.17",
       "fixed": "7.0.18",
       "release": "7.0",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-21409",
-      "name": "dotnet",
-      "min-vulnerable": "8.0.0",
-      "max-vulnerable": "8.0.3",
+      "cve_id": "CVE-2024-21409",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.3",
       "fixed": "8.0.4",
       "release": "8.0",
       "commits": null
@@ -52,15 +60,15 @@
   ],
   "extensions": [],
   "commits": {},
-  "cve-commits": {},
-  "cve-releases": {
+  "cve_commits": {},
+  "cve_releases": {
     "CVE-2024-21409": [
       "6.0",
       "7.0",
       "8.0"
     ]
   },
-  "release-cves": {
+  "release_cves": {
     "6.0": [
       "CVE-2024-21409"
     ],
@@ -71,12 +79,12 @@
       "CVE-2024-21409"
     ]
   },
-  "product-names": {
-    "dotnet": ".NET",
-    "aspnetcore": "ASP.NET Core"
+  "product_name": {
+    "dotnet-runtime-libraries": ".NET Runtime Libraries",
+    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product-cves": {
-    "dotnet": [
+  "product_cves": {
+    "dotnet-runtime-libraries": [
       "CVE-2024-21409"
     ]
   }

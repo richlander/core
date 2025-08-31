@@ -1,19 +1,27 @@
 {
-  "date": "2025-06-10",
+  "last_updated": "2025-06-10",
+  "title": ".NET Security Updates for June 2025 (2025-06-10)",
   "cves": [
     {
       "id": "CVE-2025-30399",
       "problem": "DLL Hijacking Remote Code Execution Vulnerability",
-      "severity": "High",
+      "severity": "high",
+      "timeline": {
+        "disclosed": "2025-06-10",
+        "fixed": "2025-06-10"
+      },
       "cvss": {
         "version": "3.1",
-        "uri": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": null,
-      "cna": "Microsoft",
       "platforms": [
-        "All"
+        "all"
       ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/362"
       ]
@@ -21,35 +29,35 @@
   ],
   "products": [
     {
-      "cve-id": "CVE-2025-30399",
+      "cve_id": "CVE-2025-30399",
       "name": "microsoft.netcore.sdk",
-      "min-vulnerable": "8.0.100",
-      "max-vulnerable": "8.0.116",
+      "min_vulnerable": "8.0.100",
+      "max_vulnerable": "8.0.116",
       "fixed": "8.0.117",
+      "release": "",
       "commits": [
         "d00609e7978ee1b0fe62b39a378611311cf85603"
-      ],
-      "release": ""
+      ]
     },
     {
-      "cve-id": "CVE-2025-30399",
+      "cve_id": "CVE-2025-30399",
       "name": "microsoft.netcore.sdk",
-      "min-vulnerable": "8.0.300",
-      "max-vulnerable": "8.0.312",
+      "min_vulnerable": "8.0.300",
+      "max_vulnerable": "8.0.312",
       "fixed": "8.0.313",
-      "commits": null,
-      "release": ""
+      "release": "",
+      "commits": null
     },
     {
-      "cve-id": "CVE-2025-30399",
+      "cve_id": "CVE-2025-30399",
       "name": "microsoft.netcore.sdk",
-      "min-vulnerable": "8.0.400",
-      "max-vulnerable": "8.0.409",
+      "min_vulnerable": "8.0.400",
+      "max_vulnerable": "8.0.409",
       "fixed": "8.0.410",
+      "release": "",
       "commits": [
         "7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
-      ],
-      "release": ""
+      ]
     }
   ],
   "extensions": [],
@@ -69,19 +77,19 @@
       "url": "https://github.com/dotnet/runtime/commit/214743ee2a5a25b9a3a07e3f0451da73eb4e97e2.diff"
     }
   },
-  "cve-commits": {
+  "cve_commits": {
     "CVE-2025-30399": [
       "d00609e7978ee1b0fe62b39a378611311cf85603",
       "7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
     ]
   },
-  "cve-releases": {},
-  "release-cves": {},
-  "product-names": {
-    "dotnet": ".NET",
-    "aspnetcore": "ASP.NET Core"
+  "cve_releases": {},
+  "release_cves": {},
+  "product_name": {
+    "dotnet-runtime-libraries": ".NET Runtime Libraries",
+    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product-cves": {
+  "product_cves": {
     "microsoft.netcore.sdk": [
       "CVE-2025-30399"
     ]

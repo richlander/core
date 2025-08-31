@@ -1,21 +1,29 @@
 {
-  "date": "2024-02-13",
+  "last_updated": "2024-02-13",
+  "title": ".NET Security Updates for February 2024 (2024-02-13)",
   "cves": [
     {
       "id": "CVE-2024-21386",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "Critical",
+      "severity": "critical",
+      "timeline": {
+        "disclosed": "2024-02-13",
+        "fixed": "2024-02-13"
+      },
       "cvss": {
         "version": "3.1",
-        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
       },
       "description": [
         "A vulnerability exists in ASP.NET applications using SignalR where a malicious client can result in a denial-of-service."
       ],
-      "cna": "Microsoft",
       "platforms": [
-        "All"
+        "all"
       ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/295"
       ]
@@ -23,18 +31,25 @@
     {
       "id": "CVE-2024-21404",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "Critical",
+      "severity": "critical",
+      "timeline": {
+        "disclosed": "2024-02-13",
+        "fixed": "2024-02-13"
+      },
       "cvss": {
         "version": "3.1",
-        "uri": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
       },
       "description": [
         "A denial-of-service vulnerability exists in .NET with OpenSSL support when parsing X509 certificates."
       ],
-      "cna": "Microsoft",
       "platforms": [
-        "Linux"
+        "linux"
       ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/296"
       ]
@@ -42,55 +57,55 @@
   ],
   "products": [
     {
-      "cve-id": "CVE-2024-21386",
-      "name": "aspnetcore",
-      "min-vulnerable": "6.0.0",
-      "max-vulnerable": "6.0.26",
+      "cve_id": "CVE-2024-21386",
+      "name": "dotnet-runtime-aspnetcore",
+      "min_vulnerable": "6.0.0",
+      "max_vulnerable": "6.0.26",
       "fixed": "6.0.27",
       "release": "6.0",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-21404",
-      "name": "dotnet",
-      "min-vulnerable": "6.0.0",
-      "max-vulnerable": "6.0.26",
+      "cve_id": "CVE-2024-21404",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "6.0.0",
+      "max_vulnerable": "6.0.26",
       "fixed": "6.0.27",
       "release": "6.0",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-21386",
-      "name": "aspnetcore",
-      "min-vulnerable": "7.0.0",
-      "max-vulnerable": "7.0.15",
+      "cve_id": "CVE-2024-21386",
+      "name": "dotnet-runtime-aspnetcore",
+      "min_vulnerable": "7.0.0",
+      "max_vulnerable": "7.0.15",
       "fixed": "7.0.16",
       "release": "7.0",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-21404",
-      "name": "dotnet",
-      "min-vulnerable": "7.0.0",
-      "max-vulnerable": "7.0.15",
+      "cve_id": "CVE-2024-21404",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "7.0.0",
+      "max_vulnerable": "7.0.15",
       "fixed": "7.0.16",
       "release": "7.0",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-21386",
-      "name": "aspnetcore",
-      "min-vulnerable": "8.0.0",
-      "max-vulnerable": "8.0.1",
+      "cve_id": "CVE-2024-21386",
+      "name": "dotnet-runtime-aspnetcore",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.1",
       "fixed": "8.0.2",
       "release": "8.0",
       "commits": null
     },
     {
-      "cve-id": "CVE-2024-21404",
-      "name": "dotnet",
-      "min-vulnerable": "8.0.0",
-      "max-vulnerable": "8.0.1",
+      "cve_id": "CVE-2024-21404",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.1",
       "fixed": "8.0.2",
       "release": "8.0",
       "commits": null
@@ -98,8 +113,8 @@
   ],
   "extensions": [],
   "commits": {},
-  "cve-commits": {},
-  "cve-releases": {
+  "cve_commits": {},
+  "cve_releases": {
     "CVE-2024-21386": [
       "6.0",
       "7.0",
@@ -111,7 +126,7 @@
       "8.0"
     ]
   },
-  "release-cves": {
+  "release_cves": {
     "6.0": [
       "CVE-2024-21386",
       "CVE-2024-21404"
@@ -125,15 +140,15 @@
       "CVE-2024-21404"
     ]
   },
-  "product-names": {
-    "dotnet": ".NET",
-    "aspnetcore": "ASP.NET Core"
+  "product_name": {
+    "dotnet-runtime-libraries": ".NET Runtime Libraries",
+    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product-cves": {
-    "aspnetcore": [
+  "product_cves": {
+    "dotnet-runtime-aspnetcore": [
       "CVE-2024-21386"
     ],
-    "dotnet": [
+    "dotnet-runtime-libraries": [
       "CVE-2024-21404"
     ]
   }
