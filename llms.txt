@@ -37,7 +37,3 @@ Use `_links.href` values from JSON:
 4. List CVEs from `cves[]` array
 5. **ALWAYS ask**: "Would you like inline diffs for these fixes?"
 6. If yes: Use commit URLs from `commits{}` (already in `.diff` format for direct analysis)
-
-## Learn More
-- **Quick Reference**: `https://raw.githubusercontent.com/richlander/core/main/llms-quick-ref.md` - Response templates, HAL navigation, common workflows (1 page)
-- **Full Usage Guide**: `https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md` - Complete documentation with URL patterns, edge cases, architecture
