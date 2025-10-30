@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "extensions": [],
+  "packages": [],
   "commits": {
     "d6605eb150c993dd8943e2c1a6875a93927c301a": {
       "repo": "aspnetcore",
@@ -82,11 +82,8 @@
       "9.0"
     ]
   },
-  "release_cves": {
-    "8.0": [
-      "CVE-2025-26682"
-    ],
-    "9.0": [
+  "product_cves": {
+    "microsoft.aspnetcore.app.runtime": [
       "CVE-2025-26682"
     ]
   },
@@ -94,8 +91,11 @@
     "dotnet-runtime-libraries": ".NET Runtime Libraries",
     "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product_cves": {
-    "microsoft.aspnetcore.app.runtime": [
+  "release_cves": {
+    "8.0": [
+      "CVE-2025-26682"
+    ],
+    "9.0": [
       "CVE-2025-26682"
     ]
   }

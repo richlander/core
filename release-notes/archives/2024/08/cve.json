@@ -40,7 +40,7 @@
         "version": "3.1",
         "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
       },
-      "description": null,
+      "description": [],
       "platforms": [
         "windows"
       ],
@@ -77,7 +77,7 @@
       ]
     }
   ],
-  "extensions": [],
+  "packages": [],
   "commits": {
     "76f50f60931e85e9240715ebd1f345547cbae366": {
       "repo": "runtime",
@@ -110,9 +110,11 @@
       "8.0"
     ]
   },
-  "release_cves": {
-    "8.0": [
-      "CVE-2024-38167",
+  "product_cves": {
+    "dotnet-runtime-libraries": [
+      "CVE-2024-38167"
+    ],
+    "dotnet-runtime-aspnetcore": [
       "CVE-2024-38168"
     ]
   },
@@ -120,11 +122,9 @@
     "dotnet-runtime-libraries": ".NET Runtime Libraries",
     "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product_cves": {
-    "dotnet-runtime-libraries": [
-      "CVE-2024-38167"
-    ],
-    "dotnet-runtime-aspnetcore": [
+  "release_cves": {
+    "8.0": [
+      "CVE-2024-38167",
       "CVE-2024-38168"
     ]
   }

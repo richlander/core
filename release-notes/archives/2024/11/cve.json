@@ -85,7 +85,7 @@
       ]
     }
   ],
-  "extensions": [
+  "packages": [
     {
       "cve_id": "CVE-2024-43498",
       "name": "System.Formats.Nrbf",
@@ -135,11 +135,8 @@
       "9.0"
     ]
   },
-  "release_cves": {
-    "6.0": [
-      "CVE-2024-43498"
-    ],
-    "9.0": [
+  "product_cves": {
+    "dotnet-runtime-libraries": [
       "CVE-2024-43498",
       "CVE-2024-43499"
     ]
@@ -148,8 +145,11 @@
     "dotnet-runtime-libraries": ".NET Runtime Libraries",
     "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product_cves": {
-    "dotnet-runtime-libraries": [
+  "release_cves": {
+    "6.0": [
+      "CVE-2024-43498"
+    ],
+    "9.0": [
       "CVE-2024-43498",
       "CVE-2024-43499"
     ]

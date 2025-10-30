@@ -63,7 +63,7 @@
       "max_vulnerable": "6.0.26",
       "fixed": "6.0.27",
       "release": "6.0",
-      "commits": null
+      "commits": []
     },
     {
       "cve_id": "CVE-2024-21404",
@@ -72,7 +72,7 @@
       "max_vulnerable": "6.0.26",
       "fixed": "6.0.27",
       "release": "6.0",
-      "commits": null
+      "commits": []
     },
     {
       "cve_id": "CVE-2024-21386",
@@ -81,7 +81,7 @@
       "max_vulnerable": "7.0.15",
       "fixed": "7.0.16",
       "release": "7.0",
-      "commits": null
+      "commits": []
     },
     {
       "cve_id": "CVE-2024-21404",
@@ -90,7 +90,7 @@
       "max_vulnerable": "7.0.15",
       "fixed": "7.0.16",
       "release": "7.0",
-      "commits": null
+      "commits": []
     },
     {
       "cve_id": "CVE-2024-21386",
@@ -99,7 +99,7 @@
       "max_vulnerable": "8.0.1",
       "fixed": "8.0.2",
       "release": "8.0",
-      "commits": null
+      "commits": []
     },
     {
       "cve_id": "CVE-2024-21404",
@@ -108,10 +108,10 @@
       "max_vulnerable": "8.0.1",
       "fixed": "8.0.2",
       "release": "8.0",
-      "commits": null
+      "commits": []
     }
   ],
-  "extensions": [],
+  "packages": [],
   "commits": {},
   "cve_commits": {},
   "cve_releases": {
@@ -126,6 +126,18 @@
       "8.0"
     ]
   },
+  "product_cves": {
+    "dotnet-runtime-aspnetcore": [
+      "CVE-2024-21386"
+    ],
+    "dotnet-runtime-libraries": [
+      "CVE-2024-21404"
+    ]
+  },
+  "product_name": {
+    "dotnet-runtime-libraries": ".NET Runtime Libraries",
+    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
+  },
   "release_cves": {
     "6.0": [
       "CVE-2024-21386",
@@ -137,18 +149,6 @@
     ],
     "8.0": [
       "CVE-2024-21386",
-      "CVE-2024-21404"
-    ]
-  },
-  "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
-  },
-  "product_cves": {
-    "dotnet-runtime-aspnetcore": [
-      "CVE-2024-21386"
-    ],
-    "dotnet-runtime-libraries": [
       "CVE-2024-21404"
     ]
   }

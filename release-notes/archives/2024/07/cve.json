@@ -52,7 +52,8 @@
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/314"
-      ]
+      ],
+      "cna": "microsoft"
     },
     {
       "id": "CVE-2024-38081",
@@ -77,7 +78,8 @@
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/313"
-      ]
+      ],
+      "cna": "microsoft"
     },
     {
       "id": "CVE-2024-38095",
@@ -102,7 +104,8 @@
       ],
       "references": [
         "https://github.com/dotnet/announcements/issues/312"
-      ]
+      ],
+      "cna": "microsoft"
     }
   ],
   "products": [
@@ -162,7 +165,7 @@
       ]
     }
   ],
-  "extensions": [
+  "packages": [
     {
       "cve_id": "CVE-2024-38081",
       "name": "Microsoft.IO.Redist",
@@ -275,6 +278,20 @@
       "8.0"
     ]
   },
+  "product_cves": {
+    "dotnet-runtime-libraries": [
+      "CVE-2024-30105",
+      "CVE-2024-38081",
+      "CVE-2024-38095"
+    ],
+    "dotnet-runtime-aspnetcore": [
+      "CVE-2024-35264"
+    ]
+  },
+  "product_name": {
+    "dotnet-runtime-libraries": ".NET Runtime Libraries",
+    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
+  },
   "release_cves": {
     "6.0": [
       "CVE-2024-38081",
@@ -284,20 +301,6 @@
       "CVE-2024-30105",
       "CVE-2024-35264",
       "CVE-2024-38095"
-    ]
-  },
-  "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
-  },
-  "product_cves": {
-    "dotnet-runtime-libraries": [
-      "CVE-2024-30105",
-      "CVE-2024-38081",
-      "CVE-2024-38095"
-    ],
-    "dotnet-runtime-aspnetcore": [
-      "CVE-2024-35264"
     ]
   }
 }

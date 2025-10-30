@@ -114,7 +114,10 @@
       "release": "6.0",
       "commits": [
         "b3f8ef0105c079c255caa6aa31d630482db5d03c"
-      ]
+      ],
+      "min_vulnerable": "",
+      "max_vulnerable": "",
+      "fixed": ""
     },
     {
       "cve_id": "CVE-2025-21173",
@@ -122,7 +125,10 @@
       "release": "",
       "commits": [
         "4416ac92cd8588320132c4ce0d508d78a4a26d15"
-      ]
+      ],
+      "min_vulnerable": "",
+      "max_vulnerable": "",
+      "fixed": ""
     },
     {
       "cve_id": "CVE-2025-21176",
@@ -130,7 +136,10 @@
       "release": "6.0",
       "commits": [
         "b3f8ef0105c079c255caa6aa31d630482db5d03c"
-      ]
+      ],
+      "min_vulnerable": "",
+      "max_vulnerable": "",
+      "fixed": ""
     },
     {
       "cve_id": "CVE-2025-21172",
@@ -171,7 +180,10 @@
       "release": "",
       "commits": [
         "1ba623839f23fe8857d2aa0dc23783692325deab"
-      ]
+      ],
+      "min_vulnerable": "",
+      "max_vulnerable": "",
+      "fixed": ""
     },
     {
       "cve_id": "CVE-2025-21176",
@@ -229,7 +241,7 @@
       ]
     }
   ],
-  "extensions": [],
+  "packages": [],
   "commits": {
     "9da8c6a4a6ea03054e776275d3fd5c752897842e": {
       "repo": "runtime",
@@ -332,6 +344,20 @@
       "9.0"
     ]
   },
+  "product_cves": {
+    "dotnet-runtime-libraries": [
+      "CVE-2025-21171",
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ],
+    "microsoft.netcore.sdk": [
+      "CVE-2025-21173"
+    ]
+  },
+  "product_name": {
+    "dotnet-runtime-libraries": ".NET Runtime Libraries",
+    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
+  },
   "release_cves": {
     "6.0": [
       "CVE-2025-21172",
@@ -345,20 +371,6 @@
       "CVE-2025-21171",
       "CVE-2025-21172",
       "CVE-2025-21176"
-    ]
-  },
-  "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
-  },
-  "product_cves": {
-    "dotnet-runtime-libraries": [
-      "CVE-2025-21171",
-      "CVE-2025-21172",
-      "CVE-2025-21176"
-    ],
-    "microsoft.netcore.sdk": [
-      "CVE-2025-21173"
     ]
   }
 }

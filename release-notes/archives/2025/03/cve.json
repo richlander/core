@@ -15,7 +15,7 @@
         "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": [
-        "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user\u0027s account, resulting in Elevation of Privilege."
+        "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user's account, resulting in Elevation of Privilege."
       ],
       "platforms": [
         "all"
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "extensions": [
+  "packages": [
     {
       "cve_id": "CVE-2025-24070",
       "name": "Microsoft.AspNetCore.Identity",
@@ -61,7 +61,7 @@
       "max_vulnerable": "2.3.0",
       "fixed": "2.3.1",
       "release": "",
-      "commits": null
+      "commits": []
     }
   ],
   "commits": {
@@ -92,11 +92,8 @@
       "9.0"
     ]
   },
-  "release_cves": {
-    "8.0": [
-      "CVE-2025-24070"
-    ],
-    "9.0": [
+  "product_cves": {
+    "dotnet-runtime-aspnetcore": [
       "CVE-2025-24070"
     ]
   },
@@ -104,8 +101,11 @@
     "dotnet-runtime-libraries": ".NET Runtime Libraries",
     "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product_cves": {
-    "dotnet-runtime-aspnetcore": [
+  "release_cves": {
+    "8.0": [
+      "CVE-2025-24070"
+    ],
+    "9.0": [
       "CVE-2025-24070"
     ]
   }

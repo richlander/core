@@ -63,7 +63,7 @@
       "max_vulnerable": "7.0.18",
       "fixed": "7.0.19",
       "release": "",
-      "commits": null
+      "commits": []
     },
     {
       "cve_id": "CVE-2024-30045",
@@ -72,7 +72,7 @@
       "max_vulnerable": "8.0.4",
       "fixed": "8.0.5",
       "release": "",
-      "commits": null
+      "commits": []
     },
     {
       "cve_id": "CVE-2024-30046",
@@ -81,7 +81,7 @@
       "max_vulnerable": "7.0.18",
       "fixed": "7.0.19",
       "release": "",
-      "commits": null
+      "commits": []
     },
     {
       "cve_id": "CVE-2024-30046",
@@ -90,10 +90,10 @@
       "max_vulnerable": "8.0.4",
       "fixed": "8.0.5",
       "release": "",
-      "commits": null
+      "commits": []
     }
   ],
-  "extensions": [],
+  "packages": [],
   "commits": {},
   "cve_commits": {},
   "cve_releases": {
@@ -104,9 +104,11 @@
       "unknown"
     ]
   },
-  "release_cves": {
-    "unknown": [
-      "CVE-2024-30045",
+  "product_cves": {
+    "dotnet-runtime-libraries": [
+      "CVE-2024-30045"
+    ],
+    "dotnet-runtime-aspnetcore": [
       "CVE-2024-30046"
     ]
   },
@@ -114,11 +116,9 @@
     "dotnet-runtime-libraries": ".NET Runtime Libraries",
     "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
-  "product_cves": {
-    "dotnet-runtime-libraries": [
-      "CVE-2024-30045"
-    ],
-    "dotnet-runtime-aspnetcore": [
+  "release_cves": {
+    "unknown": [
+      "CVE-2024-30045",
       "CVE-2024-30046"
     ]
   }
