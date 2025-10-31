@@ -17,16 +17,10 @@
       "description": [
         "A vulnerability exists in the Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider where an attackercan perform an AiTM (adversary-in-the-middle) attack between the SQL client and the SQL server. This may allow the attacker to steal authentication credentials intended for the database server, even if the connection is established over an encrypted channel like TLS."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/292"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/292"]
     },
     {
       "id": "CVE-2024-0057",
@@ -46,16 +40,10 @@
       "mitigation": [
         "Within .NET, only the WindowsDesktop shared runtime contains inbox components which utilize X.509 chain building APIs in a vulnerable manner. Other project types, such as web applications, are not impacted by this vulnerability unless they explicitly invoke the X.509 chain building APIs themselves in a vulnerable manner or they consume an external package which does this on their behalf."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/291"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/291"]
     },
     {
       "id": "CVE-2024-21319",
@@ -75,16 +63,10 @@
       "mitigation": [
         "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/290"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/290"]
     }
   ],
   "products": [
@@ -274,41 +256,20 @@
   "commits": {},
   "cve_commits": {},
   "cve_releases": {
-    "CVE-2024-0057": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ],
-    "CVE-2024-21319": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
+    "CVE-2024-0057": ["6.0", "7.0", "8.0"],
+    "CVE-2024-21319": ["6.0", "7.0", "8.0"]
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2024-0057"
-    ],
-    "dotnet-aspnetcore": [
-      "CVE-2024-21319"
-    ]
+    "dotnet-runtime": ["CVE-2024-0057"],
+    "dotnet-aspnetcore": ["CVE-2024-21319"]
   },
   "product_name": {
     "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime"
   },
   "release_cves": {
-    "6.0": [
-      "CVE-2024-0057",
-      "CVE-2024-21319"
-    ],
-    "7.0": [
-      "CVE-2024-0057",
-      "CVE-2024-21319"
-    ],
-    "8.0": [
-      "CVE-2024-0057",
-      "CVE-2024-21319"
-    ]
+    "6.0": ["CVE-2024-0057", "CVE-2024-21319"],
+    "7.0": ["CVE-2024-0057", "CVE-2024-21319"],
+    "8.0": ["CVE-2024-0057", "CVE-2024-21319"]
   }
 }

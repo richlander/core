@@ -17,16 +17,10 @@
       "description": [
         "System.Security.Cryptography.Cose, System.IO.Packaging, Microsoft.Extensions.Caching.Memory may be exposed to a hostile input which may lead them to be susceptible to hash flooding attacks resulting in denial of service."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/327"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/327"]
     },
     {
       "id": "CVE-2024-43484",
@@ -43,16 +37,10 @@
       "description": [
         "The System.IO.Packaging library may allow untrusted inputs to influence algorithmically complex operations, leading to denial of service."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/328"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/328"]
     },
     {
       "id": "CVE-2024-43485",
@@ -69,16 +57,10 @@
       "description": [
         "In System.Text.Json 6.0.x and 8.0.x, applications which deserialize input to a model with an [ExtensionData] property can be vulnerable to an algorithmic complexity attack resulting in Denial of Service."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/329"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/329"]
     },
     {
       "id": "CVE-2024-38229",
@@ -96,16 +78,10 @@
         "A vulnerability exists in ASP.NET when closing an HTTP/3 stream while application code is writing to the response body, a race condition may lead to use-after-free.",
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.10. .NET 6.0 will not receive a security patch for this vulnerability."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/326"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/326"]
     }
   ],
   "products": [
@@ -116,9 +92,7 @@
       "max_vulnerable": "6.0.33",
       "fixed": "6.0.34",
       "release": "6.0",
-      "commits": [
-        "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
-      ]
+      "commits": ["132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"]
     },
     {
       "cve_id": "CVE-2024-43485",
@@ -127,9 +101,7 @@
       "max_vulnerable": "6.0.33",
       "fixed": "6.0.34",
       "release": "6.0",
-      "commits": [
-        "c3c2cc2e61411fc1c56ca962684348ccf5563ce4"
-      ]
+      "commits": ["c3c2cc2e61411fc1c56ca962684348ccf5563ce4"]
     },
     {
       "cve_id": "CVE-2024-38229",
@@ -138,9 +110,7 @@
       "max_vulnerable": "8.0.8",
       "fixed": "8.0.9",
       "release": "8.0",
-      "commits": [
-        "1002b673be5803ba63173ef8a2fdebe3e388a34a"
-      ]
+      "commits": ["1002b673be5803ba63173ef8a2fdebe3e388a34a"]
     },
     {
       "cve_id": "CVE-2024-43483",
@@ -149,9 +119,7 @@
       "max_vulnerable": "8.0.8",
       "fixed": "8.0.9",
       "release": "8.0",
-      "commits": [
-        "76f50f60931e85e9240715ebd1f345547cbae366"
-      ]
+      "commits": ["76f50f60931e85e9240715ebd1f345547cbae366"]
     },
     {
       "cve_id": "CVE-2024-43485",
@@ -160,9 +128,7 @@
       "max_vulnerable": "8.0.8",
       "fixed": "8.0.9",
       "release": "8.0",
-      "commits": [
-        "be46d16f6ff2daa6632136f7f100c5de89de6809"
-      ]
+      "commits": ["be46d16f6ff2daa6632136f7f100c5de89de6809"]
     }
   ],
   "packages": [
@@ -173,9 +139,7 @@
       "max_vulnerable": "6.0.0",
       "fixed": "6.0.1",
       "release": "6.0",
-      "commits": [
-        "741b04589cdd3514d032cbfd041fb7178bbd15c9"
-      ]
+      "commits": ["741b04589cdd3514d032cbfd041fb7178bbd15c9"]
     },
     {
       "cve_id": "CVE-2024-43483",
@@ -184,9 +148,7 @@
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
       "release": "8.0",
-      "commits": [
-        "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
-      ]
+      "commits": ["132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"]
     },
     {
       "cve_id": "CVE-2024-43483",
@@ -195,9 +157,7 @@
       "max_vulnerable": "9.0.0-rc.1.24431.7",
       "fixed": "9.0.0-rc.2.24473.5",
       "release": "9.0",
-      "commits": [
-        "f5456c7804dfd2153cd5cda4054bcde50b153a66"
-      ]
+      "commits": ["f5456c7804dfd2153cd5cda4054bcde50b153a66"]
     },
     {
       "cve_id": "CVE-2024-43484",
@@ -230,9 +190,7 @@
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
       "release": "8.0",
-      "commits": [
-        "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
-      ]
+      "commits": ["132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"]
     },
     {
       "cve_id": "CVE-2024-43483",
@@ -259,9 +217,7 @@
       "max_vulnerable": "6.0.9",
       "fixed": "6.0.10",
       "release": "6.0",
-      "commits": [
-        "c3c2cc2e61411fc1c56ca962684348ccf5563ce4"
-      ]
+      "commits": ["c3c2cc2e61411fc1c56ca962684348ccf5563ce4"]
     },
     {
       "cve_id": "CVE-2024-43485",
@@ -270,9 +226,7 @@
       "max_vulnerable": "8.0.4",
       "fixed": "8.0.5",
       "release": "8.0",
-      "commits": [
-        "be46d16f6ff2daa6632136f7f100c5de89de6809"
-      ]
+      "commits": ["be46d16f6ff2daa6632136f7f100c5de89de6809"]
     }
   ],
   "commits": {
@@ -344,9 +298,7 @@
       "c3c2cc2e61411fc1c56ca962684348ccf5563ce4",
       "be46d16f6ff2daa6632136f7f100c5de89de6809"
     ],
-    "CVE-2024-38229": [
-      "1002b673be5803ba63173ef8a2fdebe3e388a34a"
-    ],
+    "CVE-2024-38229": ["1002b673be5803ba63173ef8a2fdebe3e388a34a"],
     "CVE-2024-43484": [
       "c2891d32a0408ce62771120dd7c03bc3dde1fca7",
       "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8",
@@ -355,50 +307,27 @@
     ]
   },
   "cve_releases": {
-    "CVE-2024-43483": [
-      "6.0",
-      "8.0",
-      "9.0"
-    ],
-    "CVE-2024-43485": [
-      "6.0",
-      "8.0"
-    ],
-    "CVE-2024-38229": [
-      "8.0"
-    ],
-    "CVE-2024-43484": [
-      "8.0",
-      "6.0"
-    ]
+    "CVE-2024-43483": ["6.0", "8.0", "9.0"],
+    "CVE-2024-43485": ["6.0", "8.0"],
+    "CVE-2024-38229": ["8.0"],
+    "CVE-2024-43484": ["8.0", "6.0"]
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2024-43483",
-      "CVE-2024-43485"
-    ],
-    "dotnet-aspnetcore": [
-      "CVE-2024-38229"
-    ]
+    "dotnet-runtime": ["CVE-2024-43483", "CVE-2024-43485"],
+    "dotnet-aspnetcore": ["CVE-2024-38229"]
   },
   "product_name": {
     "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime"
   },
   "release_cves": {
-    "6.0": [
-      "CVE-2024-43483",
-      "CVE-2024-43484",
-      "CVE-2024-43485"
-    ],
+    "6.0": ["CVE-2024-43483", "CVE-2024-43484", "CVE-2024-43485"],
     "8.0": [
       "CVE-2024-38229",
       "CVE-2024-43483",
       "CVE-2024-43484",
       "CVE-2024-43485"
     ],
-    "9.0": [
-      "CVE-2024-43483"
-    ]
+    "9.0": ["CVE-2024-43483"]
   }
 }

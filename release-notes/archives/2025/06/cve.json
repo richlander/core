@@ -15,16 +15,10 @@
         "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": [],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/362"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/362"]
     }
   ],
   "products": [
@@ -35,9 +29,7 @@
       "max_vulnerable": "8.0.116",
       "fixed": "8.0.117",
       "release": "",
-      "commits": [
-        "d00609e7978ee1b0fe62b39a378611311cf85603"
-      ]
+      "commits": ["d00609e7978ee1b0fe62b39a378611311cf85603"]
     },
     {
       "cve_id": "CVE-2025-30399",
@@ -55,9 +47,7 @@
       "max_vulnerable": "8.0.409",
       "fixed": "8.0.410",
       "release": "",
-      "commits": [
-        "7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
-      ]
+      "commits": ["7892f91f7191adb473a9e97a79e1c4ca8a2c9247"]
     }
   ],
   "packages": [],
@@ -85,9 +75,7 @@
   },
   "cve_releases": {},
   "product_cves": {
-    "dotnet-sdk": [
-      "CVE-2025-30399"
-    ]
+    "dotnet-sdk": ["CVE-2025-30399"]
   },
   "product_name": {
     "dotnet-runtime": ".NET Runtime Libraries",

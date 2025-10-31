@@ -20,16 +20,10 @@
       "mitigation": [
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/334"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/334"]
     },
     {
       "id": "CVE-2024-43499",
@@ -49,16 +43,10 @@
       "mitigation": [
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/333"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/333"]
     }
   ],
   "products": [
@@ -69,9 +57,7 @@
       "max_vulnerable": "9.0.0-rc.2.24473.5",
       "fixed": "9.0.0",
       "release": "6.0",
-      "commits": [
-        "d16f41ad8fded18bf82bca88df27967cc3365eb0"
-      ]
+      "commits": ["d16f41ad8fded18bf82bca88df27967cc3365eb0"]
     },
     {
       "cve_id": "CVE-2024-43499",
@@ -80,9 +66,7 @@
       "max_vulnerable": "9.0.0-rc.2.24473.5",
       "fixed": "9.0.0",
       "release": "9.0",
-      "commits": [
-        "d16f41ad8fded18bf82bca88df27967cc3365eb0"
-      ]
+      "commits": ["d16f41ad8fded18bf82bca88df27967cc3365eb0"]
     }
   ],
   "packages": [
@@ -93,9 +77,7 @@
       "max_vulnerable": "9.0.0-rc.2.24473.5",
       "fixed": "9.0.0",
       "release": "9.0",
-      "commits": [
-        "d16f41ad8fded18bf82bca88df27967cc3365eb0"
-      ]
+      "commits": ["d16f41ad8fded18bf82bca88df27967cc3365eb0"]
     },
     {
       "cve_id": "CVE-2024-43499",
@@ -104,9 +86,7 @@
       "max_vulnerable": "9.0.0-rc.2.24473.5",
       "fixed": "9.0.0",
       "release": "9.0",
-      "commits": [
-        "d16f41ad8fded18bf82bca88df27967cc3365eb0"
-      ]
+      "commits": ["d16f41ad8fded18bf82bca88df27967cc3365eb0"]
     }
   ],
   "commits": {
@@ -119,39 +99,22 @@
     }
   },
   "cve_commits": {
-    "CVE-2024-43498": [
-      "d16f41ad8fded18bf82bca88df27967cc3365eb0"
-    ],
-    "CVE-2024-43499": [
-      "d16f41ad8fded18bf82bca88df27967cc3365eb0"
-    ]
+    "CVE-2024-43498": ["d16f41ad8fded18bf82bca88df27967cc3365eb0"],
+    "CVE-2024-43499": ["d16f41ad8fded18bf82bca88df27967cc3365eb0"]
   },
   "cve_releases": {
-    "CVE-2024-43498": [
-      "6.0",
-      "9.0"
-    ],
-    "CVE-2024-43499": [
-      "9.0"
-    ]
+    "CVE-2024-43498": ["6.0", "9.0"],
+    "CVE-2024-43499": ["9.0"]
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2024-43498",
-      "CVE-2024-43499"
-    ]
+    "dotnet-runtime": ["CVE-2024-43498", "CVE-2024-43499"]
   },
   "product_name": {
     "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime"
   },
   "release_cves": {
-    "6.0": [
-      "CVE-2024-43498"
-    ],
-    "9.0": [
-      "CVE-2024-43498",
-      "CVE-2024-43499"
-    ]
+    "6.0": ["CVE-2024-43498"],
+    "9.0": ["CVE-2024-43498", "CVE-2024-43499"]
   }
 }

@@ -17,16 +17,10 @@
       "description": [
         "A use-after-free vulnerability exists in WPF which may result in Elevation of Privilege when viewing untrusted documents."
       ],
-      "platforms": [
-        "windows"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["windows"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/303"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/303"]
     }
   ],
   "products": [
@@ -62,30 +56,18 @@
   "commits": {},
   "cve_commits": {},
   "cve_releases": {
-    "CVE-2024-21409": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
+    "CVE-2024-21409": ["6.0", "7.0", "8.0"]
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2024-21409"
-    ]
+    "dotnet-runtime": ["CVE-2024-21409"]
   },
   "product_name": {
     "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime"
   },
   "release_cves": {
-    "6.0": [
-      "CVE-2024-21409"
-    ],
-    "7.0": [
-      "CVE-2024-21409"
-    ],
-    "8.0": [
-      "CVE-2024-21409"
-    ]
+    "6.0": ["CVE-2024-21409"],
+    "7.0": ["CVE-2024-21409"],
+    "8.0": ["CVE-2024-21409"]
   }
 }

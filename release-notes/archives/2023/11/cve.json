@@ -17,16 +17,10 @@
       "description": [
         "A vulnerability exists in ASP.NET IIS where a remote unauthenticated user can issue specially crafted requests to a .NET application which may result in denial of service."
       ],
-      "platforms": [
-        "windows"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["windows"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/286"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/286"]
     },
     {
       "id": "CVE-2023-36049",
@@ -43,16 +37,10 @@
       "description": [
         "An elevation of privilege vulnerability exists in .NET where untrusted URIs provided to System.Net.WebRequest.Create can be used to inject arbitrary commands to backend FTP servers."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/287"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/287"]
     },
     {
       "id": "CVE-2023-36558",
@@ -72,16 +60,10 @@
       "mitigation": [
         "This vulnerability only affects ASP.NET Core Blazor apps. Other application types, including ASP.NET Core apps which do not utilize Blazor, are not affected."
       ],
-      "platforms": [
-        "all"
-      ],
-      "architectures": [
-        "all"
-      ],
+      "platforms": ["all"],
+      "architectures": ["all"],
       "cna": "microsoft",
-      "references": [
-        "https://github.com/dotnet/announcements/issues/288"
-      ]
+      "references": ["https://github.com/dotnet/announcements/issues/288"]
     }
   ],
   "products": [
@@ -154,45 +136,21 @@
   "commits": {},
   "cve_commits": {},
   "cve_releases": {
-    "CVE-2023-36049": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ],
-    "CVE-2023-36038": [
-      "8.0"
-    ],
-    "CVE-2023-36558": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
+    "CVE-2023-36049": ["6.0", "7.0", "8.0"],
+    "CVE-2023-36038": ["8.0"],
+    "CVE-2023-36558": ["6.0", "7.0", "8.0"]
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2023-36049"
-    ],
-    "dotnet-aspnetcore": [
-      "CVE-2023-36038"
-    ]
+    "dotnet-runtime": ["CVE-2023-36049"],
+    "dotnet-aspnetcore": ["CVE-2023-36038"]
   },
   "product_name": {
     "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime"
   },
   "release_cves": {
-    "6.0": [
-      "CVE-2023-36049",
-      "CVE-2023-36558"
-    ],
-    "7.0": [
-      "CVE-2023-36049",
-      "CVE-2023-36558"
-    ],
-    "8.0": [
-      "CVE-2023-36038",
-      "CVE-2023-36049",
-      "CVE-2023-36558"
-    ]
+    "6.0": ["CVE-2023-36049", "CVE-2023-36558"],
+    "7.0": ["CVE-2023-36049", "CVE-2023-36558"],
+    "8.0": ["CVE-2023-36038", "CVE-2023-36049", "CVE-2023-36558"]
   }
 }
