@@ -83,12 +83,12 @@
     ]
   },
   "product_cves": {
-    "dotnet-runtime-libraries": [
+    "dotnet-runtime": [
       "CVE-2025-30399"
     ]
   },
   "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "release_cves": {
     "8.0": [

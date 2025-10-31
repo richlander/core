@@ -196,13 +196,14 @@
   },
   "cve_releases": {},
   "product_cves": {
-    "microsoft.netcore.sdk": [
+    "dotnet-sdk": [
       "CVE-2025-26646"
     ]
   },
   "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-sdk": ".NET SDK"
   },
   "release_cves": {}
 }

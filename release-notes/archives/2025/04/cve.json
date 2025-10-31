@@ -83,13 +83,13 @@
     ]
   },
   "product_cves": {
-    "microsoft.aspnetcore.app.runtime": [
+    "dotnet-aspnetcore": [
       "CVE-2025-26682"
     ]
   },
   "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime"
   },
   "release_cves": {
     "8.0": [

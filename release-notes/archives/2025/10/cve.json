@@ -454,19 +454,20 @@
     ]
   },
   "product_cves": {
-    "dotnet-runtime-libraries": [
+    "dotnet-runtime": [
       "CVE-2025-55248"
     ],
-    "dotnet-runtime-aspnetcore": [
+    "dotnet-aspnetcore": [
       "CVE-2025-55315"
     ],
-    "microsoft.netcore.sdk": [
+    "dotnet-sdk": [
       "CVE-2025-55247"
     ]
   },
   "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-sdk": ".NET SDK"
   },
   "release_cves": {
     "8.0": [
