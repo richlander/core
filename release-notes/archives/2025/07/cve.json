@@ -1,0 +1,101 @@
+{
+  "last_updated": "2025-07-08",
+  "title": ".NET Security Updates for July 2025 (2025-07-08)",
+  "cves": [
+    {
+      "id": "CVE-2025-30399",
+      "problem": ".NET Remote Code Vulnerability",
+      "severity": "high",
+      "timeline": {
+        "disclosed": "2025-07-08",
+        "fixed": "2025-07-08"
+      },
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+      },
+      "description": [
+        "An attacker could exploit this vulnerability by placing files in particular locations, leading to unintended code execution."
+      ],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
+      "references": [
+        "https://github.com/dotnet/announcements/issues/362"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "cve_id": "CVE-2025-30399",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.5",
+      "fixed": "9.0.6",
+      "release": "9.0",
+      "commits": [
+        "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-30399",
+      "name": "dotnet-runtime-libraries",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.16",
+      "fixed": "8.0.17",
+      "release": "8.0",
+      "commits": [
+        "b33d4e34e1cbf993583d78fc1b64ea8400935978"
+      ]
+    }
+  ],
+  "packages": [],
+  "commits": {
+    "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2": {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/214743ee2a5a25b9a3a07e3f0451da73eb4e97e2.diff"
+    },
+    "b33d4e34e1cbf993583d78fc1b64ea8400935978": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "b33d4e34e1cbf993583d78fc1b64ea8400935978",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/b33d4e34e1cbf993583d78fc1b64ea8400935978.diff"
+    }
+  },
+  "cve_commits": {
+    "CVE-2025-30399": [
+      "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2",
+      "b33d4e34e1cbf993583d78fc1b64ea8400935978"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2025-30399": [
+      "8.0",
+      "9.0"
+    ]
+  },
+  "product_cves": {
+    "dotnet-runtime-libraries": [
+      "CVE-2025-30399"
+    ]
+  },
+  "product_name": {
+    "dotnet-runtime-libraries": ".NET Runtime Libraries"
+  },
+  "release_cves": {
+    "8.0": [
+      "CVE-2025-30399"
+    ],
+    "9.0": [
+      "CVE-2025-30399"
+    ]
+  }
+}
