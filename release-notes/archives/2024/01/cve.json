@@ -90,7 +90,7 @@
   "products": [
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -99,7 +99,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -108,7 +108,7 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -117,7 +117,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "7.0.0",
       "max_vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -126,7 +126,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "7.0.0",
       "max_vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -135,7 +135,7 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "7.0.0",
       "max_vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -144,7 +144,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -153,7 +153,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -162,7 +162,7 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",

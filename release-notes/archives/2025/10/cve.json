@@ -87,7 +87,7 @@
   "products": [
     {
       "cve_id": "CVE-2025-55248",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "9.0.0",
       "max_vulnerable": "9.0.9",
       "fixed": "9.0.10",
@@ -98,7 +98,7 @@
     },
     {
       "cve_id": "CVE-2025-55248",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.20",
       "fixed": "8.0.21",
@@ -109,7 +109,7 @@
     },
     {
       "cve_id": "CVE-2025-55315",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "9.0.0",
       "max_vulnerable": "9.0.9",
       "fixed": "9.0.10",
@@ -120,7 +120,7 @@
     },
     {
       "cve_id": "CVE-2025-55315",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.20",
       "fixed": "8.0.21",
@@ -131,7 +131,7 @@
     },
     {
       "cve_id": "CVE-2025-55247",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.100",
       "max_vulnerable": "8.0.120",
       "fixed": "8.0.121",
@@ -142,7 +142,7 @@
     },
     {
       "cve_id": "CVE-2025-55247",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.300",
       "max_vulnerable": "8.0.317",
       "fixed": "8.0.318",
@@ -153,7 +153,7 @@
     },
     {
       "cve_id": "CVE-2025-55247",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.400",
       "max_vulnerable": "8.0.414",
       "fixed": "8.0.415",
@@ -164,7 +164,7 @@
     },
     {
       "cve_id": "CVE-2025-55247",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "9.0.100",
       "max_vulnerable": "9.0.110",
       "fixed": "9.0.111",
@@ -175,7 +175,7 @@
     },
     {
       "cve_id": "CVE-2025-55247",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "9.0.300",
       "max_vulnerable": "9.0.305",
       "fixed": "9.0.306",

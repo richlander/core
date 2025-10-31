@@ -30,7 +30,7 @@
   "products": [
     {
       "cve_id": "CVE-2025-30399",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.100",
       "max_vulnerable": "8.0.116",
       "fixed": "8.0.117",
@@ -41,7 +41,7 @@
     },
     {
       "cve_id": "CVE-2025-30399",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.300",
       "max_vulnerable": "8.0.312",
       "fixed": "8.0.313",
@@ -50,7 +50,7 @@
     },
     {
       "cve_id": "CVE-2025-30399",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.400",
       "max_vulnerable": "8.0.409",
       "fixed": "8.0.410",

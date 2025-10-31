@@ -110,7 +110,7 @@
   "products": [
     {
       "cve_id": "CVE-2025-21172",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "release": "6.0",
       "commits": [
         "b3f8ef0105c079c255caa6aa31d630482db5d03c"
@@ -121,7 +121,7 @@
     },
     {
       "cve_id": "CVE-2025-21173",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "release": "",
       "commits": [
         "4416ac92cd8588320132c4ce0d508d78a4a26d15"
@@ -132,7 +132,7 @@
     },
     {
       "cve_id": "CVE-2025-21176",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "release": "6.0",
       "commits": [
         "b3f8ef0105c079c255caa6aa31d630482db5d03c"
@@ -143,7 +143,7 @@
     },
     {
       "cve_id": "CVE-2025-21172",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.11",
       "fixed": "8.0.12",
@@ -154,7 +154,7 @@
     },
     {
       "cve_id": "CVE-2025-21173",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.100",
       "max_vulnerable": "8.0.111",
       "fixed": "8.0.112",
@@ -165,7 +165,7 @@
     },
     {
       "cve_id": "CVE-2025-21173",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.300",
       "max_vulnerable": "8.0.307",
       "fixed": "8.0.308",
@@ -176,7 +176,7 @@
     },
     {
       "cve_id": "CVE-2025-21173",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "release": "",
       "commits": [
         "1ba623839f23fe8857d2aa0dc23783692325deab"
@@ -187,7 +187,7 @@
     },
     {
       "cve_id": "CVE-2025-21176",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.11",
       "fixed": "8.0.12",
@@ -198,7 +198,7 @@
     },
     {
       "cve_id": "CVE-2025-21171",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "9.0.0",
       "max_vulnerable": "9.0.0",
       "fixed": "9.0.1",
@@ -209,7 +209,7 @@
     },
     {
       "cve_id": "CVE-2025-21172",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "9.0.0",
       "max_vulnerable": "9.0.0",
       "fixed": "9.0.1",
@@ -220,7 +220,7 @@
     },
     {
       "cve_id": "CVE-2025-21173",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "9.0.100",
       "max_vulnerable": "9.0.101",
       "fixed": "9.0.102",
@@ -231,7 +231,7 @@
     },
     {
       "cve_id": "CVE-2025-21176",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "9.0.0",
       "max_vulnerable": "9.0.0",
       "fixed": "9.0.1",

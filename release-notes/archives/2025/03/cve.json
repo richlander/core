@@ -32,7 +32,7 @@
   "products": [
     {
       "cve_id": "CVE-2025-24070",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.13",
       "fixed": "8.0.14",
@@ -43,7 +43,7 @@
     },
     {
       "cve_id": "CVE-2025-24070",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "9.0.0",
       "max_vulnerable": "8.0.2",
       "fixed": "9.0.3",

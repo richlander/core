@@ -111,7 +111,7 @@
   "products": [
     {
       "cve_id": "CVE-2024-38081",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.31",
       "fixed": "6.0.32",
@@ -122,7 +122,7 @@
     },
     {
       "cve_id": "CVE-2024-38095",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.31",
       "fixed": "6.0.32",
@@ -133,7 +133,7 @@
     },
     {
       "cve_id": "CVE-2024-30105",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.6",
       "fixed": "8.0.7",
@@ -144,7 +144,7 @@
     },
     {
       "cve_id": "CVE-2024-35264",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.6",
       "fixed": "8.0.7",
@@ -155,7 +155,7 @@
     },
     {
       "cve_id": "CVE-2024-38095",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.6",
       "fixed": "8.0.7",

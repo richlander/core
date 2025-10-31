@@ -56,7 +56,7 @@
   "products": [
     {
       "cve_id": "CVE-2024-38167",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.7",
       "fixed": "8.0.8",
@@ -67,7 +67,7 @@
     },
     {
       "cve_id": "CVE-2024-38168",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.7",
       "fixed": "8.0.8",

@@ -32,7 +32,7 @@
   "products": [
     {
       "cve_id": "CVE-2025-30399",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "9.0.0",
       "max_vulnerable": "9.0.5",
       "fixed": "9.0.6",
@@ -43,7 +43,7 @@
     },
     {
       "cve_id": "CVE-2025-30399",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.16",
       "fixed": "8.0.17",
