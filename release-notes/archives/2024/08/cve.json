@@ -17,10 +17,16 @@
       "description": [
         "A vulnerability exists in .NET runtime TlsStream which may result in Information Disclosure."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/319"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/319"
+      ]
     },
     {
       "id": "CVE-2024-38168",
@@ -35,10 +41,16 @@
         "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
       },
       "description": [],
-      "platforms": ["windows"],
-      "architectures": ["all"],
+      "platforms": [
+        "windows"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/320"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/320"
+      ]
     }
   ],
   "products": [
@@ -49,7 +61,9 @@
       "max_vulnerable": "8.0.7",
       "fixed": "8.0.8",
       "release": "8.0",
-      "commits": ["76f50f60931e85e9240715ebd1f345547cbae366"]
+      "commits": [
+        "76f50f60931e85e9240715ebd1f345547cbae366"
+      ]
     },
     {
       "cve_id": "CVE-2024-38168",
@@ -58,7 +72,9 @@
       "max_vulnerable": "8.0.7",
       "fixed": "8.0.8",
       "release": "8.0",
-      "commits": ["123e69ce581cb33fd86c7cd2f8d4ba95e667885c"]
+      "commits": [
+        "123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
+      ]
     }
   ],
   "packages": [],
@@ -79,22 +95,37 @@
     }
   },
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "dotnet-aspnetcore": "ASP.NET Core Runtime"
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
-    "dotnet-runtime": ["CVE-2024-38167"],
-    "dotnet-aspnetcore": ["CVE-2024-38168"]
+    "dotnet-aspnetcore": [
+      "CVE-2024-38168"
+    ],
+    "dotnet-runtime": [
+      "CVE-2024-38167"
+    ]
   },
   "release_cves": {
-    "8.0": ["CVE-2024-38167", "CVE-2024-38168"]
+    "8.0": [
+      "CVE-2024-38167",
+      "CVE-2024-38168"
+    ]
   },
   "cve_releases": {
-    "CVE-2024-38167": ["8.0"],
-    "CVE-2024-38168": ["8.0"]
+    "CVE-2024-38167": [
+      "8.0"
+    ],
+    "CVE-2024-38168": [
+      "8.0"
+    ]
   },
   "cve_commits": {
-    "CVE-2024-38167": ["76f50f60931e85e9240715ebd1f345547cbae366"],
-    "CVE-2024-38168": ["123e69ce581cb33fd86c7cd2f8d4ba95e667885c"]
+    "CVE-2024-38167": [
+      "76f50f60931e85e9240715ebd1f345547cbae366"
+    ],
+    "CVE-2024-38168": [
+      "123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
+    ]
   }
 }

@@ -273,19 +273,19 @@
   ],
   "commits": {},
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries",
     "Microsoft.Data.SqlClient": "Microsoft.Data.SqlClient",
     "Microsoft.IdentityModel.JsonWebTokens": "Microsoft.IdentityModel.JsonWebTokens",
     "System.Data.SqlClient": "System.Data.SqlClient",
     "System.IdentityModel.Tokens.Jwt": "System.IdentityModel.Tokens.Jwt"
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2024-0057"
-    ],
     "dotnet-aspnetcore": [
       "CVE-2024-21319"
+    ],
+    "dotnet-runtime": [
+      "CVE-2024-0057"
     ],
     "Microsoft.Data.SqlClient": [
       "CVE-2024-0056"

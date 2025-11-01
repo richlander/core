@@ -153,16 +153,16 @@
   ],
   "commits": {},
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries",
     "Microsoft.AspNetCore.Components": "Microsoft.AspNetCore.Components"
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2023-36049"
-    ],
     "dotnet-aspnetcore": [
       "CVE-2023-36038"
+    ],
+    "dotnet-runtime": [
+      "CVE-2023-36049"
     ],
     "Microsoft.AspNetCore.Components": [
       "CVE-2023-36558"
@@ -184,12 +184,12 @@
     ]
   },
   "cve_releases": {
+    "CVE-2023-36038": [
+      "8.0"
+    ],
     "CVE-2023-36049": [
       "6.0",
       "7.0",
-      "8.0"
-    ],
-    "CVE-2023-36038": [
       "8.0"
     ],
     "CVE-2023-36558": [
