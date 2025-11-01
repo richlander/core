@@ -150,7 +150,7 @@
       "name": "Microsoft.Build.Tasks.Core",
       "min_vulnerable": "17.12.6",
       "max_vulnerable": "17.12.6",
-      "fixed": "17.13.26",
+      "fixed": "17.12.36",
       "release": "",
       "commits": [
         "070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753"
@@ -161,7 +161,7 @@
       "name": "Microsoft.Build.Tasks.Core",
       "min_vulnerable": "17.13.9",
       "max_vulnerable": "17.13.9",
-      "fixed": "17.12.36",
+      "fixed": "17.13.26",
       "release": "",
       "commits": [
         "391e16c3b5c49938029e20d9ee69c4d5bdf51c70"
