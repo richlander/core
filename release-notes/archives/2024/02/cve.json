@@ -17,10 +17,16 @@
       "description": [
         "A vulnerability exists in ASP.NET applications using SignalR where a malicious client can result in a denial-of-service."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/295"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/295"
+      ]
     },
     {
       "id": "CVE-2024-21404",
@@ -37,10 +43,16 @@
       "description": [
         "A denial-of-service vulnerability exists in .NET with OpenSSL support when parsing X509 certificates."
       ],
-      "platforms": ["linux"],
-      "architectures": ["all"],
+      "platforms": [
+        "linux"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/296"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/296"
+      ]
     }
   ],
   "products": [
@@ -101,22 +113,43 @@
   ],
   "packages": [],
   "commits": {},
-  "cve_commits": {},
-  "cve_releases": {
-    "CVE-2024-21386": ["6.0", "7.0", "8.0"],
-    "CVE-2024-21404": ["6.0", "7.0", "8.0"]
+  "product_name": {
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
-    "dotnet-aspnetcore": ["CVE-2024-21386"],
-    "dotnet-runtime": ["CVE-2024-21404"]
-  },
-  "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "dotnet-aspnetcore": "ASP.NET Core Runtime"
+    "dotnet-aspnetcore": [
+      "CVE-2024-21386"
+    ],
+    "dotnet-runtime": [
+      "CVE-2024-21404"
+    ]
   },
   "release_cves": {
-    "6.0": ["CVE-2024-21386", "CVE-2024-21404"],
-    "7.0": ["CVE-2024-21386", "CVE-2024-21404"],
-    "8.0": ["CVE-2024-21386", "CVE-2024-21404"]
-  }
+    "6.0": [
+      "CVE-2024-21386",
+      "CVE-2024-21404"
+    ],
+    "7.0": [
+      "CVE-2024-21386",
+      "CVE-2024-21404"
+    ],
+    "8.0": [
+      "CVE-2024-21386",
+      "CVE-2024-21404"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2024-21386": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ],
+    "CVE-2024-21404": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {}
 }

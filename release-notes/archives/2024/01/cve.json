@@ -17,10 +17,16 @@
       "description": [
         "A vulnerability exists in the Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider where an attackercan perform an AiTM (adversary-in-the-middle) attack between the SQL client and the SQL server. This may allow the attacker to steal authentication credentials intended for the database server, even if the connection is established over an encrypted channel like TLS."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/292"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/292"
+      ]
     },
     {
       "id": "CVE-2024-0057",
@@ -35,15 +41,21 @@
         "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
       },
       "description": [
-        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
+        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app\u0027s typical authentication logic."
+      ],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
+      "references": [
+        "https://github.com/dotnet/announcements/issues/291"
       ],
       "mitigation": [
         "Within .NET, only the WindowsDesktop shared runtime contains inbox components which utilize X.509 chain building APIs in a vulnerable manner. Other project types, such as web applications, are not impacted by this vulnerability unless they explicitly invoke the X.509 chain building APIs themselves in a vulnerable manner or they consume an external package which does this on their behalf."
-      ],
-      "platforms": ["all"],
-      "architectures": ["all"],
-      "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/291"]
+      ]
     },
     {
       "id": "CVE-2024-21319",
@@ -60,13 +72,19 @@
       "description": [
         "A Denial of Service vulnerability exists in ASP.NET Core project templates which utilize JWT-based authentication tokens. This vulnerability allows an unauthenticated client to consume arbitrarily large amounts of server memory, potentially triggering an out-of-memory condition on the server and making the server no longer able to respond to legitimate requests."
       ],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
+      "references": [
+        "https://github.com/dotnet/announcements/issues/290"
+      ],
       "mitigation": [
         "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
-      ],
-      "platforms": ["all"],
-      "architectures": ["all"],
-      "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/290"]
+      ]
     }
   ],
   "products": [
@@ -254,22 +272,59 @@
     }
   ],
   "commits": {},
-  "cve_commits": {},
-  "cve_releases": {
-    "CVE-2024-0057": ["6.0", "7.0", "8.0"],
-    "CVE-2024-21319": ["6.0", "7.0", "8.0"]
-  },
-  "product_cves": {
-    "dotnet-runtime": ["CVE-2024-0057"],
-    "dotnet-aspnetcore": ["CVE-2024-21319"]
-  },
   "product_name": {
     "dotnet-runtime": ".NET Runtime Libraries",
-    "dotnet-aspnetcore": "ASP.NET Core Runtime"
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "Microsoft.Data.SqlClient": "Microsoft.Data.SqlClient",
+    "Microsoft.IdentityModel.JsonWebTokens": "Microsoft.IdentityModel.JsonWebTokens",
+    "System.Data.SqlClient": "System.Data.SqlClient",
+    "System.IdentityModel.Tokens.Jwt": "System.IdentityModel.Tokens.Jwt"
+  },
+  "product_cves": {
+    "dotnet-runtime": [
+      "CVE-2024-0057"
+    ],
+    "dotnet-aspnetcore": [
+      "CVE-2024-21319"
+    ],
+    "Microsoft.Data.SqlClient": [
+      "CVE-2024-0056"
+    ],
+    "Microsoft.IdentityModel.JsonWebTokens": [
+      "CVE-2024-21319"
+    ],
+    "System.Data.SqlClient": [
+      "CVE-2024-0056"
+    ],
+    "System.IdentityModel.Tokens.Jwt": [
+      "CVE-2024-21319"
+    ]
   },
   "release_cves": {
-    "6.0": ["CVE-2024-0057", "CVE-2024-21319"],
-    "7.0": ["CVE-2024-0057", "CVE-2024-21319"],
-    "8.0": ["CVE-2024-0057", "CVE-2024-21319"]
-  }
+    "6.0": [
+      "CVE-2024-0057",
+      "CVE-2024-21319"
+    ],
+    "7.0": [
+      "CVE-2024-0057",
+      "CVE-2024-21319"
+    ],
+    "8.0": [
+      "CVE-2024-0057",
+      "CVE-2024-21319"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2024-0057": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ],
+    "CVE-2024-21319": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {}
 }

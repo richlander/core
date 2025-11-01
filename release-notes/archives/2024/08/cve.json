@@ -78,23 +78,23 @@
       "url": "https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c.diff"
     }
   },
-  "cve_commits": {
-    "CVE-2024-38167": ["76f50f60931e85e9240715ebd1f345547cbae366"],
-    "CVE-2024-38168": ["123e69ce581cb33fd86c7cd2f8d4ba95e667885c"]
-  },
-  "cve_releases": {
-    "CVE-2024-38167": ["8.0"],
-    "CVE-2024-38168": ["8.0"]
+  "product_name": {
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime"
   },
   "product_cves": {
     "dotnet-runtime": ["CVE-2024-38167"],
     "dotnet-aspnetcore": ["CVE-2024-38168"]
   },
-  "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "dotnet-aspnetcore": "ASP.NET Core Runtime"
-  },
   "release_cves": {
     "8.0": ["CVE-2024-38167", "CVE-2024-38168"]
+  },
+  "cve_releases": {
+    "CVE-2024-38167": ["8.0"],
+    "CVE-2024-38168": ["8.0"]
+  },
+  "cve_commits": {
+    "CVE-2024-38167": ["76f50f60931e85e9240715ebd1f345547cbae366"],
+    "CVE-2024-38168": ["123e69ce581cb33fd86c7cd2f8d4ba95e667885c"]
   }
 }

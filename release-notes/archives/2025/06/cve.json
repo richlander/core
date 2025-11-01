@@ -17,39 +17,40 @@
       "description": [
         "A vulnerability exists in .NET SDK where DLL search path hijacking could allow an attacker to achieve remote code execution."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/362"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/362"
+      ]
     }
   ],
   "products": [
     {
       "cve_id": "CVE-2025-30399",
-      "name": "dotnet-sdk",
-      "min_vulnerable": "8.0.100",
-      "max_vulnerable": "8.0.116",
-      "fixed": "8.0.117",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.16",
+      "fixed": "8.0.17",
       "release": "",
-      "commits": ["d00609e7978ee1b0fe62b39a378611311cf85603"]
+      "commits": [
+        "b33d4e34e1cbf993583d78fc1b64ea8400935978"
+      ]
     },
     {
       "cve_id": "CVE-2025-30399",
-      "name": "dotnet-sdk",
-      "min_vulnerable": "8.0.300",
-      "max_vulnerable": "8.0.312",
-      "fixed": "8.0.313",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.5",
+      "fixed": "9.0.6",
       "release": "",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2025-30399",
-      "name": "dotnet-sdk",
-      "min_vulnerable": "8.0.400",
-      "max_vulnerable": "8.0.409",
-      "fixed": "8.0.410",
-      "release": "",
-      "commits": ["7892f91f7191adb473a9e97a79e1c4ca8a2c9247"]
+      "commits": [
+        "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2"
+      ]
     }
   ],
   "packages": [],
@@ -69,20 +70,20 @@
       "url": "https://github.com/dotnet/runtime/commit/214743ee2a5a25b9a3a07e3f0451da73eb4e97e2.diff"
     }
   },
-  "cve_commits": {
-    "CVE-2025-30399": [
-      "d00609e7978ee1b0fe62b39a378611311cf85603",
-      "7892f91f7191adb473a9e97a79e1c4ca8a2c9247"
+  "product_name": {
+    "dotnet-runtime": ".NET Runtime Libraries"
+  },
+  "product_cves": {
+    "dotnet-runtime": [
+      "CVE-2025-30399"
     ]
   },
+  "release_cves": {},
   "cve_releases": {},
-  "product_cves": {
-    "dotnet-sdk": ["CVE-2025-30399"]
-  },
-  "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-sdk": ".NET SDK"
-  },
-  "release_cves": {}
+  "cve_commits": {
+    "CVE-2025-30399": [
+      "b33d4e34e1cbf993583d78fc1b64ea8400935978",
+      "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2"
+    ]
+  }
 }

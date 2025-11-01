@@ -17,10 +17,16 @@
       "description": [
         "A MITM (man in the middle) attacker may prevent use of TLS between client and SMTP server, forcing client to send data over unencrypted connection."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/372"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/372"
+      ]
     },
     {
       "id": "CVE-2025-55315",
@@ -35,12 +41,18 @@
         "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L/E:U/RL:O/RC:C"
       },
       "description": [
-        "Inconsistent interpretation of http requests ('http request/response smuggling') in ASP.NET Core allows an authorized attacker to bypass a security feature over a network."
+        "Inconsistent interpretation of http requests (\u0027http request/response smuggling\u0027) in ASP.NET Core allows an authorized attacker to bypass a security feature over a network."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/371"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/371"
+      ]
     },
     {
       "id": "CVE-2025-55247",
@@ -55,12 +67,18 @@
         "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": [
-        "A vulnerability exists in .NET where predictable paths for MSBuild's temporary directories on Linux let another user create the directories ahead of MSBuild, leading to DoS of builds. This only affects .NET on Linux operating systems."
+        "A vulnerability exists in .NET where predictable paths for MSBuild\u0027s temporary directories on Linux let another user create the directories ahead of MSBuild, leading to DoS of builds. This only affects .NET on Linux operating systems."
       ],
-      "platforms": ["linux"],
-      "architectures": ["all"],
+      "platforms": [
+        "linux"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/370"],
+      "references": [
+        "https://github.com/dotnet/announcements/issues/370"
+      ],
       "mitigation": [
         "Projects which do not utilize the DownloadFile build task are not susceptible to this vulnerability."
       ]
@@ -74,7 +92,9 @@
       "max_vulnerable": "9.0.9",
       "fixed": "9.0.10",
       "release": "9.0",
-      "commits": ["18e28d767acf44208afa6c4e2e67a10c65e9647e"]
+      "commits": [
+        "18e28d767acf44208afa6c4e2e67a10c65e9647e"
+      ]
     },
     {
       "cve_id": "CVE-2025-55248",
@@ -83,7 +103,9 @@
       "max_vulnerable": "8.0.20",
       "fixed": "8.0.21",
       "release": "8.0",
-      "commits": ["44527b9ed8427463578126a4494c3654dda11866"]
+      "commits": [
+        "44527b9ed8427463578126a4494c3654dda11866"
+      ]
     },
     {
       "cve_id": "CVE-2025-55315",
@@ -92,7 +114,9 @@
       "max_vulnerable": "9.0.9",
       "fixed": "9.0.10",
       "release": "9.0",
-      "commits": ["97a86434195a82fc7e302a4c57d5ec7f885c1ad5"]
+      "commits": [
+        "97a86434195a82fc7e302a4c57d5ec7f885c1ad5"
+      ]
     },
     {
       "cve_id": "CVE-2025-55315",
@@ -101,7 +125,9 @@
       "max_vulnerable": "8.0.20",
       "fixed": "8.0.21",
       "release": "8.0",
-      "commits": ["61794b7f3aac0b6719f783db5b5c725fefc8b695"]
+      "commits": [
+        "61794b7f3aac0b6719f783db5b5c725fefc8b695"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -110,7 +136,9 @@
       "max_vulnerable": "8.0.120",
       "fixed": "8.0.121",
       "release": "",
-      "commits": ["f0cbb13971c30ad15a3f252a8d0171898a01ec11"]
+      "commits": [
+        "f0cbb13971c30ad15a3f252a8d0171898a01ec11"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -119,7 +147,9 @@
       "max_vulnerable": "8.0.317",
       "fixed": "8.0.318",
       "release": "",
-      "commits": ["aa888d3214e5adb503c48c3bad2bfc6c5aff638a"]
+      "commits": [
+        "aa888d3214e5adb503c48c3bad2bfc6c5aff638a"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -128,7 +158,9 @@
       "max_vulnerable": "8.0.414",
       "fixed": "8.0.415",
       "release": "",
-      "commits": ["02bf66295b64ab368d12933041f7281aad186a2d"]
+      "commits": [
+        "02bf66295b64ab368d12933041f7281aad186a2d"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -137,7 +169,9 @@
       "max_vulnerable": "9.0.110",
       "fixed": "9.0.111",
       "release": "",
-      "commits": ["728984d96edf07d56918a88b0f37fec6b1dfbbc9"]
+      "commits": [
+        "728984d96edf07d56918a88b0f37fec6b1dfbbc9"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -146,7 +180,9 @@
       "max_vulnerable": "9.0.305",
       "fixed": "9.0.306",
       "release": "",
-      "commits": ["09c1be8483dad070189c3a0c660e7acacf478402"]
+      "commits": [
+        "09c1be8483dad070189c3a0c660e7acacf478402"
+      ]
     }
   ],
   "packages": [
@@ -166,7 +202,9 @@
       "max_vulnerable": "17.8.29",
       "fixed": "17.8.43",
       "release": "",
-      "commits": ["f0cbb13971c30ad15a3f252a8d0171898a01ec11"]
+      "commits": [
+        "f0cbb13971c30ad15a3f252a8d0171898a01ec11"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -175,7 +213,9 @@
       "max_vulnerable": "17.10.29",
       "fixed": "17.10.46",
       "release": "",
-      "commits": ["aa888d3214e5adb503c48c3bad2bfc6c5aff638a"]
+      "commits": [
+        "aa888d3214e5adb503c48c3bad2bfc6c5aff638a"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -184,7 +224,9 @@
       "max_vulnerable": "17.11.31",
       "fixed": "17.11.48",
       "release": "",
-      "commits": ["02bf66295b64ab368d12933041f7281aad186a2d"]
+      "commits": [
+        "02bf66295b64ab368d12933041f7281aad186a2d"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -193,7 +235,9 @@
       "max_vulnerable": "17.12.36",
       "fixed": "17.12.50",
       "release": "",
-      "commits": ["728984d96edf07d56918a88b0f37fec6b1dfbbc9"]
+      "commits": [
+        "728984d96edf07d56918a88b0f37fec6b1dfbbc9"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -202,7 +246,9 @@
       "max_vulnerable": "17.14.8",
       "fixed": "17.14.28",
       "release": "",
-      "commits": ["09c1be8483dad070189c3a0c660e7acacf478402"]
+      "commits": [
+        "09c1be8483dad070189c3a0c660e7acacf478402"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -211,7 +257,9 @@
       "max_vulnerable": "17.8.29",
       "fixed": "17.8.43",
       "release": "",
-      "commits": ["f0cbb13971c30ad15a3f252a8d0171898a01ec11"]
+      "commits": [
+        "f0cbb13971c30ad15a3f252a8d0171898a01ec11"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -220,7 +268,9 @@
       "max_vulnerable": "17.10.29",
       "fixed": "17.10.46",
       "release": "",
-      "commits": ["aa888d3214e5adb503c48c3bad2bfc6c5aff638a"]
+      "commits": [
+        "aa888d3214e5adb503c48c3bad2bfc6c5aff638a"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -229,7 +279,9 @@
       "max_vulnerable": "17.11.31",
       "fixed": "17.11.48",
       "release": "",
-      "commits": ["02bf66295b64ab368d12933041f7281aad186a2d"]
+      "commits": [
+        "02bf66295b64ab368d12933041f7281aad186a2d"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -238,7 +290,9 @@
       "max_vulnerable": "17.12.36",
       "fixed": "17.12.50",
       "release": "",
-      "commits": ["728984d96edf07d56918a88b0f37fec6b1dfbbc9"]
+      "commits": [
+        "728984d96edf07d56918a88b0f37fec6b1dfbbc9"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -247,7 +301,9 @@
       "max_vulnerable": "17.14.8",
       "fixed": "17.14.28",
       "release": "",
-      "commits": ["09c1be8483dad070189c3a0c660e7acacf478402"]
+      "commits": [
+        "09c1be8483dad070189c3a0c660e7acacf478402"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -256,7 +312,9 @@
       "max_vulnerable": "17.8.29",
       "fixed": "17.8.43",
       "release": "",
-      "commits": ["f0cbb13971c30ad15a3f252a8d0171898a01ec11"]
+      "commits": [
+        "f0cbb13971c30ad15a3f252a8d0171898a01ec11"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -265,7 +323,9 @@
       "max_vulnerable": "17.10.29",
       "fixed": "17.10.46",
       "release": "",
-      "commits": ["aa888d3214e5adb503c48c3bad2bfc6c5aff638a"]
+      "commits": [
+        "aa888d3214e5adb503c48c3bad2bfc6c5aff638a"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -274,7 +334,9 @@
       "max_vulnerable": "17.11.31",
       "fixed": "17.11.48",
       "release": "",
-      "commits": ["02bf66295b64ab368d12933041f7281aad186a2d"]
+      "commits": [
+        "02bf66295b64ab368d12933041f7281aad186a2d"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -283,7 +345,9 @@
       "max_vulnerable": "17.12.36",
       "fixed": "17.12.50",
       "release": "",
-      "commits": ["728984d96edf07d56918a88b0f37fec6b1dfbbc9"]
+      "commits": [
+        "728984d96edf07d56918a88b0f37fec6b1dfbbc9"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -292,7 +356,9 @@
       "max_vulnerable": "17.14.8",
       "fixed": "17.14.28",
       "release": "",
-      "commits": ["09c1be8483dad070189c3a0c660e7acacf478402"]
+      "commits": [
+        "09c1be8483dad070189c3a0c660e7acacf478402"
+      ]
     }
   ],
   "commits": {
@@ -360,6 +426,58 @@
       "url": "https://github.com/dotnet/msbuild/commit/09c1be8483dad070189c3a0c660e7acacf478402.diff"
     }
   },
+  "product_name": {
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-sdk": ".NET SDK",
+    "Microsoft.AspNetCore.Server.Kestrel.Core": "Microsoft.AspNetCore.Server.Kestrel.Core",
+    "Microsoft.Build.Tasks.Core": "Microsoft.Build.Tasks.Core",
+    "Microsoft.Build": "Microsoft.Build",
+    "Microsoft.Build.Utilities.Core": "Microsoft.Build.Utilities.Core"
+  },
+  "product_cves": {
+    "dotnet-runtime": [
+      "CVE-2025-55248"
+    ],
+    "dotnet-aspnetcore": [
+      "CVE-2025-55315"
+    ],
+    "dotnet-sdk": [
+      "CVE-2025-55247"
+    ],
+    "Microsoft.AspNetCore.Server.Kestrel.Core": [
+      "CVE-2025-55315"
+    ],
+    "Microsoft.Build.Tasks.Core": [
+      "CVE-2025-55247"
+    ],
+    "Microsoft.Build": [
+      "CVE-2025-55247"
+    ],
+    "Microsoft.Build.Utilities.Core": [
+      "CVE-2025-55247"
+    ]
+  },
+  "release_cves": {
+    "9.0": [
+      "CVE-2025-55248",
+      "CVE-2025-55315"
+    ],
+    "8.0": [
+      "CVE-2025-55248",
+      "CVE-2025-55315"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2025-55248": [
+      "8.0",
+      "9.0"
+    ],
+    "CVE-2025-55315": [
+      "8.0",
+      "9.0"
+    ]
+  },
   "cve_commits": {
     "CVE-2025-55248": [
       "18e28d767acf44208afa6c4e2e67a10c65e9647e",
@@ -376,23 +494,5 @@
       "728984d96edf07d56918a88b0f37fec6b1dfbbc9",
       "09c1be8483dad070189c3a0c660e7acacf478402"
     ]
-  },
-  "cve_releases": {
-    "CVE-2025-55248": ["8.0", "9.0"],
-    "CVE-2025-55315": ["8.0", "9.0"]
-  },
-  "product_cves": {
-    "dotnet-runtime": ["CVE-2025-55248"],
-    "dotnet-aspnetcore": ["CVE-2025-55315"],
-    "dotnet-sdk": ["CVE-2025-55247"]
-  },
-  "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-sdk": ".NET SDK"
-  },
-  "release_cves": {
-    "8.0": ["CVE-2025-55248", "CVE-2025-55315"],
-    "9.0": ["CVE-2025-55248", "CVE-2025-55315"]
   }
 }

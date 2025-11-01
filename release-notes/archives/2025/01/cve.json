@@ -17,10 +17,16 @@
       "description": [
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/340"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/340"
+      ]
     },
     {
       "id": "CVE-2025-21172",
@@ -37,10 +43,16 @@
       "description": [
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/339"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/339"
+      ]
     },
     {
       "id": "CVE-2025-21176",
@@ -57,10 +69,16 @@
       "description": [
         "An attacker could exploit this vulnerability by loading a specially crafted file in Visual Studio."
       ],
-      "platforms": ["all"],
-      "architectures": ["all"],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/338"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/338"
+      ]
     },
     {
       "id": "CVE-2025-21173",
@@ -77,39 +95,51 @@
       "description": [
         "An attacker could exploit this vulnerability to writing a specially crafted file in the security context of the local system."
       ],
-      "platforms": ["linux"],
-      "architectures": ["all"],
+      "platforms": [
+        "linux"
+      ],
+      "architectures": [
+        "all"
+      ],
       "cna": "microsoft",
-      "references": ["https://github.com/dotnet/announcements/issues/337"]
+      "references": [
+        "https://github.com/dotnet/announcements/issues/337"
+      ]
     }
   ],
   "products": [
     {
       "cve_id": "CVE-2025-21172",
       "name": "dotnet-runtime",
-      "release": "6.0",
-      "commits": ["b3f8ef0105c079c255caa6aa31d630482db5d03c"],
       "min_vulnerable": "",
       "max_vulnerable": "",
-      "fixed": ""
+      "fixed": "",
+      "release": "6.0",
+      "commits": [
+        "b3f8ef0105c079c255caa6aa31d630482db5d03c"
+      ]
     },
     {
       "cve_id": "CVE-2025-21173",
       "name": "dotnet-sdk",
-      "release": "",
-      "commits": ["4416ac92cd8588320132c4ce0d508d78a4a26d15"],
       "min_vulnerable": "",
       "max_vulnerable": "",
-      "fixed": ""
+      "fixed": "",
+      "release": "",
+      "commits": [
+        "4416ac92cd8588320132c4ce0d508d78a4a26d15"
+      ]
     },
     {
       "cve_id": "CVE-2025-21176",
       "name": "dotnet-runtime",
-      "release": "6.0",
-      "commits": ["b3f8ef0105c079c255caa6aa31d630482db5d03c"],
       "min_vulnerable": "",
       "max_vulnerable": "",
-      "fixed": ""
+      "fixed": "",
+      "release": "6.0",
+      "commits": [
+        "b3f8ef0105c079c255caa6aa31d630482db5d03c"
+      ]
     },
     {
       "cve_id": "CVE-2025-21172",
@@ -118,7 +148,9 @@
       "max_vulnerable": "8.0.11",
       "fixed": "8.0.12",
       "release": "8.0",
-      "commits": ["89ef51c5d8f5239345127a1e282e11036e590c8b"]
+      "commits": [
+        "89ef51c5d8f5239345127a1e282e11036e590c8b"
+      ]
     },
     {
       "cve_id": "CVE-2025-21173",
@@ -127,7 +159,9 @@
       "max_vulnerable": "8.0.111",
       "fixed": "8.0.112",
       "release": "",
-      "commits": ["7034fd96502b925b5f65c31e34e99116870bc59f"]
+      "commits": [
+        "7034fd96502b925b5f65c31e34e99116870bc59f"
+      ]
     },
     {
       "cve_id": "CVE-2025-21173",
@@ -136,16 +170,20 @@
       "max_vulnerable": "8.0.307",
       "fixed": "8.0.308",
       "release": "",
-      "commits": ["2a98e615955be9b9d0752d090c3f92f70c7d0223"]
+      "commits": [
+        "2a98e615955be9b9d0752d090c3f92f70c7d0223"
+      ]
     },
     {
       "cve_id": "CVE-2025-21173",
       "name": "dotnet-sdk",
-      "release": "",
-      "commits": ["1ba623839f23fe8857d2aa0dc23783692325deab"],
       "min_vulnerable": "",
       "max_vulnerable": "",
-      "fixed": ""
+      "fixed": "",
+      "release": "",
+      "commits": [
+        "1ba623839f23fe8857d2aa0dc23783692325deab"
+      ]
     },
     {
       "cve_id": "CVE-2025-21176",
@@ -154,7 +192,9 @@
       "max_vulnerable": "8.0.11",
       "fixed": "8.0.12",
       "release": "8.0",
-      "commits": ["89ef51c5d8f5239345127a1e282e11036e590c8b"]
+      "commits": [
+        "89ef51c5d8f5239345127a1e282e11036e590c8b"
+      ]
     },
     {
       "cve_id": "CVE-2025-21171",
@@ -163,7 +203,9 @@
       "max_vulnerable": "9.0.0",
       "fixed": "9.0.1",
       "release": "9.0",
-      "commits": ["9da8c6a4a6ea03054e776275d3fd5c752897842e"]
+      "commits": [
+        "9da8c6a4a6ea03054e776275d3fd5c752897842e"
+      ]
     },
     {
       "cve_id": "CVE-2025-21172",
@@ -172,7 +214,9 @@
       "max_vulnerable": "9.0.0",
       "fixed": "9.0.1",
       "release": "9.0",
-      "commits": ["32d8ea6eecf7f192a75162645390847b14b56dbb"]
+      "commits": [
+        "32d8ea6eecf7f192a75162645390847b14b56dbb"
+      ]
     },
     {
       "cve_id": "CVE-2025-21173",
@@ -181,7 +225,9 @@
       "max_vulnerable": "9.0.101",
       "fixed": "9.0.102",
       "release": "",
-      "commits": ["802c364c05180a487624fc839870677625810b10"]
+      "commits": [
+        "802c364c05180a487624fc839870677625810b10"
+      ]
     },
     {
       "cve_id": "CVE-2025-21176",
@@ -190,7 +236,9 @@
       "max_vulnerable": "9.0.0",
       "fixed": "9.0.1",
       "release": "9.0",
-      "commits": ["32d8ea6eecf7f192a75162645390847b14b56dbb"]
+      "commits": [
+        "32d8ea6eecf7f192a75162645390847b14b56dbb"
+      ]
     }
   ],
   "packages": [],
@@ -259,6 +307,50 @@
       "url": "https://github.com/dotnet/sdk/commit/802c364c05180a487624fc839870677625810b10.diff"
     }
   },
+  "product_name": {
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-sdk": ".NET SDK"
+  },
+  "product_cves": {
+    "dotnet-runtime": [
+      "CVE-2025-21171",
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ],
+    "dotnet-sdk": [
+      "CVE-2025-21173"
+    ]
+  },
+  "release_cves": {
+    "6.0": [
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ],
+    "8.0": [
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ],
+    "9.0": [
+      "CVE-2025-21171",
+      "CVE-2025-21172",
+      "CVE-2025-21176"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2025-21172": [
+      "6.0",
+      "8.0",
+      "9.0"
+    ],
+    "CVE-2025-21176": [
+      "6.0",
+      "8.0",
+      "9.0"
+    ],
+    "CVE-2025-21171": [
+      "9.0"
+    ]
+  },
   "cve_commits": {
     "CVE-2025-21172": [
       "b3f8ef0105c079c255caa6aa31d630482db5d03c",
@@ -277,25 +369,8 @@
       "89ef51c5d8f5239345127a1e282e11036e590c8b",
       "32d8ea6eecf7f192a75162645390847b14b56dbb"
     ],
-    "CVE-2025-21171": ["9da8c6a4a6ea03054e776275d3fd5c752897842e"]
-  },
-  "cve_releases": {
-    "CVE-2025-21172": ["6.0", "8.0", "9.0"],
-    "CVE-2025-21176": ["6.0", "8.0", "9.0"],
-    "CVE-2025-21171": ["9.0"]
-  },
-  "product_cves": {
-    "dotnet-runtime": ["CVE-2025-21171", "CVE-2025-21172", "CVE-2025-21176"],
-    "dotnet-sdk": ["CVE-2025-21173"]
-  },
-  "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-sdk": ".NET SDK"
-  },
-  "release_cves": {
-    "6.0": ["CVE-2025-21172", "CVE-2025-21176"],
-    "8.0": ["CVE-2025-21172", "CVE-2025-21176"],
-    "9.0": ["CVE-2025-21171", "CVE-2025-21172", "CVE-2025-21176"]
+    "CVE-2025-21171": [
+      "9da8c6a4a6ea03054e776275d3fd5c752897842e"
+    ]
   }
 }
