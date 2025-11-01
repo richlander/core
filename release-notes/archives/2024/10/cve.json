@@ -241,7 +241,7 @@
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
       "release": "8.0",
-      "commits": []
+      "commits": ["132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"]
     },
     {
       "cve_id": "CVE-2024-43483",
@@ -334,20 +334,20 @@
     }
   },
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries",
     "System.IO.Packaging": "System.IO.Packaging",
     "System.Runtime.Caching": "System.Runtime.Caching",
     "System.Security.Cryptography.Cose": "System.Security.Cryptography.Cose",
     "System.Text.Json": "System.Text.Json"
   },
   "product_cves": {
+    "dotnet-aspnetcore": [
+      "CVE-2024-38229"
+    ],
     "dotnet-runtime": [
       "CVE-2024-43483",
       "CVE-2024-43485"
-    ],
-    "dotnet-aspnetcore": [
-      "CVE-2024-38229"
     ],
     "System.IO.Packaging": [
       "CVE-2024-43483",
@@ -380,19 +380,19 @@
     ]
   },
   "cve_releases": {
+    "CVE-2024-38229": [
+      "8.0"
+    ],
     "CVE-2024-43483": [
       "6.0",
       "8.0",
       "9.0"
     ],
-    "CVE-2024-43485": [
+    "CVE-2024-43484": [
       "6.0",
       "8.0"
     ],
-    "CVE-2024-38229": [
-      "8.0"
-    ],
-    "CVE-2024-43484": [
+    "CVE-2024-43485": [
       "6.0",
       "8.0"
     ]

@@ -96,15 +96,15 @@
   "packages": [],
   "commits": {},
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "dotnet-aspnetcore": "ASP.NET Core Runtime"
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2024-30045"
-    ],
     "dotnet-aspnetcore": [
       "CVE-2024-30046"
+    ],
+    "dotnet-runtime": [
+      "CVE-2024-30045"
     ]
   },
   "release_cves": {},

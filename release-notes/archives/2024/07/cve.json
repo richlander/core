@@ -249,20 +249,20 @@
     }
   },
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries",
     "Microsoft.IO.Redist": "Microsoft.IO.Redist",
     "System.Formats.Asn1": "System.Formats.Asn1",
     "System.Text.Json": "System.Text.Json"
   },
   "product_cves": {
+    "dotnet-aspnetcore": [
+      "CVE-2024-35264"
+    ],
     "dotnet-runtime": [
       "CVE-2024-30105",
       "CVE-2024-38081",
       "CVE-2024-38095"
-    ],
-    "dotnet-aspnetcore": [
-      "CVE-2024-35264"
     ],
     "Microsoft.IO.Redist": [
       "CVE-2024-38081"
@@ -286,17 +286,17 @@
     ]
   },
   "cve_releases": {
+    "CVE-2024-30105": [
+      "8.0"
+    ],
+    "CVE-2024-35264": [
+      "8.0"
+    ],
     "CVE-2024-38081": [
       "6.0"
     ],
     "CVE-2024-38095": [
       "6.0",
-      "8.0"
-    ],
-    "CVE-2024-30105": [
-      "8.0"
-    ],
-    "CVE-2024-35264": [
       "8.0"
     ]
   },

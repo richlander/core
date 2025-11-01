@@ -427,20 +427,20 @@
     }
   },
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-runtime": ".NET Runtime Libraries",
     "dotnet-sdk": ".NET SDK",
     "Microsoft.AspNetCore.Server.Kestrel.Core": "Microsoft.AspNetCore.Server.Kestrel.Core",
-    "Microsoft.Build.Tasks.Core": "Microsoft.Build.Tasks.Core",
     "Microsoft.Build": "Microsoft.Build",
+    "Microsoft.Build.Tasks.Core": "Microsoft.Build.Tasks.Core",
     "Microsoft.Build.Utilities.Core": "Microsoft.Build.Utilities.Core"
   },
   "product_cves": {
-    "dotnet-runtime": [
-      "CVE-2025-55248"
-    ],
     "dotnet-aspnetcore": [
       "CVE-2025-55315"
+    ],
+    "dotnet-runtime": [
+      "CVE-2025-55248"
     ],
     "dotnet-sdk": [
       "CVE-2025-55247"
@@ -448,10 +448,10 @@
     "Microsoft.AspNetCore.Server.Kestrel.Core": [
       "CVE-2025-55315"
     ],
-    "Microsoft.Build.Tasks.Core": [
+    "Microsoft.Build": [
       "CVE-2025-55247"
     ],
-    "Microsoft.Build": [
+    "Microsoft.Build.Tasks.Core": [
       "CVE-2025-55247"
     ],
     "Microsoft.Build.Utilities.Core": [
@@ -459,11 +459,11 @@
     ]
   },
   "release_cves": {
-    "9.0": [
+    "8.0": [
       "CVE-2025-55248",
       "CVE-2025-55315"
     ],
-    "8.0": [
+    "9.0": [
       "CVE-2025-55248",
       "CVE-2025-55315"
     ]
