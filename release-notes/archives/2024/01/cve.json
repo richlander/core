@@ -41,10 +41,7 @@
         "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
       },
       "description": [
-        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
-      ],
-      "mitigation": [
-        "Within .NET, only the WindowsDesktop shared runtime contains inbox components which utilize X.509 chain building APIs in a vulnerable manner. Other project types, such as web applications, are not impacted by this vulnerability unless they explicitly invoke the X.509 chain building APIs themselves in a vulnerable manner or they consume an external package which does this on their behalf."
+        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app\u0027s typical authentication logic."
       ],
       "platforms": [
         "all"
@@ -55,6 +52,9 @@
       "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/291"
+      ],
+      "mitigation": [
+        "Within .NET, only the WindowsDesktop shared runtime contains inbox components which utilize X.509 chain building APIs in a vulnerable manner. Other project types, such as web applications, are not impacted by this vulnerability unless they explicitly invoke the X.509 chain building APIs themselves in a vulnerable manner or they consume an external package which does this on their behalf."
       ]
     },
     {
@@ -72,9 +72,6 @@
       "description": [
         "A Denial of Service vulnerability exists in ASP.NET Core project templates which utilize JWT-based authentication tokens. This vulnerability allows an unauthenticated client to consume arbitrarily large amounts of server memory, potentially triggering an out-of-memory condition on the server and making the server no longer able to respond to legitimate requests."
       ],
-      "mitigation": [
-        "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
-      ],
       "platforms": [
         "all"
       ],
@@ -84,13 +81,16 @@
       "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/290"
+      ],
+      "mitigation": [
+        "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
       ]
     }
   ],
   "products": [
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -99,7 +99,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -108,7 +108,7 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.25",
       "fixed": "6.0.26",
@@ -117,7 +117,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "7.0.0",
       "max_vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -126,7 +126,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "7.0.0",
       "max_vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -135,7 +135,7 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "7.0.0",
       "max_vulnerable": "7.0.14",
       "fixed": "7.0.15",
@@ -144,7 +144,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -153,7 +153,7 @@
     },
     {
       "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -162,7 +162,7 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -272,30 +272,33 @@
     }
   ],
   "commits": {},
-  "cve_commits": {},
-  "cve_releases": {
-    "CVE-2024-0057": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ],
-    "CVE-2024-21319": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
+  "product_name": {
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "Microsoft.Data.SqlClient": "Microsoft.Data.SqlClient",
+    "Microsoft.IdentityModel.JsonWebTokens": "Microsoft.IdentityModel.JsonWebTokens",
+    "System.Data.SqlClient": "System.Data.SqlClient",
+    "System.IdentityModel.Tokens.Jwt": "System.IdentityModel.Tokens.Jwt"
   },
   "product_cves": {
-    "dotnet-runtime-libraries": [
+    "dotnet-runtime": [
       "CVE-2024-0057"
     ],
-    "dotnet-runtime-aspnetcore": [
+    "dotnet-aspnetcore": [
+      "CVE-2024-21319"
+    ],
+    "Microsoft.Data.SqlClient": [
+      "CVE-2024-0056"
+    ],
+    "Microsoft.IdentityModel.JsonWebTokens": [
+      "CVE-2024-21319"
+    ],
+    "System.Data.SqlClient": [
+      "CVE-2024-0056"
+    ],
+    "System.IdentityModel.Tokens.Jwt": [
       "CVE-2024-21319"
     ]
-  },
-  "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
   "release_cves": {
     "6.0": [
@@ -310,5 +313,18 @@
       "CVE-2024-0057",
       "CVE-2024-21319"
     ]
-  }
+  },
+  "cve_releases": {
+    "CVE-2024-0057": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ],
+    "CVE-2024-21319": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {}
 }

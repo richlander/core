@@ -50,10 +50,10 @@
       "architectures": [
         "all"
       ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/314"
-      ],
-      "cna": "microsoft"
+      ]
     },
     {
       "id": "CVE-2024-38081",
@@ -76,10 +76,10 @@
       "architectures": [
         "all"
       ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/313"
-      ],
-      "cna": "microsoft"
+      ]
     },
     {
       "id": "CVE-2024-38095",
@@ -102,16 +102,16 @@
       "architectures": [
         "all"
       ],
+      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/312"
-      ],
-      "cna": "microsoft"
+      ]
     }
   ],
   "products": [
     {
       "cve_id": "CVE-2024-38081",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.31",
       "fixed": "6.0.32",
@@ -122,7 +122,7 @@
     },
     {
       "cve_id": "CVE-2024-38095",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.31",
       "fixed": "6.0.32",
@@ -133,7 +133,7 @@
     },
     {
       "cve_id": "CVE-2024-30105",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.6",
       "fixed": "8.0.7",
@@ -144,7 +144,7 @@
     },
     {
       "cve_id": "CVE-2024-35264",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.6",
       "fixed": "8.0.7",
@@ -155,7 +155,7 @@
     },
     {
       "cve_id": "CVE-2024-38095",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.6",
       "fixed": "8.0.7",
@@ -248,6 +248,58 @@
       "url": "https://github.com/dotnet/runtime/commit/979135d5ca4efaf6436ee13539cc3f1e039d570a.diff"
     }
   },
+  "product_name": {
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "Microsoft.IO.Redist": "Microsoft.IO.Redist",
+    "System.Formats.Asn1": "System.Formats.Asn1",
+    "System.Text.Json": "System.Text.Json"
+  },
+  "product_cves": {
+    "dotnet-runtime": [
+      "CVE-2024-30105",
+      "CVE-2024-38081",
+      "CVE-2024-38095"
+    ],
+    "dotnet-aspnetcore": [
+      "CVE-2024-35264"
+    ],
+    "Microsoft.IO.Redist": [
+      "CVE-2024-38081"
+    ],
+    "System.Formats.Asn1": [
+      "CVE-2024-38095"
+    ],
+    "System.Text.Json": [
+      "CVE-2024-30105"
+    ]
+  },
+  "release_cves": {
+    "6.0": [
+      "CVE-2024-38081",
+      "CVE-2024-38095"
+    ],
+    "8.0": [
+      "CVE-2024-30105",
+      "CVE-2024-35264",
+      "CVE-2024-38095"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2024-38081": [
+      "6.0"
+    ],
+    "CVE-2024-38095": [
+      "6.0",
+      "8.0"
+    ],
+    "CVE-2024-30105": [
+      "8.0"
+    ],
+    "CVE-2024-35264": [
+      "8.0"
+    ]
+  },
   "cve_commits": {
     "CVE-2024-30105": [
       "fa5b0d8f4a8b424732cc992158aa92842f8a2846"
@@ -261,46 +313,6 @@
     "CVE-2024-38095": [
       "979135d5ca4efaf6436ee13539cc3f1e039d570a",
       "4a8d5a007971d19f389ca17f7b8eb4f9bb199991"
-    ]
-  },
-  "cve_releases": {
-    "CVE-2024-30105": [
-      "8.0"
-    ],
-    "CVE-2024-35264": [
-      "8.0"
-    ],
-    "CVE-2024-38081": [
-      "6.0"
-    ],
-    "CVE-2024-38095": [
-      "6.0",
-      "8.0"
-    ]
-  },
-  "product_cves": {
-    "dotnet-runtime-libraries": [
-      "CVE-2024-30105",
-      "CVE-2024-38081",
-      "CVE-2024-38095"
-    ],
-    "dotnet-runtime-aspnetcore": [
-      "CVE-2024-35264"
-    ]
-  },
-  "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
-  },
-  "release_cves": {
-    "6.0": [
-      "CVE-2024-38081",
-      "CVE-2024-38095"
-    ],
-    "8.0": [
-      "CVE-2024-30105",
-      "CVE-2024-35264",
-      "CVE-2024-38095"
     ]
   }
 }

@@ -1,0 +1,498 @@
+{
+  "last_updated": "2025-10-14",
+  "title": ".NET Security Updates for October 2025 (2025-10-14)",
+  "cves": [
+    {
+      "id": "CVE-2025-55248",
+      "problem": ".NET Information Disclosure Vulnerability",
+      "severity": "medium",
+      "timeline": {
+        "disclosed": "2025-10-14",
+        "fixed": "2025-10-14"
+      },
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C"
+      },
+      "description": [
+        "A MITM (man in the middle) attacker may prevent use of TLS between client and SMTP server, forcing client to send data over unencrypted connection."
+      ],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
+      "references": [
+        "https://github.com/dotnet/announcements/issues/372"
+      ]
+    },
+    {
+      "id": "CVE-2025-55315",
+      "problem": ".NET Security Feature Bypass Vulnerability",
+      "severity": "critical",
+      "timeline": {
+        "disclosed": "2025-10-14",
+        "fixed": "2025-10-14"
+      },
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:L/E:U/RL:O/RC:C"
+      },
+      "description": [
+        "Inconsistent interpretation of http requests (\u0027http request/response smuggling\u0027) in ASP.NET Core allows an authorized attacker to bypass a security feature over a network."
+      ],
+      "platforms": [
+        "all"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
+      "references": [
+        "https://github.com/dotnet/announcements/issues/371"
+      ]
+    },
+    {
+      "id": "CVE-2025-55247",
+      "problem": ".NET Denial of Service Vulnerability",
+      "severity": "high",
+      "timeline": {
+        "disclosed": "2025-10-14",
+        "fixed": "2025-10-14"
+      },
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+      },
+      "description": [
+        "A vulnerability exists in .NET where predictable paths for MSBuild\u0027s temporary directories on Linux let another user create the directories ahead of MSBuild, leading to DoS of builds. This only affects .NET on Linux operating systems."
+      ],
+      "platforms": [
+        "linux"
+      ],
+      "architectures": [
+        "all"
+      ],
+      "cna": "microsoft",
+      "references": [
+        "https://github.com/dotnet/announcements/issues/370"
+      ],
+      "mitigation": [
+        "Projects which do not utilize the DownloadFile build task are not susceptible to this vulnerability."
+      ]
+    }
+  ],
+  "products": [
+    {
+      "cve_id": "CVE-2025-55248",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.9",
+      "fixed": "9.0.10",
+      "release": "9.0",
+      "commits": [
+        "18e28d767acf44208afa6c4e2e67a10c65e9647e"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55248",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.20",
+      "fixed": "8.0.21",
+      "release": "8.0",
+      "commits": [
+        "44527b9ed8427463578126a4494c3654dda11866"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55315",
+      "name": "dotnet-aspnetcore",
+      "min_vulnerable": "9.0.0",
+      "max_vulnerable": "9.0.9",
+      "fixed": "9.0.10",
+      "release": "9.0",
+      "commits": [
+        "97a86434195a82fc7e302a4c57d5ec7f885c1ad5"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55315",
+      "name": "dotnet-aspnetcore",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.20",
+      "fixed": "8.0.21",
+      "release": "8.0",
+      "commits": [
+        "61794b7f3aac0b6719f783db5b5c725fefc8b695"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.100",
+      "max_vulnerable": "8.0.120",
+      "fixed": "8.0.121",
+      "release": "",
+      "commits": [
+        "f0cbb13971c30ad15a3f252a8d0171898a01ec11"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.300",
+      "max_vulnerable": "8.0.317",
+      "fixed": "8.0.318",
+      "release": "",
+      "commits": [
+        "aa888d3214e5adb503c48c3bad2bfc6c5aff638a"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.400",
+      "max_vulnerable": "8.0.414",
+      "fixed": "8.0.415",
+      "release": "",
+      "commits": [
+        "02bf66295b64ab368d12933041f7281aad186a2d"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "9.0.100",
+      "max_vulnerable": "9.0.110",
+      "fixed": "9.0.111",
+      "release": "",
+      "commits": [
+        "728984d96edf07d56918a88b0f37fec6b1dfbbc9"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "9.0.300",
+      "max_vulnerable": "9.0.305",
+      "fixed": "9.0.306",
+      "release": "",
+      "commits": [
+        "09c1be8483dad070189c3a0c660e7acacf478402"
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "cve_id": "CVE-2025-55315",
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Core",
+      "min_vulnerable": "2.0.0",
+      "max_vulnerable": "2.3.0",
+      "fixed": "2.3.6",
+      "release": "",
+      "commits": []
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Tasks.Core",
+      "min_vulnerable": "17.8.0",
+      "max_vulnerable": "17.8.29",
+      "fixed": "17.8.43",
+      "release": "",
+      "commits": [
+        "f0cbb13971c30ad15a3f252a8d0171898a01ec11"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Tasks.Core",
+      "min_vulnerable": "17.10.0",
+      "max_vulnerable": "17.10.29",
+      "fixed": "17.10.46",
+      "release": "",
+      "commits": [
+        "aa888d3214e5adb503c48c3bad2bfc6c5aff638a"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Tasks.Core",
+      "min_vulnerable": "17.11.0",
+      "max_vulnerable": "17.11.31",
+      "fixed": "17.11.48",
+      "release": "",
+      "commits": [
+        "02bf66295b64ab368d12933041f7281aad186a2d"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Tasks.Core",
+      "min_vulnerable": "17.12.0",
+      "max_vulnerable": "17.12.36",
+      "fixed": "17.12.50",
+      "release": "",
+      "commits": [
+        "728984d96edf07d56918a88b0f37fec6b1dfbbc9"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Tasks.Core",
+      "min_vulnerable": "17.14.0",
+      "max_vulnerable": "17.14.8",
+      "fixed": "17.14.28",
+      "release": "",
+      "commits": [
+        "09c1be8483dad070189c3a0c660e7acacf478402"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build",
+      "min_vulnerable": "17.8.0",
+      "max_vulnerable": "17.8.29",
+      "fixed": "17.8.43",
+      "release": "",
+      "commits": [
+        "f0cbb13971c30ad15a3f252a8d0171898a01ec11"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build",
+      "min_vulnerable": "17.10.0",
+      "max_vulnerable": "17.10.29",
+      "fixed": "17.10.46",
+      "release": "",
+      "commits": [
+        "aa888d3214e5adb503c48c3bad2bfc6c5aff638a"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build",
+      "min_vulnerable": "17.11.0",
+      "max_vulnerable": "17.11.31",
+      "fixed": "17.11.48",
+      "release": "",
+      "commits": [
+        "02bf66295b64ab368d12933041f7281aad186a2d"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build",
+      "min_vulnerable": "17.12.0",
+      "max_vulnerable": "17.12.36",
+      "fixed": "17.12.50",
+      "release": "",
+      "commits": [
+        "728984d96edf07d56918a88b0f37fec6b1dfbbc9"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build",
+      "min_vulnerable": "17.14.0",
+      "max_vulnerable": "17.14.8",
+      "fixed": "17.14.28",
+      "release": "",
+      "commits": [
+        "09c1be8483dad070189c3a0c660e7acacf478402"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Utilities.Core",
+      "min_vulnerable": "17.8.0",
+      "max_vulnerable": "17.8.29",
+      "fixed": "17.8.43",
+      "release": "",
+      "commits": [
+        "f0cbb13971c30ad15a3f252a8d0171898a01ec11"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Utilities.Core",
+      "min_vulnerable": "17.10.0",
+      "max_vulnerable": "17.10.29",
+      "fixed": "17.10.46",
+      "release": "",
+      "commits": [
+        "aa888d3214e5adb503c48c3bad2bfc6c5aff638a"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Utilities.Core",
+      "min_vulnerable": "17.11.0",
+      "max_vulnerable": "17.11.31",
+      "fixed": "17.11.48",
+      "release": "",
+      "commits": [
+        "02bf66295b64ab368d12933041f7281aad186a2d"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Utilities.Core",
+      "min_vulnerable": "17.12.0",
+      "max_vulnerable": "17.12.36",
+      "fixed": "17.12.50",
+      "release": "",
+      "commits": [
+        "728984d96edf07d56918a88b0f37fec6b1dfbbc9"
+      ]
+    },
+    {
+      "cve_id": "CVE-2025-55247",
+      "name": "Microsoft.Build.Utilities.Core",
+      "min_vulnerable": "17.14.0",
+      "max_vulnerable": "17.14.8",
+      "fixed": "17.14.28",
+      "release": "",
+      "commits": [
+        "09c1be8483dad070189c3a0c660e7acacf478402"
+      ]
+    }
+  ],
+  "commits": {
+    "18e28d767acf44208afa6c4e2e67a10c65e9647e": {
+      "repo": "runtime",
+      "branch": "release/9.0",
+      "hash": "18e28d767acf44208afa6c4e2e67a10c65e9647e",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/18e28d767acf44208afa6c4e2e67a10c65e9647e.diff"
+    },
+    "44527b9ed8427463578126a4494c3654dda11866": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "44527b9ed8427463578126a4494c3654dda11866",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/44527b9ed8427463578126a4494c3654dda11866.diff"
+    },
+    "97a86434195a82fc7e302a4c57d5ec7f885c1ad5": {
+      "repo": "aspnetcore",
+      "branch": "release/9.0",
+      "hash": "97a86434195a82fc7e302a4c57d5ec7f885c1ad5",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/97a86434195a82fc7e302a4c57d5ec7f885c1ad5.diff"
+    },
+    "61794b7f3aac0b6719f783db5b5c725fefc8b695": {
+      "repo": "aspnetcore",
+      "branch": "release/8.0",
+      "hash": "61794b7f3aac0b6719f783db5b5c725fefc8b695",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/61794b7f3aac0b6719f783db5b5c725fefc8b695.diff"
+    },
+    "f0cbb13971c30ad15a3f252a8d0171898a01ec11": {
+      "repo": "msbuild",
+      "branch": "vs17.8",
+      "hash": "f0cbb13971c30ad15a3f252a8d0171898a01ec11",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/msbuild/commit/f0cbb13971c30ad15a3f252a8d0171898a01ec11.diff"
+    },
+    "aa888d3214e5adb503c48c3bad2bfc6c5aff638a": {
+      "repo": "msbuild",
+      "branch": "vs17.10",
+      "hash": "aa888d3214e5adb503c48c3bad2bfc6c5aff638a",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/msbuild/commit/aa888d3214e5adb503c48c3bad2bfc6c5aff638a.diff"
+    },
+    "02bf66295b64ab368d12933041f7281aad186a2d": {
+      "repo": "msbuild",
+      "branch": "vs17.11",
+      "hash": "02bf66295b64ab368d12933041f7281aad186a2d",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/msbuild/commit/02bf66295b64ab368d12933041f7281aad186a2d.diff"
+    },
+    "728984d96edf07d56918a88b0f37fec6b1dfbbc9": {
+      "repo": "msbuild",
+      "branch": "vs17.12",
+      "hash": "728984d96edf07d56918a88b0f37fec6b1dfbbc9",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/msbuild/commit/728984d96edf07d56918a88b0f37fec6b1dfbbc9.diff"
+    },
+    "09c1be8483dad070189c3a0c660e7acacf478402": {
+      "repo": "msbuild",
+      "branch": "vs17.14",
+      "hash": "09c1be8483dad070189c3a0c660e7acacf478402",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/msbuild/commit/09c1be8483dad070189c3a0c660e7acacf478402.diff"
+    }
+  },
+  "product_name": {
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "dotnet-sdk": ".NET SDK",
+    "Microsoft.AspNetCore.Server.Kestrel.Core": "Microsoft.AspNetCore.Server.Kestrel.Core",
+    "Microsoft.Build.Tasks.Core": "Microsoft.Build.Tasks.Core",
+    "Microsoft.Build": "Microsoft.Build",
+    "Microsoft.Build.Utilities.Core": "Microsoft.Build.Utilities.Core"
+  },
+  "product_cves": {
+    "dotnet-runtime": [
+      "CVE-2025-55248"
+    ],
+    "dotnet-aspnetcore": [
+      "CVE-2025-55315"
+    ],
+    "dotnet-sdk": [
+      "CVE-2025-55247"
+    ],
+    "Microsoft.AspNetCore.Server.Kestrel.Core": [
+      "CVE-2025-55315"
+    ],
+    "Microsoft.Build.Tasks.Core": [
+      "CVE-2025-55247"
+    ],
+    "Microsoft.Build": [
+      "CVE-2025-55247"
+    ],
+    "Microsoft.Build.Utilities.Core": [
+      "CVE-2025-55247"
+    ]
+  },
+  "release_cves": {
+    "9.0": [
+      "CVE-2025-55248",
+      "CVE-2025-55315"
+    ],
+    "8.0": [
+      "CVE-2025-55248",
+      "CVE-2025-55315"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2025-55248": [
+      "8.0",
+      "9.0"
+    ],
+    "CVE-2025-55315": [
+      "8.0",
+      "9.0"
+    ]
+  },
+  "cve_commits": {
+    "CVE-2025-55248": [
+      "18e28d767acf44208afa6c4e2e67a10c65e9647e",
+      "44527b9ed8427463578126a4494c3654dda11866"
+    ],
+    "CVE-2025-55315": [
+      "97a86434195a82fc7e302a4c57d5ec7f885c1ad5",
+      "61794b7f3aac0b6719f783db5b5c725fefc8b695"
+    ],
+    "CVE-2025-55247": [
+      "f0cbb13971c30ad15a3f252a8d0171898a01ec11",
+      "aa888d3214e5adb503c48c3bad2bfc6c5aff638a",
+      "02bf66295b64ab368d12933041f7281aad186a2d",
+      "728984d96edf07d56918a88b0f37fec6b1dfbbc9",
+      "09c1be8483dad070189c3a0c660e7acacf478402"
+    ]
+  }
+}

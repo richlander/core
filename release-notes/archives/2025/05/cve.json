@@ -32,7 +32,7 @@
   "products": [
     {
       "cve_id": "CVE-2025-26646",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.100",
       "max_vulnerable": "8.0.115",
       "fixed": "8.0.116",
@@ -43,7 +43,7 @@
     },
     {
       "cve_id": "CVE-2025-26646",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.300",
       "max_vulnerable": "8.0.312",
       "fixed": "8.0.313",
@@ -52,7 +52,7 @@
     },
     {
       "cve_id": "CVE-2025-26646",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.400",
       "max_vulnerable": "8.0.408",
       "fixed": "8.0.409",
@@ -63,7 +63,7 @@
     },
     {
       "cve_id": "CVE-2025-26646",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "9.0.100",
       "max_vulnerable": "9.0.105",
       "fixed": "9.0.106",
@@ -74,7 +74,7 @@
     },
     {
       "cve_id": "CVE-2025-26646",
-      "name": "microsoft.netcore.sdk",
+      "name": "dotnet-sdk",
       "min_vulnerable": "9.0.200",
       "max_vulnerable": "9.0.203",
       "fixed": "9.0.204",
@@ -146,7 +146,9 @@
       "max_vulnerable": "17.13.9",
       "fixed": "17.14.8",
       "release": "",
-      "commits": []
+      "commits": [
+        ""
+      ]
     }
   ],
   "commits": {
@@ -177,15 +179,22 @@
       "hash": "070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753",
       "org": "dotnet",
       "url": "https://github.com/dotnet/sdk/commit/070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753.diff"
-    },
-    "391e16c3b5c49938029e20d9ee69c4d5bdf51c70": {
-      "repo": "sdk",
-      "branch": "release/9.0.3xx",
-      "hash": "391e16c3b5c49938029e20d9ee69c4d5bdf51c70",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/sdk/commit/391e16c3b5c49938029e20d9ee69c4d5bdf51c70.diff"
     }
   },
+  "product_name": {
+    "dotnet-sdk": ".NET SDK",
+    "Microsoft.Build.Tasks.Core": "Microsoft.Build.Tasks.Core"
+  },
+  "product_cves": {
+    "dotnet-sdk": [
+      "CVE-2025-26646"
+    ],
+    "Microsoft.Build.Tasks.Core": [
+      "CVE-2025-26646"
+    ]
+  },
+  "release_cves": {},
+  "cve_releases": {},
   "cve_commits": {
     "CVE-2025-26646": [
       "d00609e7978ee1b0fe62b39a378611311cf85603",
@@ -193,16 +202,5 @@
       "ad312fc3980fd8c562fac172bc17318c447eeb75",
       "070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753"
     ]
-  },
-  "cve_releases": {},
-  "product_cves": {
-    "microsoft.netcore.sdk": [
-      "CVE-2025-26646"
-    ]
-  },
-  "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
-  },
-  "release_cves": {}
+  }
 }

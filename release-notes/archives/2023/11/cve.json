@@ -69,9 +69,6 @@
       "description": [
         "A security feature bypass vulnerability exists in ASP.NET where an unauthenticated user is able to bypass validation on Blazor server forms which could trigger unintended actions."
       ],
-      "mitigation": [
-        "This vulnerability only affects ASP.NET Core Blazor apps. Other application types, including ASP.NET Core apps which do not utilize Blazor, are not affected."
-      ],
       "platforms": [
         "all"
       ],
@@ -81,13 +78,16 @@
       "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/288"
+      ],
+      "mitigation": [
+        "This vulnerability only affects ASP.NET Core Blazor apps. Other application types, including ASP.NET Core apps which do not utilize Blazor, are not affected."
       ]
     }
   ],
   "products": [
     {
       "cve_id": "CVE-2023-36049",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "6.0.0",
       "max_vulnerable": "6.0.24",
       "fixed": "6.0.25",
@@ -96,7 +96,7 @@
     },
     {
       "cve_id": "CVE-2023-36049",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "7.0.0",
       "max_vulnerable": "7.0.13",
       "fixed": "7.0.14",
@@ -105,7 +105,7 @@
     },
     {
       "cve_id": "CVE-2023-36038",
-      "name": "dotnet-runtime-aspnetcore",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0-rc.2",
       "max_vulnerable": "8.0-rc.2",
       "fixed": "8.0.0",
@@ -114,7 +114,7 @@
     },
     {
       "cve_id": "CVE-2023-36049",
-      "name": "dotnet-runtime-libraries",
+      "name": "dotnet-runtime",
       "min_vulnerable": "8.0-rc.2",
       "max_vulnerable": "8.0-rc.2",
       "fixed": "8.0.0",
@@ -152,33 +152,21 @@
     }
   ],
   "commits": {},
-  "cve_commits": {},
-  "cve_releases": {
-    "CVE-2023-36049": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ],
-    "CVE-2023-36038": [
-      "8.0"
-    ],
-    "CVE-2023-36558": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
+  "product_name": {
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "Microsoft.AspNetCore.Components": "Microsoft.AspNetCore.Components"
   },
   "product_cves": {
-    "dotnet-runtime-libraries": [
+    "dotnet-runtime": [
       "CVE-2023-36049"
     ],
-    "dotnet-runtime-aspnetcore": [
+    "dotnet-aspnetcore": [
       "CVE-2023-36038"
+    ],
+    "Microsoft.AspNetCore.Components": [
+      "CVE-2023-36558"
     ]
-  },
-  "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
   },
   "release_cves": {
     "6.0": [
@@ -194,5 +182,21 @@
       "CVE-2023-36049",
       "CVE-2023-36558"
     ]
-  }
+  },
+  "cve_releases": {
+    "CVE-2023-36049": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ],
+    "CVE-2023-36038": [
+      "8.0"
+    ],
+    "CVE-2023-36558": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {}
 }

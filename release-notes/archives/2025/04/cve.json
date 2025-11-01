@@ -32,7 +32,7 @@
   "products": [
     {
       "cve_id": "CVE-2025-26682",
-      "name": "microsoft.aspnetcore.app.runtime",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.14",
       "fixed": "8.0.15",
@@ -43,7 +43,7 @@
     },
     {
       "cve_id": "CVE-2025-26682",
-      "name": "microsoft.aspnetcore.app.runtime",
+      "name": "dotnet-aspnetcore",
       "min_vulnerable": "9.0.0",
       "max_vulnerable": "9.0.3",
       "fixed": "9.0.4",
@@ -70,10 +70,20 @@
       "url": "https://github.com/dotnet/aspnetcore/commit/d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad.diff"
     }
   },
-  "cve_commits": {
-    "CVE-2025-26682": [
-      "d6605eb150c993dd8943e2c1a6875a93927c301a",
-      "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
+  "product_name": {
+    "dotnet-aspnetcore": "ASP.NET Core Runtime"
+  },
+  "product_cves": {
+    "dotnet-aspnetcore": [
+      "CVE-2025-26682"
+    ]
+  },
+  "release_cves": {
+    "8.0": [
+      "CVE-2025-26682"
+    ],
+    "9.0": [
+      "CVE-2025-26682"
     ]
   },
   "cve_releases": {
@@ -82,21 +92,10 @@
       "9.0"
     ]
   },
-  "product_cves": {
-    "microsoft.aspnetcore.app.runtime": [
-      "CVE-2025-26682"
-    ]
-  },
-  "product_name": {
-    "dotnet-runtime-libraries": ".NET Runtime Libraries",
-    "dotnet-runtime-aspnetcore": "ASP.NET Core Runtime"
-  },
-  "release_cves": {
-    "8.0": [
-      "CVE-2025-26682"
-    ],
-    "9.0": [
-      "CVE-2025-26682"
+  "cve_commits": {
+    "CVE-2025-26682": [
+      "d6605eb150c993dd8943e2c1a6875a93927c301a",
+      "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
     ]
   }
 }
