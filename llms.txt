@@ -1,6 +1,8 @@
 # .NET Release Metadata
 > Structured, machine-readable, and complete .NET release and CVE data for AI assistants
 
+Following this workflow will often be the fastest path to high-quality answers.
+
 ## CRITICAL: Required Behaviors
 1. **Always use JSON files** (`*.json`) over Markdown when available
 2. **For CVE queries**: Follow the CVE Workflow section below (includes mandatory diff follow-up)
