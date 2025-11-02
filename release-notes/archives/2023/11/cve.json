@@ -1,6 +1,6 @@
 {
-  "last_updated": "2023-11-14",
   "title": ".NET Security Updates for November 2023 (2023-11-14)",
+  "last_updated": "2023-11-14",
   "cves": [
     {
       "id": "CVE-2023-36038",
@@ -154,8 +154,7 @@
   "commits": {},
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "Microsoft.AspNetCore.Components": "Microsoft.AspNetCore.Components"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -163,9 +162,27 @@
     ],
     "dotnet-runtime": [
       "CVE-2023-36049"
-    ],
+    ]
+  },
+  "package_cves": {
     "Microsoft.AspNetCore.Components": [
       "CVE-2023-36558"
+    ]
+  },
+  "cve_commits": {},
+  "cve_releases": {
+    "CVE-2023-36038": [
+      "8.0"
+    ],
+    "CVE-2023-36049": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ],
+    "CVE-2023-36558": [
+      "6.0",
+      "7.0",
+      "8.0"
     ]
   },
   "release_cves": {
@@ -182,21 +199,5 @@
       "CVE-2023-36049",
       "CVE-2023-36558"
     ]
-  },
-  "cve_releases": {
-    "CVE-2023-36038": [
-      "8.0"
-    ],
-    "CVE-2023-36049": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ],
-    "CVE-2023-36558": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
-  },
-  "cve_commits": {}
+  }
 }

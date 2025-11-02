@@ -1,6 +1,6 @@
 {
-  "last_updated": "2024-04-09",
   "title": ".NET Security Updates for April 2024 (2024-04-09)",
+  "last_updated": "2024-04-09",
   "cves": [
     {
       "id": "CVE-2024-21409",
@@ -68,6 +68,15 @@
       "CVE-2024-21409"
     ]
   },
+  "package_cves": {},
+  "cve_commits": {},
+  "cve_releases": {
+    "CVE-2024-21409": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ]
+  },
   "release_cves": {
     "6.0": [
       "CVE-2024-21409"
@@ -78,13 +87,5 @@
     "8.0": [
       "CVE-2024-21409"
     ]
-  },
-  "cve_releases": {
-    "CVE-2024-21409": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
-  },
-  "cve_commits": {}
+  }
 }

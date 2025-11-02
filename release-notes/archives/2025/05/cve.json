@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-05-13",
   "title": ".NET Security Updates for May 2025 (2025-05-13)",
+  "last_updated": "2025-05-13",
   "cves": [
     {
       "id": "CVE-2025-26646",
@@ -206,15 +206,33 @@
     }
   },
   "product_name": {
-    "dotnet-sdk": ".NET SDK",
-    "Microsoft.Build.Tasks.Core": "Microsoft.Build.Tasks.Core"
+    "dotnet-sdk": ".NET SDK"
   },
   "product_cves": {
     "dotnet-sdk": [
       "CVE-2025-26646"
-    ],
+    ]
+  },
+  "package_cves": {
     "Microsoft.Build.Tasks.Core": [
       "CVE-2025-26646"
+    ]
+  },
+  "cve_commits": {
+    "CVE-2025-26646": [
+      "d00609e7978ee1b0fe62b39a378611311cf85603",
+      "7892f91f7191adb473a9e97a79e1c4ca8a2c9247",
+      "ad312fc3980fd8c562fac172bc17318c447eeb75",
+      "070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2025-26646": [
+      "8.0.1xx",
+      "8.0.3xx",
+      "9.0.1xx",
+      "9.0.2xx",
+      "9.0.3xx"
     ]
   },
   "release_cves": {
@@ -232,23 +250,6 @@
     ],
     "9.0.3xx": [
       "CVE-2025-26646"
-    ]
-  },
-  "cve_releases": {
-    "CVE-2025-26646": [
-      "8.0.1xx",
-      "8.0.3xx",
-      "9.0.1xx",
-      "9.0.2xx",
-      "9.0.3xx"
-    ]
-  },
-  "cve_commits": {
-    "CVE-2025-26646": [
-      "d00609e7978ee1b0fe62b39a378611311cf85603",
-      "7892f91f7191adb473a9e97a79e1c4ca8a2c9247",
-      "ad312fc3980fd8c562fac172bc17318c447eeb75",
-      "070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753"
     ]
   }
 }

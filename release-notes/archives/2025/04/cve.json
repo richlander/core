@@ -1,6 +1,6 @@
 {
-  "last_updated": "2025-04-08",
   "title": ".NET Security Updates for April 2025 (2025-04-08)",
+  "last_updated": "2025-04-08",
   "cves": [
     {
       "id": "CVE-2025-26682",
@@ -78,12 +78,11 @@
       "CVE-2025-26682"
     ]
   },
-  "release_cves": {
-    "8.0": [
-      "CVE-2025-26682"
-    ],
-    "9.0": [
-      "CVE-2025-26682"
+  "package_cves": {},
+  "cve_commits": {
+    "CVE-2025-26682": [
+      "d6605eb150c993dd8943e2c1a6875a93927c301a",
+      "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
     ]
   },
   "cve_releases": {
@@ -92,10 +91,12 @@
       "9.0"
     ]
   },
-  "cve_commits": {
-    "CVE-2025-26682": [
-      "d6605eb150c993dd8943e2c1a6875a93927c301a",
-      "d5933a9d685c3a09566ec7c9ca818bd7ac2f08ad"
+  "release_cves": {
+    "8.0": [
+      "CVE-2025-26682"
+    ],
+    "9.0": [
+      "CVE-2025-26682"
     ]
   }
 }

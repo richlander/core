@@ -28,13 +28,16 @@
 jq -r '.cves[].id' cve.json
 
 # CVEs for .NET 8.0
-jq -r '.["release-cves"]["8.0"][]' cve.json
+jq -r '.["release_cves"]["8.0"][]' cve.json
 
 # CVEs affecting .NET Runtime product
-jq -r '.["product-cves"]["dotnet"][]' cve.json
+jq -r '.["product_cves"]["dotnet-runtime"][]' cve.json
+
+# CVEs affecting a specific package
+jq -r '.["package_cves"]["System.Text.Json"][]' cve.json
 
 # Commits for specific CVE
-jq -r '. as $root | .["cve-commits"]["CVE-2024-38095"][] | $root.commits[.].url' cve.json
+jq -r '. as $root | .["cve_commits"]["CVE-2024-38095"][] | $root.commits[.].url' cve.json
 
 # Critical severity only
 jq -r '.cves[] | select(.severity == "Critical") | .id' cve.json
@@ -71,13 +74,15 @@ Note: Change '.diff' to '.patch' for commit message, or remove for web view"
 ## CVE Schema Structure
 
 - **`cves[]`** - CVE metadata (id, severity, cvss, description, references)
-- **`products[]`** - Major components (dotnet, aspnetcore, windowsdesktop, sdk)
-- **`extensions[]`** - NuGet packages (System.Text.Json, etc.)
+- **`products[]`** - SDK components (dotnet-runtime, dotnet-aspnetcore, dotnet-sdk, dotnet-windowsdesktop)
+- **`packages[]`** - NuGet packages (System.Text.Json, Microsoft.IO.Redist, etc.)
 - **`commits{}`** - Commit details by hash
-- **`product-cves{}`** - Product → CVE IDs
-- **`cve-commits{}`** - CVE → commit hashes
-- **`cve-releases{}`** - CVE → affected versions
-- **`release-cves{}`** - Version → CVE IDs
+- **`product_name{}`** - Product ID → display name (e.g., "dotnet-runtime" → ".NET Runtime Libraries")
+- **`product_cves{}`** - Product ID → CVE IDs
+- **`package_cves{}`** - Package name → CVE IDs (packages are self-documenting, no display name mapping)
+- **`cve_commits{}`** - CVE → commit hashes
+- **`cve_releases{}`** - CVE → affected versions
+- **`release_cves{}`** - Version → CVE IDs
 
 ## Error Handling
 

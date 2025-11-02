@@ -1,5 +1,5 @@
 # .NET Release Metadata
-> Structured, machine-readable .NET release data for AI assistants
+> Structured, machine-readable, and complete .NET release and CVE data for AI assistants
 
 ## CRITICAL: Required Behaviors
 1. **Always use JSON files** (`*.json`) over Markdown when available

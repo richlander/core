@@ -1,6 +1,6 @@
 {
-  "last_updated": "2024-11-12",
   "title": ".NET Security Updates for November 2024 (2024-11-12)",
+  "last_updated": "2024-11-12",
   "cves": [
     {
       "id": "CVE-2024-43498",
@@ -119,26 +119,26 @@
     }
   },
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "System.Formats.Nrbf": "System.Formats.Nrbf"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-runtime": [
       "CVE-2024-43498",
       "CVE-2024-43499"
-    ],
+    ]
+  },
+  "package_cves": {
     "System.Formats.Nrbf": [
       "CVE-2024-43498",
       "CVE-2024-43499"
     ]
   },
-  "release_cves": {
-    "6.0": [
-      "CVE-2024-43498"
+  "cve_commits": {
+    "CVE-2024-43498": [
+      "d16f41ad8fded18bf82bca88df27967cc3365eb0"
     ],
-    "9.0": [
-      "CVE-2024-43498",
-      "CVE-2024-43499"
+    "CVE-2024-43499": [
+      "d16f41ad8fded18bf82bca88df27967cc3365eb0"
     ]
   },
   "cve_releases": {
@@ -150,12 +150,13 @@
       "9.0"
     ]
   },
-  "cve_commits": {
-    "CVE-2024-43498": [
-      "d16f41ad8fded18bf82bca88df27967cc3365eb0"
+  "release_cves": {
+    "6.0": [
+      "CVE-2024-43498"
     ],
-    "CVE-2024-43499": [
-      "d16f41ad8fded18bf82bca88df27967cc3365eb0"
+    "9.0": [
+      "CVE-2024-43498",
+      "CVE-2024-43499"
     ]
   }
 }

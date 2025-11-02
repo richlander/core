@@ -1,6 +1,6 @@
 {
-  "last_updated": "2024-05-14",
   "title": ".NET Security Updates for May 2024 (2024-05-14)",
+  "last_updated": "2024-05-14",
   "cves": [
     {
       "id": "CVE-2024-30045",
@@ -107,7 +107,8 @@
       "CVE-2024-30045"
     ]
   },
-  "release_cves": {},
+  "package_cves": {},
+  "cve_commits": {},
   "cve_releases": {},
-  "cve_commits": {}
+  "release_cves": {}
 }
