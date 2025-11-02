@@ -15,6 +15,96 @@
   "_embedded": {
     "months": [
       {
+        "month": "10",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/10/index.json",
+            "relative": "archives/2025/10/index.json",
+            "title": "Release history for 2025-10",
+            "type": "application/hal\u002Bjson"
+          },
+          "cve-json": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/10/cve.json",
+            "relative": "archives/2025/10/cve.json",
+            "title": "CVE Information",
+            "type": "application/json"
+          }
+        },
+        "cve-records": [
+          {
+            "id": "CVE-2025-55248",
+            "title": ".NET Information Disclosure Vulnerability",
+            "href": null
+          },
+          {
+            "id": "CVE-2025-55315",
+            "title": ".NET Security Feature Bypass Vulnerability",
+            "href": null
+          },
+          {
+            "id": "CVE-2025-55247",
+            "title": ".NET Denial of Service Vulnerability",
+            "href": null
+          }
+        ],
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ]
+      },
+      {
+        "month": "09",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/09/index.json",
+            "relative": "archives/2025/09/index.json",
+            "title": "Release history for 2025-09",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "cve-records": [],
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ]
+      },
+      {
+        "month": "08",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/08/index.json",
+            "relative": "archives/2025/08/index.json",
+            "title": "Release history for 2025-08",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "cve-records": [],
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ]
+      },
+      {
+        "month": "07",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/07/index.json",
+            "relative": "archives/2025/07/index.json",
+            "title": "Release history for 2025-07",
+            "type": "application/hal\u002Bjson"
+          }
+        },
+        "cve-records": [],
+        "dotnet-releases": [
+          "10.0",
+          "9.0",
+          "8.0"
+        ]
+      },
+      {
         "month": "06",
         "_links": {
           "self": {
@@ -228,7 +318,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-11-02T00:55:40.8231861\u002B00:00",
+    "generated-on": "2025-11-02T02:37:51.155535\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

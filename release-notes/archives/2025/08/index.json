@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-history-index.json",
+  "kind": "history-month-index",
+  "title": ".NET Release History Index - 2025-08",
+  "description": "Release history for 2025-08 (8.0\u201310.0, latest first); This file is cache-friendly; follow links for the most current details.",
+  "year": "2025",
+  "month": "08",
+  "_links": {
+    "self": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/08/index.json",
+      "relative": "archives/2025/08/index.json",
+      "title": "Release history for 2025-08",
+      "type": "application/hal\u002Bjson"
+    }
+  },
+  "_embedded": {
+    "dotnet-releases": [
+      "10.0",
+      "9.0",
+      "8.0"
+    ],
+    "dotnet-patch-releases": [
+      "10.0.100-preview.7.25380.108",
+      "10.0.0-preview.7.25380.108",
+      "10.0.0-preview.7",
+      "9.0.304",
+      "9.0.109",
+      "9.0.8",
+      "8.0.413",
+      "8.0.316",
+      "8.0.119",
+      "8.0.19"
+    ]
+  },
+  "_metadata": {
+    "generated-on": "2025-11-02T02:37:51.1530509\u002B00:00",
+    "generated-by": "UpdateIndexes"
+  }
+}
