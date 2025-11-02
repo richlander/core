@@ -16,54 +16,65 @@
       "title": "Security Advisories",
       "type": "application/hal\u002Bjson"
     },
-    "newest-release": {
+    "latest": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/index.json",
       "relative": "9.0/index.json",
       "title": "Latest .NET release (.NET 9.0)",
       "type": "application/hal\u002Bjson"
     },
-    "lts-release": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/index.json",
-      "relative": "8.0/index.json",
-      "title": "LTS release (.NET 8.0)",
+    "latest-sdk": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/sdk/index.json",
+      "relative": "9.0/sdk/index.json",
+      "title": "Latest .NET SDK (9.0)",
       "type": "application/hal\u002Bjson"
     },
-    "sdk-downloads": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/{version}/sdk/sdk.json",
-      "relative": "{version}/sdk/sdk.json",
-      "title": ".NET SDK download links (template: replace {version} with version number)",
-      "type": "application/hal\u002Bjson",
-      "templated": true
-    },
-    "help-markdown-raw": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md",
-      "relative": "usage.md",
-      "title": "Usage Guide (Raw Markdown)",
-      "type": "application/markdown"
-    },
-    "help-markdown": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/usage.md",
-      "relative": "usage.md",
-      "title": "Usage Guide (Markdown)",
-      "type": "application/markdown"
+    "latest-lts": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/index.json",
+      "relative": "8.0/index.json",
+      "title": "Latest LTS release (.NET 8.0)",
+      "type": "application/hal\u002Bjson"
     }
   },
-  "glossary": {
+  "usage": {
     "_links": {
+      "usage-markdown-raw": {
+        "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/llms/README.md",
+        "relative": "llms/README.md",
+        "title": "Usage Guide (Raw Markdown)",
+        "type": "application/markdown"
+      },
+      "usage-markdown": {
+        "href": "https://github.com/dotnet/core/blob/main/release-notes/llms/README.md",
+        "relative": "llms/README.md",
+        "title": "Usage Guide (Markdown)",
+        "type": "application/markdown"
+      },
+      "quick-reference-markdown-raw": {
+        "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/llms/quick-ref.md",
+        "relative": "llms/quick-ref.md",
+        "title": "Quick Reference (Raw Markdown)",
+        "type": "application/markdown"
+      },
+      "quick-reference-markdown": {
+        "href": "https://github.com/dotnet/core/blob/main/release-notes/llms/quick-ref.md",
+        "relative": "llms/quick-ref.md",
+        "title": "Quick Reference (Markdown)",
+        "type": "application/markdown"
+      },
       "glossary-markdown-raw": {
-        "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/glossary.md",
-        "relative": "glossary.md",
+        "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/llms/glossary.md",
+        "relative": "llms/glossary.md",
         "title": "Glossary (Raw Markdown)",
         "type": "application/markdown"
       },
       "glossary-markdown": {
-        "href": "https://github.com/dotnet/core/blob/main/release-notes/glossary.md",
-        "relative": "glossary.md",
+        "href": "https://github.com/dotnet/core/blob/main/release-notes/llms/glossary.md",
+        "relative": "llms/glossary.md",
         "title": "Glossary (Markdown)",
         "type": "application/markdown"
       }
     },
-    "terms": {
+    "glossary": {
       "lts": "Long-Term Support \u2013 3-year support window",
       "sts": "Standard-Term Support \u2013 18-month support window",
       "release": "General Availability \u2013 Production-ready release",
@@ -324,7 +335,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-25T04:45:53.405207\u002B00:00",
+    "generated-on": "2025-11-02T00:37:28.3765992\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

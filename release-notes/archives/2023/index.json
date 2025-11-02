@@ -34,17 +34,17 @@
           {
             "id": "CVE-2023-36038",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/286"
+            "href": null
           },
           {
             "id": "CVE-2023-36049",
             "title": ".NET Elevation of Privilege Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/287"
+            "href": null
           },
           {
             "id": "CVE-2023-36558",
             "title": ".NET Security Feature Bypass Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/288"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -258,7 +258,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.046728\u002B00:00",
+    "generated-on": "2025-11-02T00:55:40.8305686\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

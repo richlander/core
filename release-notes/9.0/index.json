@@ -39,16 +39,18 @@
       "relative": "9.0/supported-os.md",
       "title": "Supported OSes (Markdown)",
       "type": "application/markdown"
-    },
-    "release-readme-markdown": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/README.md",
-      "relative": "9.0/README.md",
-      "title": "Release Notes (Markdown)",
-      "type": "application/markdown"
     }
   },
-  "glossary": {
-    "terms": {
+  "usage": {
+    "_links": {
+      "usage-markdown": {
+        "href": "https://github.com/dotnet/core/blob/main/release-notes/9.0/README.md",
+        "relative": "9.0/README.md",
+        "title": "Release Notes (Markdown)",
+        "type": "application/markdown"
+      }
+    },
+    "glossary": {
       "lts": "Long-Term Support \u2013 3-year support window",
       "sts": "Standard-Term Support \u2013 18-month support window",
       "release": "General Availability \u2013 Production-ready release",
@@ -68,18 +70,6 @@
             "relative": "9.0.6/release.json",
             "title": "9.0.6 Release Information",
             "type": "application/json"
-          },
-          "cve-json": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/06/cve.json",
-            "relative": "archives/2025/06/cve.json",
-            "title": "CVE Information (JSON)",
-            "type": "application/json"
-          },
-          "cve-markdown": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/archives/2025/06/cve.md",
-            "relative": "archives/2025/06/cve.md",
-            "title": "CVE Information (Markdown)",
-            "type": "application/markdown"
           }
         },
         "lifecycle": {
@@ -103,18 +93,6 @@
             "relative": "9.0.5/release.json",
             "title": "9.0.5 Release Information",
             "type": "application/json"
-          },
-          "cve-json": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/05/cve.json",
-            "relative": "archives/2025/05/cve.json",
-            "title": "CVE Information (JSON)",
-            "type": "application/json"
-          },
-          "cve-markdown": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/archives/2025/05/cve.md",
-            "relative": "archives/2025/05/cve.md",
-            "title": "CVE Information (Markdown)",
-            "type": "application/markdown"
           }
         },
         "lifecycle": {
@@ -138,18 +116,6 @@
             "relative": "9.0.4/release.json",
             "title": "9.0.4 Release Information",
             "type": "application/json"
-          },
-          "cve-json": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/04/cve.json",
-            "relative": "archives/2025/04/cve.json",
-            "title": "CVE Information (JSON)",
-            "type": "application/json"
-          },
-          "cve-markdown": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/archives/2025/04/cve.md",
-            "relative": "archives/2025/04/cve.md",
-            "title": "CVE Information (Markdown)",
-            "type": "application/markdown"
           }
         },
         "lifecycle": {
@@ -173,18 +139,6 @@
             "relative": "9.0.3/release.json",
             "title": "9.0.3 Release Information",
             "type": "application/json"
-          },
-          "cve-json": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/03/cve.json",
-            "relative": "archives/2025/03/cve.json",
-            "title": "CVE Information (JSON)",
-            "type": "application/json"
-          },
-          "cve-markdown": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/archives/2025/03/cve.md",
-            "relative": "archives/2025/03/cve.md",
-            "title": "CVE Information (Markdown)",
-            "type": "application/markdown"
           }
         },
         "lifecycle": {
@@ -224,18 +178,6 @@
             "relative": "9.0.1/release.json",
             "title": "9.0.1 Release Information",
             "type": "application/json"
-          },
-          "cve-json": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/01/cve.json",
-            "relative": "archives/2025/01/cve.json",
-            "title": "CVE Information (JSON)",
-            "type": "application/json"
-          },
-          "cve-markdown": {
-            "href": "https://github.com/dotnet/core/blob/main/release-notes/archives/2025/01/cve.md",
-            "relative": "archives/2025/01/cve.md",
-            "title": "CVE Information (Markdown)",
-            "type": "application/markdown"
           }
         },
         "lifecycle": {
@@ -303,7 +245,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-24T05:01:19.548695\u002B00:00",
+    "generated-on": "2025-11-02T00:37:28.3738328\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

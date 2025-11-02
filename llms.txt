@@ -39,5 +39,8 @@ Use `_links.href` values from JSON:
 6. If yes: Use commit URLs from `commits{}` (already in `.diff` format for direct analysis)
 
 ## Learn More
-- **Quick Reference**: `https://raw.githubusercontent.com/richlander/core/main/llms-quick-ref.md` - Response templates, HAL navigation, common workflows (1 page)
-- **Full Usage Guide**: `https://raw.githubusercontent.com/richlander/core/main/release-notes/usage.md` - Complete documentation with URL patterns, edge cases, architecture
+- **Usage**: `https://raw.githubusercontent.com/richlander/core/main/llms/README.md` - Overview and required behaviors
+- **Quick Reference**: `https://raw.githubusercontent.com/richlander/core/main/llms/quick-ref.md` - Essential workflows, CVE analysis, response templates
+- **Glossary**: `https://raw.githubusercontent.com/richlander/core/main/llms/glossary.md` - HAL+JSON terminology and field definitions
+
+**Note**: The `index.json` file includes both `-markdown-raw` links (for LLM consumption) and `-markdown` links (for web viewing). Always follow links from `index.json` rather than constructing URLs.

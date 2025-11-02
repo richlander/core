@@ -39,16 +39,18 @@
       "relative": "10.0/supported-os.md",
       "title": "Supported OSes (Markdown)",
       "type": "application/markdown"
-    },
-    "release-readme-markdown": {
-      "href": "https://github.com/dotnet/core/blob/main/release-notes/10.0/README.md",
-      "relative": "10.0/README.md",
-      "title": "Release Notes (Markdown)",
-      "type": "application/markdown"
     }
   },
-  "glossary": {
-    "terms": {
+  "usage": {
+    "_links": {
+      "usage-markdown": {
+        "href": "https://github.com/dotnet/core/blob/main/release-notes/10.0/README.md",
+        "relative": "10.0/README.md",
+        "title": "Release Notes (Markdown)",
+        "type": "application/markdown"
+      }
+    },
+    "glossary": {
       "lts": "Long-Term Support \u2013 3-year support window",
       "sts": "Standard-Term Support \u2013 18-month support window",
       "release": "General Availability \u2013 Production-ready release",
@@ -65,7 +67,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-24T05:01:19.523651\u002B00:00",
+    "generated-on": "2025-11-02T00:37:28.3724831\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

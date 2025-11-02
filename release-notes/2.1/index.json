@@ -23,8 +23,8 @@
       "type": "application/json"
     }
   },
-  "glossary": {
-    "terms": {
+  "usage": {
+    "glossary": {
       "lts": "Long-Term Support \u2013 3-year support window",
       "sts": "Standard-Term Support \u2013 18-month support window",
       "release": "General Availability \u2013 Production-ready release",
@@ -41,7 +41,7 @@
     "supported": false
   },
   "_metadata": {
-    "generated-on": "2025-07-24T05:01:19.538022\u002B00:00",
+    "generated-on": "2025-11-02T00:30:58.7984888\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

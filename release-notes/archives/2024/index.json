@@ -49,22 +49,22 @@
           {
             "id": "CVE-2024-43483",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/327"
+            "href": null
           },
           {
             "id": "CVE-2024-43484",
             "title": "(DoS) System.IO.Packaging - Multiple DoS vectors in use of SortedList",
-            "href": "https://github.com/dotnet/announcements/issues/328"
+            "href": null
           },
           {
             "id": "CVE-2024-43485",
             "title": "(DoS) Denial of Service attack against System.Text.Json ExtensionData feature",
-            "href": "https://github.com/dotnet/announcements/issues/329"
+            "href": null
           },
           {
             "id": "CVE-2024-38229",
             "title": ".NET Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/326"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -109,12 +109,12 @@
           {
             "id": "CVE-2024-38167",
             "title": ".NET Information Disclosure Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/319"
+            "href": null
           },
           {
             "id": "CVE-2024-38168",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/320"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -142,22 +142,22 @@
           {
             "id": "CVE-2024-30105",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/315"
+            "href": null
           },
           {
             "id": "CVE-2024-35264",
             "title": ".NET Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/314"
+            "href": null
           },
           {
             "id": "CVE-2024-38081",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/313"
+            "href": null
           },
           {
             "id": "CVE-2024-38095",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/312"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -202,12 +202,12 @@
           {
             "id": "CVE-2024-30045",
             "title": ".NET Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/307"
+            "href": null
           },
           {
             "id": "CVE-2024-30046",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/308"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -237,7 +237,7 @@
           {
             "id": "CVE-2024-21409",
             "title": ".NET Elevation of Privilege Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/303"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -267,12 +267,12 @@
           {
             "id": "CVE-2024-26190",
             "title": "Microsoft QUIC Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/300"
+            "href": null
           },
           {
             "id": "CVE-2024-21392",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/299"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -302,12 +302,12 @@
           {
             "id": "CVE-2024-21386",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/295"
+            "href": null
           },
           {
             "id": "CVE-2024-21404",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/296"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -337,12 +337,12 @@
           {
             "id": "CVE-2024-43498",
             "title": ".NET Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/334"
+            "href": null
           },
           {
             "id": "CVE-2024-43499",
             "title": ".NET Core - DoS - (unbounded work factor) in NrbfDecoder component",
-            "href": "https://github.com/dotnet/announcements/issues/333"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -370,17 +370,17 @@
           {
             "id": "CVE-2024-0056",
             "title": "Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider Information Disclosure Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/292"
+            "href": null
           },
           {
             "id": "CVE-2024-0057",
             "title": ".NET Security Feature Bypass Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/291"
+            "href": null
           },
           {
             "id": "CVE-2024-21319",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/290"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -438,7 +438,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.040069\u002B00:00",
+    "generated-on": "2025-11-02T00:55:40.829253\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

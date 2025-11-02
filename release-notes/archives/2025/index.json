@@ -34,7 +34,7 @@
           {
             "id": "CVE-2025-30399",
             "title": "DLL Hijacking Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/362"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -63,7 +63,7 @@
           {
             "id": "CVE-2025-26646",
             "title": ".NET and Visual Studio Spoofing Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/356"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -92,7 +92,7 @@
           {
             "id": "CVE-2025-26682",
             "title": ".NET Denial of Service Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/352"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -121,7 +121,7 @@
           {
             "id": "CVE-2025-24070",
             "title": ".NET Elevation of Privilege Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/348"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -167,22 +167,22 @@
           {
             "id": "CVE-2025-21171",
             "title": ".NET Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/340"
+            "href": null
           },
           {
             "id": "CVE-2025-21172",
             "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/339"
+            "href": null
           },
           {
             "id": "CVE-2025-21176",
             "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/338"
+            "href": null
           },
           {
             "id": "CVE-2025-21173",
             "title": ".NET Elevation of Privilege Vulnerability",
-            "href": "https://github.com/dotnet/announcements/issues/337"
+            "href": null
           }
         ],
         "dotnet-releases": [
@@ -228,7 +228,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.027125\u002B00:00",
+    "generated-on": "2025-11-02T00:55:40.8231861\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
