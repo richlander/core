@@ -12,7 +12,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": [
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
@@ -38,7 +38,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H"
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": [
         "An attacker could exploit this vulnerability by sending a specially crafted request to the vulnerable web server."
@@ -64,7 +64,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
       },
       "description": [
         "An attacker could exploit this vulnerability by loading a specially crafted file in Visual Studio."
