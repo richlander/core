@@ -12,7 +12,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C"
       },
       "description": [
         "A MITM (man in the middle) attacker may prevent use of TLS between client and SMTP server, forcing client to send data over unencrypted connection."
