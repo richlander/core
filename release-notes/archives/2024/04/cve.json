@@ -37,7 +37,9 @@
       "max_vulnerable": "6.0.28",
       "fixed": "6.0.29",
       "release": "6.0",
-      "commits": []
+      "commits": [
+        "46dcf8720a1326a2c3f84b10a3d71ceb954cde70"
+      ]
     },
     {
       "cve_id": "CVE-2024-21409",
@@ -46,7 +48,9 @@
       "max_vulnerable": "7.0.17",
       "fixed": "7.0.18",
       "release": "7.0",
-      "commits": []
+      "commits": [
+        "3a6bf4b373cb6e0f955d994a317cd6fd84355633"
+      ]
     },
     {
       "cve_id": "CVE-2024-21409",
@@ -55,11 +59,69 @@
       "max_vulnerable": "8.0.3",
       "fixed": "8.0.4",
       "release": "8.0",
-      "commits": []
+      "commits": [
+        "8537295cb0637acfc62befc1459244d3bfdb70d4"
+      ]
     }
   ],
-  "packages": [],
-  "commits": {},
+  "packages": [
+    {
+      "cve_id": "CVE-2024-21409",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min_vulnerable": "6.0.0",
+      "max_vulnerable": "6.0.28",
+      "fixed": "6.0.29",
+      "release": "",
+      "commits": [
+        "46dcf8720a1326a2c3f84b10a3d71ceb954cde70"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-21409",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min_vulnerable": "7.0.0",
+      "max_vulnerable": "7.0.17",
+      "fixed": "7.0.18",
+      "release": "",
+      "commits": [
+        "3a6bf4b373cb6e0f955d994a317cd6fd84355633"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-21409",
+      "name": "Microsoft.WindowsDesktop.App.Runtime",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.3",
+      "fixed": "8.0.4",
+      "release": "",
+      "commits": [
+        "8537295cb0637acfc62befc1459244d3bfdb70d4"
+      ]
+    }
+  ],
+  "commits": {
+    "46dcf8720a1326a2c3f84b10a3d71ceb954cde70": {
+      "repo": "wpf",
+      "branch": "release/6.0",
+      "hash": "46dcf8720a1326a2c3f84b10a3d71ceb954cde70",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/46dcf8720a1326a2c3f84b10a3d71ceb954cde70.diff"
+    },
+    "3a6bf4b373cb6e0f955d994a317cd6fd84355633": {
+      "repo": "wpf",
+      "branch": "release/7.0",
+      "hash": "3a6bf4b373cb6e0f955d994a317cd6fd84355633",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/3a6bf4b373cb6e0f955d994a317cd6fd84355633.diff"
+    },
+    "8537295cb0637acfc62befc1459244d3bfdb70d4": {
+      "repo": "wpf",
+      "branch": "release/8.0",
+      "hash": "8537295cb0637acfc62befc1459244d3bfdb70d4",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/wpf/commit/8537295cb0637acfc62befc1459244d3bfdb70d4.diff"
+    }
+  },
   "product_name": {
     "dotnet-runtime": ".NET Runtime Libraries"
   },
