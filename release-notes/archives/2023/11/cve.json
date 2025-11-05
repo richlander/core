@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for November 2023 (2023-11-14)",
   "last_updated": "2023-11-14",
+  "title": ".NET Security Updates for November 2023 (2023-11-14)",
   "cves": [
     {
       "id": "CVE-2023-36038",
@@ -218,7 +218,8 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "Microsoft.AspNetCore.Components": "Microsoft.AspNetCore.Components"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -226,6 +227,9 @@
     ],
     "dotnet-runtime": [
       "CVE-2023-36049"
+    ],
+    "Microsoft.AspNetCore.Components": [
+      "CVE-2023-36558"
     ]
   },
   "package_cves": {
@@ -233,19 +237,19 @@
       "CVE-2023-36558"
     ]
   },
-  "cve_commits": {
-    "CVE-2023-36049": [
-      "9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d",
-      "8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30",
-      "4796219f6bc0d09dafd21708c2d503279890da5d"
+  "release_cves": {
+    "6.0": [
+      "CVE-2023-36049",
+      "CVE-2023-36558"
     ],
-    "CVE-2023-36558": [
-      "9ec7bd0ebb9dbd8e250e2f1a342758a575d63da1",
-      "b056b7af6535c39c5464aff05d6202d807de8af2",
-      "416da79a1244c311e573db468a58c08d1e50e809"
+    "7.0": [
+      "CVE-2023-36049",
+      "CVE-2023-36558"
     ],
-    "CVE-2023-36038": [
-      "5536e61a3d7b77667f9544b45c5270a73905154d"
+    "8.0": [
+      "CVE-2023-36038",
+      "CVE-2023-36049",
+      "CVE-2023-36558"
     ]
   },
   "cve_releases": {
@@ -263,19 +267,19 @@
       "8.0"
     ]
   },
-  "release_cves": {
-    "6.0": [
-      "CVE-2023-36049",
-      "CVE-2023-36558"
+  "cve_commits": {
+    "CVE-2023-36038": [
+      "5536e61a3d7b77667f9544b45c5270a73905154d"
     ],
-    "7.0": [
-      "CVE-2023-36049",
-      "CVE-2023-36558"
+    "CVE-2023-36049": [
+      "4796219f6bc0d09dafd21708c2d503279890da5d",
+      "8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30",
+      "9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d"
     ],
-    "8.0": [
-      "CVE-2023-36038",
-      "CVE-2023-36049",
-      "CVE-2023-36558"
+    "CVE-2023-36558": [
+      "416da79a1244c311e573db468a58c08d1e50e809",
+      "9ec7bd0ebb9dbd8e250e2f1a342758a575d63da1",
+      "b056b7af6535c39c5464aff05d6202d807de8af2"
     ]
   }
 }

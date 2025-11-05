@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for August 2024 (2024-08-13)",
   "last_updated": "2024-08-13",
+  "title": ".NET Security Updates for August 2024 (2024-08-13)",
   "cves": [
     {
       "id": "CVE-2024-38167",
@@ -107,12 +107,10 @@
     ]
   },
   "package_cves": {},
-  "cve_commits": {
-    "CVE-2024-38167": [
-      "76f50f60931e85e9240715ebd1f345547cbae366"
-    ],
-    "CVE-2024-38168": [
-      "123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
+  "release_cves": {
+    "8.0": [
+      "CVE-2024-38167",
+      "CVE-2024-38168"
     ]
   },
   "cve_releases": {
@@ -123,10 +121,12 @@
       "8.0"
     ]
   },
-  "release_cves": {
-    "8.0": [
-      "CVE-2024-38167",
-      "CVE-2024-38168"
+  "cve_commits": {
+    "CVE-2024-38167": [
+      "76f50f60931e85e9240715ebd1f345547cbae366"
+    ],
+    "CVE-2024-38168": [
+      "123e69ce581cb33fd86c7cd2f8d4ba95e667885c"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for July 2024 (2024-07-09)",
   "last_updated": "2024-07-09",
+  "title": ".NET Security Updates for July 2024 (2024-07-09)",
   "cves": [
     {
       "id": "CVE-2024-30105",
@@ -250,7 +250,10 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "Microsoft.IO.Redist": "Microsoft.IO.Redist",
+    "System.Formats.Asn1": "System.Formats.Asn1",
+    "System.Text.Json": "System.Text.Json"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -260,6 +263,15 @@
       "CVE-2024-30105",
       "CVE-2024-38081",
       "CVE-2024-38095"
+    ],
+    "Microsoft.IO.Redist": [
+      "CVE-2024-38081"
+    ],
+    "System.Formats.Asn1": [
+      "CVE-2024-38095"
+    ],
+    "System.Text.Json": [
+      "CVE-2024-30105"
     ]
   },
   "package_cves": {
@@ -273,19 +285,15 @@
       "CVE-2024-30105"
     ]
   },
-  "cve_commits": {
-    "CVE-2024-30105": [
-      "fa5b0d8f4a8b424732cc992158aa92842f8a2846"
+  "release_cves": {
+    "6.0": [
+      "CVE-2024-38081",
+      "CVE-2024-38095"
     ],
-    "CVE-2024-35264": [
-      "c5721fb7a65ddc13d1b445c2c08c27b72ab57cdc"
-    ],
-    "CVE-2024-38081": [
-      "0a0dd0e27560e692e11ee286ed9f45471b2131fa"
-    ],
-    "CVE-2024-38095": [
-      "979135d5ca4efaf6436ee13539cc3f1e039d570a",
-      "4a8d5a007971d19f389ca17f7b8eb4f9bb199991"
+    "8.0": [
+      "CVE-2024-30105",
+      "CVE-2024-35264",
+      "CVE-2024-38095"
     ]
   },
   "cve_releases": {
@@ -303,15 +311,19 @@
       "8.0"
     ]
   },
-  "release_cves": {
-    "6.0": [
-      "CVE-2024-38081",
-      "CVE-2024-38095"
+  "cve_commits": {
+    "CVE-2024-30105": [
+      "fa5b0d8f4a8b424732cc992158aa92842f8a2846"
     ],
-    "8.0": [
-      "CVE-2024-30105",
-      "CVE-2024-35264",
-      "CVE-2024-38095"
+    "CVE-2024-35264": [
+      "c5721fb7a65ddc13d1b445c2c08c27b72ab57cdc"
+    ],
+    "CVE-2024-38081": [
+      "0a0dd0e27560e692e11ee286ed9f45471b2131fa"
+    ],
+    "CVE-2024-38095": [
+      "4a8d5a007971d19f389ca17f7b8eb4f9bb199991",
+      "979135d5ca4efaf6436ee13539cc3f1e039d570a"
     ]
   }
 }

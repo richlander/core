@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for February 2024 (2024-02-13)",
   "last_updated": "2024-02-13",
+  "title": ".NET Security Updates for February 2024 (2024-02-13)",
   "cves": [
     {
       "id": "CVE-2024-21386",
@@ -173,7 +173,7 @@
       "org": "dotnet",
       "url": "https://github.com/dotnet/aspnetcore/commit/961d1ec66327892279d05db53fc185d50b924c7c.diff"
     },
-    "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23": {
+    "35e1129d086017e4de913f3cfa0dcd69a7a0561c": {
       "repo": "aspnetcore",
       "branch": "release/8.0",
       "hash": "35e1129d086017e4de913f3cfa0dcd69a7a0561c",
@@ -183,7 +183,8 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "Microsoft.AspNetCore.App.Runtime": "Microsoft.AspNetCore.App.Runtime"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -191,22 +192,12 @@
     ],
     "dotnet-runtime": [
       "CVE-2024-21404"
+    ],
+    "Microsoft.AspNetCore.App.Runtime": [
+      "CVE-2024-21386"
     ]
   },
   "package_cves": {},
-  "cve_commits": {},
-  "cve_releases": {
-    "CVE-2024-21386": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ],
-    "CVE-2024-21404": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
-  },
   "release_cves": {
     "6.0": [
       "CVE-2024-21386",
@@ -219,6 +210,30 @@
     "8.0": [
       "CVE-2024-21386",
       "CVE-2024-21404"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2024-21386": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ],
+    "CVE-2024-21404": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {
+    "CVE-2024-21386": [
+      "35e1129d086017e4de913f3cfa0dcd69a7a0561c",
+      "6c687e72d81189db1ae2f045633e16a868865a65",
+      "961d1ec66327892279d05db53fc185d50b924c7c"
+    ],
+    "CVE-2024-21404": [
+      "2ffe97a985d2e86a3c62a107d9e44e5f5b712f8e",
+      "7c2d8f8ed9f419a984f77c418b3da860dc6579b9",
+      "806d04b02e42254b0be9b0b85119f3e9133462bd"
     ]
   }
 }

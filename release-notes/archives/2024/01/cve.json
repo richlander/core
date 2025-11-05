@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for January 2024 (2024-01-09)",
   "last_updated": "2024-01-09",
+  "title": ".NET Security Updates for January 2024 (2024-01-09)",
   "cves": [
     {
       "id": "CVE-2024-0056",
@@ -41,7 +41,7 @@
         "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:P/RL:O/RC:C"
       },
       "description": [
-        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
+        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app\u0027s typical authentication logic."
       ],
       "platforms": [
         "all"
@@ -289,13 +289,6 @@
     },
     "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23": {
       "repo": "aspnetcore",
-      "branch": "release/7.0",
-      "hash": "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23.diff"
-    },
-    "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23": {
-      "repo": "aspnetcore",
       "branch": "release/8.0",
       "hash": "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23",
       "org": "dotnet",
@@ -304,7 +297,11 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "Microsoft.Data.SqlClient": "Microsoft.Data.SqlClient",
+    "Microsoft.IdentityModel.JsonWebTokens": "Microsoft.IdentityModel.JsonWebTokens",
+    "System.Data.SqlClient": "System.Data.SqlClient",
+    "System.IdentityModel.Tokens.Jwt": "System.IdentityModel.Tokens.Jwt"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -312,6 +309,18 @@
     ],
     "dotnet-runtime": [
       "CVE-2024-0057"
+    ],
+    "Microsoft.Data.SqlClient": [
+      "CVE-2024-0056"
+    ],
+    "Microsoft.IdentityModel.JsonWebTokens": [
+      "CVE-2024-21319"
+    ],
+    "System.Data.SqlClient": [
+      "CVE-2024-0056"
+    ],
+    "System.IdentityModel.Tokens.Jwt": [
+      "CVE-2024-21319"
     ]
   },
   "package_cves": {
@@ -328,19 +337,6 @@
       "CVE-2024-21319"
     ]
   },
-  "cve_commits": {},
-  "cve_releases": {
-    "CVE-2024-0057": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ],
-    "CVE-2024-21319": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
-  },
   "release_cves": {
     "6.0": [
       "CVE-2024-0057",
@@ -353,6 +349,29 @@
     "8.0": [
       "CVE-2024-0057",
       "CVE-2024-21319"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2024-0057": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ],
+    "CVE-2024-21319": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {
+    "CVE-2024-0057": [
+      "72e5ae975785990e904372573c93dd661279f662",
+      "821d21b8891ee470a36b2f7fb51e952ff0833c7c",
+      "98fd5f3850ac46606ef7f3981a158b4c7dc2eb8f"
+    ],
+    "CVE-2024-21319": [
+      "00f7c0edf759ec4fa22094a1571b1b1530ffe183",
+      "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
     ]
   }
 }

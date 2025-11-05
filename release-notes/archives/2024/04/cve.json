@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for April 2024 (2024-04-09)",
   "last_updated": "2024-04-09",
+  "title": ".NET Security Updates for April 2024 (2024-04-09)",
   "cves": [
     {
       "id": "CVE-2024-21409",
@@ -123,22 +123,18 @@
     }
   },
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "Microsoft.WindowsDesktop.App.Runtime": "Microsoft.WindowsDesktop.App.Runtime"
   },
   "product_cves": {
     "dotnet-runtime": [
       "CVE-2024-21409"
+    ],
+    "Microsoft.WindowsDesktop.App.Runtime": [
+      "CVE-2024-21409"
     ]
   },
   "package_cves": {},
-  "cve_commits": {},
-  "cve_releases": {
-    "CVE-2024-21409": [
-      "6.0",
-      "7.0",
-      "8.0"
-    ]
-  },
   "release_cves": {
     "6.0": [
       "CVE-2024-21409"
@@ -148,6 +144,20 @@
     ],
     "8.0": [
       "CVE-2024-21409"
+    ]
+  },
+  "cve_releases": {
+    "CVE-2024-21409": [
+      "6.0",
+      "7.0",
+      "8.0"
+    ]
+  },
+  "cve_commits": {
+    "CVE-2024-21409": [
+      "3a6bf4b373cb6e0f955d994a317cd6fd84355633",
+      "46dcf8720a1326a2c3f84b10a3d71ceb954cde70",
+      "8537295cb0637acfc62befc1459244d3bfdb70d4"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for May 2024 (2024-05-14)",
   "last_updated": "2024-05-14",
+  "title": ".NET Security Updates for May 2024 (2024-05-14)",
   "cves": [
     {
       "id": "CVE-2024-30045",
@@ -179,7 +179,9 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "Microsoft.AspNetCore.App.Runtime": "Microsoft.AspNetCore.App.Runtime",
+    "Microsoft.NetCore.App.Runtime": "Microsoft.NetCore.App.Runtime"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -187,10 +189,25 @@
     ],
     "dotnet-runtime": [
       "CVE-2024-30045"
+    ],
+    "Microsoft.AspNetCore.App.Runtime": [
+      "CVE-2024-30046"
+    ],
+    "Microsoft.NetCore.App.Runtime": [
+      "CVE-2024-30045"
     ]
   },
   "package_cves": {},
-  "cve_commits": {},
+  "release_cves": {},
   "cve_releases": {},
-  "release_cves": {}
+  "cve_commits": {
+    "CVE-2024-30045": [
+      "173b4b8a96434a3eedaabca529a2083b16d616f3",
+      "b9c54e25b11aa3e750c20cbef06774eb75ff3da6"
+    ],
+    "CVE-2024-30046": [
+      "90f892827eb441fc76d7f409334f2df40885dd06",
+      "9142e56c11f4351961b9d99482a4a6fc29625b8a"
+    ]
+  }
 }

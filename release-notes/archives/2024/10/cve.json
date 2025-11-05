@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for October 2024 (2024-10-08)",
   "last_updated": "2024-10-08",
+  "title": ".NET Security Updates for October 2024 (2024-10-08)",
   "cves": [
     {
       "id": "CVE-2024-43483",
@@ -337,7 +337,11 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries"
+    "dotnet-runtime": ".NET Runtime Libraries",
+    "System.IO.Packaging": "System.IO.Packaging",
+    "System.Runtime.Caching": "System.Runtime.Caching",
+    "System.Security.Cryptography.Cose": "System.Security.Cryptography.Cose",
+    "System.Text.Json": "System.Text.Json"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -345,6 +349,19 @@
     ],
     "dotnet-runtime": [
       "CVE-2024-43483",
+      "CVE-2024-43485"
+    ],
+    "System.IO.Packaging": [
+      "CVE-2024-43483",
+      "CVE-2024-43484"
+    ],
+    "System.Runtime.Caching": [
+      "CVE-2024-43483"
+    ],
+    "System.Security.Cryptography.Cose": [
+      "CVE-2024-43483"
+    ],
+    "System.Text.Json": [
       "CVE-2024-43485"
     ]
   },
@@ -363,24 +380,20 @@
       "CVE-2024-43485"
     ]
   },
-  "cve_commits": {
-    "CVE-2024-43483": [
-      "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8",
-      "741b04589cdd3514d032cbfd041fb7178bbd15c9",
-      "f5456c7804dfd2153cd5cda4054bcde50b153a66"
+  "release_cves": {
+    "6.0": [
+      "CVE-2024-43483",
+      "CVE-2024-43484",
+      "CVE-2024-43485"
     ],
-    "CVE-2024-43485": [
-      "c3c2cc2e61411fc1c56ca962684348ccf5563ce4",
-      "be46d16f6ff2daa6632136f7f100c5de89de6809"
+    "8.0": [
+      "CVE-2024-38229",
+      "CVE-2024-43483",
+      "CVE-2024-43484",
+      "CVE-2024-43485"
     ],
-    "CVE-2024-38229": [
-      "1002b673be5803ba63173ef8a2fdebe3e388a34a"
-    ],
-    "CVE-2024-43484": [
-      "c2891d32a0408ce62771120dd7c03bc3dde1fca7",
-      "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8",
-      "40d60a122dfd637e1b8a7cccbbbc363d508fb0d7",
-      "741b04589cdd3514d032cbfd041fb7178bbd15c9"
+    "9.0": [
+      "CVE-2024-43483"
     ]
   },
   "cve_releases": {
@@ -401,20 +414,24 @@
       "8.0"
     ]
   },
-  "release_cves": {
-    "6.0": [
-      "CVE-2024-43483",
-      "CVE-2024-43484",
-      "CVE-2024-43485"
+  "cve_commits": {
+    "CVE-2024-38229": [
+      "1002b673be5803ba63173ef8a2fdebe3e388a34a"
     ],
-    "8.0": [
-      "CVE-2024-38229",
-      "CVE-2024-43483",
-      "CVE-2024-43484",
-      "CVE-2024-43485"
+    "CVE-2024-43483": [
+      "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8",
+      "741b04589cdd3514d032cbfd041fb7178bbd15c9",
+      "f5456c7804dfd2153cd5cda4054bcde50b153a66"
     ],
-    "9.0": [
-      "CVE-2024-43483"
+    "CVE-2024-43484": [
+      "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8",
+      "40d60a122dfd637e1b8a7cccbbbc363d508fb0d7",
+      "741b04589cdd3514d032cbfd041fb7178bbd15c9",
+      "c2891d32a0408ce62771120dd7c03bc3dde1fca7"
+    ],
+    "CVE-2024-43485": [
+      "be46d16f6ff2daa6632136f7f100c5de89de6809",
+      "c3c2cc2e61411fc1c56ca962684348ccf5563ce4"
     ]
   }
 }
