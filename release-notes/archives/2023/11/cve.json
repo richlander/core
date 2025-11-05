@@ -171,21 +171,21 @@
       "branch": "release/6.0",
       "hash": "9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d.diff"
+      "url": "https://github.com/dotnet/runtime/commit/9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d.diff"
     },
     "8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30": {
       "repo": "runtime",
       "branch": "release/7.0",
       "hash": "8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30.diff"
+      "url": "https://github.com/dotnet/runtime/commit/8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30.diff"
     },
     "4796219f6bc0d09dafd21708c2d503279890da5d": {
       "repo": "runtime",
       "branch": "release/8.0",
       "hash": "4796219f6bc0d09dafd21708c2d503279890da5d",
       "org": "dotnet",
-      "url": "https://github.com/dotnet/aspnetcore/commit/4796219f6bc0d09dafd21708c2d503279890da5d.diff"
+      "url": "https://github.com/dotnet/runtime/commit/4796219f6bc0d09dafd21708c2d503279890da5d.diff"
     },
     "9ec7bd0ebb9dbd8e250e2f1a342758a575d63da1": {
       "repo": "aspnetcore",
