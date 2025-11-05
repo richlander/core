@@ -12,7 +12,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C"
       },
       "description": [
         "A vulnerability exists in the Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider where an attackercan perform an AiTM (adversary-in-the-middle) attack between the SQL client and the SQL server. This may allow the attacker to steal authentication credentials intended for the database server, even if the connection is established over an encrypted channel like TLS."
@@ -38,7 +38,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:P/RL:O/RC:C"
       },
       "description": [
         "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
@@ -67,7 +67,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C"
       },
       "description": [
         "A Denial of Service vulnerability exists in ASP.NET Core project templates which utilize JWT-based authentication tokens. This vulnerability allows an unauthenticated client to consume arbitrarily large amounts of server memory, potentially triggering an out-of-memory condition on the server and making the server no longer able to respond to legitimate requests."
@@ -95,16 +95,9 @@
       "max_vulnerable": "6.0.25",
       "fixed": "6.0.26",
       "release": "6.0",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime",
-      "min_vulnerable": "6.0.0",
-      "max_vulnerable": "6.0.25",
-      "fixed": "6.0.26",
-      "release": "6.0",
-      "commits": []
+      "commits": [
+        "821d21b8891ee470a36b2f7fb51e952ff0833c7c"
+      ]
     },
     {
       "cve_id": "CVE-2024-21319",
@@ -113,7 +106,9 @@
       "max_vulnerable": "6.0.25",
       "fixed": "6.0.26",
       "release": "6.0",
-      "commits": []
+      "commits": [
+        "00f7c0edf759ec4fa22094a1571b1b1530ffe183"
+      ]
     },
     {
       "cve_id": "CVE-2024-0057",
@@ -122,16 +117,9 @@
       "max_vulnerable": "7.0.14",
       "fixed": "7.0.15",
       "release": "7.0",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime",
-      "min_vulnerable": "7.0.0",
-      "max_vulnerable": "7.0.14",
-      "fixed": "7.0.15",
-      "release": "7.0",
-      "commits": []
+      "commits": [
+        "98fd5f3850ac46606ef7f3981a158b4c7dc2eb8f"
+      ]
     },
     {
       "cve_id": "CVE-2024-21319",
@@ -140,7 +128,9 @@
       "max_vulnerable": "7.0.14",
       "fixed": "7.0.15",
       "release": "7.0",
-      "commits": []
+      "commits": [
+        "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
+      ]
     },
     {
       "cve_id": "CVE-2024-0057",
@@ -149,16 +139,9 @@
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
       "release": "8.0",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2024-0057",
-      "name": "dotnet-runtime",
-      "min_vulnerable": "8.0.0",
-      "max_vulnerable": "8.0.0",
-      "fixed": "8.0.1",
-      "release": "8.0",
-      "commits": []
+      "commits": [
+        "72e5ae975785990e904372573c93dd661279f662"
+      ]
     },
     {
       "cve_id": "CVE-2024-21319",
@@ -167,7 +150,9 @@
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
       "release": "8.0",
-      "commits": []
+      "commits": [
+        "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
+      ]
     }
   ],
   "packages": [
@@ -259,7 +244,9 @@
       "max_vulnerable": "6.33.0",
       "fixed": "6.34.0",
       "release": "",
-      "commits": []
+      "commits": [
+        "00f7c0edf759ec4fa22094a1571b1b1530ffe183"
+      ]
     },
     {
       "cve_id": "CVE-2024-21319",
