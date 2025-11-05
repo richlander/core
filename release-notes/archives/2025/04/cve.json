@@ -12,7 +12,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
       },
       "description": [
         "A vulnerability exists in ASP.NET Core where using HTTP/3 improperly may result in a Denial of Service by allocation of resources without limits or throttling."
