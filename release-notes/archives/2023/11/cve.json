@@ -38,7 +38,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L/E:P/RL:O/RC:C"
       },
       "description": [
         "An elevation of privilege vulnerability exists in .NET where untrusted URIs provided to System.Net.WebRequest.Create can be used to inject arbitrary commands to backend FTP servers."
@@ -64,7 +64,7 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C"
       },
       "description": [
         "A security feature bypass vulnerability exists in ASP.NET where an unauthenticated user is able to bypass validation on Blazor server forms which could trigger unintended actions."
@@ -92,7 +92,9 @@
       "max_vulnerable": "6.0.24",
       "fixed": "6.0.25",
       "release": "6.0",
-      "commits": []
+      "commits": [
+        "9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d"
+      ]
     },
     {
       "cve_id": "CVE-2023-36049",
@@ -101,7 +103,9 @@
       "max_vulnerable": "7.0.13",
       "fixed": "7.0.14",
       "release": "7.0",
-      "commits": []
+      "commits": [
+        "8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30"
+      ]
     },
     {
       "cve_id": "CVE-2023-36038",
@@ -110,7 +114,9 @@
       "max_vulnerable": "8.0-rc.2",
       "fixed": "8.0.0",
       "release": "8.0",
-      "commits": []
+      "commits": [
+        "5536e61a3d7b77667f9544b45c5270a73905154d"
+      ]
     },
     {
       "cve_id": "CVE-2023-36049",
@@ -119,7 +125,9 @@
       "max_vulnerable": "8.0-rc.2",
       "fixed": "8.0.0",
       "release": "8.0",
-      "commits": []
+      "commits": [
+        "4796219f6bc0d09dafd21708c2d503279890da5d"
+      ]
     }
   ],
   "packages": [
@@ -130,7 +138,9 @@
       "max_vulnerable": "6.0.24",
       "fixed": "6.0.25",
       "release": "6.0",
-      "commits": []
+      "commits": [
+        "9ec7bd0ebb9dbd8e250e2f1a342758a575d63da1"
+      ]
     },
     {
       "cve_id": "CVE-2023-36558",
@@ -139,7 +149,9 @@
       "max_vulnerable": "7.0.13",
       "fixed": "7.0.14",
       "release": "7.0",
-      "commits": []
+      "commits": [
+        "b056b7af6535c39c5464aff05d6202d807de8af2"
+      ]
     },
     {
       "cve_id": "CVE-2023-36558",
@@ -148,10 +160,62 @@
       "max_vulnerable": "8.0-rc.2",
       "fixed": "8.0.0",
       "release": "8.0",
-      "commits": []
+      "commits": [
+        "416da79a1244c311e573db468a58c08d1e50e809"
+      ]
     }
   ],
-  "commits": {},
+  "commits": {
+    "9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d": {
+      "repo": "runtime",
+      "branch": "release/6.0",
+      "hash": "9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d.diff"
+    },
+    "8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30": {
+      "repo": "runtime",
+      "branch": "release/7.0",
+      "hash": "8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30.diff"
+    },
+    "4796219f6bc0d09dafd21708c2d503279890da5d": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "4796219f6bc0d09dafd21708c2d503279890da5d",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/4796219f6bc0d09dafd21708c2d503279890da5d.diff"
+    },
+    "9ec7bd0ebb9dbd8e250e2f1a342758a575d63da1": {
+      "repo": "aspnetcore",
+      "branch": "release/6.0",
+      "hash": "9ec7bd0ebb9dbd8e250e2f1a342758a575d63da1",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/9ec7bd0ebb9dbd8e250e2f1a342758a575d63da1.diff"
+    },
+    "b056b7af6535c39c5464aff05d6202d807de8af2": {
+      "repo": "aspnetcore",
+      "branch": "release/7.0",
+      "hash": "b056b7af6535c39c5464aff05d6202d807de8af2",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/b056b7af6535c39c5464aff05d6202d807de8af2.diff"
+    },
+    "416da79a1244c311e573db468a58c08d1e50e809": {
+      "repo": "aspnetcore",
+      "branch": "release/8.0",
+      "hash": "416da79a1244c311e573db468a58c08d1e50e809",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/416da79a1244c311e573db468a58c08d1e50e809.diff"
+    },
+    "5536e61a3d7b77667f9544b45c5270a73905154d": {
+      "repo": "aspnetcore",
+      "branch": "release/8.0",
+      "hash": "5536e61a3d7b77667f9544b45c5270a73905154d",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/5536e61a3d7b77667f9544b45c5270a73905154d.diff"
+    }
+  },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
     "dotnet-runtime": ".NET Runtime Libraries"
@@ -169,7 +233,21 @@
       "CVE-2023-36558"
     ]
   },
-  "cve_commits": {},
+  "cve_commits": {
+    "CVE-2023-36049": [
+      "9865d1c190bce3aa18cb9d8c82bfcb2857bdfe5d",
+      "8ec9eef6ed42ce6eaeb51b634a5ad875dacbae30",
+      "4796219f6bc0d09dafd21708c2d503279890da5d"
+    ],
+    "CVE-2023-36558": [
+      "9ec7bd0ebb9dbd8e250e2f1a342758a575d63da1",
+      "b056b7af6535c39c5464aff05d6202d807de8af2",
+      "416da79a1244c311e573db468a58c08d1e50e809"
+    ],
+    "CVE-2023-36038": [
+      "5536e61a3d7b77667f9544b45c5270a73905154d"
+    ]
+  },
   "cve_releases": {
     "CVE-2023-36038": [
       "8.0"
