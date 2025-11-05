@@ -258,7 +258,50 @@
       "commits": []
     }
   ],
-  "commits": {},
+  "commits": {
+    "821d21b8891ee470a36b2f7fb51e952ff0833c7c": {
+      "repo": "runtime",
+      "branch": "release/6.0",
+      "hash": "821d21b8891ee470a36b2f7fb51e952ff0833c7c",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/821d21b8891ee470a36b2f7fb51e952ff0833c7c.diff"
+    },
+    "98fd5f3850ac46606ef7f3981a158b4c7dc2eb8f": {
+      "repo": "runtime",
+      "branch": "release/7.0",
+      "hash": "98fd5f3850ac46606ef7f3981a158b4c7dc2eb8f",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/98fd5f3850ac46606ef7f3981a158b4c7dc2eb8f.diff"
+    },
+    "72e5ae975785990e904372573c93dd661279f662": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "72e5ae975785990e904372573c93dd661279f662",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/72e5ae975785990e904372573c93dd661279f662.diff"
+    },
+    "00f7c0edf759ec4fa22094a1571b1b1530ffe183": {
+      "repo": "aspnetcore",
+      "branch": "release/6.0",
+      "hash": "00f7c0edf759ec4fa22094a1571b1b1530ffe183",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/00f7c0edf759ec4fa22094a1571b1b1530ffe183.diff"
+    },
+    "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23": {
+      "repo": "aspnetcore",
+      "branch": "release/7.0",
+      "hash": "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23.diff"
+    },
+    "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23": {
+      "repo": "aspnetcore",
+      "branch": "release/8.0",
+      "hash": "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23.diff"
+    }
+  },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
     "dotnet-runtime": ".NET Runtime Libraries"
