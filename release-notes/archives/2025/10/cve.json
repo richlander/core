@@ -193,7 +193,9 @@
       "max_vulnerable": "2.3.0",
       "fixed": "2.3.6",
       "release": "",
-      "commits": []
+      "commits": [
+        "83a330a683c99bf89398a6b554d8d9bf21b6b969"
+      ]
     },
     {
       "cve_id": "CVE-2025-55247",
@@ -506,7 +508,8 @@
     ],
     "CVE-2025-55315": [
       "61794b7f3aac0b6719f783db5b5c725fefc8b695",
-      "97a86434195a82fc7e302a4c57d5ec7f885c1ad5"
+      "97a86434195a82fc7e302a4c57d5ec7f885c1ad5",
+      "83a330a683c99bf89398a6b554d8d9bf21b6b969"
     ]
   }
 }

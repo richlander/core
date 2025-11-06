@@ -117,7 +117,7 @@
       "fixed": "6.0.34",
       "release": "6.0",
       "commits": [
-        "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
+        "741b04589cdd3514d032cbfd041fb7178bbd15c9"
       ]
     },
     {
@@ -150,7 +150,7 @@
       "fixed": "8.0.9",
       "release": "8.0",
       "commits": [
-        "f5456c7804dfd2153cd5cda4054bcde50b153a66"
+        "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8"
       ]
     },
     {
@@ -162,6 +162,17 @@
       "release": "8.0",
       "commits": [
         "be46d16f6ff2daa6632136f7f100c5de89de6809"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-43483",
+      "name": "dotnet-runtime",
+      "min_vulnerable": "9.0.0-preview.1.24080.9",
+      "max_vulnerable": "9.0.0-rc.1.24431.7",
+      "fixed": "9.0.0-rc.2.24473.5",
+      "release": "9.0",
+      "commits": [
+        "b4ccde403bdb8976d3ad4768d16002fa232f1ac0"
       ]
     }
   ],
@@ -196,7 +207,7 @@
       "fixed": "9.0.0-rc.2.24473.5",
       "release": "9.0",
       "commits": [
-        "f5456c7804dfd2153cd5cda4054bcde50b153a66"
+        "b4ccde403bdb8976d3ad4768d16002fa232f1ac0"
       ]
     },
     {
@@ -252,7 +263,9 @@
       "max_vulnerable": " 9.0.0-rc.1.24431.7",
       "fixed": "9.0.0-rc.2.24473.5",
       "release": "9.0",
-      "commits": []
+      "commits": [
+        "b4ccde403bdb8976d3ad4768d16002fa232f1ac0"
+      ]
     },
     {
       "cve_id": "CVE-2024-43485",
@@ -421,7 +434,7 @@
     "CVE-2024-43483": [
       "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8",
       "741b04589cdd3514d032cbfd041fb7178bbd15c9",
-      "f5456c7804dfd2153cd5cda4054bcde50b153a66"
+      "b4ccde403bdb8976d3ad4768d16002fa232f1ac0"
     ],
     "CVE-2024-43484": [
       "132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8",

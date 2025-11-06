@@ -61,7 +61,9 @@
       "max_vulnerable": "2.3.0",
       "fixed": "2.3.1",
       "release": "",
-      "commits": []
+      "commits": [
+        "ed336c18bdb6c3c09a41bf25d0530edcb9ef3537"
+      ]
     }
   ],
   "commits": {
@@ -114,7 +116,8 @@
   "cve_commits": {
     "CVE-2025-24070": [
       "67f3b04274d3acb607fe95796dcb35f4f11149bf",
-      "f71e283286d8470639486804053f28391f92fafc"
+      "f71e283286d8470639486804053f28391f92fafc",
+      "ed336c18bdb6c3c09a41bf25d0530edcb9ef3537"
     ]
   }
 }

@@ -156,6 +156,39 @@
       "commits": [
         "35e1129d086017e4de913f3cfa0dcd69a7a0561c"
       ]
+    },
+    {
+      "cve_id": "CVE-2024-21404",
+      "name": "libSystem.Security.Cryptography.Native.OpenSsl.so",
+      "min_vulnerable": "6.0.0",
+      "max_vulnerable": "6.0.26",
+      "fixed": "6.0.27",
+      "release": "6.0",
+      "commits": [
+        "7c2d8f8ed9f419a984f77c418b3da860dc6579b9"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-21404",
+      "name": "libSystem.Security.Cryptography.Native.OpenSsl.so",
+      "min_vulnerable": "7.0.0",
+      "max_vulnerable": "7.0.15",
+      "fixed": "7.0.16",
+      "release": "7.0",
+      "commits": [
+        "2ffe97a985d2e86a3c62a107d9e44e5f5b712f8e"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-21404",
+      "name": "libSystem.Security.Cryptography.Native.OpenSsl.so",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.1",
+      "fixed": "8.0.2",
+      "release": "8.0",
+      "commits": [
+        "806d04b02e42254b0be9b0b85119f3e9133462bd"
+      ]
     }
   ],
   "commits": {
@@ -179,6 +212,27 @@
       "hash": "35e1129d086017e4de913f3cfa0dcd69a7a0561c",
       "org": "dotnet",
       "url": "https://github.com/dotnet/aspnetcore/commit/35e1129d086017e4de913f3cfa0dcd69a7a0561c.diff"
+    },
+    "7c2d8f8ed9f419a984f77c418b3da860dc6579b9": {
+      "repo": "runtime",
+      "branch": "release/6.0",
+      "hash": "7c2d8f8ed9f419a984f77c418b3da860dc6579b9",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/7c2d8f8ed9f419a984f77c418b3da860dc6579b9.diff"
+    },
+    "2ffe97a985d2e86a3c62a107d9e44e5f5b712f8e": {
+      "repo": "runtime",
+      "branch": "release/7.0",
+      "hash": "2ffe97a985d2e86a3c62a107d9e44e5f5b712f8e",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/2ffe97a985d2e86a3c62a107d9e44e5f5b712f8e.diff"
+    },
+    "806d04b02e42254b0be9b0b85119f3e9133462bd": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "806d04b02e42254b0be9b0b85119f3e9133462bd",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/806d04b02e42254b0be9b0b85119f3e9133462bd.diff"
     }
   },
   "product_name": {
