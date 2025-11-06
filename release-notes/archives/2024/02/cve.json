@@ -238,6 +238,7 @@
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
     "dotnet-runtime": ".NET Runtime Libraries",
+    "libSystem.Security.Cryptography.Native.OpenSsl.so": "libSystem.Security.Cryptography.Native.OpenSsl.so",
     "Microsoft.AspNetCore.App.Runtime": "Microsoft.AspNetCore.App.Runtime"
   },
   "product_cves": {
@@ -245,6 +246,9 @@
       "CVE-2024-21386"
     ],
     "dotnet-runtime": [
+      "CVE-2024-21404"
+    ],
+    "libSystem.Security.Cryptography.Native.OpenSsl.so": [
       "CVE-2024-21404"
     ],
     "Microsoft.AspNetCore.App.Runtime": [
