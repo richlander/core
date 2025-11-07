@@ -101,52 +101,7 @@
       ]
     }
   ],
-  "packages": [
-    {
-      "cve_id": "CVE-2024-30045",
-      "name": "Microsoft.NetCore.App.Runtime",
-      "min_vulnerable": "7.0.0",
-      "max_vulnerable": "7.0.18",
-      "fixed": "7.0.19",
-      "release": "",
-      "commits": [
-        "b9c54e25b11aa3e750c20cbef06774eb75ff3da6"
-      ]
-    },
-    {
-      "cve_id": "CVE-2024-30045",
-      "name": "Microsoft.NetCore.App.Runtime",
-      "min_vulnerable": "8.0.0",
-      "max_vulnerable": "8.0.4",
-      "fixed": "8.0.5",
-      "release": "",
-      "commits": [
-        "173b4b8a96434a3eedaabca529a2083b16d616f3"
-      ]
-    },
-    {
-      "cve_id": "CVE-2024-30046",
-      "name": "Microsoft.AspNetCore.App.Runtime",
-      "min_vulnerable": "7.0.0",
-      "max_vulnerable": "7.0.18",
-      "fixed": "7.0.19",
-      "release": "",
-      "commits": [
-        "9142e56c11f4351961b9d99482a4a6fc29625b8a"
-      ]
-    },
-    {
-      "cve_id": "CVE-2024-30046",
-      "name": "Microsoft.AspNetCore.App.Runtime",
-      "min_vulnerable": "8.0.0",
-      "max_vulnerable": "8.0.4",
-      "fixed": "8.0.5",
-      "release": "",
-      "commits": [
-        "90f892827eb441fc76d7f409334f2df40885dd06"
-      ]
-    }
-  ],
+  "packages": [],
   "commits": {
     "b9c54e25b11aa3e750c20cbef06774eb75ff3da6": {
       "repo": "runtime",

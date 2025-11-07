@@ -101,10 +101,32 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-aspnetcore",
-      "min_vulnerable": "6.0.0",
-      "max_vulnerable": "6.0.25",
-      "fixed": "6.0.26",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "6.0.100",
+      "max_vulnerable": "6.0.125",
+      "fixed": "6.0.126",
+      "release": "6.0",
+      "commits": [
+        "00f7c0edf759ec4fa22094a1571b1b1530ffe183"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-21319",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "6.0.300",
+      "max_vulnerable": "6.0.320",
+      "fixed": "6.0.321",
+      "release": "6.0",
+      "commits": [
+        "00f7c0edf759ec4fa22094a1571b1b1530ffe183"
+      ]
+    },
+        {
+      "cve_id": "CVE-2024-21319",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "6.0.400",
+      "max_vulnerable": "6.0.417",
+      "fixed": "6.0.418",
       "release": "6.0",
       "commits": [
         "00f7c0edf759ec4fa22094a1571b1b1530ffe183"
@@ -123,10 +145,32 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-aspnetcore",
-      "min_vulnerable": "7.0.0",
-      "max_vulnerable": "7.0.14",
-      "fixed": "7.0.15",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "7.0.100",
+      "max_vulnerable": "7.0.114",
+      "fixed": "7.0.115",
+      "release": "7.0",
+      "commits": [
+        "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
+      ]
+    },
+        {
+      "cve_id": "CVE-2024-21319",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "7.0.300",
+      "max_vulnerable": "7.0.312",
+      "fixed": "7.0.313",
+      "release": "7.0",
+      "commits": [
+        "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
+      ]
+    },
+        {
+      "cve_id": "CVE-2024-21319",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "7.0.400",
+      "max_vulnerable": "7.0.404",
+      "fixed": "7.0.405",
       "release": "7.0",
       "commits": [
         "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
@@ -145,7 +189,29 @@
     },
     {
       "cve_id": "CVE-2024-21319",
-      "name": "dotnet-aspnetcore",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.0",
+      "max_vulnerable": "8.0.0",
+      "fixed": "8.0.1",
+      "release": "8.0",
+      "commits": [
+        "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-21319",
+      "name": "dotnet-sdk",
+      "min_vulnerable": "8.0.100",
+      "max_vulnerable": "8.0.100",
+      "fixed": "8.0.101",
+      "release": "8.0",
+      "commits": [
+        "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
+      ]
+    },
+    {
+      "cve_id": "CVE-2024-21319",
+      "name": "dotnet-sdk",
       "min_vulnerable": "8.0.0",
       "max_vulnerable": "8.0.0",
       "fixed": "8.0.1",
@@ -163,7 +229,9 @@
       "max_vulnerable": "2.1.6",
       "fixed": "2.17",
       "release": "",
-      "commits": []
+      "commits": [
+        "f88afce71145f0568e8be4b99a3f18dedae7e80e"
+      ]
     },
     {
       "cve_id": "CVE-2024-0056",
@@ -172,7 +240,9 @@
       "max_vulnerable": "3.1.4",
       "fixed": "3.1.5",
       "release": "",
-      "commits": []
+      "commits": [
+        "f88afce71145f0568e8be4b99a3f18dedae7e80e"
+      ]
     },
     {
       "cve_id": "CVE-2024-0056",
@@ -181,7 +251,9 @@
       "max_vulnerable": "4.0.4",
       "fixed": "4.0.5",
       "release": "",
-      "commits": []
+      "commits": [
+        "f88afce71145f0568e8be4b99a3f18dedae7e80e"
+      ]
     },
     {
       "cve_id": "CVE-2024-0056",
@@ -190,34 +262,9 @@
       "max_vulnerable": "5.1.2",
       "fixed": "5.1.3",
       "release": "",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2024-21319",
-      "name": "Microsoft.IdentityModel.JsonWebTokens",
-      "min_vulnerable": "5.2.4",
-      "max_vulnerable": "5.6.0",
-      "fixed": "5.7.0",
-      "release": "",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2024-21319",
-      "name": "Microsoft.IdentityModel.JsonWebTokens",
-      "min_vulnerable": "6.5.0",
-      "max_vulnerable": "6.33.0",
-      "fixed": "6.34.0",
-      "release": "",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2024-21319",
-      "name": "Microsoft.IdentityModel.JsonWebTokens",
-      "min_vulnerable": "7.0.0",
-      "max_vulnerable": "7.0.3",
-      "fixed": "7.1.2",
-      "release": "",
-      "commits": []
+      "commits": [
+        "f88afce71145f0568e8be4b99a3f18dedae7e80e"
+      ]
     },
     {
       "cve_id": "CVE-2024-0056",
@@ -226,36 +273,9 @@
       "max_vulnerable": "4.8.5",
       "fixed": "4.8.6",
       "release": "",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2024-21319",
-      "name": "System.IdentityModel.Tokens.Jwt",
-      "min_vulnerable": "5.2.4",
-      "max_vulnerable": "5.6.0",
-      "fixed": "5.7.0",
-      "release": "",
-      "commits": []
-    },
-    {
-      "cve_id": "CVE-2024-21319",
-      "name": "System.IdentityModel.Tokens.Jwt",
-      "min_vulnerable": "6.5.0",
-      "max_vulnerable": "6.33.0",
-      "fixed": "6.34.0",
-      "release": "",
       "commits": [
-        "00f7c0edf759ec4fa22094a1571b1b1530ffe183"
+        "f88afce71145f0568e8be4b99a3f18dedae7e80e"
       ]
-    },
-    {
-      "cve_id": "CVE-2024-21319",
-      "name": "System.IdentityModel.Tokens.Jwt",
-      "min_vulnerable": "7.0.0",
-      "max_vulnerable": "7.0.3",
-      "fixed": "7.1.2",
-      "release": "",
-      "commits": []
     }
   ],
   "commits": {
@@ -293,6 +313,34 @@
       "hash": "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23",
       "org": "dotnet",
       "url": "https://github.com/dotnet/aspnetcore/commit/8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23.diff"
+    },
+    "f88afce71145f0568e8be4b99a3f18dedae7e80e": {
+      "repo": "maintenance-packages",
+      "branch": "release/2.0",
+      "hash": "f88afce71145f0568e8be4b99a3f18dedae7e80e",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/maintenance-packages/commit/f88afce71145f0568e8be4b99a3f18dedae7e80e.diff"
+    },
+    "f88afce71145f0568e8be4b99a3f18dedae7e80e": {
+      "repo": "maintenance-packages",
+      "branch": "release/3.0",
+      "hash": "f88afce71145f0568e8be4b99a3f18dedae7e80e",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/maintenance-packages/commit/f88afce71145f0568e8be4b99a3f18dedae7e80e.diff"
+    },
+    "f88afce71145f0568e8be4b99a3f18dedae7e80e": {
+      "repo": "maintenance-packages",
+      "branch": "release/4.0",
+      "hash": "f88afce71145f0568e8be4b99a3f18dedae7e80e",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/maintenance-packages/commit/f88afce71145f0568e8be4b99a3f18dedae7e80e.diff"
+    },
+    "f88afce71145f0568e8be4b99a3f18dedae7e80e": {
+      "repo": "maintenance-packages",
+      "branch": "release/5.0",
+      "hash": "f88afce71145f0568e8be4b99a3f18dedae7e80e",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/maintenance-packages/commit/f88afce71145f0568e8be4b99a3f18dedae7e80e.diff"
     }
   },
   "product_name": {
