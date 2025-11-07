@@ -134,21 +134,13 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "Microsoft.AspNetCore.App.Runtime": "Microsoft.AspNetCore.App.Runtime",
-    "Microsoft.NetCore.App.Runtime": "Microsoft.NetCore.App.Runtime"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
       "CVE-2024-30046"
     ],
     "dotnet-runtime": [
-      "CVE-2024-30045"
-    ],
-    "Microsoft.AspNetCore.App.Runtime": [
-      "CVE-2024-30046"
-    ],
-    "Microsoft.NetCore.App.Runtime": [
       "CVE-2024-30045"
     ]
   },

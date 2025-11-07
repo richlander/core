@@ -89,14 +89,10 @@
     }
   },
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "Microsoft.WindowsDesktop.App.Runtime": "Microsoft.WindowsDesktop.App.Runtime"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-runtime": [
-      "CVE-2024-21409"
-    ],
-    "Microsoft.WindowsDesktop.App.Runtime": [
       "CVE-2024-21409"
     ]
   },

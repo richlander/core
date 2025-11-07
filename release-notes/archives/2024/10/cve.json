@@ -305,13 +305,6 @@
       "org": "dotnet",
       "url": "https://github.com/dotnet/runtime/commit/132fb31922b8c4d5fb11ac6294042d7bb1a4b1d8.diff"
     },
-    "f5456c7804dfd2153cd5cda4054bcde50b153a66": {
-      "repo": "runtime",
-      "branch": "release/9.0",
-      "hash": "f5456c7804dfd2153cd5cda4054bcde50b153a66",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/runtime/commit/f5456c7804dfd2153cd5cda4054bcde50b153a66.diff"
-    },
     "c3c2cc2e61411fc1c56ca962684348ccf5563ce4": {
       "repo": "runtime",
       "branch": "release/6.0",

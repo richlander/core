@@ -165,7 +165,6 @@
       "CVE-2024-26190"
     ],
     "Microsoft.NETCore.App.Runtime": [
-      "CVE-2024-21392",
       "CVE-2024-26190"
     ]
   },

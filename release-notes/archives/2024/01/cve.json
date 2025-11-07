@@ -114,6 +114,7 @@
       "cve_id": "CVE-2024-0057",
       "name": "dotnet-runtime",
       "min_vulnerable": "7.0.0",
+      "max_vulnerable": null,
       "fixed": "7.0.15",
       "release": "7.0",
       "commits": [
@@ -249,27 +250,6 @@
     },
     "f88afce71145f0568e8be4b99a3f18dedae7e80e": {
       "repo": "maintenance-packages",
-      "branch": "release/2.0",
-      "hash": "f88afce71145f0568e8be4b99a3f18dedae7e80e",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/maintenance-packages/commit/f88afce71145f0568e8be4b99a3f18dedae7e80e.diff"
-    },
-    "f88afce71145f0568e8be4b99a3f18dedae7e80e": {
-      "repo": "maintenance-packages",
-      "branch": "release/3.0",
-      "hash": "f88afce71145f0568e8be4b99a3f18dedae7e80e",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/maintenance-packages/commit/f88afce71145f0568e8be4b99a3f18dedae7e80e.diff"
-    },
-    "f88afce71145f0568e8be4b99a3f18dedae7e80e": {
-      "repo": "maintenance-packages",
-      "branch": "release/4.0",
-      "hash": "f88afce71145f0568e8be4b99a3f18dedae7e80e",
-      "org": "dotnet",
-      "url": "https://github.com/dotnet/maintenance-packages/commit/f88afce71145f0568e8be4b99a3f18dedae7e80e.diff"
-    },
-    "f88afce71145f0568e8be4b99a3f18dedae7e80e": {
-      "repo": "maintenance-packages",
       "branch": "release/5.0",
       "hash": "f88afce71145f0568e8be4b99a3f18dedae7e80e",
       "org": "dotnet",
@@ -280,9 +260,7 @@
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
     "dotnet-runtime": ".NET Runtime Libraries",
     "Microsoft.Data.SqlClient": "Microsoft.Data.SqlClient",
-    "Microsoft.IdentityModel.JsonWebTokens": "Microsoft.IdentityModel.JsonWebTokens",
-    "System.Data.SqlClient": "System.Data.SqlClient",
-    "System.IdentityModel.Tokens.Jwt": "System.IdentityModel.Tokens.Jwt"
+    "System.Data.SqlClient": "System.Data.SqlClient"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -294,14 +272,8 @@
     "Microsoft.Data.SqlClient": [
       "CVE-2024-0056"
     ],
-    "Microsoft.IdentityModel.JsonWebTokens": [
-      "CVE-2024-21319"
-    ],
     "System.Data.SqlClient": [
       "CVE-2024-0056"
-    ],
-    "System.IdentityModel.Tokens.Jwt": [
-      "CVE-2024-21319"
     ]
   },
   "package_cves": {
@@ -345,6 +317,9 @@
     ]
   },
   "cve_commits": {
+    "CVE-2024-0056": [
+      "f88afce71145f0568e8be4b99a3f18dedae7e80e"
+    ],
     "CVE-2024-0057": [
       "72e5ae975785990e904372573c93dd661279f662",
       "821d21b8891ee470a36b2f7fb51e952ff0833c7c",
