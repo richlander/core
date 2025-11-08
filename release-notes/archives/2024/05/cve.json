@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for May 2024 (2024-05-14)",
   "last_updated": "2024-05-14",
+  "title": ".NET Security Updates for May 2024 (2024-05-14)",
   "cves": [
     {
       "id": "CVE-2024-30045",
@@ -63,7 +63,9 @@
       "max_vulnerable": "7.0.18",
       "fixed": "7.0.19",
       "release": "",
-      "commits": []
+      "commits": [
+        "b9c54e25b11aa3e750c20cbef06774eb75ff3da6"
+      ]
     },
     {
       "cve_id": "CVE-2024-30045",
@@ -72,7 +74,9 @@
       "max_vulnerable": "8.0.4",
       "fixed": "8.0.5",
       "release": "",
-      "commits": []
+      "commits": [
+        "173b4b8a96434a3eedaabca529a2083b16d616f3"
+      ]
     },
     {
       "cve_id": "CVE-2024-30046",
@@ -81,7 +85,9 @@
       "max_vulnerable": "7.0.18",
       "fixed": "7.0.19",
       "release": "",
-      "commits": []
+      "commits": [
+        "9142e56c11f4351961b9d99482a4a6fc29625b8a"
+      ]
     },
     {
       "cve_id": "CVE-2024-30046",
@@ -90,11 +96,42 @@
       "max_vulnerable": "8.0.4",
       "fixed": "8.0.5",
       "release": "",
-      "commits": []
+      "commits": [
+        "90f892827eb441fc76d7f409334f2df40885dd06"
+      ]
     }
   ],
   "packages": [],
-  "commits": {},
+  "commits": {
+    "b9c54e25b11aa3e750c20cbef06774eb75ff3da6": {
+      "repo": "runtime",
+      "branch": "release/7.0",
+      "hash": "b9c54e25b11aa3e750c20cbef06774eb75ff3da6",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/b9c54e25b11aa3e750c20cbef06774eb75ff3da6.diff"
+    },
+    "173b4b8a96434a3eedaabca529a2083b16d616f3": {
+      "repo": "runtime",
+      "branch": "release/8.0",
+      "hash": "173b4b8a96434a3eedaabca529a2083b16d616f3",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/runtime/commit/173b4b8a96434a3eedaabca529a2083b16d616f3.diff"
+    },
+    "9142e56c11f4351961b9d99482a4a6fc29625b8a": {
+      "repo": "aspnetcore",
+      "branch": "release/7.0",
+      "hash": "9142e56c11f4351961b9d99482a4a6fc29625b8a",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/9142e56c11f4351961b9d99482a4a6fc29625b8a.diff"
+    },
+    "90f892827eb441fc76d7f409334f2df40885dd06": {
+      "repo": "aspnetcore",
+      "branch": "release/8.0",
+      "hash": "90f892827eb441fc76d7f409334f2df40885dd06",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/90f892827eb441fc76d7f409334f2df40885dd06.diff"
+    }
+  },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
     "dotnet-runtime": ".NET Runtime Libraries"
@@ -108,7 +145,16 @@
     ]
   },
   "package_cves": {},
-  "cve_commits": {},
+  "release_cves": {},
   "cve_releases": {},
-  "release_cves": {}
+  "cve_commits": {
+    "CVE-2024-30045": [
+      "173b4b8a96434a3eedaabca529a2083b16d616f3",
+      "b9c54e25b11aa3e750c20cbef06774eb75ff3da6"
+    ],
+    "CVE-2024-30046": [
+      "90f892827eb441fc76d7f409334f2df40885dd06",
+      "9142e56c11f4351961b9d99482a4a6fc29625b8a"
+    ]
+  }
 }

@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for March 2025 (2025-03-11)",
   "last_updated": "2025-03-11",
+  "title": ".NET Security Updates for March 2025 (2025-03-11)",
   "cves": [
     {
       "id": "CVE-2025-24070",
@@ -12,10 +12,10 @@
       },
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U/RL:O/RC:C"
       },
       "description": [
-        "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user's account, resulting in Elevation of Privilege."
+        "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user\u0027s account, resulting in Elevation of Privilege."
       ],
       "platforms": [
         "all"
@@ -61,7 +61,9 @@
       "max_vulnerable": "2.3.0",
       "fixed": "2.3.1",
       "release": "",
-      "commits": []
+      "commits": [
+        "ed336c18bdb6c3c09a41bf25d0530edcb9ef3537"
+      ]
     }
   ],
   "commits": {
@@ -81,7 +83,8 @@
     }
   },
   "product_name": {
-    "dotnet-aspnetcore": "ASP.NET Core Runtime"
+    "dotnet-aspnetcore": "ASP.NET Core Runtime",
+    "Microsoft.AspNetCore.Identity": "Microsoft.AspNetCore.Identity"
   },
   "product_cves": {
     "dotnet-aspnetcore": [
@@ -93,10 +96,12 @@
       "CVE-2025-24070"
     ]
   },
-  "cve_commits": {
-    "CVE-2025-24070": [
-      "67f3b04274d3acb607fe95796dcb35f4f11149bf",
-      "f71e283286d8470639486804053f28391f92fafc"
+  "release_cves": {
+    "8.0": [
+      "CVE-2025-24070"
+    ],
+    "9.0": [
+      "CVE-2025-24070"
     ]
   },
   "cve_releases": {
@@ -105,12 +110,10 @@
       "9.0"
     ]
   },
-  "release_cves": {
-    "8.0": [
-      "CVE-2025-24070"
-    ],
-    "9.0": [
-      "CVE-2025-24070"
+  "cve_commits": {
+    "CVE-2025-24070": [
+      "67f3b04274d3acb607fe95796dcb35f4f11149bf",
+      "f71e283286d8470639486804053f28391f92fafc"
     ]
   }
 }

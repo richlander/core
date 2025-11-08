@@ -1,6 +1,6 @@
 {
-  "title": ".NET Security Updates for June 2025 (2025-06-10)",
   "last_updated": "2025-06-10",
+  "title": ".NET Security Updates for June 2025 (2025-06-10)",
   "cves": [
     {
       "id": "CVE-2025-30399",
@@ -79,12 +79,12 @@
     ]
   },
   "package_cves": {},
+  "release_cves": {},
+  "cve_releases": {},
   "cve_commits": {
     "CVE-2025-30399": [
-      "b33d4e34e1cbf993583d78fc1b64ea8400935978",
-      "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2"
+      "214743ee2a5a25b9a3a07e3f0451da73eb4e97e2",
+      "b33d4e34e1cbf993583d78fc1b64ea8400935978"
     ]
-  },
-  "cve_releases": {},
-  "release_cves": {}
+  }
 }
