@@ -101,30 +101,7 @@
       ]
     }
   ],
-  "packages": [
-    {
-      "cve_id": "CVE-2024-26190",
-      "name": "Microsoft.NETCore.App.Runtime",
-      "min_vulnerable": "7.0.0",
-      "max_vulnerable": "7.0.16",
-      "fixed": "7.0.17",
-      "release": "",
-      "commits": [
-        "24a00b5b75b4e60620768e02c11e79bc65386e5b"
-      ]
-    },
-    {
-      "cve_id": "CVE-2024-26190",
-      "name": "Microsoft.NETCore.App.Runtime",
-      "min_vulnerable": "8.0.0",
-      "max_vulnerable": "8.0.2",
-      "fixed": "8.0.3",
-      "release": "",
-      "commits": [
-        "0c7efec09666babeebea1f608c91757b8faccca0"
-      ]
-    }
-  ],
+  "packages": [],
   "commits": {
     "8a9929bf0b6ae93ea10f4c3e71b03b9958411c1d": {
       "repo": "runtime",
