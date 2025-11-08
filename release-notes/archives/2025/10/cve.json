@@ -446,18 +446,6 @@
     ],
     "dotnet-sdk": [
       "CVE-2025-55247"
-    ],
-    "Microsoft.AspNetCore.Server.Kestrel.Core": [
-      "CVE-2025-55315"
-    ],
-    "Microsoft.Build": [
-      "CVE-2025-55247"
-    ],
-    "Microsoft.Build.Tasks.Core": [
-      "CVE-2025-55247"
-    ],
-    "Microsoft.Build.Utilities.Core": [
-      "CVE-2025-55247"
     ]
   },
   "package_cves": {

@@ -263,15 +263,6 @@
       "CVE-2024-30105",
       "CVE-2024-38081",
       "CVE-2024-38095"
-    ],
-    "Microsoft.IO.Redist": [
-      "CVE-2024-38081"
-    ],
-    "System.Formats.Asn1": [
-      "CVE-2024-38095"
-    ],
-    "System.Text.Json": [
-      "CVE-2024-30105"
     ]
   },
   "package_cves": {

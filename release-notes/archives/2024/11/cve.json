@@ -126,10 +126,6 @@
     "dotnet-runtime": [
       "CVE-2024-43498",
       "CVE-2024-43499"
-    ],
-    "System.Formats.Nrbf": [
-      "CVE-2024-43498",
-      "CVE-2024-43499"
     ]
   },
   "package_cves": {

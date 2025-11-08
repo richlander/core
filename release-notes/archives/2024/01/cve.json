@@ -268,26 +268,14 @@
     ],
     "dotnet-runtime": [
       "CVE-2024-0057"
-    ],
-    "Microsoft.Data.SqlClient": [
-      "CVE-2024-0056"
-    ],
-    "System.Data.SqlClient": [
-      "CVE-2024-0056"
     ]
   },
   "package_cves": {
     "Microsoft.Data.SqlClient": [
       "CVE-2024-0056"
     ],
-    "Microsoft.IdentityModel.JsonWebTokens": [
-      "CVE-2024-21319"
-    ],
     "System.Data.SqlClient": [
       "CVE-2024-0056"
-    ],
-    "System.IdentityModel.Tokens.Jwt": [
-      "CVE-2024-21319"
     ]
   },
   "release_cves": {

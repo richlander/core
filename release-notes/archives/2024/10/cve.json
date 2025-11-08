@@ -356,19 +356,6 @@
     "dotnet-runtime": [
       "CVE-2024-43483",
       "CVE-2024-43485"
-    ],
-    "System.IO.Packaging": [
-      "CVE-2024-43483",
-      "CVE-2024-43484"
-    ],
-    "System.Runtime.Caching": [
-      "CVE-2024-43483"
-    ],
-    "System.Security.Cryptography.Cose": [
-      "CVE-2024-43483"
-    ],
-    "System.Text.Json": [
-      "CVE-2024-43485"
     ]
   },
   "package_cves": {

@@ -227,9 +227,6 @@
     ],
     "dotnet-runtime": [
       "CVE-2023-36049"
-    ],
-    "Microsoft.AspNetCore.Components": [
-      "CVE-2023-36558"
     ]
   },
   "package_cves": {

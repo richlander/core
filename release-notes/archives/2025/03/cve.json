@@ -89,9 +89,6 @@
   "product_cves": {
     "dotnet-aspnetcore": [
       "CVE-2025-24070"
-    ],
-    "Microsoft.AspNetCore.Identity": [
-      "CVE-2025-24070"
     ]
   },
   "package_cves": {

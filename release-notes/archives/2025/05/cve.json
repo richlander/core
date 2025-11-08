@@ -220,9 +220,6 @@
   "product_cves": {
     "dotnet-sdk": [
       "CVE-2025-26646"
-    ],
-    "Microsoft.Build.Tasks.Core": [
-      "CVE-2025-26646"
     ]
   },
   "package_cves": {
