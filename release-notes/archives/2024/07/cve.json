@@ -1,111 +1,185 @@
 {
   "last_updated": "2024-07-09",
   "title": ".NET Security Updates for July 2024 (2024-07-09)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2024-30105",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-07-09",
-        "fixed": "2024-07-09"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in .NET when calling the JsonSerializer.DeserializeAsyncEnumerable method against an untrusted input using System.Text.Json may result in Denial of Service."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-07-09",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-07-09",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/315"
-      ]
+      ],
+      "weakness": "CWE-400",
+      "cna": {
+        "name": "microsoft"
+      }
     },
     {
       "id": "CVE-2024-35264",
       "problem": ".NET Remote Code Execution Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-07-09",
-        "fixed": "2024-07-09"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A Vulnerability exists in ASP.NET Core 8 where Data Corruption in Kestrel HTTP/3 can result in remote code execution.",
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.7"
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 8.1,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-07-09",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-07-09",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/314"
-      ]
+      ],
+      "weakness": "CWE-416",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Radek Zikmund of Microsoft Corporation"
+        ],
+        "faq": [
+          {
+            "question": "According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?",
+            "answer": "Successful exploitation of this vulnerability requires an attacker to win a race condition."
+          },
+          {
+            "question": "How could an attacker exploit this vulnerability?",
+            "answer": "An attacker could exploit this by closing an http/3 stream while the request body is being processed leading to a race condition. This could result in remote code execution."
+          },
+          {
+            "question": ".NET 6.0 was added to the Security Updates table on October 31, 2024 because it is also affected by this vulnerability. Why are the Download and Article links missing for .NET 6.0?",
+            "answer": "HTTP/3 support was only experimental in .NET 6.0. If you are using .NET 6 you must update your application to .NET 8 to be protected. Experimental features will not be patched if a later runtime includes the feature as non-experimental."
+          }
+        ]
+      }
     },
     {
       "id": "CVE-2024-38081",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-07-09",
-        "fixed": "2024-07-09"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in Visual Studio installer on Windowswhere an unprivileged user is allowed to manipulate the Visual Studio installation resulting in elevation of privilege."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 7.3,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-07-09",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-07-09",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "windows"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/313"
-      ]
+      ],
+      "weakness": "CWE-59",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "goodbyeselene"
+        ],
+        "faq": [
+          {
+            "question": "What privileges could be gained by an attacker who successfully exploited this vulnerability?",
+            "answer": "An attacker who successfully exploited this vulnerability could gain SYSTEM privileges."
+          },
+          {
+            "question": "According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?",
+            "answer": "Exploitation of this vulnerability requires that a local user executes the Visual Studio installer"
+          },
+          {
+            "question": "According to the CVSS metric, privileges required is low (PR:L). What does that mean for this vulnerability?",
+            "answer": "The attacker must have permissions to access the target domain environment to be able to exploit this vulnerability."
+          }
+        ]
+      }
     },
     {
       "id": "CVE-2024-38095",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-07-09",
-        "fixed": "2024-07-09"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists when System.Formats.Asn1 in .NET parses an X.509 certificate or collection of certificates, a malicious certificate can result in excessive CPU consumption on all platforms result in Denial of Service."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-07-09",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-07-09",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/312"
-      ]
+      ],
+      "weakness": "CWE-20",
+      "cna": {
+        "name": "microsoft"
+      }
     }
   ],
   "products": [
@@ -250,10 +324,7 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "Microsoft.IO.Redist": "Microsoft.IO.Redist",
-    "System.Formats.Asn1": "System.Formats.Asn1",
-    "System.Text.Json": "System.Text.Json"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-aspnetcore": [

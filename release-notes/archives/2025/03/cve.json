@@ -1,32 +1,55 @@
 {
   "last_updated": "2025-03-11",
   "title": ".NET Security Updates for March 2025 (2025-03-11)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2025-24070",
       "problem": ".NET Elevation of Privilege Vulnerability",
-      "severity": "high",
-      "timeline": {
-        "disclosed": "2025-03-11",
-        "fixed": "2025-03-11"
-      },
+      "description": [
+        "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user's account, resulting in Elevation of Privilege."
+      ],
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H/E:U/RL:O/RC:C",
+        "score": 7,
+        "severity": "HIGH"
       },
-      "description": [
-        "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user\u0027s account, resulting in Elevation of Privilege."
-      ],
+      "timeline": {
+        "disclosure": {
+          "date": "2025-03-11",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2025-03-11",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/348"
-      ]
+      ],
+      "weakness": "CWE-1390",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Zahid TOKAT"
+        ],
+        "faq": [
+          {
+            "question": "What privileges could be gained by an attacker who successfully exploited the vulnerability?",
+            "answer": "An attacker who successfully exploited this vulnerability could gain the privileges of the compromised user."
+          },
+          {
+            "question": "According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?",
+            "answer": "Successful exploitation of this vulnerability requires an attacker to gather information specific to the environment and take additional actions prior to exploitation to prepare the target environment."
+          }
+        ]
+      }
     }
   ],
   "products": [
@@ -83,8 +106,7 @@
     }
   },
   "product_name": {
-    "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "Microsoft.AspNetCore.Identity": "Microsoft.AspNetCore.Identity"
+    "dotnet-aspnetcore": "ASP.NET Core Runtime"
   },
   "product_cves": {
     "dotnet-aspnetcore": [

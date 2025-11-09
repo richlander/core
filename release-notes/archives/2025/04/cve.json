@@ -1,32 +1,45 @@
 {
   "last_updated": "2025-04-08",
   "title": ".NET Security Updates for April 2025 (2025-04-08)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2025-26682",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "high",
-      "timeline": {
-        "disclosed": "2025-04-08",
-        "fixed": "2025-04-08"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in ASP.NET Core where using HTTP/3 improperly may result in a Denial of Service by allocation of resources without limits or throttling."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2025-04-08",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2025-04-08",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/352"
-      ]
+      ],
+      "weakness": "CWE-770",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "James Newton-King with Microsoft"
+        ]
+      }
     }
   ],
   "products": [

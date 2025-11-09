@@ -1,111 +1,169 @@
 {
   "last_updated": "2024-10-08",
   "title": ".NET Security Updates for October 2024 (2024-10-08)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2024-43483",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-10-08",
-        "fixed": "2024-10-08"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "System.Security.Cryptography.Cose, System.IO.Packaging, Microsoft.Extensions.Caching.Memory may be exposed to a hostile input which may lead them to be susceptible to hash flooding attacks resulting in denial of service."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-10-08",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-10-08",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/327"
-      ]
+      ],
+      "weakness": "CWE-407",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Levi Broderick of Microsoft Corporation"
+        ]
+      }
     },
     {
       "id": "CVE-2024-43484",
       "problem": "(DoS) System.IO.Packaging - Multiple DoS vectors in use of SortedList",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-10-08",
-        "fixed": "2024-10-08"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "The System.IO.Packaging library may allow untrusted inputs to influence algorithmically complex operations, leading to denial of service."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-10-08",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-10-08",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/328"
-      ]
+      ],
+      "weakness": "CWE-407",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Levi Broderick of Microsoft Corporation"
+        ]
+      }
     },
     {
       "id": "CVE-2024-43485",
       "problem": "(DoS) Denial of Service attack against System.Text.Json ExtensionData feature",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-10-08",
-        "fixed": "2024-10-08"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "In System.Text.Json 6.0.x and 8.0.x, applications which deserialize input to a model with an [ExtensionData] property can be vulnerable to an algorithmic complexity attack resulting in Denial of Service."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-10-08",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-10-08",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/329"
-      ]
+      ],
+      "weakness": "CWE-407",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Eirik George Tsarpalis of Microsoft Corporation"
+        ]
+      }
     },
     {
       "id": "CVE-2024-38229",
       "problem": ".NET Remote Code Execution Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-10-08",
-        "fixed": "2024-10-08"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in ASP.NET when closing an HTTP/3 stream while application code is writing to the response body, a race condition may lead to use-after-free.",
         "Note: HTTP/3 is experimental in .NET 6.0. If you are on .NET 6.0 and using HTTP/3, please upgrade to .NET 8.0.10. .NET 6.0 will not receive a security patch for this vulnerability."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 8.1,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-10-08",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-10-08",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/326"
-      ]
+      ],
+      "weakness": "CWE-416",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Radek Zikmund of Microsoft Corporation"
+        ],
+        "faq": [
+          {
+            "question": "According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?",
+            "answer": "Successful exploitation of this vulnerability requires an attacker to win a race condition."
+          }
+        ]
+      }
     }
   ],
   "products": [
@@ -343,11 +401,7 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "System.IO.Packaging": "System.IO.Packaging",
-    "System.Runtime.Caching": "System.Runtime.Caching",
-    "System.Security.Cryptography.Cose": "System.Security.Cryptography.Cose",
-    "System.Text.Json": "System.Text.Json"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-aspnetcore": [

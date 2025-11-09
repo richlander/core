@@ -1,32 +1,48 @@
 {
   "last_updated": "2025-05-13",
   "title": ".NET Security Updates for May 2025 (2025-05-13)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2025-26646",
       "problem": ".NET and Visual Studio Spoofing Vulnerability",
-      "severity": "high",
-      "timeline": {
-        "disclosed": "2025-05-13",
-        "fixed": "2025-05-13"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in .NET SDK or MSBuild applications where external control of file name or path allows an unauthorized attacked to perform spoofing over a network."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 8,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2025-05-13",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2025-05-13",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/356"
-      ]
+      ],
+      "weakness": "CWE-73",
+      "cna": {
+        "name": "microsoft",
+        "faq": [
+          {
+            "question": "According to the CVSS metric, user interaction is required (UI:R) and privileges required \u00a0is low (PR:L). What does that mean for this vulnerability?",
+            "answer": "An authorized attacker with standard user privileges could place a malicious file and then wait for the privileged victim to run the calling command."
+          }
+        ]
+      }
     }
   ],
   "products": [
@@ -214,8 +230,7 @@
     }
   },
   "product_name": {
-    "dotnet-sdk": ".NET SDK",
-    "Microsoft.Build.Tasks.Core": "Microsoft.Build.Tasks.Core"
+    "dotnet-sdk": ".NET SDK"
   },
   "product_cves": {
     "dotnet-sdk": [

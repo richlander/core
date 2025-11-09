@@ -1,64 +1,90 @@
 {
   "last_updated": "2024-11-12",
   "title": ".NET Security Updates for November 2024 (2024-11-12)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2024-43498",
       "problem": ".NET Remote Code Execution Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-11-12",
-        "fixed": "2024-11-12"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A remote unauthenticated attacker could exploit this vulnerability by sending specially crafted requests to a .NET vulnerable webapp or loading a specially crafted file into a vulnerable application."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 9.8,
+        "severity": "CRITICAL"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-11-12",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-11-12",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/334"
       ],
       "mitigation": [
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
-      ]
+      ],
+      "weakness": "CWE-843",
+      "cna": {
+        "name": "microsoft",
+        "faq": [
+          {
+            "question": "How could an attacker exploit this vulnerability?",
+            "answer": "A remote unauthenticated attacker could exploit this vulnerability by sending specially crafted requests to a vulnerable .NET webapp or by loading a specially crafted file into a vulnerable desktop app."
+          }
+        ]
+      }
     },
     {
       "id": "CVE-2024-43499",
       "problem": ".NET Core - DoS - (unbounded work factor) in NrbfDecoder component",
-      "severity": "high",
-      "timeline": {
-        "disclosed": "2024-11-12",
-        "fixed": "2024-11-12"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "The NrbfDecoder component in .NET 9 contains a denial of service vulnerability due to incorrect input validation."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-11-12",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-11-12",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/333"
       ],
       "mitigation": [
         "Applications that do not use the NrbfDecoder component are not affected by this vulnerability. By default, .NET console apps and web apps do not reference this component."
-      ]
+      ],
+      "weakness": "CWE-409",
+      "cna": {
+        "name": "microsoft"
+      }
     }
   ],
   "products": [
@@ -119,8 +145,7 @@
     }
   },
   "product_name": {
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "System.Formats.Nrbf": "System.Formats.Nrbf"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-runtime": [

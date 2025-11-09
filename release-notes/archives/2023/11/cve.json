@@ -1,87 +1,157 @@
 {
   "last_updated": "2023-11-14",
   "title": ".NET Security Updates for November 2023 (2023-11-14)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2023-36038",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2023-11-14",
-        "fixed": "2023-11-14"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in ASP.NET IIS where a remote unauthenticated user can issue specially crafted requests to a .NET application which may result in denial of service."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H/E:U/RL:O/RC:C",
+        "score": 8.2,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2023-11-14",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2023-11-14",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "windows"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/286"
-      ]
+      ],
+      "weakness": "CWE-400",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Barry Dorans"
+        ],
+        "faq": [
+          {
+            "question": "How could an attacker exploit this vulnerability?",
+            "answer": "This vulnerability could be exploited if http requests to .NET 8 RC 1 running on IIS InProcess hosting model are cancelled.  Threads counts would increase and an OutOfMemoryException is possible."
+          },
+          {
+            "question": "According to the CVSS metric, successful exploitation of this vulnerability could lead to a total loss of availability (A:H). What does that mean for this vulnerability?",
+            "answer": "If an attacker was able to successfully exploit the vulnerability the attack might result in a total loss of availability."
+          }
+        ]
+      }
     },
     {
       "id": "CVE-2023-36049",
       "problem": ".NET Elevation of Privilege Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2023-11-14",
-        "fixed": "2023-11-14"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L/E:P/RL:O/RC:C"
-      },
       "description": [
         "An elevation of privilege vulnerability exists in .NET where untrusted URIs provided to System.Net.WebRequest.Create can be used to inject arbitrary commands to backend FTP servers."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L/E:P/RL:O/RC:C",
+        "score": 7.6,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2023-11-14",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2023-11-14",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/287"
-      ]
+      ],
+      "weakness": "CWE-20",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Anonymous with Trend Micro",
+          "Piotr Bazydlo (@chudypb) of Trend Micro Zero Day Initiative"
+        ],
+        "faq": [
+          {
+            "question": "How could an attacker exploit this vulnerability?",
+            "answer": "To exploit this vulnerability an attacker would have to inject arbitrary commands to the FTP server."
+          },
+          {
+            "question": "What type of information could be disclosed by this vulnerability?",
+            "answer": "The type of information that could be disclosed if an attacker successfully exploited this vulnerability would be access controls on the server, allowing for read or write abilities."
+          },
+          {
+            "question": "According to the CVSS metric, privileges required is low (PR:L).  What does that mean for this vulnerability?",
+            "answer": "Any authenticated attacker could trigger this vulnerability. It does not require admin or other elevated privileges."
+          }
+        ]
+      }
     },
     {
       "id": "CVE-2023-36558",
       "problem": ".NET Security Feature Bypass Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2023-11-14",
-        "fixed": "2023-11-14"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C"
-      },
       "description": [
         "A security feature bypass vulnerability exists in ASP.NET where an unauthenticated user is able to bypass validation on Blazor server forms which could trigger unintended actions."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C",
+        "score": 6.2,
+        "severity": "MEDIUM"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2023-11-14",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2023-11-14",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/288"
       ],
       "mitigation": [
         "This vulnerability only affects ASP.NET Core Blazor apps. Other application types, including ASP.NET Core apps which do not utilize Blazor, are not affected."
-      ]
+      ],
+      "cna": {
+        "name": "microsoft",
+        "faq": [
+          {
+            "question": "What kind of security feature could be bypassed by successfully exploiting this vulnerability?",
+            "answer": "An unauthenticated attacker could bypass validations on Blazor Server forms."
+          },
+          {
+            "question": "How could an attacker exploit this vulnerability?",
+            "answer": "To exploit this vulnerability, an attacker would first have to log on to the system. An attacker could then trigger an event that could exploit the vulnerability to save an invalid state to a database or trigger other unintended actions, depending on what functionality the form provides."
+          }
+        ]
+      }
     }
   ],
   "products": [
@@ -218,8 +288,7 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "Microsoft.AspNetCore.Components": "Microsoft.AspNetCore.Components"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-aspnetcore": [

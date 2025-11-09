@@ -1,32 +1,55 @@
 {
   "last_updated": "2025-06-10",
   "title": ".NET Security Updates for June 2025 (2025-06-10)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2025-30399",
       "problem": "DLL Hijacking Remote Code Execution Vulnerability",
-      "severity": "high",
-      "timeline": {
-        "disclosed": "2025-06-10",
-        "fixed": "2025-06-10"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in .NET SDK where DLL search path hijacking could allow an attacker to achieve remote code execution."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2025-06-10",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2025-06-10",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/362"
-      ]
+      ],
+      "weakness": "CWE-426",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "jony_juice"
+        ],
+        "faq": [
+          {
+            "question": "According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?",
+            "answer": "This attack requires a victim to perform a specific action, such as copying files or executing a command, and for an attacker with appropriate access to have pre-planted malicious files with knowledge of where they should be placed on the victim's system."
+          },
+          {
+            "question": "According to the CVSS metric, the attack vector is network (AV:N) and the user interaction is required (UI:R). What is the target context of the remote code execution?",
+            "answer": "This attack requires a specially crafted file to be placed either in an online directory or in a local network location. When a victim runs this file, it loads the malicious DLL."
+          }
+        ]
+      }
     }
   ],
   "products": [

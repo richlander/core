@@ -1,56 +1,93 @@
 {
   "last_updated": "2024-08-13",
   "title": ".NET Security Updates for August 2024 (2024-08-13)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2024-38167",
       "problem": ".NET Information Disclosure Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-08-13",
-        "fixed": "2024-08-13"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in .NET runtime TlsStream which may result in Information Disclosure."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
+        "score": 6.5,
+        "severity": "MEDIUM"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-08-13",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-08-13",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/319"
-      ]
+      ],
+      "weakness": "CWE-319",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Alex Appleton, D. E. Shaw & Co., L.P.",
+          "Roman Konecny, Microsoft"
+        ],
+        "faq": [
+          {
+            "question": "What type of information could be disclosed by this vulnerability?",
+            "answer": "An attacker who successfully exploited the vulnerability could read targeted email messages."
+          },
+          {
+            "question": "According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?",
+            "answer": "Exploitation of this vulnerability requires that a user trigger the payload in the application."
+          }
+        ]
+      }
     },
     {
       "id": "CVE-2024-38168",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-08-13",
-        "fixed": "2024-08-13"
-      },
+      "description": [],
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
       },
-      "description": [],
+      "timeline": {
+        "disclosure": {
+          "date": "2024-08-13",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-08-13",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "windows"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/320"
-      ]
+      ],
+      "weakness": "CWE-400",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Brennan Conroy of Microsoft Corporation"
+        ]
+      }
     }
   ],
   "products": [

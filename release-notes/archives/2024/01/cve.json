@@ -1,90 +1,183 @@
 {
   "last_updated": "2024-01-09",
   "title": ".NET Security Updates for January 2024 (2024-01-09)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2024-0056",
       "problem": "Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider Information Disclosure Vulnerability",
-      "severity": "high",
-      "timeline": {
-        "disclosed": "2024-01-09",
-        "fixed": "2024-01-09"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in the Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider where an attackercan perform an AiTM (adversary-in-the-middle) attack between the SQL client and the SQL server. This may allow the attacker to steal authentication credentials intended for the database server, even if the connection is established over an encrypted channel like TLS."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N/E:U/RL:O/RC:C",
+        "score": 8.7,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-01-09",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-01-09",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/292"
-      ]
+      ],
+      "weakness": "CWE-319",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Vishal Mishra and Anita Gaud with Microsoft's Azure DevSec Variant Hunt Team"
+        ],
+        "faq": [
+          {
+            "question": "According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?",
+            "answer": "The attacker must inject themselves into the logical network path between the target and the resource requested by the victim to read or modify network communications. This is called a machine-in-the-middle (MITM) attack."
+          },
+          {
+            "question": "If I am using System.Data.SqlClient or Microsoft.Data.SqlClient, what do I need to do to be protected from this vulnerability?",
+            "answer": "Customers developing applications using either the System.Data.SqlClient or Microsoft.Data.SqlClient NuGet Packages need to do the following to be protected:"
+          },
+          {
+            "question": "According to the CVSS metric, a successful exploitation could lead to a scope change (S:C). What does this mean for this vulnerability?",
+            "answer": "A successful attack could exploit a vulnerability in the SQL Data Provider which allows the attacker to exploit the SQL Server."
+          },
+          {
+            "question": "How could an attacker exploit this vulnerability?",
+            "answer": "An attacker who successfully exploited this vulnerability could carry out a machine-in-the-middle (MITM) attack and could decrypt and read or modify TLS traffic between the client and server. There is no impact to the availability of the attacked machine (A:N)."
+          },
+          {
+            "question": "What security feature is bypassed with this vulnerability?",
+            "answer": "An attacker might be able to evade the encryption used in a TLS connection."
+          },
+          {
+            "question": "I am running SQL Server on my system. What action do I need to take?",
+            "answer": "Update your relevant version of SQL Server. Any applicable driver fixes are included in those updates."
+          }
+        ]
+      }
     },
     {
       "id": "CVE-2024-0057",
       "problem": ".NET Security Feature Bypass Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-01-09",
-        "fixed": "2024-01-09"
-      },
+      "description": [
+        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
+      ],
       "cvss": {
         "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:P/RL:O/RC:C"
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:P/RL:O/RC:C",
+        "score": 9.1,
+        "severity": "CRITICAL"
       },
-      "description": [
-        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app\u0027s typical authentication logic."
-      ],
+      "timeline": {
+        "disclosure": {
+          "date": "2024-01-09",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-01-09",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/291"
       ],
       "mitigation": [
         "Within .NET, only the WindowsDesktop shared runtime contains inbox components which utilize X.509 chain building APIs in a vulnerable manner. Other project types, such as web applications, are not impacted by this vulnerability unless they explicitly invoke the X.509 chain building APIs themselves in a vulnerable manner or they consume an external package which does this on their behalf."
-      ]
+      ],
+      "weakness": "CWE-20",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Vishal Mishra and Anita Gaud with Microsoft's Azure DevSec Variant Hunt Team and Stav Nir from Microsoft"
+        ],
+        "faq": [
+          {
+            "question": "What kind of security feature could be bypassed by successfully exploiting this vulnerability?",
+            "answer": "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
+          },
+          {
+            "question": "How could an attacker exploit this vulnerability?",
+            "answer": "An attacker could exploit this by creating a specially crafted X.509 certificate that intentionally introduce or intentionally induces a chain building failure."
+          },
+          {
+            "question": "Is there are reason for such a high CVSS score?",
+            "answer": "Yes, the CVSS scoring guide recommends using a  reasonable worst-case implementation scenario when scoring vulnerabilities in software libraries.  Vulnerabilites in .NET Framework and similar products are scored with this advice in mind.  The score for your implmentation this product may not be as severe, however we recommend installing the update as soon as possible in an abundance of caution."
+          }
+        ]
+      }
     },
     {
       "id": "CVE-2024-21319",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-01-09",
-        "fixed": "2024-01-09"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A Denial of Service vulnerability exists in ASP.NET Core project templates which utilize JWT-based authentication tokens. This vulnerability allows an unauthenticated client to consume arbitrarily large amounts of server memory, potentially triggering an out-of-memory condition on the server and making the server no longer able to respond to legitimate requests."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 6.8,
+        "severity": "MEDIUM"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-01-09",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-01-09",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/290"
       ],
       "mitigation": [
         "This issue impacts only .NET projects that were created using any version of the following project templates.\n\n- ASP.NET Core Web App (Model-View-Controller)\n- ASP.NET Core Web API\n- ASP.NET Core Web App (Razor Pages)\n- Blazor Server App\n- Blazor WebAssembly App"
-      ]
+      ],
+      "weakness": "CWE-20",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Morgan Brown with Microsoft"
+        ],
+        "faq": [
+          {
+            "question": "According to the CVSS metric, privileges required is high (PR:H).  What does that mean for this vulnerability?",
+            "answer": "The attacker must have access to the public encrypt key registered with the IDP(Entra ID) for successful exploitation."
+          },
+          {
+            "question": "How could an attacker exploit this vulnerability?",
+            "answer": "An attacker could exploit this vulnerability by crafting a malicious JSON Web Encryption (JWE) token with a high compression ratio. This token, when processed by a server, leads to excessive memory allocation and processing time during decompression, causing a denial-of-service (DoS) condition."
+          },
+          {
+            "question": "According to the CVSS metric, a successful exploitation could lead to a scope change (S:C). What does this mean for this vulnerability?",
+            "answer": "A scope change (S:C) in the CVSS metric indicates that successful exploitation of this vulnerability could extend beyond the immediate processing of malicious tokens, affecting the overall availability of the system by causing a denial-of-service (DoS) condition."
+          }
+        ]
+      }
     }
   ],
   "products": [
@@ -258,9 +351,7 @@
   },
   "product_name": {
     "dotnet-aspnetcore": "ASP.NET Core Runtime",
-    "dotnet-runtime": ".NET Runtime Libraries",
-    "Microsoft.Data.SqlClient": "Microsoft.Data.SqlClient",
-    "System.Data.SqlClient": "System.Data.SqlClient"
+    "dotnet-runtime": ".NET Runtime Libraries"
   },
   "product_cves": {
     "dotnet-aspnetcore": [

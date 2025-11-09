@@ -1,58 +1,84 @@
 {
   "last_updated": "2024-02-13",
   "title": ".NET Security Updates for February 2024 (2024-02-13)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2024-21386",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-02-13",
-        "fixed": "2024-02-13"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in ASP.NET applications using SignalR where a malicious client can result in a denial-of-service."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-02-13",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-02-13",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/295"
-      ]
+      ],
+      "weakness": "CWE-400",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Brennan Conroy of Microsoft Corporation"
+        ]
+      }
     },
     {
       "id": "CVE-2024-21404",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-02-13",
-        "fixed": "2024-02-13"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
-      },
       "description": [
         "A denial-of-service vulnerability exists in .NET with OpenSSL support when parsing X509 certificates."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-02-13",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-02-13",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "linux"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/296"
-      ]
+      ],
+      "weakness": "CWE-476",
+      "cna": {
+        "name": "microsoft",
+        "acknowledgments": [
+          "Bahaa Naamneh with Crosspoint Labs"
+        ]
+      }
     }
   ],
   "products": [

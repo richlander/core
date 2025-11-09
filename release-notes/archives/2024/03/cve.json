@@ -1,58 +1,78 @@
 {
   "last_updated": "2024-03-12",
   "title": ".NET Security Updates for March 2024 (2024-03-12)",
-  "cves": [
+  "disclosures": [
     {
       "id": "CVE-2024-26190",
       "problem": "Microsoft QUIC Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-03-12",
-        "fixed": "2024-03-12"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C"
-      },
       "description": [
         "A Vulnerability exist in MsQuic.dll which might result in a peer to allocate small chunks of memory as long as connection stays alive."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:U/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-03-12",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-03-12",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "windows"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/300"
-      ]
+      ],
+      "weakness": "CWE-400",
+      "cna": {
+        "name": "microsoft"
+      }
     },
     {
       "id": "CVE-2024-21392",
       "problem": ".NET Denial of Service Vulnerability",
-      "severity": "critical",
-      "timeline": {
-        "disclosed": "2024-03-12",
-        "fixed": "2024-03-12"
-      },
-      "cvss": {
-        "version": "3.1",
-        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C"
-      },
       "description": [
         "A vulnerability exists in .NET where specially crafted requests may cause a resource leak, leading to a Denial of Service."
       ],
+      "cvss": {
+        "version": "3.1",
+        "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+        "score": 7.5,
+        "severity": "HIGH"
+      },
+      "timeline": {
+        "disclosure": {
+          "date": "2024-03-12",
+          "description": "Publicly disclosed"
+        },
+        "fixed": {
+          "date": "2024-03-12",
+          "description": "Fix released"
+        }
+      },
       "platforms": [
         "all"
       ],
       "architectures": [
         "all"
       ],
-      "cna": "microsoft",
       "references": [
         "https://github.com/dotnet/announcements/issues/299"
-      ]
+      ],
+      "weakness": "CWE-400",
+      "cna": {
+        "name": "microsoft"
+      }
     }
   ],
   "products": [
