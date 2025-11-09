@@ -37,7 +37,7 @@
       "cna": {
         "name": "microsoft",
         "acknowledgments": [
-          "Vishal Mishra and Anita Gaud with Microsoft's Azure DevSec Variant Hunt Team"
+          "Vishal Mishra and Anita Gaud with Microsoft\u0027s Azure DevSec Variant Hunt Team"
         ],
         "faq": [
           {
@@ -71,7 +71,7 @@
       "id": "CVE-2024-0057",
       "problem": ".NET Security Feature Bypass Vulnerability",
       "description": [
-        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
+        "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app\u0027s typical authentication logic."
       ],
       "cvss": {
         "version": "3.1",
@@ -105,12 +105,12 @@
       "cna": {
         "name": "microsoft",
         "acknowledgments": [
-          "Vishal Mishra and Anita Gaud with Microsoft's Azure DevSec Variant Hunt Team and Stav Nir from Microsoft"
+          "Vishal Mishra and Anita Gaud with Microsoft\u0027s Azure DevSec Variant Hunt Team and Stav Nir from Microsoft"
         ],
         "faq": [
           {
             "question": "What kind of security feature could be bypassed by successfully exploiting this vulnerability?",
-            "answer": "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app's typical authentication logic."
+            "answer": "A security feature bypass vulnerability exists when Microsoft .NET Framework-based applications use X.509 chain building APIs but do not completely validate the X.509 certificate due to a logic flaw. An attacker could present an arbitrary untrusted certificate with malformed signatures, triggering a bug in the framework. The framework will correctly report that X.509 chain building failed, but it will return an incorrect reason code for the failure. Applications which utilize this reason code to make their own chain building trust decisions may inadvertently treat this scenario as a successful chain build. This could allow an adversary to subvert the app\u0027s typical authentication logic."
           },
           {
             "question": "How could an attacker exploit this vulnerability?",

@@ -38,7 +38,7 @@
         "name": "microsoft",
         "faq": [
           {
-            "question": "According to the CVSS metric, user interaction is required (UI:R) and privileges required \u00a0is low (PR:L). What does that mean for this vulnerability?",
+            "question": "According to the CVSS metric, user interaction is required (UI:R) and privileges required \u00A0is low (PR:L). What does that mean for this vulnerability?",
             "answer": "An authorized attacker with standard user privileges could place a malicious file and then wait for the privileged victim to run the calling command."
           }
         ]

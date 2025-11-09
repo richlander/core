@@ -6,7 +6,7 @@
       "id": "CVE-2025-24070",
       "problem": ".NET Elevation of Privilege Vulnerability",
       "description": [
-        "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user's account, resulting in Elevation of Privilege."
+        "A vulnerability exists in ASP.NET Core applications calling RefreshSignInAsync with an improperly authenticated user parameter that could allow an attacker to sign into another user\u0027s account, resulting in Elevation of Privilege."
       ],
       "cvss": {
         "version": "3.1",

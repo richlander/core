@@ -39,11 +39,11 @@
         "faq": [
           {
             "question": "According to the CVSS metric, the attack vector is network (AV:N) and the user interaction is required (UI:R). What is the target context of the remote code execution?",
-            "answer": "This attack requires a victim to perform a specific action, such as copying files or executing a command, and for an attacker with appropriate access to have pre-planted malicious files with knowledge of where they should be placed on the victim's system."
+            "answer": "This attack requires a victim to perform a specific action, such as copying files or executing a command, and for an attacker with appropriate access to have pre-planted malicious files with knowledge of where they should be placed on the victim\u0027s system."
           },
           {
             "question": "According to the CVSS metric, the attack complexity is high (AC:H). What does that mean for this vulnerability?",
-            "answer": "This attack requires a victim to perform a specific action, such as copying files or executing a command, and for an attacker with appropriate access to have pre-planted malicious files with knowledge of where they should be placed on the victim's system."
+            "answer": "This attack requires a victim to perform a specific action, such as copying files or executing a command, and for an attacker with appropriate access to have pre-planted malicious files with knowledge of where they should be placed on the victim\u0027s system."
           },
           {
             "question": "According to the CVSS metric, user interaction is required (UI:R). What interaction would the user have to do?",
@@ -194,7 +194,7 @@
             "answer": "Exploitation of this vulnerability requires that a user trigger the payload in the application."
           },
           {
-            "question": "According to the CVSS metric, user interaction is required (UI:R) and privileges required \u00a0is low (PR:L). What does that mean for this vulnerability?",
+            "question": "According to the CVSS metric, user interaction is required (UI:R) and privileges required \u00A0is low (PR:L). What does that mean for this vulnerability?",
             "answer": "An authorized attacker with standard user privileges could place a malicious file and then wait for the privileged victim to run the calling command."
           }
         ]
