@@ -43,10 +43,74 @@
       "6.0.425",
       "6.0.133",
       "6.0.33"
+    ],
+    "disclosures": [
+      {
+        "id": "CVE-2024-38167",
+        "title": ".NET Information Disclosure Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/319",
+            "title": "Announcement for CVE-2024-38167"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/runtime/commit/76f50f60931e85e9240715ebd1f345547cbae366.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/8.0",
+            "title": "Fix commit in runtime (release/8.0)",
+            "release": "8.0"
+          }
+        ],
+        "cvss-score": 6.5,
+        "cvss-severity": "MEDIUM",
+        "disclosure-date": "2024-08-13",
+        "affected-releases": [
+          "8.0"
+        ],
+        "affected-products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2024-38168",
+        "title": ".NET Denial of Service Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/320",
+            "title": "Announcement for CVE-2024-38168"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/aspnetcore/commit/123e69ce581cb33fd86c7cd2f8d4ba95e667885c.diff",
+            "repo": "dotnet/aspnetcore",
+            "branch": "release/8.0",
+            "title": "Fix commit in aspnetcore (release/8.0)",
+            "release": "8.0"
+          }
+        ],
+        "cvss-score": 7.5,
+        "cvss-severity": "HIGH",
+        "disclosure-date": "2024-08-13",
+        "affected-releases": [
+          "8.0"
+        ],
+        "affected-products": [
+          "dotnet-aspnetcore"
+        ],
+        "platforms": [
+          "windows"
+        ]
+      }
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.031515\u002B00:00",
+    "generated-on": "2025-11-09T23:09:45.6949043\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

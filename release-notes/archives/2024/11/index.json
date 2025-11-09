@@ -44,10 +44,81 @@
       "6.0.428",
       "6.0.136",
       "6.0.36"
+    ],
+    "disclosures": [
+      {
+        "id": "CVE-2024-43498",
+        "title": ".NET Remote Code Execution Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/334",
+            "title": "Announcement for CVE-2024-43498"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/runtime/commit/d16f41ad8fded18bf82bca88df27967cc3365eb0.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/9.0",
+            "title": "Fix commit in runtime (release/9.0)",
+            "release": "6.0"
+          }
+        ],
+        "cvss-score": 9.8,
+        "cvss-severity": "CRITICAL",
+        "disclosure-date": "2024-11-12",
+        "affected-releases": [
+          "6.0",
+          "9.0"
+        ],
+        "affected-products": [
+          "dotnet-runtime"
+        ],
+        "affected-packages": [
+          "System.Formats.Nrbf"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2024-43499",
+        "title": ".NET Core - DoS - (unbounded work factor) in NrbfDecoder component",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/333",
+            "title": "Announcement for CVE-2024-43499"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/runtime/commit/d16f41ad8fded18bf82bca88df27967cc3365eb0.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/9.0",
+            "title": "Fix commit in runtime (release/9.0)",
+            "release": "9.0"
+          }
+        ],
+        "cvss-score": 7.5,
+        "cvss-severity": "HIGH",
+        "disclosure-date": "2024-11-12",
+        "affected-releases": [
+          "9.0"
+        ],
+        "affected-products": [
+          "dotnet-runtime"
+        ],
+        "affected-packages": [
+          "System.Formats.Nrbf"
+        ],
+        "platforms": [
+          "all"
+        ]
+      }
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.038785\u002B00:00",
+    "generated-on": "2025-11-09T23:09:45.6986265\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

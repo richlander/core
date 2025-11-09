@@ -51,10 +51,76 @@
       "8.0.312",
       "8.0.116",
       "8.0.16"
+    ],
+    "disclosures": [
+      {
+        "id": "CVE-2025-26646",
+        "title": ".NET and Visual Studio Spoofing Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/356",
+            "title": "Announcement for CVE-2025-26646"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/sdk/commit/070f5a4d7592b7c7a7f2a65e232efdfbfaf2a753.diff",
+            "repo": "dotnet/sdk",
+            "branch": "release/9.0.2xx",
+            "title": "Fix commit in sdk (release/9.0.2xx)",
+            "release": "9.0.2xx"
+          },
+          {
+            "href": "https://github.com/dotnet/sdk/commit/391e16c3b5c49938029e20d9ee69c4d5bdf51c70.diff",
+            "repo": "dotnet/sdk",
+            "branch": "release/9.0.2xx",
+            "title": "Fix commit in sdk (release/9.0.2xx)",
+            "release": "9.0.3xx"
+          },
+          {
+            "href": "https://github.com/dotnet/sdk/commit/7892f91f7191adb473a9e97a79e1c4ca8a2c9247.diff",
+            "repo": "dotnet/sdk",
+            "branch": "release/8.0.4xx",
+            "title": "Fix commit in sdk (release/8.0.4xx)"
+          },
+          {
+            "href": "https://github.com/dotnet/sdk/commit/ad312fc3980fd8c562fac172bc17318c447eeb75.diff",
+            "repo": "dotnet/sdk",
+            "branch": "release/9.0.1xx",
+            "title": "Fix commit in sdk (release/9.0.1xx)",
+            "release": "9.0.1xx"
+          },
+          {
+            "href": "https://github.com/dotnet/sdk/commit/d00609e7978ee1b0fe62b39a378611311cf85603.diff",
+            "repo": "dotnet/sdk",
+            "branch": "release/8.0.1xx",
+            "title": "Fix commit in sdk (release/8.0.1xx)",
+            "release": "8.0.1xx"
+          }
+        ],
+        "cvss-score": 8,
+        "cvss-severity": "HIGH",
+        "disclosure-date": "2025-05-13",
+        "affected-releases": [
+          "8.0.1xx",
+          "9.0.1xx",
+          "9.0.2xx",
+          "9.0.3xx"
+        ],
+        "affected-products": [
+          "dotnet-sdk"
+        ],
+        "affected-packages": [
+          "Microsoft.Build.Tasks.Core"
+        ],
+        "platforms": [
+          "all"
+        ]
+      }
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.022217\u002B00:00",
+    "generated-on": "2025-11-09T23:09:45.6894435\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

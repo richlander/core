@@ -48,10 +48,127 @@
       "6.0.321",
       "6.0.126",
       "6.0.26"
+    ],
+    "disclosures": [
+      {
+        "id": "CVE-2024-0056",
+        "title": "Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data provider Information Disclosure Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/292",
+            "title": "Announcement for CVE-2024-0056"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/maintenance-packages/commit/f88afce71145f0568e8be4b99a3f18dedae7e80e.diff",
+            "repo": "dotnet/maintenance-packages",
+            "branch": "release/5.0",
+            "title": "Fix commit in maintenance-packages (release/5.0)"
+          }
+        ],
+        "cvss-score": 8.7,
+        "cvss-severity": "HIGH",
+        "disclosure-date": "2024-01-09",
+        "affected-packages": [
+          "Microsoft.Data.SqlClient",
+          "System.Data.SqlClient"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2024-0057",
+        "title": ".NET Security Feature Bypass Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/291",
+            "title": "Announcement for CVE-2024-0057"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/runtime/commit/72e5ae975785990e904372573c93dd661279f662.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/8.0",
+            "title": "Fix commit in runtime (release/8.0)",
+            "release": "8.0"
+          },
+          {
+            "href": "https://github.com/dotnet/runtime/commit/821d21b8891ee470a36b2f7fb51e952ff0833c7c.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/6.0",
+            "title": "Fix commit in runtime (release/6.0)",
+            "release": "6.0"
+          },
+          {
+            "href": "https://github.com/dotnet/runtime/commit/98fd5f3850ac46606ef7f3981a158b4c7dc2eb8f.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/7.0",
+            "title": "Fix commit in runtime (release/7.0)",
+            "release": "7.0"
+          }
+        ],
+        "cvss-score": 9.1,
+        "cvss-severity": "CRITICAL",
+        "disclosure-date": "2024-01-09",
+        "affected-releases": [
+          "6.0",
+          "7.0",
+          "8.0"
+        ],
+        "affected-products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2024-21319",
+        "title": ".NET Denial of Service Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/290",
+            "title": "Announcement for CVE-2024-21319"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/aspnetcore/commit/00f7c0edf759ec4fa22094a1571b1b1530ffe183.diff",
+            "repo": "dotnet/aspnetcore",
+            "branch": "release/6.0",
+            "title": "Fix commit in aspnetcore (release/6.0)",
+            "release": "6.0"
+          },
+          {
+            "href": "https://github.com/dotnet/aspnetcore/commit/8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23.diff",
+            "repo": "dotnet/aspnetcore",
+            "branch": "release/8.0",
+            "title": "Fix commit in aspnetcore (release/8.0)",
+            "release": "7.0"
+          }
+        ],
+        "cvss-score": 6.8,
+        "cvss-severity": "MEDIUM",
+        "disclosure-date": "2024-01-09",
+        "affected-releases": [
+          "6.0",
+          "7.0",
+          "8.0"
+        ],
+        "affected-products": [
+          "dotnet-aspnetcore"
+        ],
+        "platforms": [
+          "all"
+        ]
+      }
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.039509\u002B00:00",
+    "generated-on": "2025-11-09T23:09:45.6988661\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

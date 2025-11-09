@@ -52,10 +52,59 @@
       "6.0.421",
       "6.0.129",
       "6.0.29"
+    ],
+    "disclosures": [
+      {
+        "id": "CVE-2024-21409",
+        "title": ".NET Elevation of Privilege Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/303",
+            "title": "Announcement for CVE-2024-21409"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/wpf/commit/3a6bf4b373cb6e0f955d994a317cd6fd84355633.diff",
+            "repo": "dotnet/wpf",
+            "branch": "release/7.0",
+            "title": "Fix commit in wpf (release/7.0)",
+            "release": "7.0"
+          },
+          {
+            "href": "https://github.com/dotnet/wpf/commit/46dcf8720a1326a2c3f84b10a3d71ceb954cde70.diff",
+            "repo": "dotnet/wpf",
+            "branch": "release/6.0",
+            "title": "Fix commit in wpf (release/6.0)",
+            "release": "6.0"
+          },
+          {
+            "href": "https://github.com/dotnet/wpf/commit/8537295cb0637acfc62befc1459244d3bfdb70d4.diff",
+            "repo": "dotnet/wpf",
+            "branch": "release/8.0",
+            "title": "Fix commit in wpf (release/8.0)",
+            "release": "8.0"
+          }
+        ],
+        "cvss-score": 7.3,
+        "cvss-severity": "HIGH",
+        "disclosure-date": "2024-04-09",
+        "affected-releases": [
+          "6.0",
+          "7.0",
+          "8.0"
+        ],
+        "affected-products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "windows"
+        ]
+      }
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.034642\u002B00:00",
+    "generated-on": "2025-11-09T23:09:45.6980034\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

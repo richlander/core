@@ -174,24 +174,7 @@
         },
         "lifecycle": {
           "phase": "active",
-          "release-date": "2025-06-10T00:00:00-07:00"
-        }
-      },
-      {
-        "kind": "band",
-        "version": "9.0.2xx",
-        "label": ".NET SDK 9.0.2xx",
-        "_links": {
-          "self": {
-            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/sdk/sdk-9.0.2xx.json",
-            "relative": "9.0/sdk/sdk-9.0.2xx.json",
-            "title": ".NET SDK 9.0.2xx",
-            "type": "application/json"
-          }
-        },
-        "lifecycle": {
-          "phase": "active",
-          "release-date": "2025-06-10T00:00:00-07:00"
+          "release-date": "2025-10-14T00:00:00-07:00"
         }
       },
       {
@@ -208,11 +191,108 @@
         },
         "lifecycle": {
           "phase": "active",
+          "release-date": "2025-10-14T00:00:00-07:00"
+        }
+      },
+      {
+        "kind": "band",
+        "version": "9.0.2xx",
+        "label": ".NET SDK 9.0.2xx",
+        "_links": {
+          "self": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/sdk/sdk-9.0.2xx.json",
+            "relative": "9.0/sdk/sdk-9.0.2xx.json",
+            "title": ".NET SDK 9.0.2xx",
+            "type": "application/json"
+          }
+        },
+        "lifecycle": {
+          "phase": "eol",
           "release-date": "2025-06-10T00:00:00-07:00"
         }
       }
     ],
     "releases": [
+      {
+        "version": "9.0.306",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.10/9.0.10.md",
+            "relative": "9.0/9.0.10/9.0.10.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-10-14T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "9.0.305",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.9/9.0.9.md",
+            "relative": "9.0/9.0.9/9.0.9.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-09-09T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "9.0.304",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.8/9.0.8.md",
+            "relative": "9.0/9.0.8/9.0.8.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-08-05T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "9.0.303",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.7/9.0.7.md",
+            "relative": "9.0/9.0.7/9.0.7.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-07-17T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "9.0.302",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.7/9.0.7.md",
+            "relative": "9.0/9.0.7/9.0.7.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-07-17T00:00:00-07:00"
+        }
+      },
       {
         "version": "9.0.301",
         "kind": "patch-release",
@@ -387,6 +467,70 @@
         "lifecycle": {
           "phase": "active",
           "release-date": "2025-02-11T00:00:00-08:00"
+        }
+      },
+      {
+        "version": "9.0.111",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.10/9.0.10.md",
+            "relative": "9.0/9.0.10/9.0.10.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-10-14T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "9.0.110",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.9/9.0.9.md",
+            "relative": "9.0/9.0.9/9.0.9.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-09-09T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "9.0.109",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.8/9.0.8.md",
+            "relative": "9.0/9.0.8/9.0.8.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-08-05T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "9.0.108",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/9.0/9.0.7/9.0.7.md",
+            "relative": "9.0/9.0.7/9.0.7.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-07-17T00:00:00-07:00"
         }
       },
       {
@@ -712,7 +856,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-11-02T00:51:55.678672\u002B00:00",
+    "generated-on": "2025-11-09T20:08:40.6149031\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

@@ -173,12 +173,76 @@
           }
         },
         "lifecycle": {
-          "phase": "preview",
-          "release-date": "2025-06-10T00:00:00-07:00"
+          "phase": "eol",
+          "release-date": "2025-10-14T00:00:00-07:00"
         }
       }
     ],
     "releases": [
+      {
+        "version": "10.0.100-rc.2.25502.107",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-rc.2/10.0.0-rc.2.md",
+            "relative": "10.0/10.0.0-rc.2/10.0.0-rc.2.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-10-14T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "10.0.100-rc.1.25451.107",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-rc.1/10.0.0-rc.1.md",
+            "relative": "10.0/10.0.0-rc.1/10.0.0-rc.1.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-09-09T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "10.0.100-preview.7.25380.108",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-preview.7/10.0.0-preview.7.md",
+            "relative": "10.0/10.0.0-preview.7/10.0.0-preview.7.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-08-12T00:00:00-07:00"
+        }
+      },
+      {
+        "version": "10.0.100-preview.6.25358.103",
+        "kind": "patch-release",
+        "_links": {
+          "release-notes-markdown": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/10.0/10.0.0-preview.6/10.0.0-preview.6.md",
+            "relative": "10.0/10.0.0-preview.6/10.0.0-preview.6.md",
+            "title": "Release Notes",
+            "type": "application/markdown"
+          }
+        },
+        "lifecycle": {
+          "phase": "active",
+          "release-date": "2025-07-15T00:00:00-07:00"
+        }
+      },
       {
         "version": "10.0.100-preview.5.25277.114",
         "kind": "patch-release",
@@ -262,7 +326,7 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-11-02T00:51:55.6685905\u002B00:00",
+    "generated-on": "2025-11-09T20:08:40.605814\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

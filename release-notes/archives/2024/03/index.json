@@ -53,10 +53,90 @@
       "6.0.420",
       "6.0.128",
       "6.0.28"
+    ],
+    "disclosures": [
+      {
+        "id": "CVE-2024-26190",
+        "title": "Microsoft QUIC Denial of Service Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/300",
+            "title": "Announcement for CVE-2024-26190"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/runtime/commit/8a9929bf0b6ae93ea10f4c3e71b03b9958411c1d.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/7.0",
+            "title": "Fix commit in runtime (release/7.0)",
+            "release": "7.0"
+          },
+          {
+            "href": "https://github.com/dotnet/runtime/commit/ddb41ec46ddc558be2f43135a1daa01ebac8e841.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/8.0",
+            "title": "Fix commit in runtime (release/8.0)",
+            "release": "8.0"
+          }
+        ],
+        "cvss-score": 7.5,
+        "cvss-severity": "HIGH",
+        "disclosure-date": "2024-03-12",
+        "affected-releases": [
+          "7.0",
+          "8.0"
+        ],
+        "affected-products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "windows"
+        ]
+      },
+      {
+        "id": "CVE-2024-21392",
+        "title": ".NET Denial of Service Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/299",
+            "title": "Announcement for CVE-2024-21392"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/runtime/commit/0c7efec09666babeebea1f608c91757b8faccca0.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/8.0",
+            "title": "Fix commit in runtime (release/8.0)",
+            "release": "8.0"
+          },
+          {
+            "href": "https://github.com/dotnet/runtime/commit/24a00b5b75b4e60620768e02c11e79bc65386e5b.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/7.0",
+            "title": "Fix commit in runtime (release/7.0)",
+            "release": "7.0"
+          }
+        ],
+        "cvss-score": 7.5,
+        "cvss-severity": "HIGH",
+        "disclosure-date": "2024-03-12",
+        "affected-releases": [
+          "7.0",
+          "8.0"
+        ],
+        "affected-products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "all"
+        ]
+      }
     ]
   },
   "_metadata": {
-    "generated-on": "2025-07-24T03:40:24.036323\u002B00:00",
+    "generated-on": "2025-11-09T23:09:45.6981973\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }

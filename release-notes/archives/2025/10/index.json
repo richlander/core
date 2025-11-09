@@ -12,6 +12,12 @@
       "title": "Release history for 2025-10",
       "type": "application/hal\u002Bjson"
     },
+    "cve": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/10/cve.json",
+      "relative": "archives/2025/10/cve.json",
+      "title": "CVE Information",
+      "type": "application/json"
+    },
     "cve-markdown-raw": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/2025/10/cve.md",
       "relative": "archives/2025/10/cve.md",
@@ -42,10 +48,149 @@
       "8.0.318",
       "8.0.121",
       "8.0.21"
+    ],
+    "disclosures": [
+      {
+        "id": "CVE-2025-55248",
+        "title": ".NET Information Disclosure Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/372",
+            "title": "Announcement for CVE-2025-55248"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/runtime/commit/18e28d767acf44208afa6c4e2e67a10c65e9647e.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/9.0",
+            "title": "Fix commit in runtime (release/9.0)",
+            "release": "9.0"
+          },
+          {
+            "href": "https://github.com/dotnet/runtime/commit/44527b9ed8427463578126a4494c3654dda11866.diff",
+            "repo": "dotnet/runtime",
+            "branch": "release/8.0",
+            "title": "Fix commit in runtime (release/8.0)",
+            "release": "8.0"
+          }
+        ],
+        "cvss-score": 4.8,
+        "cvss-severity": "MEDIUM",
+        "disclosure-date": "2025-10-14",
+        "affected-releases": [
+          "8.0",
+          "9.0"
+        ],
+        "affected-products": [
+          "dotnet-runtime"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2025-55315",
+        "title": ".NET Security Feature Bypass Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/371",
+            "title": "Announcement for CVE-2025-55315"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/aspnetcore/commit/61794b7f3aac0b6719f783db5b5c725fefc8b695.diff",
+            "repo": "dotnet/aspnetcore",
+            "branch": "release/8.0",
+            "title": "Fix commit in aspnetcore (release/8.0)",
+            "release": "8.0"
+          },
+          {
+            "href": "https://github.com/dotnet/aspnetcore/commit/97a86434195a82fc7e302a4c57d5ec7f885c1ad5.diff",
+            "repo": "dotnet/aspnetcore",
+            "branch": "release/9.0",
+            "title": "Fix commit in aspnetcore (release/9.0)",
+            "release": "9.0"
+          }
+        ],
+        "cvss-score": 9.9,
+        "cvss-severity": "CRITICAL",
+        "disclosure-date": "2025-10-14",
+        "affected-releases": [
+          "8.0",
+          "9.0"
+        ],
+        "affected-products": [
+          "dotnet-aspnetcore"
+        ],
+        "affected-packages": [
+          "Microsoft.AspNetCore.Server.Kestrel.Core"
+        ],
+        "platforms": [
+          "all"
+        ]
+      },
+      {
+        "id": "CVE-2025-55247",
+        "title": ".NET Denial of Service Vulnerability",
+        "_links": {
+          "announcement": {
+            "href": "https://github.com/dotnet/announcements/issues/370",
+            "title": "Announcement for CVE-2025-55247"
+          }
+        },
+        "commits": [
+          {
+            "href": "https://github.com/dotnet/msbuild/commit/02bf66295b64ab368d12933041f7281aad186a2d.diff",
+            "repo": "dotnet/msbuild",
+            "branch": "vs17.11",
+            "title": "Fix commit in msbuild (vs17.11)"
+          },
+          {
+            "href": "https://github.com/dotnet/msbuild/commit/09c1be8483dad070189c3a0c660e7acacf478402.diff",
+            "repo": "dotnet/msbuild",
+            "branch": "vs17.14",
+            "title": "Fix commit in msbuild (vs17.14)"
+          },
+          {
+            "href": "https://github.com/dotnet/msbuild/commit/728984d96edf07d56918a88b0f37fec6b1dfbbc9.diff",
+            "repo": "dotnet/msbuild",
+            "branch": "vs17.12",
+            "title": "Fix commit in msbuild (vs17.12)"
+          },
+          {
+            "href": "https://github.com/dotnet/msbuild/commit/aa888d3214e5adb503c48c3bad2bfc6c5aff638a.diff",
+            "repo": "dotnet/msbuild",
+            "branch": "vs17.10",
+            "title": "Fix commit in msbuild (vs17.10)"
+          },
+          {
+            "href": "https://github.com/dotnet/msbuild/commit/f0cbb13971c30ad15a3f252a8d0171898a01ec11.diff",
+            "repo": "dotnet/msbuild",
+            "branch": "vs17.8",
+            "title": "Fix commit in msbuild (vs17.8)"
+          }
+        ],
+        "cvss-score": 7.3,
+        "cvss-severity": "HIGH",
+        "disclosure-date": "2025-10-14",
+        "affected-products": [
+          "dotnet-sdk"
+        ],
+        "affected-packages": [
+          "Microsoft.Build",
+          "Microsoft.Build.Tasks.Core",
+          "Microsoft.Build.Utilities.Core"
+        ],
+        "platforms": [
+          "linux"
+        ]
+      }
     ]
   },
   "_metadata": {
-    "generated-on": "2025-11-02T02:37:51.1410006\u002B00:00",
+    "generated-on": "2025-11-09T23:09:45.6697645\u002B00:00",
     "generated-by": "UpdateIndexes"
   }
 }
