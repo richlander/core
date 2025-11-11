@@ -16,28 +16,28 @@
       "title": "Release manifest",
       "type": "application/hal\u002Bjson"
     },
-    "release-history-2024": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/2024/index.json",
-      "relative": "release-history/2024/index.json",
-      "title": ".NET Release History 2024 (chronological)",
+    "release-timeline-2024": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/timeline/2024/index.json",
+      "relative": "timeline/2024/index.json",
+      "title": ".NET Release Timeline 2024 (chronological)",
       "type": "application/hal\u002Bjson"
     },
-    "release-history-2023": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/2023/index.json",
-      "relative": "release-history/2023/index.json",
-      "title": ".NET Release History 2023 (chronological)",
+    "release-timeline-2023": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/timeline/2023/index.json",
+      "relative": "timeline/2023/index.json",
+      "title": ".NET Release Timeline 2023 (chronological)",
       "type": "application/hal\u002Bjson"
     },
-    "release-history-2022": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/2022/index.json",
-      "relative": "release-history/2022/index.json",
-      "title": ".NET Release History 2022 (chronological)",
+    "release-timeline-2022": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/timeline/2022/index.json",
+      "relative": "timeline/2022/index.json",
+      "title": ".NET Release Timeline 2022 (chronological)",
       "type": "application/hal\u002Bjson"
     },
-    "release-history-2021": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/2021/index.json",
-      "relative": "release-history/2021/index.json",
-      "title": ".NET Release History 2021 (chronological)",
+    "release-timeline-2021": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/timeline/2021/index.json",
+      "relative": "timeline/2021/index.json",
+      "title": ".NET Release Timeline 2021 (chronological)",
       "type": "application/hal\u002Bjson"
     },
     "releases": {
@@ -98,7 +98,7 @@
   },
   "_metadata": {
     "schema-version": "1.0",
-    "generated-on": "2025-11-10T00:06:13.9180358\u002B00:00",
+    "generated-on": "2025-11-11T05:47:07.4198886\u002B00:00",
     "generated-by": "VersionIndex"
   }
 }

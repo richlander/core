@@ -22,22 +22,22 @@
       "title": ".NET SDK 8.0 Release Information",
       "type": "application/hal\u002Bjson"
     },
-    "release-history-2025": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/2025/index.json",
-      "relative": "release-history/2025/index.json",
-      "title": ".NET Release History 2025 (chronological)",
+    "release-timeline-2025": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/timeline/2025/index.json",
+      "relative": "timeline/2025/index.json",
+      "title": ".NET Release Timeline 2025 (chronological)",
       "type": "application/hal\u002Bjson"
     },
-    "release-history-2024": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/2024/index.json",
-      "relative": "release-history/2024/index.json",
-      "title": ".NET Release History 2024 (chronological)",
+    "release-timeline-2024": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/timeline/2024/index.json",
+      "relative": "timeline/2024/index.json",
+      "title": ".NET Release Timeline 2024 (chronological)",
       "type": "application/hal\u002Bjson"
     },
-    "release-history-2023": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/2023/index.json",
-      "relative": "release-history/2023/index.json",
-      "title": ".NET Release History 2023 (chronological)",
+    "release-timeline-2023": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/timeline/2023/index.json",
+      "relative": "timeline/2023/index.json",
+      "title": ".NET Release Timeline 2023 (chronological)",
       "type": "application/hal\u002Bjson"
     },
     "releases": {
@@ -100,6 +100,12 @@
             "relative": "8.0.17/release.json",
             "title": "8.0.17 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.17/index.json",
+            "relative": "8.0/8.0.17/index.json",
+            "title": "8.0.17 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -107,16 +113,7 @@
           "release-date": "2025-06-10T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2025-30399",
-            "title": "CVE CVE-2025-30399",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-30399",
-                "title": "Details for CVE-2025-30399"
-              }
-            }
-          }
+          "CVE-2025-30399"
         ]
       },
       {
@@ -128,6 +125,12 @@
             "relative": "8.0.16/release.json",
             "title": "8.0.16 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.16/index.json",
+            "relative": "8.0/8.0.16/index.json",
+            "title": "8.0.16 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -135,16 +138,7 @@
           "release-date": "2025-05-22T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2025-26646",
-            "title": "CVE CVE-2025-26646",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26646",
-                "title": "Details for CVE-2025-26646"
-              }
-            }
-          }
+          "CVE-2025-26646"
         ]
       },
       {
@@ -156,6 +150,12 @@
             "relative": "8.0.15/release.json",
             "title": "8.0.15 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.15/index.json",
+            "relative": "8.0/8.0.15/index.json",
+            "title": "8.0.15 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -163,16 +163,7 @@
           "release-date": "2025-04-08T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2025-26682",
-            "title": "CVE CVE-2025-26682",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-26682",
-                "title": "Details for CVE-2025-26682"
-              }
-            }
-          }
+          "CVE-2025-26682"
         ]
       },
       {
@@ -184,6 +175,12 @@
             "relative": "8.0.14/release.json",
             "title": "8.0.14 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.14/index.json",
+            "relative": "8.0/8.0.14/index.json",
+            "title": "8.0.14 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -191,16 +188,7 @@
           "release-date": "2025-03-11T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2025-24070",
-            "title": "CVE CVE-2025-24070",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-24070",
-                "title": "Details for CVE-2025-24070"
-              }
-            }
-          }
+          "CVE-2025-24070"
         ]
       },
       {
@@ -228,6 +216,12 @@
             "relative": "8.0.12/release.json",
             "title": "8.0.12 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.12/index.json",
+            "relative": "8.0/8.0.12/index.json",
+            "title": "8.0.12 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -235,36 +229,9 @@
           "release-date": "2025-01-14T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2025-21172",
-            "title": "CVE CVE-2025-21172",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21172",
-                "title": "Details for CVE-2025-21172"
-              }
-            }
-          },
-          {
-            "id": "CVE-2025-21176",
-            "title": "CVE CVE-2025-21176",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21176",
-                "title": "Details for CVE-2025-21176"
-              }
-            }
-          },
-          {
-            "id": "CVE-2025-21173",
-            "title": "CVE CVE-2025-21173",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-21173",
-                "title": "Details for CVE-2025-21173"
-              }
-            }
-          }
+          "CVE-2025-21172",
+          "CVE-2025-21176",
+          "CVE-2025-21173"
         ]
       },
       {
@@ -292,6 +259,12 @@
             "relative": "8.0.10/release.json",
             "title": "8.0.10 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.10/index.json",
+            "relative": "8.0/8.0.10/index.json",
+            "title": "8.0.10 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -299,46 +272,10 @@
           "release-date": "2024-10-08T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-43483",
-            "title": "CVE CVE-2024-43483",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43483",
-                "title": "Details for CVE-2024-43483"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-43485",
-            "title": "CVE CVE-2024-43485",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43485",
-                "title": "Details for CVE-2024-43485"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-43484",
-            "title": "CVE CVE-2024-43484",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43484",
-                "title": "Details for CVE-2024-43484"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-38229",
-            "title": "CVE CVE-2024-38229",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38229",
-                "title": "Details for CVE-2024-38229"
-              }
-            }
-          }
+          "CVE-2024-43483",
+          "CVE-2024-43485",
+          "CVE-2024-43484",
+          "CVE-2024-38229"
         ]
       },
       {
@@ -350,6 +287,12 @@
             "relative": "8.0.8/release.json",
             "title": "8.0.8 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.8/index.json",
+            "relative": "8.0/8.0.8/index.json",
+            "title": "8.0.8 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -357,26 +300,8 @@
           "release-date": "2024-09-24T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-38167",
-            "title": "CVE CVE-2024-38167",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38167",
-                "title": "Details for CVE-2024-38167"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-38168",
-            "title": "CVE CVE-2024-38168",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38168",
-                "title": "Details for CVE-2024-38168"
-              }
-            }
-          }
+          "CVE-2024-38167",
+          "CVE-2024-38168"
         ]
       },
       {
@@ -388,6 +313,12 @@
             "relative": "8.0.7/release.json",
             "title": "8.0.7 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.7/index.json",
+            "relative": "8.0/8.0.7/index.json",
+            "title": "8.0.7 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -395,36 +326,9 @@
           "release-date": "2024-07-09T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-38095",
-            "title": "CVE CVE-2024-38095",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38095",
-                "title": "Details for CVE-2024-38095"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-35264",
-            "title": "CVE CVE-2024-35264",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35264",
-                "title": "Details for CVE-2024-35264"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-30105",
-            "title": "CVE CVE-2024-30105",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30105",
-                "title": "Details for CVE-2024-30105"
-              }
-            }
-          }
+          "CVE-2024-38095",
+          "CVE-2024-35264",
+          "CVE-2024-30105"
         ]
       },
       {
@@ -436,6 +340,12 @@
             "relative": "8.0.6/release.json",
             "title": "8.0.6 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.6/index.json",
+            "relative": "8.0/8.0.6/index.json",
+            "title": "8.0.6 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -443,16 +353,7 @@
           "release-date": "2024-06-11T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-20672",
-            "title": "CVE CVE-2024-20672",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-20672",
-                "title": "Details for CVE-2024-20672"
-              }
-            }
-          }
+          "CVE-2024-20672"
         ]
       },
       {
@@ -464,6 +365,12 @@
             "relative": "8.0.5/release.json",
             "title": "8.0.5 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.5/index.json",
+            "relative": "8.0/8.0.5/index.json",
+            "title": "8.0.5 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -471,26 +378,8 @@
           "release-date": "2024-05-14T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-30045",
-            "title": "CVE CVE-2024-30045",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30045",
-                "title": "Details for CVE-2024-30045"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-30046",
-            "title": "CVE CVE-2024-30046",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30046",
-                "title": "Details for CVE-2024-30046"
-              }
-            }
-          }
+          "CVE-2024-30045",
+          "CVE-2024-30046"
         ]
       },
       {
@@ -502,6 +391,12 @@
             "relative": "8.0.4/release.json",
             "title": "8.0.4 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.4/index.json",
+            "relative": "8.0/8.0.4/index.json",
+            "title": "8.0.4 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -509,16 +404,7 @@
           "release-date": "2024-04-09T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-21409",
-            "title": "CVE CVE-2024-21409",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21409",
-                "title": "Details for CVE-2024-21409"
-              }
-            }
-          }
+          "CVE-2024-21409"
         ]
       },
       {
@@ -530,6 +416,12 @@
             "relative": "8.0.3/release.json",
             "title": "8.0.3 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.3/index.json",
+            "relative": "8.0/8.0.3/index.json",
+            "title": "8.0.3 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -537,26 +429,8 @@
           "release-date": "2024-03-12T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-26190",
-            "title": "CVE CVE-2024-26190",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26190",
-                "title": "Details for CVE-2024-26190"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-21392",
-            "title": "CVE CVE-2024-21392",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21392",
-                "title": "Details for CVE-2024-21392"
-              }
-            }
-          }
+          "CVE-2024-26190",
+          "CVE-2024-21392"
         ]
       },
       {
@@ -568,6 +442,12 @@
             "relative": "8.0.2/release.json",
             "title": "8.0.2 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.2/index.json",
+            "relative": "8.0/8.0.2/index.json",
+            "title": "8.0.2 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -575,26 +455,8 @@
           "release-date": "2024-02-13T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-21386",
-            "title": "CVE CVE-2024-21386",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21386",
-                "title": "Details for CVE-2024-21386"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-21404",
-            "title": "CVE CVE-2024-21404",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21404",
-                "title": "Details for CVE-2024-21404"
-              }
-            }
-          }
+          "CVE-2024-21386",
+          "CVE-2024-21404"
         ]
       },
       {
@@ -606,6 +468,12 @@
             "relative": "8.0.1/release.json",
             "title": "8.0.1 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.1/index.json",
+            "relative": "8.0/8.0.1/index.json",
+            "title": "8.0.1 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -613,36 +481,9 @@
           "release-date": "2024-01-09T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2024-0056",
-            "title": "CVE CVE-2024-0056",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0056",
-                "title": "Details for CVE-2024-0056"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-0057",
-            "title": "CVE CVE-2024-0057",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0057",
-                "title": "Details for CVE-2024-0057"
-              }
-            }
-          },
-          {
-            "id": "CVE-2024-21319",
-            "title": "CVE CVE-2024-21319",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21319",
-                "title": "Details for CVE-2024-21319"
-              }
-            }
-          }
+          "CVE-2024-0056",
+          "CVE-2024-0057",
+          "CVE-2024-21319"
         ]
       },
       {
@@ -654,6 +495,12 @@
             "relative": "8.0.0/release.json",
             "title": "8.0.0 Release Information",
             "type": "application/json"
+          },
+          "patch-index": {
+            "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/8.0/8.0.0/index.json",
+            "relative": "8.0/8.0.0/index.json",
+            "title": "8.0.0 Patch Index with CVE Details",
+            "type": "application/hal\u002Bjson"
           }
         },
         "lifecycle": {
@@ -661,36 +508,9 @@
           "release-date": "2023-11-14T00:00:00\u002B00:00"
         },
         "cve-records": [
-          {
-            "id": "CVE-2023-36049",
-            "title": "CVE CVE-2023-36049",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36049",
-                "title": "Details for CVE-2023-36049"
-              }
-            }
-          },
-          {
-            "id": "CVE-2023-36558",
-            "title": "CVE CVE-2023-36558",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36558",
-                "title": "Details for CVE-2023-36558"
-              }
-            }
-          },
-          {
-            "id": "CVE-2023-36038",
-            "title": "CVE CVE-2023-36038",
-            "_links": {
-              "announcement": {
-                "href": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36038",
-                "title": "Details for CVE-2023-36038"
-              }
-            }
-          }
+          "CVE-2023-36049",
+          "CVE-2023-36558",
+          "CVE-2023-36038"
         ]
       }
     ]
@@ -702,9 +522,41 @@
     "eol-date": "2026-11-10T00:00:00\u002B00:00",
     "supported": false
   },
+  "cve-records": [
+    "CVE-2023-36038",
+    "CVE-2023-36049",
+    "CVE-2023-36558",
+    "CVE-2024-0056",
+    "CVE-2024-0057",
+    "CVE-2024-20672",
+    "CVE-2024-21319",
+    "CVE-2024-21386",
+    "CVE-2024-21392",
+    "CVE-2024-21404",
+    "CVE-2024-21409",
+    "CVE-2024-26190",
+    "CVE-2024-30045",
+    "CVE-2024-30046",
+    "CVE-2024-30105",
+    "CVE-2024-35264",
+    "CVE-2024-38095",
+    "CVE-2024-38167",
+    "CVE-2024-38168",
+    "CVE-2024-38229",
+    "CVE-2024-43483",
+    "CVE-2024-43484",
+    "CVE-2024-43485",
+    "CVE-2025-21172",
+    "CVE-2025-21173",
+    "CVE-2025-21176",
+    "CVE-2025-24070",
+    "CVE-2025-26646",
+    "CVE-2025-26682",
+    "CVE-2025-30399"
+  ],
   "_metadata": {
     "schema-version": "1.0",
-    "generated-on": "2025-11-10T00:06:13.9218143\u002B00:00",
+    "generated-on": "2025-11-11T05:47:07.4292057\u002B00:00",
     "generated-by": "VersionIndex"
   }
 }

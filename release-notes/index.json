@@ -1,19 +1,19 @@
 {
   "$schema": "https://raw.githubusercontent.com/richlander/core/main/release-notes/schemas/dotnet-release-version-index.json",
   "kind": "index",
-  "title": ".NET Release Version Index",
+  "title": ".NET Version Index",
   "description": "Index of .NET versions 1.0\u201310.0 (latest first); This file is cache-friendly; follow links for the most current details.",
   "_links": {
     "self": {
       "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/index.json",
       "relative": "index.json",
-      "title": ".NET Release",
+      "title": ".NET Version Index",
       "type": "application/hal\u002Bjson"
     },
-    "release-history": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/index.json",
-      "relative": "release-history/index.json",
-      "title": "History of .NET releases",
+    "index": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/timeline/index.json",
+      "relative": "timeline/index.json",
+      "title": ".NET Release Timeline Index",
       "type": "application/hal\u002Bjson"
     },
     "latest": {
@@ -336,7 +336,7 @@
   },
   "_metadata": {
     "schema-version": "1.0",
-    "generated-on": "2025-11-10T15:59:59.8171375\u002B00:00",
+    "generated-on": "2025-11-11T06:20:23.016592\u002B00:00",
     "generated-by": "VersionIndex"
   }
 }
