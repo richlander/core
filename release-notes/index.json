@@ -10,10 +10,10 @@
       "title": ".NET Release",
       "type": "application/hal\u002Bjson"
     },
-    "archives": {
-      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/archives/index.json",
-      "relative": "archives/index.json",
-      "title": "Security Advisories",
+    "release-history": {
+      "href": "https://raw.githubusercontent.com/richlander/core/main/release-notes/release-history/index.json",
+      "relative": "release-history/index.json",
+      "title": "History of .NET releases",
       "type": "application/hal\u002Bjson"
     },
     "latest": {
@@ -335,7 +335,8 @@
     ]
   },
   "_metadata": {
-    "generated-on": "2025-11-02T00:37:28.3765992\u002B00:00",
-    "generated-by": "UpdateIndexes"
+    "schema-version": "1.0",
+    "generated-on": "2025-11-10T15:59:59.8171375\u002B00:00",
+    "generated-by": "VersionIndex"
   }
 }
