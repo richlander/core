@@ -222,7 +222,7 @@
       "fixed": "7.0.15",
       "release": "7.0",
       "commits": [
-        "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
+        "360f1564385745dd9e9acc53e697f8e63ff41126"
       ]
     },
     {
@@ -334,6 +334,13 @@
       "org": "dotnet",
       "url": "https://github.com/dotnet/aspnetcore/commit/00f7c0edf759ec4fa22094a1571b1b1530ffe183.diff"
     },
+    "360f1564385745dd9e9acc53e697f8e63ff41126": {
+      "repo": "aspnetcore",
+      "branch": "release/7.0",
+      "hash": "360f1564385745dd9e9acc53e697f8e63ff41126",
+      "org": "dotnet",
+      "url": "https://github.com/dotnet/aspnetcore/commit/360f1564385745dd9e9acc53e697f8e63ff41126.diff"
+    },
     "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23": {
       "repo": "aspnetcore",
       "branch": "release/8.0",
@@ -406,6 +413,7 @@
     ],
     "CVE-2024-21319": [
       "00f7c0edf759ec4fa22094a1571b1b1530ffe183",
+      "360f1564385745dd9e9acc53e697f8e63ff41126",
       "8b3f5333523ac4f3a7520c5c9261ac6f2a2b6b23"
     ]
   }

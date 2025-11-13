@@ -223,7 +223,7 @@
     },
     "391e16c3b5c49938029e20d9ee69c4d5bdf51c70": {
       "repo": "sdk",
-      "branch": "release/9.0.2xx",
+      "branch": "release/9.0.3xx",
       "hash": "391e16c3b5c49938029e20d9ee69c4d5bdf51c70",
       "org": "dotnet",
       "url": "https://github.com/dotnet/sdk/commit/391e16c3b5c49938029e20d9ee69c4d5bdf51c70.diff"

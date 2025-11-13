@@ -94,7 +94,7 @@
       "min_vulnerable": "9.0.0-preview.6.24327.7",
       "max_vulnerable": "9.0.0-rc.2.24473.5",
       "fixed": "9.0.0",
-      "release": "6.0",
+      "release": "9.0",
       "commits": [
         "d16f41ad8fded18bf82bca88df27967cc3365eb0"
       ]
@@ -160,9 +160,6 @@
     ]
   },
   "release_cves": {
-    "6.0": [
-      "CVE-2024-43498"
-    ],
     "9.0": [
       "CVE-2024-43498",
       "CVE-2024-43499"
@@ -170,7 +167,6 @@
   },
   "cve_releases": {
     "CVE-2024-43498": [
-      "6.0",
       "9.0"
     ],
     "CVE-2024-43499": [
