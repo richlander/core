@@ -6,7 +6,7 @@
       "id": "CVE-2025-55248",
       "problem": ".NET Information Disclosure Vulnerability",
       "description": [
-        "A MITM (man in the middle) attacker may prevent use of TLS between client and SMTP server, forcing client to send data over unencrypted connection."
+        "An AiTM (Attacker in the middle) attacker may prevent use of TLS between client and SMTP server, forcing client to send data over unencrypted connection."
       ],
       "cvss": {
         "version": "3.1",
